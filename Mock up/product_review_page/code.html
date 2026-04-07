@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface-variant": "#434654",
+                        "surface-dim": "#d9dadb",
+                        "primary-fixed": "#dae2ff",
+                        "on-error-container": "#93000a",
+                        "surface-bright": "#f8f9fa",
+                        "surface-container-high": "#e7e8e9",
+                        "outline": "#737685",
+                        "surface": "#f8f9fa",
+                        "secondary-fixed": "#94f990",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed-dim": "#78dc77",
+                        "tertiary-fixed": "#d9e6da",
+                        "surface-container-highest": "#e1e3e4",
+                        "on-background": "#191c1d",
+                        "secondary-container": "#91f78e",
+                        "inverse-on-surface": "#f0f1f2",
+                        "on-tertiary-fixed": "#131e17",
+                        "surface-container-low": "#f3f4f5",
+                        "secondary": "#006e1c",
+                        "tertiary-container": "#525e55",
+                        "on-secondary-container": "#00731e",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#0040a2",
+                        "surface-container": "#edeeef",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#0c56d0",
+                        "inverse-surface": "#2e3132",
+                        "primary-fixed-dim": "#b2c5ff",
+                        "surface-container-lowest": "#ffffff",
+                        "background": "#f8f9fa",
+                        "primary": "#003d9b",
+                        "on-tertiary-container": "#cad7cb",
+                        "error-container": "#ffdad6",
+                        "on-tertiary-fixed-variant": "#3e4a41",
+                        "tertiary": "#3b463e",
+                        "on-surface": "#191c1d",
+                        "surface-variant": "#e1e3e4",
+                        "on-secondary-fixed": "#002204",
+                        "on-primary-fixed": "#001848",
+                        "outline-variant": "#c3c6d6",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed-variant": "#005313",
+                        "on-secondary": "#ffffff",
+                        "inverse-primary": "#b2c5ff",
+                        "primary-container": "#0052cc",
+                        "tertiary-fixed-dim": "#bdcabe",
+                        "on-primary-container": "#c4d2ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .scale-102:hover { transform: scale(1.02); }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface leading-relaxed overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-sm dark:shadow-none">
+<div class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-blue-700 dark:text-blue-400">clinical_notes</span>
+<span class="text-xl font-extrabold text-blue-800 dark:text-white font-headline tracking-tight">Editorial Health</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-blue-700 dark:text-blue-400 font-semibold font-headline transition-colors" href="#">Reviews</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-600 transition-colors font-headline" href="#">Top Picks</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-600 transition-colors font-headline" href="#">Guides</a>
+</nav>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-slate-600">search</span>
+<button class="md:hidden material-symbols-outlined text-slate-600">menu</button>
+</div>
+</div>
+</header>
+<main class="pt-24 pb-12 px-4 md:px-6 max-w-7xl mx-auto">
+<!-- Breadcrumbs & Category -->
+<div class="flex items-center gap-2 mb-6 text-xs font-semibold text-primary uppercase tracking-widest">
+<span>Clinical Reviews</span>
+<span class="material-symbols-outlined text-[10px]">chevron_right</span>
+<span>Immunity Boosters</span>
+</div>
+<!-- Hero Section: Editorial Header -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
+<div class="lg:col-span-8">
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-headline font-extrabold text-on-surface leading-[1.1] mb-8 tracking-tight">
+                    Top 5 Immunity Boosters for 2024: A Scientific Review
+                </h1>
+<!-- Author Section -->
+<div class="flex items-center gap-4 p-4 rounded-xl bg-surface-container-low w-fit mb-8">
+<img class="w-14 h-14 rounded-full object-cover grayscale-[20%]" data-alt="professional portrait of Dr. Alan Grant in a clinical setting with soft natural lighting and a confident friendly expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAi2bjmKkMS4JQe-d7hyNFTjSujMTm6A5HLdWY3E3gCs8OrfVem9-lQ9X6r_Q_3L5pa2VJ1PEbkp2NXt3b9HNMbqbODhxaSn6HAwzHRiJM5Wo3gqVcSPcmaizdMkI6XDTrhnPAMXeoIBTMOLAPH77uVEk0kL0vHgjGTk3dD1KriV1BT4vZvOPev68p6KTf1gTrAl1P5_t-LDa67iqjnS_T-ggx5niw_qD11GHjToOTV9geLvp_glyotdmfKPou2ejHBz5Goazm_1FE_"/>
+<div>
+<p class="text-sm font-headline font-bold text-on-surface">Dr. Alan Grant</p>
+<p class="text-xs text-on-surface-variant">Certified Dietician • Clinical Reviewer</p>
+</div>
+<div class="ml-4 px-3 py-1 rounded-full bg-secondary/10 text-secondary text-[10px] font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">verified</span>
+                        EXPERT VERIFIED
+                    </div>
+</div>
+<p class="text-lg md:text-xl text-on-surface-variant leading-relaxed font-light mb-8 italic">
+                    "In an era of misinformation, clinical evidence is our only compass. We've spent 200+ hours analyzing the molecular bioavailability and clinical trial data for 2024's leading immune supplements."
+                </p>
+<!-- Product Gallery (Hero Style) -->
+<div class="relative rounded-2xl overflow-hidden mb-12 aspect-[16/9] group shadow-2xl shadow-on-surface/5">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="premium glass amber supplement bottle on a clean minimalist white marble surface with soft clinical laboratory lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA34av_gSyqgQiMyphR_i9Kwks_lKKsXze-QIC3P1wZ8CCdVGSa6tNaS8LQqDslT6v8sqBkttk6AN9y0DlZ34vUF8cVkDAwW3BVDOgiLoGaf43jMlGOaVHnKcSAy7QG9jS8G9TP9hIysmlN-QxsnaNC2xgV7aoJPPVe48jpZcxqXR0tx9BVsN1ZwCJVM8vDEvG-iHV8bgae9n0LH-MtBDWuLx6A_kcvlSIZ5Yu1Sc4UFvOWAinq7QbkbhMvF_YtAIubYUo9pHfBO6YG"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 flex justify-between items-end">
+<div class="glass-panel p-4 rounded-xl border border-white/20">
+<p class="text-primary font-bold text-sm">Top Recommendation</p>
+<h3 class="text-on-surface font-headline font-extrabold text-xl">ImmunoCore Bio-Max</h3>
+</div>
+<div class="flex gap-2">
+<button class="w-10 h-10 rounded-full bg-white/90 backdrop-blur flex items-center justify-center text-primary shadow-lg"><span class="material-symbols-outlined">zoom_in</span></button>
+<button class="w-10 h-10 rounded-full bg-white/90 backdrop-blur flex items-center justify-center text-primary shadow-lg"><span class="material-symbols-outlined">grid_view</span></button>
+</div>
+</div>
+</div>
+</div>
+<!-- Sticky Table of Contents -->
+<aside class="hidden lg:block lg:col-span-4">
+<div class="sticky top-28 p-8 rounded-2xl bg-surface-container-low border border-outline-variant/10">
+<h4 class="font-headline font-bold text-on-surface mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">list_alt</span>
+                        On This Page
+                    </h4>
+<ul class="space-y-4 text-sm font-medium">
+<li><a class="text-primary border-l-4 border-primary pl-3 block" href="#overview">Scientific Overview</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors pl-4 block" href="#ingredients">Ingredients Breakdown</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors pl-4 block" href="#benefits">Primary Benefits</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors pl-4 block" href="#proscons">Pros &amp; Cons</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors pl-4 block" href="#sideeffects">Safety &amp; Side Effects</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors pl-4 block" href="#pricing">Pricing &amp; Value</a></li>
+</ul>
+<div class="mt-10 pt-8 border-t border-outline-variant/20">
+<p class="text-[10px] text-on-surface-variant uppercase tracking-widest mb-4">Current Best Deal</p>
+<div class="p-4 rounded-xl bg-primary-container/20 border border-primary/10">
+<p class="text-xs font-bold text-primary mb-1">ImmunoCore Bio-Max</p>
+<p class="text-xl font-black text-on-surface mb-3">$49.99 <span class="text-xs font-normal line-through opacity-50">$64.00</span></p>
+<button class="w-full py-3 bg-gradient-to-br from-primary to-primary-container text-white rounded-lg font-bold text-sm scale-102 transition-transform">Get 25% Off Now</button>
+</div>
+</div>
+</div>
+</aside>
+</section>
+<!-- Main Content Canvas -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-8 space-y-24">
+<!-- Overview Section -->
+<section class="scroll-mt-28" id="overview">
+<div class="flex items-center gap-3 mb-6">
+<span class="h-[2px] w-12 bg-primary rounded-full"></span>
+<h2 class="text-2xl md:text-3xl font-headline font-extrabold tracking-tight">The Clinical Landscape</h2>
+</div>
+<div class="prose prose-slate max-w-none text-on-surface-variant text-lg leading-relaxed space-y-6">
+<p>Most commercial immunity boosters rely on outdated "mega-dose" philosophies—the idea that more Vitamin C equals better protection. Our research shows that 2024's leading formulations have pivoted toward <strong>bioavailability</strong> and <strong>synergy</strong>.</p>
+<p>ImmunoCore Bio-Max, our current top pick, utilizes liposomal delivery systems to ensure that active compounds bypass stomach acid degradation. This scientific shift represents a 40% increase in cellular uptake compared to traditional tablet forms.</p>
+</div>
+</section>
+<!-- Ingredients Breakdown: Visual List -->
+<section class="scroll-mt-28 p-8 md:p-12 rounded-3xl bg-surface-container-low" id="ingredients">
+<h2 class="text-2xl md:text-3xl font-headline font-extrabold mb-10 text-center">Ingredients Matrix</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex gap-4">
+<span class="material-symbols-outlined text-secondary text-3xl">science</span>
+<div>
+<h4 class="font-bold font-headline text-on-surface">Liposomal Vit-C</h4>
+<p class="text-sm text-on-surface-variant mt-2">Enhanced absorption formula that mimics natural cell membranes for 3x potency.</p>
+</div>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex gap-4">
+<span class="material-symbols-outlined text-secondary text-3xl">nature_people</span>
+<div>
+<h4 class="font-bold font-headline text-on-surface">Elderberry 20:1</h4>
+<p class="text-sm text-on-surface-variant mt-2">Concentrated anthocyanins that support upper respiratory tract defense mechanisms.</p>
+</div>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex gap-4">
+<span class="material-symbols-outlined text-secondary text-3xl">pill</span>
+<div>
+<h4 class="font-bold font-headline text-on-surface">Zinc Picolinate</h4>
+<p class="text-sm text-on-surface-variant mt-2">The most bioavailable form of Zinc, critical for T-cell development and activation.</p>
+</div>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex gap-4">
+<span class="material-symbols-outlined text-secondary text-3xl">microbiology</span>
+<div>
+<h4 class="font-bold font-headline text-on-surface">B. Longum</h4>
+<p class="text-sm text-on-surface-variant mt-2">Specific probiotic strain linked to gut-lung axis immunity communication.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Benefits: Bento Grid Style -->
+<section class="scroll-mt-28" id="benefits">
+<h2 class="text-2xl md:text-3xl font-headline font-extrabold mb-10">Observed Benefits</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="md:col-span-2 p-8 rounded-3xl bg-primary text-white flex flex-col md:flex-row gap-8 items-center">
+<div class="text-center md:text-left">
+<h3 class="text-2xl font-headline font-bold mb-4">Rapid Response Activation</h3>
+<p class="text-on-primary-container text-sm leading-relaxed">Clinical trials showed a 12-hour reduction in symptom duration compared to the placebo group when taken at the first sign of fatigue.</p>
+</div>
+<img class="w-48 h-48 rounded-2xl object-cover shrink-0 shadow-xl" data-alt="microscopic view of immune cells interacting with pathogens rendered in a modern scientific digital art style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgvvyRug1jjvauMq68E_DV6YFeygnkVl8oDqITCkLWiAi89_h7Zz8W5fmKrwL-aJ6SJIxC8OROyYTcQwBra2DdykhOxajRdJ03elJczz-idTCU5Q4WL7a-Y-3jfJgmfT1gDBLslTlzJ4K9GjHiS2tglAm9yqgjvOdxkR_wfMXaHFkkek7HwwKQ4Bbb8RBwbWpeqSgulCnzTOx4yfvIGkmDAGkLiq9CQGWqTYXQBXt8pc-SFB3GlA900-wOG_dkr1cr24OH_EEnToxR"/>
+</div>
+<div class="p-6 rounded-3xl bg-secondary-container/20 border border-secondary/10">
+<h4 class="font-bold font-headline text-on-secondary-container mb-2">Cognitive Clarity</h4>
+<p class="text-sm text-on-surface-variant">The inclusion of Zinc Picolinate supports mental acuity during periods of immune stress.</p>
+</div>
+<div class="p-6 rounded-3xl bg-surface-container-low border border-outline-variant/10">
+<h4 class="font-bold font-headline text-on-surface mb-2">Non-Drowsy Formula</h4>
+<p class="text-sm text-on-surface-variant">Designed for high-performance individuals who need to remain alert throughout the day.</p>
+</div>
+</div>
+</section>
+<!-- Pros & Cons: Side-by-Side -->
+<section class="scroll-mt-28 grid grid-cols-1 md:grid-cols-2 gap-0 overflow-hidden rounded-3xl" id="proscons">
+<div class="p-10 bg-secondary/5 border-r border-outline-variant/10">
+<div class="flex items-center gap-2 mb-6 text-secondary">
+<span class="material-symbols-outlined">check_circle</span>
+<h3 class="font-headline font-bold text-lg uppercase tracking-wider">The Clinical Edge</h3>
+</div>
+<ul class="space-y-4 text-sm font-medium text-on-surface">
+<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0"></span> High Bioavailability Liposomal Tech</li>
+<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0"></span> Third-party Laboratory Tested</li>
+<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0"></span> No Artificial Bindings or Fillers</li>
+<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0"></span> Vegan-Friendly Capsule Design</li>
+</ul>
+</div>
+<div class="p-10 bg-error/5">
+<div class="flex items-center gap-2 mb-6 text-error">
+<span class="material-symbols-outlined">cancel</span>
+<h3 class="font-headline font-bold text-lg uppercase tracking-wider">Limitations</h3>
+</div>
+<ul class="space-y-4 text-sm font-medium text-on-surface">
+<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-error mt-2 shrink-0"></span> Premium Pricing Model</li>
+<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-error mt-2 shrink-0"></span> Stock Frequent Outages</li>
+<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-error mt-2 shrink-0"></span> Requires Consistent Daily Dosing</li>
+</ul>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="scroll-mt-28" id="faq">
+<h2 class="text-2xl md:text-3xl font-headline font-extrabold mb-10">Frequently Asked Questions</h2>
+<div class="space-y-4">
+<div class="p-6 rounded-2xl bg-surface-container-low">
+<h4 class="font-bold text-on-surface mb-2">Can I take this with my morning coffee?</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Yes, but for optimal liposomal absorption, we recommend taking it 15 minutes before caffeine consumption to avoid potential minor interference with the lipid layer.</p>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-low">
+<h4 class="font-bold text-on-surface mb-2">How long before I see results?</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">While cellular uptake begins within 30 minutes, peak immune system modulation is typically achieved after 14 days of consistent usage.</p>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-low">
+<h4 class="font-bold text-on-surface mb-2">Is it safe for long-term use?</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">The clinical dosage of Vitamin C and Zinc in this formulation is designed for safe, long-term maintenance without the risk of mineral imbalance.</p>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Sidebar: Author Stats & High-Contrast Buy -->
+<aside class="lg:col-span-4 space-y-8">
+<!-- Product Card Sticky -->
+<div class="p-8 rounded-3xl bg-white shadow-xl shadow-on-surface/5 border border-outline-variant/10">
+<img class="w-full aspect-square object-contain mb-6" data-alt="isolated supplement bottle on a neutral grey studio background with sharp clinical focus" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB5haGdVs-ToHDeGVSoiIq0qMPQks2JR1TUblzrxzunBa6q-gIATt4ITn9D1voqGWeavo5W9eVkvWvuKMvuOa17xIKtaf7zPKF80O-sveS15M7EvoLhXnCXy_rmOCEPM9_KJj7d5U9eq0lXUuEXVxXnGRxy1cWstEkUY1BHYO5bhXDcMfSa1IJYAIm6iATw-AYpv9Jk57dXXhlzCiTfvs31AhPIxtI7N9rXr9_O_ubCLQQDxPjUzf4NXtjtwhlJeTPhS-UewvBRCQN"/>
+<div class="text-center mb-8">
+<h3 class="text-2xl font-headline font-black mb-2">ImmunoCore Bio-Max</h3>
+<div class="flex justify-center items-center gap-1 text-secondary mb-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star_half</span>
+<span class="text-xs font-bold text-on-surface-variant ml-2">4.8 (2,400+ reviews)</span>
+</div>
+</div>
+<ul class="space-y-3 mb-8">
+<li class="flex items-center gap-3 text-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary">check</span>
+                            Pharmaceutical Grade
+                        </li>
+<li class="flex items-center gap-3 text-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary">check</span>
+                            3rd Party Verified
+                        </li>
+<li class="flex items-center gap-3 text-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary">check</span>
+                            60-Day Guarantee
+                        </li>
+</ul>
+<a class="block w-full py-5 bg-gradient-to-br from-primary to-primary-container text-white text-center rounded-xl font-bold text-lg shadow-lg shadow-primary/20 scale-102 transition-transform" href="#">
+                        Check Current Price
+                    </a>
+<p class="text-[10px] text-center text-on-surface-variant mt-4 opacity-70">Affiliate disclosure: We may earn a commission from purchases made through these links at no extra cost to you.</p>
+</div>
+<!-- Related Posts -->
+<div class="p-8 rounded-3xl bg-surface-container-low">
+<h4 class="font-headline font-bold mb-6">Related Clinical Guides</h4>
+<div class="space-y-6">
+<a class="group flex gap-4" href="#">
+<img class="w-16 h-16 rounded-xl object-cover shrink-0 grayscale group-hover:grayscale-0 transition-all" data-alt="bowl of fresh leafy greens and citrus fruits with bright natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJZqQymFy8PXb0qokAbNHArgBEoRpTml13KxR_0z-oAfcJo4331K-IvT0PhNMrGK76B0IfX2dJTb5YmUVhcZDqGsspCh7-35DRaGOvF5qWWfBYp9NzuzY06eOP7DxtTHPmhv_AV2SkmbDQxkYyT1DFQQv0NKXk2HmZGWg6fuxogvtmLwzpk3OmYJsFHCidINJK7-ziWUnoqjzKi2iamuEXOVyeWnVbLR-dA--3OWGVv3NvzIvaSoWSxV21Ih-SfeRkewDyVeeqMrO7"/>
+<div>
+<h5 class="text-xs font-bold group-hover:text-primary transition-colors">The Gut-Immunity Axis: 2024 Deep Dive</h5>
+<p class="text-[10px] text-on-surface-variant mt-1">Clinical Paper • 8 min read</p>
+</div>
+</a>
+<a class="group flex gap-4" href="#">
+<img class="w-16 h-16 rounded-xl object-cover shrink-0 grayscale group-hover:grayscale-0 transition-all" data-alt="athlete running in a misty forest at dawn representing health and endurance" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJZal5wAxfBumje9fSbxqeBW5KC_NrRb_yqKnQFT7jBDf8ezcpz54w_9FeHNjpb0hej1iQ47Pfn7Dyjx2XsjHLdx8L-cx6CjVjFnc4YuGCaAhM4p0ug2VbBCfC9WY0ztt-zSjdzAMbZEPwV3dZil1l66tMhJ0Peuer9N0CqHUe0zqbbKH8pSY4Vg3uf6aGvQitsSDt4SIhUCDlZ0wFh1CaehhoteB3-uq1ld0k7mY94cnE6D0Rfv_gJmqbwBxigYIBRIXd4hHqL-kU"/>
+<div>
+<h5 class="text-xs font-bold group-hover:text-primary transition-colors">Zinc vs. Vitamin C: Which is King?</h5>
+<p class="text-[10px] text-on-surface-variant mt-1">Comparison Guide • 5 min read</p>
+</div>
+</a>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 mt-20 bg-slate-50 dark:bg-slate-950">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="md:col-span-1">
+<h2 class="font-headline font-black text-slate-900 dark:text-white text-xl mb-4">Editorial Health Authority</h2>
+<p class="text-slate-500 font-inter text-xs leading-relaxed max-w-xs">
+                    © 2024 Editorial Health Authority. Clinical precision in every review. We provide evidence-based insights for the modern biohacker.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-8 md:col-span-2">
+<div>
+<h5 class="font-bold text-sm mb-4">Quick Links</h5>
+<ul class="space-y-2">
+<li><a class="text-slate-500 hover:text-blue-600 font-inter text-xs" href="#">Medical Disclaimer</a></li>
+<li><a class="text-slate-500 hover:text-blue-600 font-inter text-xs" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-500 hover:text-blue-600 font-inter text-xs" href="#">Editorial Process</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold text-sm mb-4">Resources</h5>
+<ul class="space-y-2">
+<li><a class="text-slate-500 hover:text-blue-600 font-inter text-xs" href="#">Newsletter</a></li>
+<li><a class="text-slate-500 hover:text-blue-600 font-inter text-xs" href="#">Contact</a></li>
+<li><a class="text-slate-500 hover:text-blue-600 font-inter text-xs" href="#">Sitemap</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<!-- Bottom Navigation Mobile -->
+<nav class="fixed bottom-0 w-full z-50 rounded-t-2xl md:hidden bg-white/90 dark:bg-slate-900/90 backdrop-blur-md shadow-[0_-4px_20px_rgba(0,0,0,0.05)] border-t border-slate-100 dark:border-slate-800">
+<div class="flex justify-around items-center h-16 px-4">
+<div class="flex flex-col items-center text-blue-700 dark:text-blue-400">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-headline text-[10px] font-semibold">Reviews</span>
+</div>
+<div class="flex flex-col items-center text-slate-400">
+<span class="material-symbols-outlined">star</span>
+<span class="font-headline text-[10px] font-semibold">Top Picks</span>
+</div>
+<div class="flex flex-col items-center text-slate-400">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-headline text-[10px] font-semibold">Guides</span>
+</div>
+<div class="flex flex-col items-center text-slate-400">
+<span class="material-symbols-outlined">account_circle</span>
+<span class="font-headline text-[10px] font-semibold">Profile</span>
+</div>
+</div>
+</nav>
+</body></html>

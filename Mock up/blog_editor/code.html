@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Editorial Health | Content Editor</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface-variant": "#434654",
+                        "surface-dim": "#d9dadb",
+                        "primary-fixed": "#dae2ff",
+                        "on-error-container": "#93000a",
+                        "surface-bright": "#f8f9fa",
+                        "surface-container-high": "#e7e8e9",
+                        "outline": "#737685",
+                        "surface": "#f8f9fa",
+                        "secondary-fixed": "#94f990",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed-dim": "#78dc77",
+                        "tertiary-fixed": "#d9e6da",
+                        "surface-container-highest": "#e1e3e4",
+                        "on-background": "#191c1d",
+                        "secondary-container": "#91f78e",
+                        "inverse-on-surface": "#f0f1f2",
+                        "on-tertiary-fixed": "#131e17",
+                        "surface-container-low": "#f3f4f5",
+                        "secondary": "#006e1c",
+                        "tertiary-container": "#525e55",
+                        "on-secondary-container": "#00731e",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#0040a2",
+                        "surface-container": "#edeeef",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#0c56d0",
+                        "inverse-surface": "#2e3132",
+                        "primary-fixed-dim": "#b2c5ff",
+                        "surface-container-lowest": "#ffffff",
+                        "background": "#f8f9fa",
+                        "primary": "#003d9b",
+                        "on-tertiary-container": "#cad7cb",
+                        "error-container": "#ffdad6",
+                        "on-tertiary-fixed-variant": "#3e4a41",
+                        "tertiary": "#3b463e",
+                        "on-surface": "#191c1d",
+                        "surface-variant": "#e1e3e4",
+                        "on-secondary-fixed": "#002204",
+                        "on-primary-fixed": "#001848",
+                        "outline-variant": "#c3c6d6",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed-variant": "#005313",
+                        "on-secondary": "#ffffff",
+                        "inverse-primary": "#b2c5ff",
+                        "primary-container": "#0052cc",
+                        "tertiary-fixed-dim": "#bdcabe",
+                        "on-primary-container": "#c4d2ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; color: #191c1d; }
+        .font-manrope { font-family: 'Manrope', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .glass-panel { backdrop-filter: blur(20px); background-color: rgba(255, 255, 255, 0.8); }
+        .editor-container { min-height: 80vh; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-background selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-sm dark:shadow-none border-b border-transparent">
+<div class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-blue-700 dark:text-blue-400" style="font-variation-settings: 'FILL' 1;">clinical_notes</span>
+<span class="text-xl font-extrabold text-blue-800 dark:text-white font-manrope tracking-tight">Editorial Health</span>
+</div>
+<div class="flex items-center gap-4">
+<button class="px-5 py-2 text-sm font-semibold text-on-surface-variant hover:bg-surface-container-high transition-colors rounded-xl">Save Draft</button>
+<button class="px-5 py-2 text-sm font-bold bg-gradient-to-br from-primary to-primary-container text-white rounded-xl shadow-sm hover:scale-102 transition-transform">Publish Post</button>
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-400 cursor-pointer">search</span>
+</div>
+</div>
+</header>
+<!-- Sidebar (NavigationDrawer) -->
+<aside class="fixed left-0 top-0 h-full z-40 hidden md:flex flex-col h-full w-64 border-r-0 bg-slate-50 dark:bg-slate-950 bg-surface-container-low">
+<div class="p-6 pt-24">
+<div class="flex items-center gap-3 mb-8">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Professional headshot of a clinical editor in a bright medical office setting, high key lighting, professional attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8aC7LJKQxZGGyI3wjB8dmgXVXY-xjBMVT0thy5ObnDlJlD1RKOI1fM_6nt1dO0lSKRyuAtDR1BTim4yQZStZMkZmFFj3uInJ1mCfIN_6ZOvcVBOt04SHA6A_AF6dNmeeVmBTEO-dWursHZEKJ502izsmT6hXhj2N57rh45oEZbAZvTrLZdAybN3W4G2-cUpWSr6uDfXJLV1_ss1CQfBskaVtnJEQa9qLrpca-Vj3WEKnAstSPggrxmHdPRVkj0LBDQo9M2o8ZTucX"/>
+<div>
+<p class="text-sm font-bold font-manrope text-on-surface">Clinical Editor</p>
+<p class="text-xs text-secondary font-medium">Expert Verified</p>
+</div>
+</div>
+<nav class="space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 text-sm font-manrope bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border-l-4 border-blue-700" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">edit_note</span>
+<span>Posts</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-sm font-manrope text-slate-500 dark:text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-900 hover:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-sm font-manrope text-slate-500 dark:text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-900 hover:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined">bar_chart</span>
+<span>Stats</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-sm font-manrope text-slate-500 dark:text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-900 hover:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span>Products</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-sm font-manrope text-slate-500 dark:text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-900 hover:translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span>Settings</span>
+</a>
+</nav>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="md:ml-64 pt-20 pb-20 md:pb-0 min-h-screen bg-surface">
+<div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 p-6 lg:p-10">
+<!-- Editor Column -->
+<div class="flex-1 space-y-6">
+<!-- Floating Toolbar -->
+<div class="sticky top-24 z-30 p-2 glass-panel rounded-2xl shadow-sm flex items-center gap-1 border border-outline-variant/15">
+<button class="p-2 hover:bg-surface-container-high rounded-lg transition-colors group" title="Heading">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">format_h1</span>
+</button>
+<button class="p-2 hover:bg-surface-container-high rounded-lg transition-colors group" title="Heading 2">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">format_h2</span>
+</button>
+<div class="h-6 w-px bg-outline-variant/20 mx-1"></div>
+<button class="p-2 hover:bg-surface-container-high rounded-lg transition-colors group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">format_list_bulleted</span>
+</button>
+<button class="p-2 hover:bg-surface-container-high rounded-lg transition-colors group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">format_list_numbered</span>
+</button>
+<div class="h-6 w-px bg-outline-variant/20 mx-1"></div>
+<button class="p-2 hover:bg-surface-container-high rounded-lg transition-colors group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">image</span>
+</button>
+<button class="p-2 hover:bg-surface-container-high rounded-lg transition-colors group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">inventory</span>
+</button>
+<button class="p-2 hover:bg-surface-container-high rounded-lg transition-colors group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">link</span>
+</button>
+<div class="h-6 w-px bg-outline-variant/20 mx-1"></div>
+<button class="p-2 hover:bg-surface-container-high rounded-lg transition-colors group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">table_chart</span>
+</button>
+</div>
+<!-- Editor Canvas -->
+<article class="bg-surface-container-lowest rounded-3xl p-8 lg:p-16 shadow-sm min-h-[800px] border border-outline-variant/10">
+<textarea class="w-full text-4xl lg:text-5xl font-manrope font-extrabold border-none focus:ring-0 placeholder:text-surface-dim resize-none p-0 mb-8 overflow-hidden" placeholder="Enter post title..." rows="1">The 2024 Ultimate Guide to Clinical Multivitamins</textarea>
+<div class="flex items-center gap-4 mb-10 pb-8 border-b border-surface-container-low">
+<div class="flex -space-x-2">
+<img class="w-8 h-8 rounded-full border-2 border-white object-cover" data-alt="close up of a professional female doctor in a white coat" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMGGxm8uPwYTT4dueBb3dDJGgMjHBJXivdI3X_bbNTSiwuK9IeRXJ8aV9oyuppKbJ4JdiO2IgtJblUnMbiBSc2U1W6FqE22UU8ghgQXVqg7hFUk5QSqyELdWqL4Tco-LCpSTxcuqSH88dSYW_3EE3Er2VD-h26HwOn6GBGV-qCg2U4bZmhk7x0OjkhmPIr605odUsva8H_-1XzC49IVjdLEYiMCfyWf-SYv37H3x1EyU-f8RLez6wF83FbroBjaCwCYUppCiERnAPd"/>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-secondary-container flex items-center justify-center text-[10px] font-bold text-secondary">EV</div>
+</div>
+<span class="text-xs font-medium text-on-surface-variant/60 uppercase tracking-widest">Medical Review Policy Active</span>
+</div>
+<div class="space-y-6 text-on-surface text-lg leading-relaxed font-body">
+<p class="focus:outline-none" contenteditable="true">When it comes to selecting a daily multivitamin, the difference between an over-the-counter supplement and a clinically-verified formula can be significant. In this review, we break down the latest data on bioavailability and micronutrient synergy...</p>
+<div class="my-10 relative group">
+<div class="absolute -top-4 -left-4 bg-secondary text-white text-[10px] font-bold px-2 py-1 rounded-md z-10 shadow-sm">INGREDIENTS BREAKDOWN</div>
+<div class="bg-surface-container-low rounded-2xl overflow-hidden">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-primary-fixed">
+<th class="p-4 text-xs font-bold text-on-primary-fixed uppercase tracking-wider">Nutrient</th>
+<th class="p-4 text-xs font-bold text-on-primary-fixed uppercase tracking-wider">Clinical Dose</th>
+<th class="p-4 text-xs font-bold text-on-primary-fixed uppercase tracking-wider">Our Pick</th>
+<th class="p-4 text-xs font-bold text-on-primary-fixed uppercase tracking-wider">Effectiveness</th>
+</tr>
+</thead>
+<tbody class="text-sm">
+<tr class="bg-surface-container-lowest">
+<td class="p-4 font-semibold">Vitamin D3</td>
+<td class="p-4">2000 IU</td>
+<td class="p-4">2500 IU</td>
+<td class="p-4 text-secondary font-bold">High</td>
+</tr>
+<tr class="bg-surface-container-low">
+<td class="p-4 font-semibold">Magnesium Glycinate</td>
+<td class="p-4">200 mg</td>
+<td class="p-4">210 mg</td>
+<td class="p-4 text-secondary font-bold">Elite</td>
+</tr>
+<tr class="bg-surface-container-lowest">
+<td class="p-4 font-semibold">Zinc Picolinate</td>
+<td class="p-4">15 mg</td>
+<td class="p-4">15 mg</td>
+<td class="p-4 text-secondary font-bold">Optimal</td>
+</tr>
+</tbody>
+</table>
+</div>
+<button class="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-2xl">
+<span class="bg-white px-4 py-2 rounded-lg shadow-lg text-xs font-bold text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">edit</span> EDIT COMPARISON
+                                </span>
+</button>
+</div>
+<p class="focus:outline-none" contenteditable="true">Add more analysis here. Remember to focus on clinical endpoints and patient outcomes rather than just marketing claims. The goal is to provide a neutral, evidence-based perspective.</p>
+<div class="h-24 flex items-center justify-center border-2 border-dashed border-outline-variant/30 rounded-2xl group cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="text-surface-dim font-medium flex items-center gap-2 group-hover:text-primary transition-colors">
+<span class="material-symbols-outlined">add_circle</span> Drag or click to add product block
+                            </span>
+</div>
+</div>
+</article>
+</div>
+<!-- Right Sidebar / Assistant -->
+<aside class="lg:w-80 space-y-6">
+<!-- SEO Assistant -->
+<section class="bg-surface-container-low rounded-2xl p-6 border border-outline-variant/10">
+<h3 class="font-manrope font-bold text-sm text-on-surface mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg">trending_up</span> SEO Assistant
+                    </h3>
+<div class="space-y-4">
+<div>
+<label class="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-1 block">Meta Title</label>
+<input class="w-full bg-surface-container-lowest border-none rounded-lg text-xs focus:ring-1 focus:ring-primary/20 p-3" type="text" value="Best Clinical Multivitamins 2024 | Expert Review"/>
+<div class="mt-1 h-1 w-full bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-secondary w-[85%]"></div>
+</div>
+</div>
+<div class="p-3 bg-secondary-container/20 rounded-lg border border-secondary/10">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<p class="text-[11px] text-on-secondary-container leading-tight">Focus keyword "Clinical Multivitamins" found in title and intro.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Affiliate Link Manager -->
+<section class="bg-surface-container-low rounded-2xl p-6 border border-outline-variant/10">
+<h3 class="font-manrope font-bold text-sm text-on-surface mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg">link</span> Affiliate Links
+                    </h3>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-3 bg-surface-container-lowest rounded-xl shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-slate-400 text-sm">shopping_cart</span>
+<span class="text-xs font-semibold">Amazon</span>
+</div>
+<span class="material-symbols-outlined text-xs text-secondary cursor-pointer">verified</span>
+</div>
+<div class="flex items-center justify-between p-3 bg-surface-container-lowest rounded-xl shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-slate-400 text-sm">medical_services</span>
+<span class="text-xs font-semibold">Direct Pharma</span>
+</div>
+<span class="material-symbols-outlined text-xs text-secondary cursor-pointer">verified</span>
+</div>
+<button class="w-full py-2 border border-dashed border-primary/30 rounded-xl text-[11px] font-bold text-primary hover:bg-primary/5 transition-colors">
+                            + ADD NEW LINK
+                        </button>
+</div>
+</section>
+<!-- FAQ Schema Generator -->
+<section class="bg-surface-container-low rounded-2xl p-6 border border-outline-variant/10">
+<h3 class="font-manrope font-bold text-sm text-on-surface mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg">quiz</span> FAQ Schema
+                    </h3>
+<div class="p-3 bg-primary-fixed/30 rounded-xl border border-primary/10 mb-3">
+<p class="text-[10px] text-on-primary-fixed-variant leading-relaxed">Generated 4 clinical questions from your headings. Include them in the footer?</p>
+</div>
+<button class="w-full py-2 bg-primary-container text-white rounded-xl text-xs font-bold shadow-sm hover:scale-102 transition-transform">
+                        Preview Schema
+                    </button>
+</section>
+</aside></div>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 w-full z-50 rounded-t-2xl bg-white/90 dark:bg-slate-900/90 backdrop-blur-md shadow-[0_-4px_20px_rgba(0,0,0,0.05)] flex justify-around items-center h-16 px-4">
+<a class="flex flex-col items-center gap-1 text-blue-700 dark:text-blue-400" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="text-[10px] font-semibold font-manrope">Reviews</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-600" href="#">
+<span class="material-symbols-outlined">star</span>
+<span class="text-[10px] font-semibold font-manrope">Top Picks</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-600" href="#">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="text-[10px] font-semibold font-manrope">Guides</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-600" href="#">
+<span class="material-symbols-outlined">account_circle</span>
+<span class="text-[10px] font-semibold font-manrope">Profile</span>
+</a>
+</nav>
+<!-- Footer -->
+<footer class="w-full py-12 mt-20 bg-slate-50 dark:bg-slate-950 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="space-y-4">
+<p class="font-manrope font-black text-slate-900 dark:text-white text-lg">Editorial Health</p>
+<p class="font-inter text-xs leading-relaxed text-slate-500">© 2024 Editorial Health Authority. Clinical precision in every review. Our editors are certified medical professionals.</p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col gap-2">
+<a class="text-xs font-inter text-slate-500 hover:text-blue-600 transition-colors" href="#">Medical Disclaimer</a>
+<a class="text-xs font-inter text-slate-500 hover:text-blue-600 transition-colors" href="#">Privacy Policy</a>
+<a class="text-xs font-inter text-slate-500 hover:text-blue-600 transition-colors" href="#">Editorial Process</a>
+</div>
+<div class="flex flex-col gap-2">
+<a class="text-xs font-inter text-slate-500 hover:text-blue-600 transition-colors" href="#">Newsletter</a>
+<a class="text-xs font-inter text-slate-500 hover:text-blue-600 transition-colors" href="#">Contact</a>
+<a class="text-xs font-inter text-slate-500 hover:text-blue-600 transition-colors" href="#">Ad Policy</a>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm border border-outline-variant/10">
+<p class="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">Subscribe to Clinical Updates</p>
+<div class="flex gap-2">
+<input class="flex-1 bg-surface-container-low border-none rounded-lg text-xs p-2.5" placeholder="Email address" type="email"/>
+<button class="bg-primary text-white p-2 rounded-lg"><span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

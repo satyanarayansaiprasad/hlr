@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact Us | Editorial Health Authority</title>
+<!-- Fonts & Icons -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed-variant": "#3e4a41",
+                    "on-primary-fixed-variant": "#0040a2",
+                    "inverse-surface": "#2e3132",
+                    "on-surface-variant": "#434654",
+                    "surface-tint": "#0c56d0",
+                    "surface-container-lowest": "#ffffff",
+                    "on-secondary-fixed-variant": "#005313",
+                    "outline-variant": "#c3c6d6",
+                    "secondary-container": "#91f78e",
+                    "surface-variant": "#e1e3e4",
+                    "primary-fixed": "#dae2ff",
+                    "on-secondary-fixed": "#002204",
+                    "on-primary-fixed": "#001848",
+                    "on-background": "#191c1d",
+                    "surface": "#f8f9fa",
+                    "error-container": "#ffdad6",
+                    "on-secondary": "#ffffff",
+                    "primary-container": "#0052cc",
+                    "surface-dim": "#d9dadb",
+                    "tertiary": "#3b463e",
+                    "on-tertiary-container": "#cad7cb",
+                    "tertiary-fixed-dim": "#bdcabe",
+                    "background": "#f8f9fa",
+                    "inverse-primary": "#b2c5ff",
+                    "on-primary-container": "#c4d2ff",
+                    "surface-container": "#edeeef",
+                    "outline": "#737685",
+                    "surface-container-highest": "#e1e3e4",
+                    "surface-bright": "#f8f9fa",
+                    "inverse-on-surface": "#f0f1f2",
+                    "secondary-fixed": "#94f990",
+                    "on-primary": "#ffffff",
+                    "surface-container-low": "#f3f4f5",
+                    "on-surface": "#191c1d",
+                    "primary-fixed-dim": "#b2c5ff",
+                    "on-tertiary": "#ffffff",
+                    "secondary-fixed-dim": "#78dc77",
+                    "surface-container-high": "#e7e8e9",
+                    "secondary": "#006e1c",
+                    "primary": "#003d9b",
+                    "tertiary-fixed": "#d9e6da",
+                    "on-error-container": "#93000a",
+                    "error": "#ba1a1a",
+                    "tertiary-container": "#525e55",
+                    "on-tertiary-fixed": "#131e17",
+                    "on-error": "#ffffff",
+                    "on-secondary-container": "#00731e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-manrope { font-family: 'Manrope', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(25,28,29,0.04)]">
+<div class="flex justify-between items-center px-6 h-16 w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-blue-700 dark:text-blue-400">menu</span>
+<span class="text-xl font-extrabold text-blue-800 dark:text-blue-200 tracking-tighter font-manrope">Editorial Health</span>
+</div>
+<nav class="hidden md:flex gap-8">
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-600 transition-colors font-manrope font-semibold" href="#">Reviews</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-600 transition-colors font-manrope font-semibold" href="#">Expert Insights</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-600 transition-colors font-manrope font-semibold" href="#">About Authority</a>
+<a class="text-blue-700 dark:text-blue-400 font-semibold font-manrope" href="#">Contact Clinical</a>
+</nav>
+<div class="h-8 w-8 rounded-full overflow-hidden bg-primary-fixed flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="professional portrait of an expert physician in clinical attire with a calm and confident expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBULquPhWTQ_hhMOTKY7YKHoBSmSLmjCMT4MB0IwZjzPV330sz1YCkFZMA27BQ9ywB3wzrIHGdLEsBm3mJCbuZkStIsYftRE1-ELDcqYWr7Inv8RrvmgC8EhJ5ETpvwek2RHlic6mBk0IPb2w01VCApGejPhYflGeDcxFjvsy0Yi8xhPkJEuhmeQlmh-W3GCAm_3BOzm9HczDXqtsJhGc4oSCbududALXai1iSqsuDHlDtA7ZInKt7oauzJhP-PwqTq8j1GpmROOokj"/>
+</div>
+</div>
+</header>
+<main class="pt-24 pb-20 px-6 max-w-7xl mx-auto">
+<!-- Hero Section -->
+<section class="mb-16 md:mb-24 text-center md:text-left">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container/20 text-secondary font-medium text-sm mb-6 font-manrope">
+<span class="material-symbols-outlined text-sm" data-weight="fill" style="font-variation-settings: 'FILL' 1;">verified</span>
+                Expert Concierge
+            </div>
+<h1 class="text-5xl md:text-7xl font-extrabold font-headline tracking-tighter text-on-surface mb-6 leading-tight">
+                Get in <span class="text-primary">Touch</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-2xl leading-relaxed">
+                We’d love to hear from you. Our clinical editorial team is standing by to address your inquiries regarding our review methodology or product insights.
+            </p>
+</section>
+<!-- Main Content Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+<!-- Contact Form (Bento Style) -->
+<div class="lg:col-span-7 space-y-8">
+<div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-[0px_20px_40px_rgba(25,28,29,0.04)] relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-fixed/20 rounded-bl-full -mr-16 -mt-16"></div>
+<h2 class="text-2xl font-bold font-headline mb-8 text-on-surface">Clinical Inquiry Form</h2>
+<form action="#" class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="flex flex-col gap-2">
+<label class="text-sm font-semibold text-on-surface-variant ml-1" for="name">Full Name</label>
+<input class="w-full px-4 py-3 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary/20 focus:bg-surface-container-lowest transition-all duration-300 placeholder:text-outline-variant" id="name" placeholder="Dr. Julian Reed" type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-semibold text-on-surface-variant ml-1" for="email">Professional Email</label>
+<input class="w-full px-4 py-3 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary/20 focus:bg-surface-container-lowest transition-all duration-300 placeholder:text-outline-variant" id="email" placeholder="julian@medical-journal.org" type="email"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-semibold text-on-surface-variant ml-1" for="subject">Subject</label>
+<select class="w-full px-4 py-3 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary/20 focus:bg-surface-container-lowest transition-all duration-300" id="subject">
+<option>Editorial Review Request</option>
+<option>Product Analysis Correction</option>
+<option>Affiliate Partnership</option>
+<option>General Inquiry</option>
+</select>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-semibold text-on-surface-variant ml-1" for="message">Your Message</label>
+<textarea class="w-full px-4 py-3 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary/20 focus:bg-surface-container-lowest transition-all duration-300 placeholder:text-outline-variant" id="message" placeholder="Provide detailed context regarding your clinical query..." rows="5"></textarea>
+</div>
+<button class="w-full md:w-auto px-10 py-4 bg-gradient-to-br from-primary to-primary-container text-white font-bold rounded-lg scale-100 hover:scale-102 transition-transform duration-200 shadow-lg shadow-primary/20 flex items-center justify-center gap-2" type="submit">
+                            Send Message
+                            <span class="material-symbols-outlined text-sm">send</span>
+</button>
+</form>
+</div>
+<!-- Support CTA Section -->
+<div class="bg-tertiary text-white p-8 md:p-12 rounded-xl relative group">
+<div class="absolute bottom-4 right-4 opacity-10 scale-150 group-hover:scale-125 transition-transform duration-700">
+<span class="material-symbols-outlined text-9xl">handshake</span>
+</div>
+<h3 class="text-3xl font-bold font-headline mb-4">Collaborate with us</h3>
+<p class="text-tertiary-fixed-dim max-w-md mb-8 leading-relaxed">
+                        Are you a medical professional or product developer looking to share peer-reviewed insights? Our platform welcomes high-authority collaborations.
+                    </p>
+<a class="inline-flex items-center gap-2 font-bold text-secondary-fixed hover:text-white transition-colors" href="#">
+                        View Partnerships <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Contact Details & Map -->
+<aside class="lg:col-span-5 space-y-8">
+<!-- Details Card -->
+<div class="bg-surface-container-low p-8 rounded-xl space-y-8">
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface font-manrope">Clinical Support</h4>
+<p class="text-on-surface-variant">editorial@healthauthority.com</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface font-manrope">Business Hours</h4>
+<p class="text-on-surface-variant">Mon – Fri: 08:00 – 18:00 EST</p>
+<p class="text-xs text-secondary mt-1 font-semibold uppercase tracking-wider">Expert team active</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined">share</span>
+</div>
+<div class="flex gap-4 items-center mt-2">
+<a class="w-8 h-8 flex items-center justify-center rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="w-8 h-8 flex items-center justify-center rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">videocam</span>
+</a>
+<a class="w-8 h-8 flex items-center justify-center rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">podcasts</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Map Placeholder -->
+<div class="relative w-full h-64 rounded-xl overflow-hidden bg-surface-variant">
+<img class="w-full h-full object-cover grayscale opacity-60" data-alt="minimalist overhead architectural map view of a clean medical research district in London with soft grey and blue tones" data-location="London" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHrWn5xtifSl5kO-3_JP8j__7kf1dpYjveFH-8kJh8Zj8kSEjr-bLST576zKqNUh-88Mn18BZee29UxYijQzDtrd5Vei_N4LRp17E9d1Z5_3oXEciG3FXweJr9PREujklVvNa18OvWtzJ8u3dXsNOFC43sfABb9qt6H0vKSzii5mF2O3791t5E2Qcrfp8_x5UYn8klXTR-rsbeWuyDU-RMhxkwuCcXAWfG_oXcez6kRrJUhE8HN3oTfreyJXLWsJ5lpMfC9FVuco9E"/>
+<div class="absolute inset-0 bg-primary/10 backdrop-overlay"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+<div class="relative flex items-center justify-center">
+<div class="absolute w-12 h-12 bg-primary/20 rounded-full animate-ping"></div>
+<span class="material-symbols-outlined text-primary text-4xl" data-weight="fill" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-2 rounded-lg shadow-lg">
+<p class="text-xs font-bold text-on-surface tracking-tight">London Innovation Hub</p>
+<p class="text-[10px] text-on-surface-variant">Medical District, EC1V</p>
+</div>
+</div>
+</div>
+<!-- Quick Help / FAQs -->
+<div class="p-8 border-l-4 border-primary bg-primary-fixed/10 rounded-r-xl">
+<h4 class="font-bold text-on-surface mb-6 font-manrope uppercase text-xs tracking-widest">Knowledge Base</h4>
+<ul class="space-y-4">
+<li>
+<a class="flex items-center justify-between group" href="#">
+<span class="text-on-surface-variant group-hover:text-primary transition-colors font-medium">How we review products</span>
+<span class="material-symbols-outlined text-sm text-outline group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</li>
+<li>
+<a class="flex items-center justify-between group" href="#">
+<span class="text-on-surface-variant group-hover:text-primary transition-colors font-medium">Affiliate disclosure policy</span>
+<span class="material-symbols-outlined text-sm text-outline group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</li>
+<li>
+<a class="flex items-center justify-between group" href="#">
+<span class="text-on-surface-variant group-hover:text-primary transition-colors font-medium">Data privacy for patients</span>
+<span class="material-symbols-outlined text-sm text-outline group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-950 w-full mt-20">
+<div class="max-w-7xl mx-auto py-12 px-8 flex flex-col items-center gap-6 border-t border-slate-200 dark:border-slate-800">
+<div class="font-manrope font-bold text-lg text-slate-900 dark:text-slate-100">Editorial Health Authority</div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="text-slate-500 hover:text-blue-600 font-inter text-xs transition-colors duration-200" href="#">Medical Disclaimer</a>
+<a class="text-slate-500 hover:text-blue-600 font-inter text-xs transition-colors duration-200" href="#">Privacy Policy</a>
+<a class="text-slate-500 hover:text-blue-600 font-inter text-xs transition-colors duration-200" href="#">Editorial Process</a>
+<a class="text-slate-500 hover:text-blue-600 font-inter text-xs transition-colors duration-200" href="#">Affiliate Disclosure</a>
+</div>
+<p class="font-inter text-xs leading-relaxed text-slate-500 text-center">© 2024 Editorial Health Authority. Medically Reviewed Content.</p>
+</div>
+</footer>
+<!-- Mobile BottomNavBar -->
+<nav class="md:hidden fixed bottom-0 w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-[20px] flex justify-around items-center h-16 px-4 pb-safe border-t border-slate-200/20 z-50">
+<a class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-manrope text-[10px] font-semibold uppercase tracking-widest mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined">science</span>
+<span class="font-manrope text-[10px] font-semibold uppercase tracking-widest mt-1">Reviews</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined">info</span>
+<span class="font-manrope text-[10px] font-semibold uppercase tracking-widest mt-1">About</span>
+</a>
+<a class="flex flex-col items-center justify-center text-blue-700 dark:text-blue-400 bg-blue-50/50 dark:bg-blue-900/20 rounded-xl px-3 py-1" href="#">
+<span class="material-symbols-outlined">support_agent</span>
+<span class="font-manrope text-[10px] font-semibold uppercase tracking-widest mt-1">Contact</span>
+</a>
+</nav>
+</body></html>

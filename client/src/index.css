@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-2.5 bg-gradient-to-tr from-primary to-primary-container text-white rounded-lg font-medium transition-transform hover:scale-[1.02] active:scale-100 shadow-sm;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-2.5 bg-surface-container text-primary rounded-lg font-medium transition-all hover:bg-gray-200 active:scale-100;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-[0px_20px_40px_rgba(25,28,29,0.04)] overflow-hidden transition-all;
+  }
+}
+
+.backdrop-blur-glass {
+  @apply backdrop-blur-xl bg-white/80;
+}
