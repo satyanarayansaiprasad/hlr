@@ -1,44 +1,68 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useSearchParams } from 'react-router-dom';
 import ReviewCard from '../components/ReviewCard';
-import { allReviews } from '../data/reviews';
+import { allReviews, categories } from '../data/reviews';
 
 const ReviewsList = () => {
-  const [activeCategory, setActiveCategory] = useState('All');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const initialCategory = searchParams.get('category') || 'All';
+  
+  const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [searchQuery, setSearchQuery] = useState('');
 
-  const categories = ['All', 'Supplements', 'Gut Health', 'Sleep Science', 'Wellness Tech', 'Mental Health', 'Digital Health'];
+  // Sync state with URL params
+  useEffect(() => {
+    const cat = searchParams.get('category') || 'All';
+    setActiveCategory(cat);
+  }, [searchParams]);
 
+  const allCategories = ['All', ...categories];
 
+  const handleCategoryChange = (cat) => {
+    setActiveCategory(cat);
+    if (cat === 'All') {
+      searchParams.delete('category');
+    } else {
+      searchParams.set('category', cat);
+    }
+    setSearchParams(searchParams);
+  };
 
   const filteredReviews = allReviews.filter((review) => {
     const matchesCategory = activeCategory === 'All' || review.category === activeCategory;
     const matchesSearch = review.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                         review.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
+                         review.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                         review.name?.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
   return (
-    <div className="bg-[#F8F9FA] min-h-screen pt-24 pb-32">
-      <div className="container mx-auto px-4">
+    <div className="bg-[#F8F9FA] min-h-screen pt-40 pb-40">
+      <div className="container mx-auto px-4 max-w-7xl">
         {/* Page Header */}
-        <div className="max-w-4xl mb-16 px-4">
-          <span className="text-[10px] font-bold text-[#0052CC] uppercase tracking-[0.2em] mb-4 block">The Knowledge Hub</span>
-          <h1 className="font-display font-bold text-5xl md:text-6xl text-[#191C1D] mb-8 leading-tight">Editorial & Clinical <br /> Reviews</h1>
-          <p className="text-xl text-gray-400 max-w-2xl leading-relaxed">
-            Exploring the intersection of medical science and lifestyle wellness. Our library of <span className="text-[#191C1D] font-bold">150+ expert-vetted articles</span> is here to guide your journey.
+        <div className="max-w-4xl mb-24 px-4 text-center mx-auto">
+          <span className="text-[12px] font-black text-[#0052CC] uppercase tracking-[0.4em] mb-6 block">Clinical Intelligence Hub</span>
+          <h1 className="font-display font-black text-6xl md:text-8xl text-[#191C1D] mb-10 leading-[0.9] tracking-tighter">
+            Editorial <br /> 
+            <span className="text-[#0052CC]/10 decoration-[#0052CC] underline decoration-4 underline-offset-[16px]">Expert Library</span>
+          </h1>
+          <p className="text-2xl text-gray-400 max-w-3xl leading-relaxed mx-auto italic">
+            Dismantling health marketing since 2024. Your clinical guide to the supplement landscape.
           </p>
         </div>
 
-        {/* Filters & Search Bar */}
-        <div className="bg-white p-6 md:p-8 rounded-[30px] shadow-sm mb-16 flex flex-col lg:flex-row gap-8 items-center border border-gray-100">
-          <div className="flex flex-wrap gap-3 flex-grow">
-            {categories.map((cat) => (
+        {/* Dynamic Filters & Search */}
+        <div className="bg-white p-12 rounded-[48px] shadow-2xl shadow-blue-900/5 mb-24 flex flex-col gap-12 border border-gray-50/50">
+          <div className="flex flex-wrap gap-4 justify-center">
+            {allCategories.map((cat) => (
               <button
                 key={cat}
-                onClick={() => setActiveCategory(cat)}
-                className={`px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest transition-all ${
-                  activeCategory === cat ? 'bg-[#003D9B] text-white shadow-lg shadow-[#003D9B]/20' : 'bg-[#F3F4F5] text-gray-500 hover:bg-gray-200'
+                onClick={() => handleCategoryChange(cat)}
+                className={`px-8 py-3.5 rounded-2xl text-xs font-black uppercase tracking-widest transition-all ${
+                  activeCategory === cat 
+                    ? 'bg-[#0052CC] text-white shadow-xl shadow-blue-600/30 -translate-y-1' 
+                    : 'bg-[#F8F9FA] text-gray-400 hover:bg-gray-100'
                 }`}
               >
                 {cat}
@@ -46,32 +70,32 @@ const ReviewsList = () => {
             ))}
           </div>
 
-          <div className="shrink-0 w-full lg:w-96 relative group">
+          <div className="relative group max-w-2xl mx-auto w-full">
             <input 
               type="text" 
-              placeholder="Search library..." 
+              placeholder="Search clinical library by name or condition..." 
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-[#F3F4F5] p-5 pl-14 rounded-2xl outline-none focus:ring-4 focus:ring-[#0052CC]/5 text-gray-700 transition-all font-medium border-2 border-transparent focus:border-[#0052CC]/10"
+              className="w-full bg-[#F3F4F5] p-6 pl-16 rounded-3xl outline-none focus:ring-8 focus:ring-[#0052CC]/5 text-gray-700 transition-all font-bold text-xl placeholder:text-gray-300 border-2 border-transparent focus:border-[#0052CC]/10 shadow-inner"
             />
-            <div className="absolute left-5 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center text-gray-400 group-focus-within:text-[#0052CC] transition-colors">
-              <i className="ri-search-2-line text-xl"></i>
+            <div className="absolute left-6 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within:text-[#0052CC] transition-colors">
+              <i className="ri-search-2-line text-3xl"></i>
             </div>
           </div>
         </div>
 
-        {/* Review Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {/* Full-width Clean Review Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 px-4 lg:px-0">
           <AnimatePresence mode="popLayout">
             {filteredReviews.length > 0 ? (
               filteredReviews.map((review) => (
                 <motion.div
                   layout
                   key={review.id}
-                  initial={{ opacity: 0, scale: 0.9 }}
+                  initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.9 }}
-                  transition={{ duration: 0.4 }}
+                  exit={{ opacity: 0, scale: 0.95 }}
+                  transition={{ duration: 0.5, ease: [0.19, 1, 0.22, 1] }}
                 >
                   <ReviewCard review={review} />
                 </motion.div>
@@ -80,31 +104,27 @@ const ReviewsList = () => {
                 <motion.div 
                   initial={{ opacity: 0 }} 
                   animate={{ opacity: 1 }} 
-                  className="col-span-full py-32 text-center"
+                  className="col-span-full py-40 text-center"
                 >
-                  <div className="w-24 h-24 bg-gray-100 rounded-3xl flex items-center justify-center mx-auto mb-8 text-gray-300">
-                    <i className="ri-search-eye-line text-4xl"></i>
+                  <div className="w-32 h-32 bg-[#F3F4F5] rounded-[40px] flex items-center justify-center mx-auto mb-10 text-gray-200">
+                    <i className="ri-microscope-line text-5xl"></i>
                   </div>
-                  <h3 className="font-display font-bold text-2xl text-[#191C1D] mb-2 leading-tight">No scientific match found</h3>
-                  <p className="text-gray-400 max-w-sm mx-auto">Try adjusting your filters or search keywords to find what you're looking for.</p>
+                  <h3 className="font-display font-black text-3xl text-[#191C1D] mb-4">No Clinical Data Found</h3>
+                  <p className="text-gray-400 text-xl max-w-sm mx-auto italic font-medium">We haven't reviewed this product or category yet. Adjust your search parameters or check back soon.</p>
                 </motion.div>
             )}
           </AnimatePresence>
         </div>
 
-        {/* Pagination placeholder */}
-        <div className="mt-24 pt-12 border-t border-gray-100 flex justify-center">
+        {/* Bottom Pagination Info */}
+        <div className="mt-40 pt-20 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-10">
+           <p className="text-gray-400 text-sm font-bold uppercase tracking-widest">Showing {filteredReviews.length} Scientific Matches</p>
            <div className="flex gap-4">
-              <button className="w-12 h-12 rounded-xl border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-[#0052CC]/5 hover:text-[#0052CC] transition-all">
-                <i className="ri-arrow-left-s-line"></i>
+              <button className="px-8 py-4 rounded-xl border border-gray-100 text-xs font-bold uppercase tracking-widest hover:bg-[#0052CC] hover:text-white transition-all shadow-sm">
+                Request a Review
               </button>
-              {[1, 2, 3].map(i => (
-                <button key={i} className={`w-12 h-12 rounded-xl flex items-center justify-center font-bold text-sm transition-all ${i === 1 ? 'bg-[#0052CC] text-white shadow-lg' : 'hover:bg-gray-100 text-gray-500'}`}>
-                  {i}
-                </button>
-              ))}
-              <button className="w-12 h-12 rounded-xl border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-[#0052CC]/5 hover:text-[#0052CC] transition-all">
-                <i className="ri-arrow-right-s-line"></i>
+              <button className="px-10 py-4 bg-[#191C1D] text-white rounded-xl text-xs font-bold uppercase tracking-widest hover:shadow-2xl transition-all">
+                Load More Archive
               </button>
            </div>
         </div>
