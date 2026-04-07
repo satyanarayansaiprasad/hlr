@@ -6,6 +6,7 @@ import ProductReview from '../pages/ProductReview';
 import ReviewsList from '../pages/ReviewsList';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
+import CategoryPage from '../pages/CategoryPage';
 
 const AppRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const AppRoutes = () => {
         <Route path="/reviews" element={<ReviewsList />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/category/:categorySlug" element={<CategoryPage />} />
       </Route>
     </Routes>
   );
