@@ -76,7 +76,7 @@ const Home = () => {
 
   return (
     <div className="bg-[#F8F9FA]">
-      {/* Blog Hero Section */}
+      {/* Reviews Hero Section */}
       <section className="relative pt-32 pb-40 overflow-hidden bg-white">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#0052CC]/5 to-transparent -z-10"></div>
         <div className="container mx-auto px-4">
@@ -98,7 +98,7 @@ const Home = () => {
                 We dismantle the marketing hype to deliver science-based insights on the supplements and wellness tools that actually work. Expert verified, data driven.
               </p>
               <div className="flex flex-wrap gap-5">
-                <Link to="/blog" className="px-10 py-5 bg-[#0052CC] text-white rounded-2xl font-bold hover:bg-[#003D9B] transition-all shadow-xl shadow-blue-600/20 flex items-center gap-3 group">
+                <Link to="/reviews" className="px-10 py-5 bg-[#0052CC] text-white rounded-2xl font-bold hover:bg-[#003D9B] transition-all shadow-xl shadow-blue-600/20 flex items-center gap-3 group">
                   Explore Latest Reviews
                   <i className="ri-arrow-right-line group-hover:translate-x-1 transition-transform"></i>
                 </Link>
@@ -210,7 +210,7 @@ const Home = () => {
                       <h2 className="font-display font-bold text-4xl text-[#191C1D] mb-2 leading-tight">Featured Clinical Insights</h2>
                       <p className="text-gray-400">Deep dives into the science of modern longevity.</p>
                     </div>
-                    <Link to="/blog" className="text-xs font-bold text-[#0052CC] uppercase tracking-extra-wide hover:underline">Explore Library →</Link>
+                    <Link to="/reviews" className="text-xs font-bold text-[#0052CC] uppercase tracking-extra-wide hover:underline">Explore Library →</Link>
                  </div>
 
                  <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

@@ -16,7 +16,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Blog', path: '/blog' },
+    { name: 'Reviews', path: '/reviews' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },
   ];
@@ -53,7 +53,7 @@ const Navbar = () => {
             </NavLink>
           ))}
           <Link 
-            to="/blog" 
+            to="/reviews" 
             className="btn-primary flex items-center text-sm font-semibold"
           >
             Start Exploring
@@ -100,7 +100,7 @@ const Navbar = () => {
               </NavLink>
             ))}
             <Link 
-              to="/blog" 
+              to="/reviews" 
               className="btn-primary w-full text-center"
               onClick={() => setMobileMenuOpen(false)}
             >

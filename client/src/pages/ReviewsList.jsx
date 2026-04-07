@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ReviewCard from '../components/ReviewCard';
 
-const BlogList = () => {
+const ReviewsList = () => {
   const [activeCategory, setActiveCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -52,7 +52,7 @@ const BlogList = () => {
     {
       id: 5,
       title: "Microbiome 101: Understanding Your Gut Flora",
-      author: { name: "Dr. Sarah Chen", avatar: "https://i.pravatar.cc/150?u=sarah" },
+      author: { name: "Dr. Sarah Chen", avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 02, 2023",
       category: "Gut Health",
       image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800",
@@ -173,4 +173,4 @@ const BlogList = () => {
   );
 };
 
-export default BlogList;
+export default ReviewsList;

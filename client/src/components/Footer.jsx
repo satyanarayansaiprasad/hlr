@@ -36,7 +36,7 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-bold text-lg mb-6 text-[#91F78E]">Navigation</h4>
             <ul className="flex flex-col gap-4">
-              {['Home', 'Blog', 'About', 'Contact'].map((link) => (
+              {['Home', 'Reviews', 'About', 'Contact'].map((link) => (
                 <li key={link}>
                   <Link to={link === 'Home' ? '/' : `/${link.toLowerCase()}`} className="text-gray-400 hover:text-white transition-colors text-sm">
                     {link}
