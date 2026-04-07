@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { BRAND_NAME, BRAND_TAGLINE } from '../constants/brand';
 
 const Footer = () => {
   return (
@@ -12,12 +13,12 @@ const Footer = () => {
               <div className="w-10 h-10 bg-[#0052CC] rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg ring-1 ring-white/10 group-hover:scale-105 transition-transform">
                 H
               </div>
-              <span className="font-display font-bold text-2xl tracking-tight text-white">
-                Health<span className="text-[#0052CC]">Quest</span>
+               <span className="font-display font-bold text-2xl tracking-tight text-white">
+                Health Line<span className="text-[#0052CC]"> Review</span>
               </span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Expert-vetted reviews, clinical insights, and transparent health comparisons to help you make informed decisions for your wellness journey.
+              {BRAND_TAGLINE} Expert-vetted reviews, clinical insights, and transparent comparisons for your wellness journey.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#0052CC] transition-colors">
@@ -85,7 +86,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-xs text-center md:text-left">
-            © 2026 HealthQuest Editorial Authority. All rights reserved. <br className="md:hidden" />
+            © 2026 {BRAND_NAME} Editorial Authority. All rights reserved. <br className="md:hidden" />
             <span className="hidden md:inline"> | </span> 
             Medical Disclaimer: Content is for informational purposes only.
           </p>

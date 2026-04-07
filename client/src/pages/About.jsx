@@ -127,10 +127,10 @@ const About = () => {
             <div className="max-w-4xl">
                <h2 className="font-display font-bold text-3xl text-[#191C1D] mb-8 leading-tight">Medical Disclaimer & Ethics</h2>
                <p className="text-gray-500 text-lg leading-relaxed mb-8">
-                 The information provided by HealthQuest is for informational and educational purposes only. It is not intended as medical advice or to replace a relationship with a qualified healthcare professional. Always consult your doctor before starting any new supplement regimen or lifestyle changes.
+                 The information provided by Health Line Review is for informational and educational purposes only. It is not intended as medical advice or to replace a relationship with a qualified healthcare professional. Always consult your doctor before starting any new supplement regimen or lifestyle changes.
                </p>
                <p className="text-gray-400 text-sm leading-relaxed italic">
-                 HealthQuest is a participant in several affiliate advertising programs. When you purchase through links on our site, we may earn an affiliate commission. This never influences our editorial content or testing results.
+                 Health Line Review is a participant in several affiliate advertising programs. When you purchase through links on our site, we may earn an affiliate commission. This never influences our editorial content or testing results.
                </p>
             </div>
          </div>

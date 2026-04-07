@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import { BRAND_NAME } from '../constants/brand';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
             H
           </div>
           <span className="font-display font-bold text-xl tracking-tight text-[#191C1D]">
-            Health<span className="text-[#0052CC]">Quest</span>
+            Health Line<span className="text-[#0052CC]"> Review</span>
           </span>
         </Link>
 

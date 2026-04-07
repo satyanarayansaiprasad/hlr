@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { BRAND_NAME, BRAND_TAGLINE } from '../constants/brand';
 import ProductCard from '../components/ProductCard';
 import ReviewCard from '../components/ReviewCard';
 import CTASection from '../components/CTASection';
@@ -91,11 +92,11 @@ const Home = () => {
                 <span className="text-gray-400 text-xs font-medium">Updated Oct 26, 2023</span>
               </div>
               <h1 className="font-display font-black text-5xl md:text-7xl text-[#191C1D] mb-8 leading-[1.1] tracking-tight">
-                Editorial Health: <br />
-                <span className="text-[#0052CC]">Clinical Precision</span> In Every Review.
+                {BRAND_NAME}: <br />
+                <span className="text-[#0052CC]">{BRAND_TAGLINE.split('.')[0]}</span>.
               </h1>
               <p className="text-xl text-gray-500 mb-12 max-w-2xl leading-relaxed">
-                We dismantle the marketing hype to deliver science-based insights on the supplements and wellness tools that actually work. Expert verified, data driven.
+                {BRAND_TAGLINE} We dismantle marketing hype to deliver science-based insights on supplements that actually work.
               </p>
               <div className="flex flex-wrap gap-5">
                 <Link to="/reviews" className="px-10 py-5 bg-[#0052CC] text-white rounded-2xl font-bold hover:bg-[#003D9B] transition-all shadow-xl shadow-blue-600/20 flex items-center gap-3 group">

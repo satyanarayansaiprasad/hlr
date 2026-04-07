@@ -17,9 +17,9 @@ const Contact = () => {
   };
 
   const contactMethod = [
-    { title: 'Editor Feedback', icon: 'ri-chat-voice-line', text: 'feedback@healthquest.com' },
-    { title: 'Clinical Review Board', icon: 'ri-microscope-line', text: 'medical@healthquest.com' },
-    { title: 'Partnerships', icon: 'ri-briefcase-line', text: 'partner@healthquest.com' }
+    { title: 'Editor Feedback', icon: 'ri-chat-voice-line', text: 'feedback@healthlinereview.com' },
+    { title: 'Clinical Review Board', icon: 'ri-microscope-line', text: 'medical@healthlinereview.com' },
+    { title: 'Partnerships', icon: 'ri-briefcase-line', text: 'partner@healthlinereview.com' }
   ];
 
   return (
