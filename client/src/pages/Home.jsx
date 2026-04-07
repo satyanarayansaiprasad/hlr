@@ -50,7 +50,7 @@ const Home = () => {
       author: { name: "Dr. Sarah Miller", avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 24, 2023",
       category: "Gut Health",
-      image: "https://images.unsplash.com/photo-1626202346584-c77aa94969bb?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1559087316-652ce3dd299f?auto=format&fit=crop&q=80&w=800",
       excerpt: "Explore the clinical data behind the microbiome and why high-quality probiotics are essential for modern metabolic health.",
       slug: "science-of-gut-health"
     },
@@ -60,7 +60,7 @@ const Home = () => {
       author: { name: "Dr. James Chen", avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 20, 2023",
       category: "Clinical Data",
-      image: "https://images.unsplash.com/photo-1579154235828-401982c60461?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800",
       excerpt: "Not all supplements are created equal. We break down the science of delivery systems and how to ensure your body actually uses what you take.",
       slug: "bioavailability-guide"
     }

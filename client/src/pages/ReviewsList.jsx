@@ -25,7 +25,7 @@ const ReviewsList = () => {
       author: { name: "Marcus Thorne", avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 10, 2023",
       category: "Digital Health",
-      image: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800",
       excerpt: "Can an app really help you reach your fasting goals? We reviewed the top 5 fasting trackers based on usability, scientific accuracy, and community support.",
       slug: "fasting-apps-review"
     },
@@ -35,7 +35,7 @@ const ReviewsList = () => {
       author: { name: "Dr. Elena Rossi", avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 08, 2023",
       category: "Wellness Tech",
-      image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1620916566398-39f1143fbd9f?auto=format&fit=crop&q=80&w=800",
       excerpt: "Photobiomodulation has gained massive popularity in the fitness community. We analyzed clinical trials to determine if at-home devices actually work.",
       slug: "red-light-therapy-truth"
     },
@@ -45,7 +45,7 @@ const ReviewsList = () => {
       author: { name: "James Wilson", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 05, 2023",
       category: "Supplements",
-      image: "https://images.unsplash.com/photo-1445108849639-1e24ede7a38a?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&q=80&w=800",
       excerpt: "Most modern diets are heavily skewed towards Omega-6. We break down why this matters for inflammation and how to rebalance your ratio.",
       slug: "omega-fatty-acids-balance"
     },
@@ -55,17 +55,17 @@ const ReviewsList = () => {
       author: { name: "Dr. Sarah Chen", avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 02, 2023",
       category: "Gut Health",
-      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&q=80&w=800",
       excerpt: "Your gut is home to trillions of bacteria. Discover how these microsopic residents influence everything from your immune system to your mood.",
       slug: "microbiome-gut-health"
     },
     {
       id: 6,
       title: "The Effects of Blue Light on Cortisol Levels",
-      author: { name: "Dr. Elena Rossi", avatar: "https://i.pravatar.cc/150?u=elena" },
+      author: { name: "Dr. Elena Rossi", avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300" },
       date: "Sep 28, 2023",
       category: "Sleep Science",
-      image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800",
       excerpt: "Late-night screen use doesn't just disrupt melatonin—it can also spike your stress hormones. Our latest study reveals surprising findings.",
       slug: "blue-light-cortisol"
     }
