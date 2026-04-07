@@ -3,6 +3,7 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import { useParams, Link } from 'react-router-dom';
 import CommentSection from '../components/CommentSection';
 import AuthorCard from '../components/AuthorCard';
+import { allReviews } from '../data/reviews';
 
 const ProductReview = () => {
   const { slug } = useParams();
@@ -13,73 +14,49 @@ const ProductReview = () => {
     restDelta: 0.001
   });
 
-  const reviewData = {
-    title: "The Comprehensive Athletic Greens AG1 Review: Is it Worth the Hype in 2024?",
-    author: {
-      name: "Dr. Sarah Chen",
-      role: "Clinical Nutritionist, PhD",
-      bio: "Dr. Chen has over 15 years of experience in the field of dietetics and nutritional science. She specializes in the metabolic impacts of plant-based diets.",
-      avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
-      specialization: ["Clinical Nutrition", "Gut Microbiome", "Sports Supplements"]
-    },
-    date: "updated Oct 12, 2023",
-    readTime: "12 min read",
-    category: "Supplements",
-    product: {
-      name: "Athletic Greens AG1",
-      image: "/images/supplement.png",
-      rating: 4.8,
-      price: "$79 - $99",
-      buyUrl: "https://athleticgreens.com/ag1"
-    },
-    pros: [
-      "75 highly absorbable vitamins & minerals",
-      "Includes prebiotics and probiotics (7.2B CFU)",
-      "NSF Certified for Sport - safe for athletes",
-      "Digestive enzymes and superfood complex",
-      "Pleasant, slightly sweet taste (natural flavors)"
-    ],
-    cons: [
-      "Higher price point compared to competitors",
-      "Proprietary blends don't specify exact dosages",
-      "Must be refrigerated after opening",
-      "Contains stevia (some users may dislike)"
-    ],
-    faqs: [
-      {
-        q: "When is the best time to take AG1?",
-        a: "We recommend taking it first thing in the morning on an empty stomach for optimal absorption of nutrients."
-      },
-      {
-        q: "Does AG1 replace a multivitamin?",
-        a: "Yes, AG1 is designed to replace your multivitamin, prebiotic, probiotic, and greens powder, providing comprehensive nutritional support in one scoop."
-      },
-      {
-        q: "Is Athletic Greens AG1 Keto/Paleo friendly?",
-        a: "Absolutely. With only 2g of net carbs per serving and no added sugar, AG1 is suitable for most ketogenic and paleo diets."
-      }
-    ],
-    comments: [
-      {
-        id: 1,
-        author: { name: "Mark Peterson", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" },
-        text: "I've been taking this for 6 months now and definitely feel a difference in my energy levels throughout the day. It's pricey but I've stopped buying 3 other supplements.",
-        date: "2 days ago",
-        likes: 14,
-        replies: []
-      },
-      {
-        id: 2,
-        author: { name: "Elena Rossi", avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300" },
-        text: "The clinical breakdown here is exactly what I was looking for. Love the focus on the NSF certification.",
-        date: "1 week ago",
-        likes: 5,
-        replies: [
-           { id: 21, author: { name: "Dr. Sarah Chen", avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300" }, text: "Thanks Elena! Glad you found it helpful. The certification is definitely a huge differentiator.", date: "4 days ago" }
+  const [reviewData, setReviewData] = useState(null);
+
+  useEffect(() => {
+    const data = allReviews.find(r => r.slug === slug);
+    if (data) {
+      // Add default sections if not present (to keep consistency with prev layout)
+      setReviewData({
+        ...data,
+        pros: data.pros || [
+          "Clinically backed formulations",
+          "Third-party lab tested for purity",
+          "High bioavailability & absorption",
+          "Doctor-verified health outcomes"
+        ],
+        cons: data.cons || [
+          "Premium price point",
+          "Subscription model required for best value",
+          "Limited local retail availability"
+        ],
+        faqs: data.faqs || [
+          { q: "How long until I see results?", a: "Most users report improvements in biometric markers within the first 30 days of consistent use." },
+          { q: "Is this supplement safe to stack?", a: "We recommend consulting with our Clinical Board before combining with prescription medications." }
+        ],
+        comments: data.comments || [
+           {
+             id: 1,
+             author: { name: "Mark Peterson", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" },
+             text: "I've been following this protocol for 3 months now and definitely feel a difference in my energy levels.",
+             date: "2 days ago",
+             likes: 14,
+             replies: []
+           }
         ]
-      }
-    ]
-  };
+      });
+    }
+  }, [slug]);
+
+  if (!reviewData) return (
+    <div className="pt-40 text-center min-h-screen">
+      <h2 className="text-2xl font-bold text-gray-400">Review not found in our clinical library...</h2>
+      <Link to="/reviews" className="text-[#0052CC] font-bold mt-4 hover:underline">Return to Library</Link>
+    </div>
+  );
 
   return (
     <div className="bg-white min-h-screen">
@@ -117,7 +94,7 @@ const ProductReview = () => {
                   </div>
                   <div>
                     <p className="text-base font-bold text-[#191C1D]">{reviewData.author.name}</p>
-                    <p className="text-[11px] font-bold uppercase tracking-widest opacity-60">{reviewData.author.role}</p>
+                    <p className="text-[11px] font-bold uppercase tracking-widest opacity-60">{reviewData.author.role || "Medical Reviewer"}</p>
                   </div>
                </div>
                <div className="h-10 w-[1px] bg-gray-100 hidden sm:block"></div>
@@ -135,7 +112,7 @@ const ProductReview = () => {
         {/* Featured Image */}
         <div className="container mx-auto px-4 max-w-5xl mb-20">
           <div className="aspect-video rounded-[32px] overflow-hidden shadow-2xl relative group">
-             <img src={reviewData.product.image} alt={reviewData.product.name} className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-105" />
+             <img src={reviewData.image} alt={reviewData.title} className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-105" />
              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
           </div>
         </div>
@@ -145,35 +122,35 @@ const ProductReview = () => {
           <article className="prose prose-lg max-w-none">
             <section id="overview" className="mb-24">
                <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed font-serif italic mb-12 border-l-4 border-[#0052CC] pl-8 py-2">
-                 Athletic Greens (now known simply as <span className="font-bold text-[#191C1D]">AG1</span>) has remained the industry gold standard for daily nutritional shakes for nearly a decade.
+                 Our clinical team has spent months researching the biological impacts behind {reviewData.title.split(':')[0]}.
                </p>
                
                <div className="space-y-8 text-xl text-gray-700 leading-[1.8]">
                  <p>
-                   Positioned as a "foundational nutrition" supplement, it combines 75 distinct ingredients into a single, comprehensive scoop designed to replace multiple individual pills. Our team tested AG1 over a 30-day period, measuring subjective energy levels, digestive comfort, and analyzing the clinical validity of its proprietary complexes.
+                    {reviewData.excerpt} We analyzed clinical trials to determine if at-home protocols actually work and how they compare to clinical standards.
                  </p>
                  <p>
-                   The results were impressive, albeit with a few caveats that prospective users should consider. In this deep dive, we dismantle the marketing noise to reveal the clinical reality of what this green powder actually does for your biology.
+                   The results were impressive, albeit with a few caveats that prospective users should consider. In this deep dive, we dismantle the marketing noise to reveal the clinical reality of what this protocol actually does for your biology.
                  </p>
                </div>
             </section>
 
-            {/* Ingredient Section */}
+            {/* Ingredient Section / Deep Dive */}
             <section id="ingredients" className="mb-32">
               <h2 className="font-display font-bold text-4xl text-[#191C1D] mb-12 flex items-center gap-4">
                 <span className="w-12 h-12 bg-[#0052CC] text-white rounded-xl flex items-center justify-center text-xl">
                   <i className="ri-flask-line"></i>
                 </span>
-                Ingredient Deep Dive
+                Editorial Deep Dive
               </h2>
               
               <div className="space-y-12 text-xl text-gray-700 leading-[1.8]">
                 <p>
-                  AG1's composition is divided into four main complexes: the Alkaline, Nutrient-Dense Raw Superfood Complex; the Nutrient-Dense Natural Extracts, Herbs & Antioxidants; the Digestive Enzyme & Supermushroom Complex; and the Dairy-Free Probiotics.
+                  Every review on Health Line Review is based on our standard three-pillar verification protocol: Independent Acquisition, Clinical Data Analysis, and Long-term Tracking.
                 </p>
 
                 <div className="grid grid-cols-1 gap-8 mt-12">
-                  {['Vitamins & Minerals', 'Superfood Complex', 'Probiotics & Enzyme'].map((item, idx) => (
+                  {['Science Behind the Supplement', 'Clinical Efficacy Results', 'Safety and Purity Testing'].map((item, idx) => (
                     <div key={idx} className="bg-[#F8F9FA] p-10 rounded-3xl group cursor-pointer hover:bg-white border border-transparent hover:border-gray-100 transition-all shadow-sm hover:shadow-xl">
                        <div className="flex gap-8 items-center">
                          <span className="text-4xl font-black text-gray-200 group-hover:text-[#0052CC] transition-colors">0{idx+1}</span>
@@ -183,28 +160,6 @@ const ProductReview = () => {
                     </div>
                   ))}
                 </div>
-              </div>
-            </section>
-
-            {/* Benefits Section */}
-            <section id="benefits" className="mb-32">
-              <h2 className="font-display font-bold text-4xl text-[#191C1D] mb-12">Observed Health Benefits</h2>
-              <div className="grid grid-cols-1 gap-10">
-                {[
-                  { title: 'Gut Health Optimization', icon: 'ri-men-line', text: 'Significant reduction in bloating within the first 10 days of use, thanks to the 7.2B CFU probiotics.' },
-                  { title: 'Mental Clarity', icon: 'ri-brain-line', text: 'Improved focus during mid-afternoon slumps recorded by testers, likely due to B-complex support.' },
-                  { title: 'Immune Fortification', icon: 'ri-shield-user-line', text: 'High doses of Zinc and Selenium provides baseline fortification against seasonal stressors.' }
-                ].map((benefit, idx) => (
-                  <div key={idx} className="flex gap-8 items-start group">
-                    <div className="w-16 h-16 bg-[#0052CC]/5 text-[#0052CC] rounded-2xl flex items-center justify-center text-3xl flex-shrink-0 group-hover:bg-[#0052CC] group-hover:text-white transition-all">
-                      <i className={benefit.icon}></i>
-                    </div>
-                    <div>
-                      <h4 className="font-display font-bold text-2xl mb-3 text-[#191C1D]">{benefit.title}</h4>
-                      <p className="text-lg text-gray-500 leading-relaxed">{benefit.text}</p>
-                    </div>
-                  </div>
-                ))}
               </div>
             </section>
 
@@ -242,7 +197,7 @@ const ProductReview = () => {
               </div>
             </section>
 
-            {/* Product Card Callout (Middle of page) */}
+            {/* Product Card Callout */}
             <section className="mb-32">
                <div className="bg-[#191C1D] rounded-[40px] p-12 md:p-16 text-white flex flex-col md:flex-row items-center gap-12 shadow-2xl relative overflow-hidden group">
                   <div className="absolute top-0 right-0 w-64 h-64 bg-[#0052CC]/20 rounded-full blur-[100px] -z-0"></div>
@@ -258,7 +213,7 @@ const ProductReview = () => {
                         </div>
                         <span className="text-xs font-bold">{reviewData.product.rating} / 5.0 Rating</span>
                      </div>
-                     <p className="text-gray-400 text-lg mb-10 leading-relaxed">The most comprehensive greens powder on the market, backed by rigorous testing. Perfect for those looking for foundational health coverage in a single scoop.</p>
+                     <p className="text-gray-400 text-lg mb-10 leading-relaxed">The benchmark for clinical effectiveness within the {reviewData.category} sector. Verified by our PhD-led medical review board.</p>
                      <div className="flex flex-wrap gap-4">
                         <a href={reviewData.product.buyUrl} className="px-10 py-5 bg-[#0052CC] text-white rounded-2xl font-bold hover:bg-white hover:text-[#191C1D] transition-all flex items-center gap-3">
                            Visit Official Website
@@ -272,7 +227,7 @@ const ProductReview = () => {
 
             {/* FAQ Section */}
             <section id="faq" className="mb-32">
-              <h2 className="font-display font-bold text-4xl text-[#191C1D] mb-12">Common Scientific FAQs</h2>
+              <h2 className="font-display font-bold text-4xl text-[#191C1D] mb-12">Expert Answers</h2>
               <div className="space-y-8">
                 {reviewData.faqs.map((faq, idx) => (
                   <div key={idx} className="border-b border-gray-100 pb-8 last:border-0 group cursor-help">
@@ -300,7 +255,7 @@ const ProductReview = () => {
                         <h4 className="font-display font-bold text-3xl text-[#191C1D] mb-4">{reviewData.author.name}</h4>
                         <p className="text-lg text-gray-500 leading-relaxed mb-6">{reviewData.author.bio}</p>
                         <div className="flex flex-wrap justify-center md:justify-start gap-3">
-                           {reviewData.author.specialization.map((spec, i) => (
+                           {reviewData.author.specialization && reviewData.author.specialization.map((spec, i) => (
                               <span key={i} className="bg-white px-4 py-2 rounded-full text-xs font-bold text-gray-400 border border-gray-100 uppercase tracking-widest">{spec}</span>
                            ))}
                         </div>
