@@ -14,7 +14,7 @@ const ProductReview = () => {
       name: "Dr. Sarah Chen",
       role: "Clinical Nutritionist, PhD",
       bio: "Dr. Chen has over 15 years of experience in the field of dietetics and nutritional science. She specializes in the metabolic impacts of plant-based diets.",
-      avatar: "https://i.pravatar.cc/150?u=sarah",
+      avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
       specialization: ["Clinical Nutrition", "Gut Microbiome", "Sports Supplements"]
     },
     date: "updated Oct 12, 2023",
@@ -22,7 +22,7 @@ const ProductReview = () => {
     category: "Supplements",
     product: {
       name: "Athletic Greens AG1",
-      image: "https://images.unsplash.com/photo-1626202346584-c77aa94969bb?auto=format&fit=crop&q=80&w=1200",
+      image: "/images/supplement.png",
       rating: 4.8,
       price: "$79 - $99",
       buyUrl: "https://athleticgreens.com/ag1"
@@ -64,7 +64,7 @@ const ProductReview = () => {
     comments: [
       {
         id: 1,
-        author: { name: "Mark Peterson", avatar: "https://i.pravatar.cc/150?u=mark" },
+        author: { name: "Mark Peterson", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" },
         text: "I've been taking this for 6 months now and definitely feel a difference in my energy levels throughout the day. It's pricey but I've stopped buying 3 other supplements.",
         date: "2 days ago",
         likes: 14,
@@ -72,12 +72,12 @@ const ProductReview = () => {
       },
       {
         id: 2,
-        author: { name: "Elena Rossi", avatar: "https://i.pravatar.cc/150?u=elena" },
+        author: { name: "Elena Rossi", avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300" },
         text: "The clinical breakdown here is exactly what I was looking for. Love the focus on the NSF certification.",
         date: "1 week ago",
         likes: 5,
         replies: [
-           { id: 21, author: { name: "Dr. Sarah Chen", avatar: "https://i.pravatar.cc/150?u=sarah" }, text: "Thanks Elena! Glad you found it helpful. The certification is definitely a huge differentiator.", date: "4 days ago" }
+           { id: 21, author: { name: "Dr. Sarah Chen", avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300" }, text: "Thanks Elena! Glad you found it helpful. The certification is definitely a huge differentiator.", date: "4 days ago" }
         ]
       }
     ]

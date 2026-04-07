@@ -13,7 +13,7 @@ const CommentSection = ({ comments }) => {
       id: Date.now(),
       author: {
         name: 'You',
-        avatar: 'https://i.pravatar.cc/150?u=user123',
+        avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=150',
       },
       text: commentText,
       date: 'Just now',
@@ -47,7 +47,7 @@ const CommentSection = ({ comments }) => {
             <div className="absolute top-0 right-0 w-32 h-32 bg-[#0052CC]/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl"></div>
             <div className="flex gap-4 mb-4">
               <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-lg flex-shrink-0 ring-1 ring-[#0052CC]/10">
-                <img src="https://i.pravatar.cc/150?u=current_user" alt="User" />
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=150" alt="User" />
               </div>
               <div className="flex flex-col w-full">
                 <span className="font-bold text-[#191C1D] text-lg">Leave a Review</span>

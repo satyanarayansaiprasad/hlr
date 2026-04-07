@@ -12,7 +12,7 @@ const BlogList = () => {
     {
       id: 1,
       title: "Is Magnesium Glycinate the Key to Better Sleep?",
-      author: { name: "Dr. Sarah Chen", avatar: "https://i.pravatar.cc/150?u=sarah" },
+      author: { name: "Dr. Sarah Chen", avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 12, 2023",
       category: "Sleep Science",
       image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&q=80&w=800",
@@ -22,7 +22,7 @@ const BlogList = () => {
     {
       id: 2,
       title: "The Truth About Intermittent Fasting Apps",
-      author: { name: "Marcus Thorne", avatar: "https://i.pravatar.cc/150?u=marcus" },
+      author: { name: "Marcus Thorne", avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 10, 2023",
       category: "Digital Health",
       image: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?auto=format&fit=crop&q=80&w=800",
@@ -32,7 +32,7 @@ const BlogList = () => {
     {
       id: 3,
       title: "Red Light Therapy: Fad or Clinical Breakthrough?",
-      author: { name: "Dr. Elena Rossi", avatar: "https://i.pravatar.cc/150?u=elena" },
+      author: { name: "Dr. Elena Rossi", avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 08, 2023",
       category: "Wellness Tech",
       image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=800",
@@ -42,7 +42,7 @@ const BlogList = () => {
     {
       id: 4,
       title: "Omega-3 vs. Omega-6: Balancing Your Fatty Acid Intake",
-      author: { name: "James Wilson", avatar: "https://i.pravatar.cc/150?u=james" },
+      author: { name: "James Wilson", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 05, 2023",
       category: "Supplements",
       image: "https://images.unsplash.com/photo-1445108849639-1e24ede7a38a?auto=format&fit=crop&q=80&w=800",

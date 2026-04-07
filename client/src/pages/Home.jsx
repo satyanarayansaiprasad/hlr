@@ -12,7 +12,7 @@ const Home = () => {
       name: "Solstice Nootropic Blend",
       category: "Brain Health",
       rating: 4.9,
-      image: "/src/assets/supplement.png",
+      image: "/images/supplement.png",
       reviewUrl: "/review/solstice-nootropic",
       priceRange: "$45.00",
       features: ["Enhanced focus & clarity", "Clinically backed ingredients", "Non-GMO & Vegan"],
@@ -23,7 +23,7 @@ const Home = () => {
       name: "Aethel Radiance Serum",
       category: "Skincare",
       rating: 4.7,
-      image: "/src/assets/skincare.png",
+      image: "/images/skincare.png",
       reviewUrl: "/review/aethel-radiance",
       priceRange: "$68.00",
       features: ["Hyaluronic Acid + Vitamin C", "Dermatologist tested", "Fragrance free"],
@@ -46,7 +46,7 @@ const Home = () => {
     {
       id: 1,
       title: "The Science of Gut Health: Why Probiotics Matter",
-      author: { name: "Dr. Sarah Miller", avatar: "https://i.pravatar.cc/150?u=sarah" },
+      author: { name: "Dr. Sarah Miller", avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 24, 2023",
       category: "Gut Health",
       image: "https://images.unsplash.com/photo-1626202346584-c77aa94969bb?auto=format&fit=crop&q=80&w=800",
@@ -56,7 +56,7 @@ const Home = () => {
     {
       id: 2,
       title: "Bioavailability Guide: How Supplements are Absorbed",
-      author: { name: "Dr. James Chen", avatar: "https://i.pravatar.cc/150?u=james" },
+      author: { name: "Dr. James Chen", avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300" },
       date: "Oct 20, 2023",
       category: "Clinical Data",
       image: "https://images.unsplash.com/photo-1579154235828-401982c60461?auto=format&fit=crop&q=80&w=800",
@@ -104,8 +104,12 @@ const Home = () => {
                 </Link>
                 <div className="flex items-center gap-4 px-6 border-l border-gray-100">
                   <div className="flex -space-x-3">
-                    {[1, 2, 3].map(i => (
-                      <img key={i} src={`https://i.pravatar.cc/100?u=doc${i}`} className="w-10 h-10 rounded-full border-2 border-white shadow-lg" alt="" />
+                    {[
+                      "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=100",
+                      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100",
+                      "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=100"
+                    ].map((src, i) => (
+                      <img key={i} src={src} className="w-10 h-10 rounded-full border-2 border-white shadow-lg" alt="Doctor" />
                     ))}
                   </div>
                   <div>
@@ -122,7 +126,7 @@ const Home = () => {
               className="lg:col-span-5 relative"
             >
               <div className="aspect-[4/5] rounded-[48px] overflow-hidden shadow-2xl relative group">
-                <img src="/src/assets/hero.png" alt="Featured Article" className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-110" />
+                <img src="/images/hero.png" alt="Featured Article" className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-110" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                 <div className="absolute bottom-10 left-10 right-10 text-white">
                   <p className="text-[10px] font-bold uppercase tracking-widest text-[#91F78E] mb-2">Featured Guide</p>

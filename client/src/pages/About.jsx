@@ -8,21 +8,21 @@ const About = () => {
       name: "Dr. Sarah Chen",
       role: "Clinical Nutritionist, PhD",
       bio: "Sarah leads our nutritional audit team, ensuring every supplement review is backed by peer-reviewed clinical data and metabolic science.",
-      avatar: "https://i.pravatar.cc/150?u=sarah",
+      avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
       specialization: ["Clinical Nutrition", "Gut Microbiome", "Sports Supplements"]
     },
     {
       name: "Marcus Thorne",
       role: "Fitness Technology Expert",
       bio: "With a background in biomedical engineering, Marcus dissects the wearables and health tech that aim to optimize our daily biological performance.",
-      avatar: "https://i.pravatar.cc/150?u=marcus",
+      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
       specialization: ["Wearable Tech", "Bio-Feedback", "Sleep Optimization"]
     },
     {
       name: "Dr. Elena Rossi",
       role: "Medical Reviewer, MD",
       bio: "Elena oversees our medical disclaimer process and ensures all health claims made in our content are accurate and safe for the general public.",
-      avatar: "https://i.pravatar.cc/150?u=elena",
+      avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300",
       specialization: ["Internal Medicine", "Preventative Care", "Public Health"]
     }
   ];
