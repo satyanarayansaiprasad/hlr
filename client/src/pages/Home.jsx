@@ -5,6 +5,7 @@ import { BRAND_NAME, BRAND_TAGLINE } from '../constants/brand';
 import ProductCard from '../components/ProductCard';
 import ReviewCard from '../components/ReviewCard';
 import CTASection from '../components/CTASection';
+import { allReviews } from '../data/reviews';
 
 const Home = () => {
   const bestSellers = [
@@ -43,28 +44,7 @@ const Home = () => {
     }
   ];
 
-  const featuredReviews = [
-    {
-      id: 1,
-      title: "The Science of Gut Health: Why Probiotics Matter",
-      author: { name: "Dr. Sarah Miller", avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300" },
-      date: "Oct 24, 2023",
-      category: "Gut Health",
-      image: "https://images.unsplash.com/photo-1559087316-652ce3dd299f?auto=format&fit=crop&q=80&w=800",
-      excerpt: "Explore the clinical data behind the microbiome and why high-quality probiotics are essential for modern metabolic health.",
-      slug: "science-of-gut-health"
-    },
-    {
-      id: 2,
-      title: "Bioavailability Guide: How Supplements are Absorbed",
-      author: { name: "Dr. James Chen", avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300" },
-      date: "Oct 20, 2023",
-      category: "Clinical Data",
-      image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800",
-      excerpt: "Not all supplements are created equal. We break down the science of delivery systems and how to ensure your body actually uses what you take.",
-      slug: "bioavailability-guide"
-    }
-  ];
+  const featuredReviews = allReviews.slice(0, 3);
 
   const categories = [
     { name: 'Immunity', icon: 'ri-shield-flash-line', count: 24 },
