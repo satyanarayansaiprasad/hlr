@@ -2,12 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BRAND_NAME } from '../constants/brand';
-import { CATEGORIES } from '../data/siteData';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,35 +53,6 @@ const Navbar = () => {
               {link.name}
             </NavLink>
           ))}
-
-          {/* Categories Dropdown */}
-          <div className="relative group" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
-            <button className="flex items-center gap-1 font-medium text-sm text-gray-600 hover:text-[#0052CC] transition-colors py-2">
-              Categories
-              <i className={`ri-arrow-down-s-line transition-transform duration-300 ${dropdownOpen ? 'rotate-180' : ''}`}></i>
-            </button>
-            <AnimatePresence>
-              {dropdownOpen && (
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 10 }}
-                  className="absolute top-full left-0 w-64 bg-white border border-gray-100 shadow-2xl rounded-2xl p-4 grid grid-cols-1 gap-2 z-[100]"
-                >
-                  {CATEGORIES.map((cat) => (
-                    <Link
-                      key={cat}
-                      to={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}`}
-                      className="text-sm text-gray-500 hover:text-[#0052CC] hover:bg-gray-50 px-4 py-2.5 rounded-xl transition-all font-medium"
-                      onClick={() => setDropdownOpen(false)}
-                    >
-                      {cat}
-                    </Link>
-                  ))}
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
           <Link 
             to="/reviews" 
             className="btn-primary flex items-center text-sm font-semibold"
@@ -125,28 +94,12 @@ const Navbar = () => {
               <NavLink
                 key={link.name}
                 to={link.path}
-                className="text-lg font-medium p-2 text-gray-800 border-b border-gray-50"
+                className="text-lg font-medium p-2 text-gray-800 border-b border-gray-50 last:border-0"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.name}
               </NavLink>
             ))}
-            
-            <div className="flex flex-col gap-2 p-2 pt-4">
-              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest pl-2">Categories</span>
-              <div className="grid grid-cols-2 gap-2">
-                {CATEGORIES.map((cat) => (
-                  <Link
-                    key={cat}
-                    to={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}`}
-                    className="text-sm font-medium text-gray-500 bg-gray-50 px-4 py-3 rounded-xl"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {cat}
-                  </Link>
-                ))}
-              </div>
-            </div>
             <Link 
               to="/reviews" 
               className="btn-primary w-full text-center"

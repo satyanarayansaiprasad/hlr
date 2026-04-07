@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { useParams, Link } from 'react-router-dom';
-import ProductCard from '../components/ProductCard';
 import CommentSection from '../components/CommentSection';
-import { REVIEWS, PRODUCTS } from '../data/siteData';
+import AuthorCard from '../components/AuthorCard';
+import { allReviews } from '../data/reviews';
 
 const ProductReview = () => {
   const { slug } = useParams();
@@ -17,132 +17,136 @@ const ProductReview = () => {
   const [reviewData, setReviewData] = useState(null);
 
   useEffect(() => {
-    // Find the review by slug
-    const data = REVIEWS.find(r => r.slug === slug);
+    const data = allReviews.find(r => r.slug === slug);
     if (data) {
-      // Mocking full details since we simplified siteData
+      // Add default sections if not present (to keep consistency with prev layout)
       setReviewData({
         ...data,
-        author: data.author || { name: 'Dr. Sarah Chen', avatar: 'https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300', bio: 'Clinical Nutritionist and Board-Certified Health Researcher with 15+ years of experience.' },
-        pros: ['Clinically studied ingredients', 'Transparent manufacturing', 'Highly bioavailable formula'],
-        cons: ['Premium pricing', 'Available online only', 'Occasional stock shortages'],
-        product: {
-          name: data.title.split(' Review:')[0],
-          image: data.image,
-          rating: 4.8,
-          price: '$79.00',
-          buyUrl: '#'
-        },
-        faqs: [
-          { q: 'When will I see results?', a: 'Clinical data suggests most users notice significant cognitive improvements within 30-45 days of consistent use.' },
-          { q: 'Is it safe long-term?', a: 'Yes, the formula is designed for sustained peak performance without cycles or crashes.' }
+        pros: data.pros || [
+          "Clinically backed formulations",
+          "Third-party lab tested for purity",
+          "High bioavailability & absorption",
+          "Doctor-verified health outcomes"
         ],
-        comments: [
-          { name: 'Dr. Michael Wright', date: '2 days ago', text: 'Excellent analysis of the clinical data. The bioavailability section is particularly enlightening.', avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300' }
+        cons: data.cons || [
+          "Premium price point",
+          "Subscription model required for best value",
+          "Limited local retail availability"
+        ],
+        faqs: data.faqs || [
+          { q: "How long until I see results?", a: "Most users report improvements in biometric markers within the first 30 days of consistent use." },
+          { q: "Is this supplement safe to stack?", a: "We recommend consulting with our Clinical Board before combining with prescription medications." }
+        ],
+        comments: data.comments || [
+           {
+             id: 1,
+             author: { name: "Mark Peterson", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" },
+             text: "I've been following this protocol for 3 months now and definitely feel a difference in my energy levels.",
+             date: "2 days ago",
+             likes: 14,
+             replies: []
+           }
         ]
       });
     }
-    window.scrollTo(0, 0);
   }, [slug]);
 
   if (!reviewData) return (
-    <div className="pt-40 text-center min-h-screen bg-white">
-      <div className="animate-pulse flex flex-col items-center">
-        <div className="w-20 h-20 bg-gray-100 rounded-full mb-8"></div>
-        <div className="w-64 h-8 bg-gray-100 rounded-xl mb-4"></div>
-        <div className="w-48 h-4 bg-gray-100 rounded-xl"></div>
-      </div>
+    <div className="pt-40 text-center min-h-screen">
+      <h2 className="text-2xl font-bold text-gray-400">Review not found in our clinical library...</h2>
+      <Link to="/reviews" className="text-[#0052CC] font-bold mt-4 hover:underline">Return to Library</Link>
     </div>
   );
 
-  const relatedProducts = PRODUCTS.filter(p => p.category === reviewData.category && p.slug !== slug).slice(0, 2);
-
   return (
-    <div className="bg-white min-h-screen pb-32">
-      {/* Reading Progress */}
+    <div className="bg-white min-h-screen">
+      {/* Reading Progress Bar */}
       <motion.div
-        className="fixed top-0 left-0 right-0 h-1.5 bg-[#0052CC] origin-left z-[100]"
+        className="fixed top-0 left-0 right-0 h-1 bg-[#0052CC] origin-left z-[60]"
         style={{ scaleX }}
       />
 
-      <nav className="fixed bottom-10 left-1/2 -translate-x-1/2 z-50 px-8 py-4 bg-[#191C1D]/90 backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl flex items-center gap-8 md:gap-12 transition-all hover:scale-105">
-        <a href="#overview" className="text-white/60 hover:text-[#91F78E] text-[10px] font-bold uppercase tracking-widest transition-colors">Overview</a>
-        <a href="#proscons" className="text-white/60 hover:text-[#91F78E] text-[10px] font-bold uppercase tracking-widest transition-colors">Pros & Cons</a>
-        <a href="#faq" className="text-white/60 hover:text-[#91F78E] text-[10px] font-bold uppercase tracking-widest transition-colors">FAQ</a>
-      </nav>
+      {/* Breadcrumb Header */}
+      <header className="pt-12 pb-6 border-b border-gray-50">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <Link to="/reviews" className="flex items-center gap-2 text-xs font-bold text-gray-400 uppercase tracking-widest hover:text-[#0052CC] transition-colors mb-4 group/back">
+            <i className="ri-arrow-left-s-line text-lg group-hover/back:-translate-x-1 transition-transform"></i>
+            Back to Reviews
+          </Link>
+        </div>
+      </header>
 
-      <main className="pt-32">
-        <div className="container mx-auto px-4">
-          <article className="max-w-[850px] mx-auto">
-            {/* Breadcrumb */}
-            <div className="flex items-center gap-3 mb-12 overflow-x-auto whitespace-nowrap no-scrollbar">
-              <Link to="/" className="text-xs font-bold text-gray-400 hover:text-[#0052CC] transition-colors">Home</Link>
-              <i className="ri-arrow-right-s-line text-gray-300"></i>
-              <Link to="/reviews" className="text-xs font-bold text-gray-400 hover:text-[#0052CC] transition-colors">Reviews</Link>
-              <i className="ri-arrow-right-s-line text-gray-300"></i>
-              <span className="text-xs font-bold text-[#191C1D]">{reviewData.title}</span>
+      {/* Article Hero */}
+      <section className="pt-16 pb-12">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <div className="flex flex-col mb-12">
+            <span className="text-[#0052CC] text-xs font-bold uppercase tracking-[0.2em] mb-6 inline-block">
+              {reviewData.category}
+            </span>
+            <h1 className="font-display font-black text-4xl md:text-6xl lg:text-7xl text-[#191C1D] leading-[1.1] mb-10 tracking-tight">
+              {reviewData.title}
+            </h1>
+            
+            <div className="flex items-center gap-6 text-gray-500">
+               <div className="flex items-center gap-4">
+                  <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white shadow-xl ring-1 ring-[#0052CC]/10">
+                    <img src={reviewData.author.avatar} alt={reviewData.author.name} className="w-full h-full object-cover" />
+                  </div>
+                  <div>
+                    <p className="text-base font-bold text-[#191C1D]">{reviewData.author.name}</p>
+                    <p className="text-[11px] font-bold uppercase tracking-widest opacity-60">{reviewData.author.role || "Medical Reviewer"}</p>
+                  </div>
+               </div>
+               <div className="h-10 w-[1px] bg-gray-100 hidden sm:block"></div>
+               <div className="flex flex-col gap-1 text-[11px] font-bold uppercase tracking-widest hidden sm:flex">
+                  <span className="text-gray-400">{reviewData.date}</span>
+                  <span className="text-[#0052CC]">{reviewData.readTime}</span>
+               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Hero Header */}
-            <header className="mb-20">
-               <motion.div
-                 initial={{ opacity: 0, y: 20 }}
-                 animate={{ opacity: 1, y: 0 }}
-               >
-                 <span className="bg-[#0052CC]/5 text-[#0052CC] px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-8 inline-block ring-1 ring-[#0052CC]/10">
-                   {reviewData.category} Review
-                 </span>
-                 <h1 className="font-display font-black text-5xl md:text-7xl text-[#191C1D] leading-[1.1] tracking-tight mb-12">
-                   {reviewData.title}
-                 </h1>
-                 
-                 <div className="flex flex-wrap items-center gap-8 py-8 border-y border-gray-50 mb-16">
-                    <div className="flex items-center gap-4">
-                       <img src={reviewData.author.avatar} alt={reviewData.author.name} className="w-12 h-12 rounded-full border-2 border-white shadow-xl" />
-                       <div>
-                          <p className="text-[10px] font-black uppercase text-gray-400 tracking-wider">Expert Analysis By</p>
-                          <p className="font-bold text-[#191C1D]">{reviewData.author.name}</p>
-                       </div>
-                    </div>
-                    <div className="h-8 w-px bg-gray-100"></div>
-                    <div>
-                       <p className="text-[10px] font-black uppercase text-gray-400 tracking-wider">Review Date</p>
-                       <p className="font-bold text-[#191C1D]">{reviewData.date}</p>
-                    </div>
-                    <div className="h-8 w-px bg-gray-100"></div>
-                    <div>
-                       <p className="text-[10px] font-black uppercase text-gray-400 tracking-wider">Medical Status</p>
-                       <p className="font-bold text-[#006E1C] flex items-center gap-1.5">
-                          <i className="ri-shield-check-fill"></i>
-                          Clinical Verified
-                       </p>
-                    </div>
-                 </div>
-               </motion.div>
-            </header>
+      {/* Main Content Area */}
+      <main className="pb-32">
+        {/* Featured Image */}
+        <div className="container mx-auto px-4 max-w-5xl mb-20">
+          <div className="aspect-video rounded-[32px] overflow-hidden shadow-2xl relative group">
+             <img src={reviewData.image} alt={reviewData.title} className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-105" />
+             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          </div>
+        </div>
 
-            {/* Featured Image */}
-            <section className="mb-24 rounded-[48px] overflow-hidden shadow-2xl relative group">
-               <img src={reviewData.image} alt={reviewData.title} className="w-full aspect-[16/10] object-cover transition-transform duration-[6000ms] group-hover:scale-105" />
-               <div className="absolute inset-0 bg-gradient-to-t from-[#191C1D]/20 to-transparent"></div>
+        {/* Content Container */}
+        <div className="container mx-auto px-4 max-w-3xl">
+          <article className="prose prose-lg max-w-none">
+            <section id="overview" className="mb-24">
+               <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed font-serif italic mb-12 border-l-4 border-[#0052CC] pl-8 py-2">
+                 Our clinical team has spent months researching the biological impacts behind {reviewData.title.split(':')[0]}.
+               </p>
+               
+               <div className="space-y-8 text-xl text-gray-700 leading-[1.8]">
+                 <p>
+                    {reviewData.excerpt} We analyzed clinical trials to determine if at-home protocols actually work and how they compare to clinical standards.
+                 </p>
+                 <p>
+                   The results were impressive, albeit with a few caveats that prospective users should consider. In this deep dive, we dismantle the marketing noise to reveal the clinical reality of what this protocol actually does for your biology.
+                 </p>
+               </div>
             </section>
 
-            {/* Content / Review Overview */}
-            <section id="overview" className="prose prose-2xl prose-slate max-w-none mb-32">
-              <div className="mb-16">
-                <p className="text-2xl font-serif text-gray-600 leading-relaxed italic border-l-4 border-[#0052CC] pl-8">
-                  {reviewData.excerpt}
-                </p>
-              </div>
-
-              <div className="text-gray-500 font-medium leading-relaxed space-y-12 mb-20 text-xl">
+            {/* Ingredient Section / Deep Dive */}
+            <section id="ingredients" className="mb-32">
+              <h2 className="font-display font-bold text-4xl text-[#191C1D] mb-12 flex items-center gap-4">
+                <span className="w-12 h-12 bg-[#0052CC] text-white rounded-xl flex items-center justify-center text-xl">
+                  <i className="ri-flask-line"></i>
+                </span>
+                Editorial Deep Dive
+              </h2>
+              
+              <div className="space-y-12 text-xl text-gray-700 leading-[1.8]">
                 <p>
-                  In our ongoing pursuit of peak human performance, we've encountered dozens of formulations promising revolutionary breakthroughs. However, few survive the rigorous scrutiny of our clinical review process. Today, we're dissecting {reviewData.product.name} to determine if it truly sets the standard in {reviewData.category.toLowerCase()} health.
-                </p>
-                
-                <h3 className="font-display font-black text-4xl text-[#191C1D] mt-24 mb-10">Clinical Foundations</h3>
-                <p>
-                  Our research team spent 45 days analyzing the raw ingredient specifications and third-party laboratory results provided by the manufacturer. What we found was a formula focused on high bioavailability and pharmaceutical-grade purity.
+                  Every review on Health Line Review is based on our standard three-pillar verification protocol: Independent Acquisition, Clinical Data Analysis, and Long-term Tracking.
                 </p>
 
                 <div className="grid grid-cols-1 gap-8 mt-12">
@@ -193,7 +197,7 @@ const ProductReview = () => {
               </div>
             </section>
 
-            {/* Product Card Callout / CTA Button */}
+            {/* Product Card Callout */}
             <section className="mb-32">
                <div className="bg-[#191C1D] rounded-[40px] p-12 md:p-16 text-white flex flex-col md:flex-row items-center gap-12 shadow-2xl relative overflow-hidden group">
                   <div className="absolute top-0 right-0 w-64 h-64 bg-[#0052CC]/20 rounded-full blur-[100px] -z-0"></div>
@@ -211,30 +215,15 @@ const ProductReview = () => {
                      </div>
                      <p className="text-gray-400 text-lg mb-10 leading-relaxed">The benchmark for clinical effectiveness within the {reviewData.category} sector. Verified by our PhD-led medical review board.</p>
                      <div className="flex flex-wrap gap-4">
-                        <a href={reviewData.product.buyUrl} className="px-10 py-5 bg-[#0052CC] text-white rounded-2xl font-bold hover:bg-white hover:text-[#191C1D] transition-all flex items-center gap-3 text-lg">
-                           Start Your Transformation
+                        <a href={reviewData.product.buyUrl} className="px-10 py-5 bg-[#0052CC] text-white rounded-2xl font-bold hover:bg-white hover:text-[#191C1D] transition-all flex items-center gap-3">
+                           Visit Official Website
                            <i className="ri-external-link-line"></i>
                         </a>
-                        <span className="text-2xl font-black self-center">{reviewData.product.price}</span>
+                        <span className="text-2xl font-black">{reviewData.product.price}</span>
                      </div>
                   </div>
                </div>
             </section>
-
-            {/* Related Products Section */}
-            {relatedProducts.length > 0 && (
-              <section className="mb-32 pt-24 border-t border-gray-100">
-                <div className="text-center mb-16">
-                  <span className="text-[10px] font-bold text-[#0052CC] uppercase tracking-[0.3em] mb-4 block">Recommended Insights</span>
-                  <h2 className="font-display font-bold text-4xl text-[#191C1D]">Related Solutions</h2>
-                </div>
-                <div className="flex flex-col gap-12">
-                  {relatedProducts.map(product => (
-                    <ProductCard key={product.id} product={product} />
-                  ))}
-                </div>
-              </section>
-            )}
 
             {/* FAQ Section */}
             <section id="faq" className="mb-32">
@@ -266,7 +255,7 @@ const ProductReview = () => {
                         <h4 className="font-display font-bold text-3xl text-[#191C1D] mb-4">{reviewData.author.name}</h4>
                         <p className="text-lg text-gray-500 leading-relaxed mb-6">{reviewData.author.bio}</p>
                         <div className="flex flex-wrap justify-center md:justify-start gap-3">
-                           {['Board Certified', 'PhD Research', 'Editorial Lead'].map((spec, i) => (
+                           {reviewData.author.specialization && reviewData.author.specialization.map((spec, i) => (
                               <span key={i} className="bg-white px-4 py-2 rounded-full text-xs font-bold text-gray-400 border border-gray-100 uppercase tracking-widest">{spec}</span>
                            ))}
                         </div>
@@ -276,7 +265,7 @@ const ProductReview = () => {
             </section>
 
             {/* Discussion Section */}
-            <section className="pb-32">
+            <section className="mb-32">
               <CommentSection comments={reviewData.comments} />
             </section>
           </article>
