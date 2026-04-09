@@ -1,47 +1,84 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useParams, useNavigate } from 'react-router-dom';
 import ReviewCard from '../components/ReviewCard';
-import { allReviews } from '../data/reviews';
+import { allReviews, categoriesList, categoryMapping } from '../data/reviews';
 
 const ReviewsList = () => {
-  const [activeCategory, setActiveCategory] = useState('All');
+  const { category } = useParams();
+  const navigate = useNavigate();
+  const [activeCategory, setActiveCategory] = useState(category || 'All');
   const [searchQuery, setSearchQuery] = useState('');
 
-  const categories = ['All', 'Supplements', 'Gut Health', 'Sleep Science', 'Wellness Tech', 'Mental Health', 'Digital Health'];
+  useEffect(() => {
+    setActiveCategory(category || 'All');
+  }, [category]);
 
-
+  const handleCategoryChange = (catId) => {
+    setActiveCategory(catId);
+    if (catId === 'All') {
+      navigate('/reviews');
+    } else {
+      navigate(`/reviews/${catId}`);
+    }
+  };
 
   const filteredReviews = allReviews.filter((review) => {
-    const matchesCategory = activeCategory === 'All' || review.category === activeCategory;
+    const matchesCategory = activeCategory === 'All' || review.categorySlug === activeCategory;
     const matchesSearch = review.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
                          review.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
+
+  const currentCategoryObj = activeCategory !== 'All' ? categoryMapping[activeCategory] : null;
+
+  const heroData = activeCategory === 'All' 
+    ? { 
+        title: "Editorial & Clinical Reviews", 
+        desc: "Exploring the intersection of medical science and lifestyle wellness. Our library of expert-vetted articles is here to guide your journey." 
+      }
+    : { 
+        title: `${currentCategoryObj?.name || 'Category'} Reviews`, 
+        desc: `Explore our clinically vetted reviews and deep dives about ${currentCategoryObj?.name || 'this category'}. We break down the science so you understand exactly what you're putting in your body.` 
+      };
 
   return (
     <div className="bg-[#F8F9FA] min-h-screen pt-24 pb-32">
       <div className="container mx-auto px-4">
         {/* Page Header */}
         <div className="max-w-4xl mb-16 px-4">
-          <span className="text-[10px] font-bold text-[#0052CC] uppercase tracking-[0.2em] mb-4 block">The Knowledge Hub</span>
-          <h1 className="font-display font-bold text-5xl md:text-6xl text-[#191C1D] mb-8 leading-tight">Editorial & Clinical <br /> Reviews</h1>
+          <span className="text-[10px] font-bold text-[#0052CC] uppercase tracking-[0.2em] mb-4 block flex items-center gap-2">
+            {currentCategoryObj && <i className={`${currentCategoryObj.icon} text-lg`}></i>}
+            {activeCategory === 'All' ? 'The Knowledge Hub' : currentCategoryObj?.name}
+          </span>
+          <h1 className="font-display font-bold text-5xl md:text-6xl text-[#191C1D] mb-8 leading-tight">
+            {heroData.title}
+          </h1>
           <p className="text-xl text-gray-400 max-w-2xl leading-relaxed">
-            Exploring the intersection of medical science and lifestyle wellness. Our library of <span className="text-[#191C1D] font-bold">150+ expert-vetted articles</span> is here to guide your journey.
+            {heroData.desc}
           </p>
         </div>
 
         {/* Filters & Search Bar */}
         <div className="bg-white p-6 md:p-8 rounded-[30px] shadow-sm mb-16 flex flex-col lg:flex-row gap-8 items-center border border-gray-100">
           <div className="flex flex-wrap gap-3 flex-grow">
-            {categories.map((cat) => (
+            <button
+              onClick={() => handleCategoryChange('All')}
+              className={`px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest transition-all ${
+                activeCategory === 'All' ? 'bg-[#003D9B] text-white shadow-lg shadow-[#003D9B]/20' : 'bg-[#F3F4F5] text-gray-500 hover:bg-gray-200'
+              }`}
+            >
+              All
+            </button>
+            {categoriesList.map((cat) => (
               <button
-                key={cat}
-                onClick={() => setActiveCategory(cat)}
+                key={cat.id}
+                onClick={() => handleCategoryChange(cat.id)}
                 className={`px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest transition-all ${
-                  activeCategory === cat ? 'bg-[#003D9B] text-white shadow-lg shadow-[#003D9B]/20' : 'bg-[#F3F4F5] text-gray-500 hover:bg-gray-200'
+                  activeCategory === cat.id ? 'bg-[#003D9B] text-white shadow-lg shadow-[#003D9B]/20' : 'bg-[#F3F4F5] text-gray-500 hover:bg-gray-200'
                 }`}
               >
-                {cat}
+                {cat.name}
               </button>
             ))}
           </div>

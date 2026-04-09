@@ -5,7 +5,7 @@ import { BRAND_NAME, BRAND_TAGLINE } from '../constants/brand';
 import ProductCard from '../components/ProductCard';
 import ReviewCard from '../components/ReviewCard';
 import CTASection from '../components/CTASection';
-import { allReviews } from '../data/reviews';
+import { allReviews, categoriesList } from '../data/reviews';
 
 const Home = () => {
   const bestSellers = [
@@ -46,14 +46,7 @@ const Home = () => {
 
   const featuredReviews = allReviews.slice(0, 3);
 
-  const categories = [
-    { name: 'Immunity', icon: 'ri-shield-flash-line', count: 24 },
-    { name: 'Skincare', icon: 'ri-magic-line', count: 18 },
-    { name: 'Sleep', icon: 'ri-moon-line', count: 12 },
-    { name: 'Nootropics', icon: 'ri-brain-line', count: 15 },
-    { name: 'Gut Health', icon: 'ri-microscope-line', count: 21 },
-    { name: 'Fitness', icon: 'ri-heart-pulse-line', count: 32 }
-  ];
+  const topCategories = categoriesList.slice(0, 6);
 
   return (
     <div className="bg-[#F8F9FA]">
@@ -208,16 +201,16 @@ const Home = () => {
                     <div className="bg-[#F8F9FA] p-10 rounded-[32px] border border-gray-100 shadow-sm">
                        <h4 className="font-display font-bold text-xl text-[#191C1D] mb-8">Popular Verticals</h4>
                        <div className="flex flex-col gap-6">
-                         {categories.map((cat, i) => (
-                           <a key={i} href="#" className="flex items-center justify-between group">
+                         {topCategories.map((cat, i) => (
+                           <Link key={i} to={`/reviews/${cat.id}`} className="flex items-center justify-between group">
                               <div className="flex items-center gap-4">
                                 <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-[#0052CC] group-hover:bg-[#0052CC] group-hover:text-white transition-all shadow-sm">
-                                  <i className={cat.icon}></i>
+                                  <i className={cat.icon || 'ri-health-book-line'}></i>
                                 </div>
                                 <span className="font-bold text-gray-500 group-hover:text-[#191C1D] transition-colors">{cat.name}</span>
                               </div>
-                              <span className="text-[10px] font-bold text-gray-300 group-hover:text-[#0052CC] transition-colors">{cat.count}</span>
-                           </a>
+                              <span className="text-[10px] font-bold text-gray-300 group-hover:text-[#0052CC] transition-colors">{cat.count || 0}</span>
+                           </Link>
                          ))}
                        </div>
                     </div>

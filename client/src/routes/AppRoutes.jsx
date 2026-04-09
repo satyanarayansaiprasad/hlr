@@ -12,7 +12,9 @@ const AppRoutes = () => {
     <Routes>
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/review/:slug" element={<ProductReview />} />
+        <Route path="/review/:slug" element={<ProductReview />} /> {/* Legacy */}
+        <Route path="/reviews/:category/:slug" element={<ProductReview />} />
+        <Route path="/reviews/:category" element={<ReviewsList />} />
         <Route path="/reviews" element={<ReviewsList />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

@@ -6,7 +6,7 @@ import AuthorCard from '../components/AuthorCard';
 import { allReviews } from '../data/reviews';
 
 const ProductReview = () => {
-  const { slug } = useParams();
+  const { category, slug } = useParams();
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -58,6 +58,8 @@ const ProductReview = () => {
     </div>
   );
 
+  const backLink = category ? `/reviews/${category}` : '/reviews';
+
   return (
     <div className="bg-white min-h-screen">
       {/* Reading Progress Bar */}
@@ -69,9 +71,9 @@ const ProductReview = () => {
       {/* Breadcrumb Header */}
       <header className="pt-12 pb-6 border-b border-gray-50">
         <div className="container mx-auto px-4 max-w-3xl">
-          <Link to="/reviews" className="flex items-center gap-2 text-xs font-bold text-gray-400 uppercase tracking-widest hover:text-[#0052CC] transition-colors mb-4 group/back">
+          <Link to={backLink} className="flex items-center gap-2 text-xs font-bold text-gray-400 uppercase tracking-widest hover:text-[#0052CC] transition-colors mb-4 group/back">
             <i className="ri-arrow-left-s-line text-lg group-hover/back:-translate-x-1 transition-transform"></i>
-            Back to Reviews
+            Back to {category ? reviewData.category : 'Reviews'}
           </Link>
         </div>
       </header>

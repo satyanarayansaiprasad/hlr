@@ -11,7 +11,8 @@ const ReviewCard = ({ review }) => {
     category, 
     image, 
     excerpt, 
-    slug 
+    slug,
+    categorySlug
   } = review;
 
   return (
@@ -41,7 +42,7 @@ const ReviewCard = ({ review }) => {
           </div>
         </div>
 
-        <Link to={`/review/${slug}`} className="mb-4 block transition-colors hover:text-[#0052CC]">
+        <Link to={`/reviews/${categorySlug || 'general'}/${slug}`} className="mb-4 block transition-colors hover:text-[#0052CC]">
           <h3 className="font-display font-bold text-2xl text-[#191C1D] leading-tight mb-3">
             {title}
           </h3>
@@ -52,7 +53,7 @@ const ReviewCard = ({ review }) => {
 
         <div className="mt-auto pt-6 border-t border-gray-50">
           <Link 
-            to={`/review/${slug}`} 
+            to={`/reviews/${categorySlug || 'general'}/${slug}`} 
             className="text-sm font-bold text-[#0052CC] hover:underline flex items-center justify-between group/link"
           >
             <span>Read full clinical review</span>
