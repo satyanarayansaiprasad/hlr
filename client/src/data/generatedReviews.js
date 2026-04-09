@@ -51,7 +51,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "mitolyn",
-    "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,bottle&2",
+    "image": "assets/images/logo.png",
     "rating": 4.6,
     "metaTitle": "mitolyn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest mitolyn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -83,7 +83,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "mitolyn",
-      "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,product&2",
+      "image": "assets/images/logo.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://mitolyn.com/"
@@ -276,7 +276,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "24burn",
-    "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,bottle&7",
+    "image": "https://lh3.googleusercontent.com/ZrUTqGn-0Bff69ZF5eSNtcLygTjJngdvRQIRGleNxQ3qzUcOH_9l-dOWwCIWDsD_ubDPk-chJwu7F5I6mnlH3UzIRjtl5wAVAzs&#x3D;s0",
     "rating": 4.3,
     "metaTitle": "24BURN Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest 24BURN review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -308,7 +308,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "24BURN",
-      "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,product&7",
+      "image": "https://lh3.googleusercontent.com/ZrUTqGn-0Bff69ZF5eSNtcLygTjJngdvRQIRGleNxQ3qzUcOH_9l-dOWwCIWDsD_ubDPk-chJwu7F5I6mnlH3UzIRjtl5wAVAzs&#x3D;s0",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://try24burn.com/"
@@ -366,7 +366,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "slimcrystal",
-    "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,bottle&9",
+    "image": "https://lh3.googleusercontent.com/0t9HIE7OHP69Ob2YjWdzht34hQkVKEoYetjUNe-zLKYlAy-I39njty74sDeK32TZrLE2SWd5LfHyLZLPAFf8GmsG4w2yhQrpisVb&#x3D;s0",
     "rating": 4.5,
     "metaTitle": "SLIMCRYSTAL Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest SLIMCRYSTAL review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -398,7 +398,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "SLIMCRYSTAL",
-      "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,product&9",
+      "image": "https://lh3.googleusercontent.com/0t9HIE7OHP69Ob2YjWdzht34hQkVKEoYetjUNe-zLKYlAy-I39njty74sDeK32TZrLE2SWd5LfHyLZLPAFf8GmsG4w2yhQrpisVb&#x3D;s0",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://slimcrystal.com/"
@@ -681,7 +681,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "viva-slim",
-    "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,bottle&16",
+    "image": "http://mysimplepromise.com/cdn/shop/files/VivaSlim-Slider1.png?v=1744189437&width=1200",
     "rating": 4.4,
     "metaTitle": "Viva Slim Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Viva Slim review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -713,7 +713,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Viva Slim",
-      "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,product&16",
+      "image": "http://mysimplepromise.com/cdn/shop/files/VivaSlim-Slider1.png?v=1744189437&width=1200",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://getvivaslim.com/"
@@ -906,7 +906,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "renew",
-    "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,bottle&21",
+    "image": "https://www.saltwatertrick.com/images/og-image.jpg",
     "rating": 4.5,
     "metaTitle": "RENEW Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest RENEW review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -938,7 +938,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "RENEW",
-      "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,product&21",
+      "image": "https://www.saltwatertrick.com/images/og-image.jpg",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://www.saltwatertrick.org/"
@@ -1041,7 +1041,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "metabo-flex",
-    "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,bottle&24",
+    "image": "https://www.metaboflex.com/images/og-image-1.png",
     "rating": 4.8,
     "metaTitle": "Metabo Flex Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Metabo Flex review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1073,7 +1073,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Metabo Flex",
-      "image": "https://source.unsplash.com/800x600/?weight-loss,health,supplement,product&24",
+      "image": "https://www.metaboflex.com/images/og-image-1.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://www.metaboflex.com/"
@@ -1446,7 +1446,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "provadent",
-    "image": "https://source.unsplash.com/800x600/?dental-health,health,supplement,bottle&33",
+    "image": "https://dentalsugarhack.com/smiling.webp",
     "rating": 4.4,
     "metaTitle": "ProvaDent Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ProvaDent review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1478,7 +1478,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ProvaDent",
-      "image": "https://source.unsplash.com/800x600/?dental-health,health,supplement,product&33",
+      "image": "https://dentalsugarhack.com/smiling.webp",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://dentalsugarhack.com/"
@@ -2211,7 +2211,7 @@ export const generatedReviews = [
     "category": "Sleep and Dreams",
     "categorySlug": "sleep-and-dreams",
     "slug": "yu-sleep",
-    "image": "https://source.unsplash.com/800x600/?sleep-and-dreams,health,supplement,bottle&50",
+    "image": "https://lh3.googleusercontent.com/6agAX9jOQ541Oq6FdUjNFD641gCY2NvItSwuXNlt8BEhHiEa3hE-YVbBsL22OZ49wXfC9ic6Hbr8mbWENCfgECM3QTam8dV6C-U&#x3D;s0",
     "rating": 4.9,
     "metaTitle": "Yu Sleep Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Yu Sleep review covering ingredients, benefits, pros & cons, and real results for individuals dealing with insomnia and lack of deep REM sleep.",
@@ -2243,7 +2243,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Yu Sleep",
-      "image": "https://source.unsplash.com/800x600/?sleep-and-dreams,health,supplement,product&50",
+      "image": "https://lh3.googleusercontent.com/6agAX9jOQ541Oq6FdUjNFD641gCY2NvItSwuXNlt8BEhHiEa3hE-YVbBsL22OZ49wXfC9ic6Hbr8mbWENCfgECM3QTam8dV6C-U&#x3D;s0",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://getyusleep.com/"
@@ -2436,7 +2436,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "appanail",
-    "image": "https://source.unsplash.com/800x600/?beauty,health,supplement,bottle&55",
+    "image": "../includes/img/product-1.png",
     "rating": 4.7,
     "metaTitle": "AppaNail Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest AppaNail review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2468,7 +2468,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "AppaNail",
-      "image": "https://source.unsplash.com/800x600/?beauty,health,supplement,product&55",
+      "image": "../includes/img/product-1.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://getappanail.com/"
@@ -2751,7 +2751,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "synevra-ultralift",
-    "image": "https://source.unsplash.com/800x600/?beauty,health,supplement,bottle&62",
+    "image": "../includes/img/starter-product.png",
     "rating": 4.7,
     "metaTitle": "Synevra Ultralift Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Synevra Ultralift review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2783,7 +2783,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Synevra Ultralift",
-      "image": "https://source.unsplash.com/800x600/?beauty,health,supplement,product&62",
+      "image": "../includes/img/starter-product.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://getsynevra.com/"
@@ -2796,7 +2796,7 @@ export const generatedReviews = [
     "category": "Remedies",
     "categorySlug": "remedies",
     "slug": "nerve-armor",
-    "image": "https://source.unsplash.com/800x600/?remedies,health,supplement,bottle&63",
+    "image": "./assets/images/energy-production .jpg",
     "rating": 4.9,
     "metaTitle": "NERVE ARMOR Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NERVE ARMOR review covering ingredients, benefits, pros & cons, and real results for individuals dealing with neuropathy, chronic pain, and nerve degradation.",
@@ -2828,7 +2828,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NERVE ARMOR",
-      "image": "https://source.unsplash.com/800x600/?remedies,health,supplement,product&63",
+      "image": "./assets/images/energy-production .jpg",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://nervearmor.org/"
@@ -2886,7 +2886,7 @@ export const generatedReviews = [
     "category": "Remedies",
     "categorySlug": "remedies",
     "slug": "tonic-greens",
-    "image": "https://source.unsplash.com/800x600/?remedies,health,supplement,bottle&65",
+    "image": "../includes/img/product-2.png",
     "rating": 4.3,
     "metaTitle": "Tonic Greens Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Tonic Greens review covering ingredients, benefits, pros & cons, and real results for individuals dealing with neuropathy, chronic pain, and nerve degradation.",
@@ -2918,7 +2918,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Tonic Greens",
-      "image": "https://source.unsplash.com/800x600/?remedies,health,supplement,product&65",
+      "image": "../includes/img/product-2.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://trytonicgreens.cc/"
@@ -3156,7 +3156,7 @@ export const generatedReviews = [
     "category": "Women's Health",
     "categorySlug": "womens-health",
     "slug": "thyrafemme-balance",
-    "image": "https://source.unsplash.com/800x600/?womens-health,health,supplement,bottle&71",
+    "image": "../includes/img/product-1.png",
     "rating": 4.9,
     "metaTitle": "Thyrafemme Balance Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Thyrafemme Balance review covering ingredients, benefits, pros & cons, and real results for individuals dealing with hormonal imbalance, menopause symptoms, and systemic health.",
@@ -3188,7 +3188,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Thyrafemme Balance",
-      "image": "https://source.unsplash.com/800x600/?womens-health,health,supplement,product&71",
+      "image": "../includes/img/product-1.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://getthyrafemme.com/"
@@ -3381,7 +3381,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "prostavive",
-    "image": "https://source.unsplash.com/800x600/?mens-health,health,supplement,bottle&76",
+    "image": "https://prostavive.org/home-assets/images/product.png",
     "rating": 4.7,
     "metaTitle": "ProstaVive Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ProstaVive review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3413,7 +3413,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ProstaVive",
-      "image": "https://source.unsplash.com/800x600/?mens-health,health,supplement,product&76",
+      "image": "https://prostavive.org/home-assets/images/product.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://prostavive.org/"
@@ -4191,7 +4191,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "tupi-tea",
-    "image": "https://source.unsplash.com/800x600/?mens-health,health,supplement,bottle&94",
+    "image": "https://gettupitea.com/assets/images/products/1Bottle.png",
     "rating": 4.6,
     "metaTitle": "Tupi Tea Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Tupi Tea review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4223,7 +4223,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Tupi Tea",
-      "image": "https://source.unsplash.com/800x600/?mens-health,health,supplement,product&94",
+      "image": "https://gettupitea.com/assets/images/products/1Bottle.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://gettupitea.com/"
@@ -4416,7 +4416,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "endopump",
-    "image": "https://source.unsplash.com/800x600/?mens-health,health,supplement,bottle&99",
+    "image": "https://endopumpsecret.com/assets/images/products/1Bottle.png",
     "rating": 4.5,
     "metaTitle": "EndoPump Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest EndoPump review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4448,7 +4448,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "EndoPump",
-      "image": "https://source.unsplash.com/800x600/?mens-health,health,supplement,product&99",
+      "image": "https://endopumpsecret.com/assets/images/products/1Bottle.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://endopumpsecret.com/"
@@ -5001,7 +5001,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "titanflow",
-    "image": "https://source.unsplash.com/800x600/?mens-health,health,supplement,bottle&112",
+    "image": "https://prostaterevealed.com//d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product-badge.png",
     "rating": 4.6,
     "metaTitle": "TitanFlow Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest TitanFlow review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -5033,7 +5033,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "TitanFlow",
-      "image": "https://source.unsplash.com/800x600/?mens-health,health,supplement,product&112",
+      "image": "https://prostaterevealed.com//d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product-badge.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://prostaterevealed.com/"
@@ -5496,7 +5496,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "livpure",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&123",
+    "image": "https://www.liv-pure.com/images/og-image-1.png",
     "rating": 4.8,
     "metaTitle": "Livpure Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Livpure review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5528,7 +5528,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Livpure",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&123",
+      "image": "https://www.liv-pure.com/images/og-image-1.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://www.liv-pure.co/"
@@ -5856,7 +5856,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "ikaria-juice",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&131",
+    "image": "https://theikariajuice.com/new-home/images/single-product.png",
     "rating": 4.2,
     "metaTitle": "Ikaria Juice Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Ikaria Juice review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5888,7 +5888,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Ikaria Juice",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&131",
+      "image": "https://theikariajuice.com/new-home/images/single-product.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://theikariajuice.com/"
@@ -5901,7 +5901,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "finessa",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&132",
+    "image": "https://myfinessa.com/home/images/product-img-mainwith-ing.png",
     "rating": 4.6,
     "metaTitle": "Finessa Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Finessa review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5933,7 +5933,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Finessa",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&132",
+      "image": "https://myfinessa.com/home/images/product-img-mainwith-ing.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://myfinessa.com/"
@@ -5946,7 +5946,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "metabo-drops",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&133",
+    "image": "https://www.metabodrops.com/images/metabo-drops/og-image.jpg",
     "rating": 4.7,
     "metaTitle": "Metabo Drops Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Metabo Drops review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5978,7 +5978,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Metabo Drops",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&133",
+      "image": "https://www.metabodrops.com/images/metabo-drops/og-image.jpg",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://www.metabodrops.com/"
@@ -6036,7 +6036,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "hepatoburn",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&135",
+    "image": "https://www.hepatoburn.com/images/og-image-1.png",
     "rating": 4.4,
     "metaTitle": "HepatoBurn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest HepatoBurn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6068,7 +6068,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "HepatoBurn",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&135",
+      "image": "https://www.hepatoburn.com/images/og-image-1.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://www.hepatoburn.com/"
@@ -6126,7 +6126,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "glucoberry",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&137",
+    "image": "https://bloodsugarberry.com//bloodsugarberry.com/global/img/product-badge_2.png",
     "rating": 4.7,
     "metaTitle": "GlucoBerry Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest GlucoBerry review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6158,7 +6158,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "GlucoBerry",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&137",
+      "image": "https://bloodsugarberry.com//bloodsugarberry.com/global/img/product-badge_2.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://bloodsugarberry.com/"
@@ -6351,7 +6351,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "neuroquiet",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&142",
+    "image": "https://neuroquiethq.com/assets/img/woman-using-product.png",
     "rating": 4.4,
     "metaTitle": "NeuroQuiet Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NeuroQuiet review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6383,7 +6383,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NeuroQuiet",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&142",
+      "image": "https://neuroquiethq.com/assets/img/woman-using-product.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://neuroquiethq.com/"
@@ -6486,7 +6486,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "joint-n-11",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&145",
+    "image": "https://freedomfromjointpain.net//d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product-badge.png",
     "rating": 4.3,
     "metaTitle": "Joint N-11 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Joint N-11 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6518,7 +6518,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Joint N-11",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&145",
+      "image": "https://freedomfromjointpain.net//d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product-badge.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://freedomfromjointpain.net/"
@@ -6756,7 +6756,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "moringa-magic",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&151",
+    "image": "https://imagedelivery.net/LdPpqmfql8XAYhBTESSCFA/acfb6d72-d598-4a9e-7b08-9310adef3c00/public",
     "rating": 4.7,
     "metaTitle": "Moringa Magic Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Moringa Magic review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6788,7 +6788,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Moringa Magic",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&151",
+      "image": "https://imagedelivery.net/LdPpqmfql8XAYhBTESSCFA/acfb6d72-d598-4a9e-7b08-9310adef3c00/public",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://www.moringa-magic.com/"
@@ -6801,7 +6801,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "resurge",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&152",
+    "image": "https://data.resurge.com/images/resurge-logo-header.png",
     "rating": 4.3,
     "metaTitle": "Resurge Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Resurge review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6833,7 +6833,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Resurge",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&152",
+      "image": "https://data.resurge.com/images/resurge-logo-header.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://resurge.com/"
@@ -6891,7 +6891,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "peak-bioboost",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&154",
+    "image": "https://www.mypeakbiome.com/img/3-bottles-small.png",
     "rating": 4.5,
     "metaTitle": "Peak BioBoost Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Peak BioBoost review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6923,7 +6923,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Peak BioBoost",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&154",
+      "image": "https://www.mypeakbiome.com/img/3-bottles-small.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://www.mypeakbiome.com/"
@@ -7071,7 +7071,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "longevity-activator",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&158",
+    "image": "https://mylongevityactivator.com//d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product_images/longevityactivator_1.png",
     "rating": 4.6,
     "metaTitle": "Longevity Activator Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Longevity Activator review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7103,7 +7103,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Longevity Activator",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&158",
+      "image": "https://mylongevityactivator.com//d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product_images/longevityactivator_1.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://mylongevityactivator.com/"
@@ -7116,7 +7116,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "vision-20",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&159",
+    "image": "https://d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product_images/label_vision20.jpg",
     "rating": 4.6,
     "metaTitle": "Vision 20 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Vision 20 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7148,7 +7148,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Vision 20",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&159",
+      "image": "https://d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product_images/label_vision20.jpg",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://bestvisionsupport.com/"
@@ -7431,7 +7431,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "glucotonic",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&166",
+    "image": "https://getglucotonic.com/assets/img/woman-using-product.png",
     "rating": 4.8,
     "metaTitle": "GlucoTonic Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest GlucoTonic review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7463,7 +7463,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "GlucoTonic",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&166",
+      "image": "https://getglucotonic.com/assets/img/woman-using-product.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://getglucotonic.com/"
@@ -8016,7 +8016,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "collagen-refresh",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&179",
+    "image": "https://yourcollagensource.com//yourcollagensource.com/global/img/product-badge_2.png",
     "rating": 4.4,
     "metaTitle": "Collagen Refresh Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Collagen Refresh review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8048,7 +8048,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Collagen Refresh",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&179",
+      "image": "https://yourcollagensource.com//yourcollagensource.com/global/img/product-badge_2.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://yourcollagensource.com/"
@@ -8106,7 +8106,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "aquaburn",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&181",
+    "image": "https://aquaburn.org/home/images/mics-products-img.png",
     "rating": 4.7,
     "metaTitle": "Aquaburn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Aquaburn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8138,7 +8138,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Aquaburn",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&181",
+      "image": "https://aquaburn.org/home/images/mics-products-img.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://aquaburn.org/"
@@ -8286,7 +8286,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "brain-c-13",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&185",
+    "image": "https://brainclarity.net//d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product_images/label_brainc13.jpg",
     "rating": 4.6,
     "metaTitle": "Brain C-13 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Brain C-13 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8318,7 +8318,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Brain C-13",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&185",
+      "image": "https://brainclarity.net//d39ldsmboekjvi.cloudfront.net/images/rebrand_zl/product_images/label_brainc13.jpg",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://brainclarity.net/"
@@ -8331,7 +8331,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "mitothrive",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&186",
+    "image": "../global/img/product-badge_3.png",
     "rating": 4.9,
     "metaTitle": "MitoThrive Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest MitoThrive review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8363,7 +8363,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "MitoThrive",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&186",
+      "image": "../global/img/product-badge_3.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://youthfulagingsecret.com/"
@@ -8376,7 +8376,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "revive-daily",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&187",
+    "image": "https://revive-daily.net/images/revive-money-back.png\" alt=\"Money Back\" class=\"m-auto transform sm:scale-150\" data-v-455c0a3c></div> <div class=\"w-full px-2 text-black pt-10 pb-6 sm:leading-6 font-thin sm:pl-20\" data-v-455c0a3c><p class=\"sm:text-base\" data-v-455c0a3c>This product is backed by a 100% money back guarantee for 60 full days from your original purchase. If you're not totally and completely satisfied with this product, your results or your experience in the first 60 days from your purchase simply let us know by calling our toll free number or dropping us an email and we'll give you a full refund within 48 hours of the product being returned. That's right, simply return the product, even empty <span data-v-455c0a3c>bottles</span>, anytime within 60 days of your purchase and you'll receive a full, no questions asked refund (less shipping and handling).</p></div></div></div></div> <div id=\"faq\" class=\"text-black-light section-texts container open-sans mt-20\" data-v-797f2068><h2 class=\"text-5xl text-center font-bold mb-10 flex flex-row items-center justify-center gap-3 oepn-sans\" data-v-797f2068><img src=\"/images/revive-logo.png",
     "rating": 4.8,
     "metaTitle": "Revive Daily Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Revive Daily review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8408,7 +8408,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Revive Daily",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&187",
+      "image": "https://revive-daily.net/images/revive-money-back.png\" alt=\"Money Back\" class=\"m-auto transform sm:scale-150\" data-v-455c0a3c></div> <div class=\"w-full px-2 text-black pt-10 pb-6 sm:leading-6 font-thin sm:pl-20\" data-v-455c0a3c><p class=\"sm:text-base\" data-v-455c0a3c>This product is backed by a 100% money back guarantee for 60 full days from your original purchase. If you're not totally and completely satisfied with this product, your results or your experience in the first 60 days from your purchase simply let us know by calling our toll free number or dropping us an email and we'll give you a full refund within 48 hours of the product being returned. That's right, simply return the product, even empty <span data-v-455c0a3c>bottles</span>, anytime within 60 days of your purchase and you'll receive a full, no questions asked refund (less shipping and handling).</p></div></div></div></div> <div id=\"faq\" class=\"text-black-light section-texts container open-sans mt-20\" data-v-797f2068><h2 class=\"text-5xl text-center font-bold mb-10 flex flex-row items-center justify-center gap-3 oepn-sans\" data-v-797f2068><img src=\"/images/revive-logo.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://revive-daily.net/"
@@ -8646,7 +8646,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "java-brain",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&193",
+    "image": "https://javabrain.com/images/og-image-main.jpg",
     "rating": 4.5,
     "metaTitle": "Java Brain Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Java Brain review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8678,7 +8678,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Java Brain",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&193",
+      "image": "https://javabrain.com/images/og-image-main.jpg",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://www.java-brain.com/"
@@ -9231,7 +9231,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "gold-align",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&206",
+    "image": "statics/img/main-product-label.png",
     "rating": 4.2,
     "metaTitle": "Gold Align Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Gold Align review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9263,7 +9263,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Gold Align",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&206",
+      "image": "statics/img/main-product-label.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://getgoldalign.com/"
@@ -9366,7 +9366,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nano-ease",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&209",
+    "image": "https://nanoease.com//d39ldsmboekjvi.cloudfront.net/images/rebrand_ll/product_images/nanoease_6.png",
     "rating": 4.8,
     "metaTitle": "Nano-Ease Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nano-Ease review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9398,7 +9398,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nano-Ease",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&209",
+      "image": "https://nanoease.com//d39ldsmboekjvi.cloudfront.net/images/rebrand_ll/product_images/nanoease_6.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://nanoease.com/"
@@ -9546,7 +9546,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "slimleaf",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&213",
+    "image": "https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/eebfb8a4-f327-4bdd-87b4-dda927003500/public\" alt=\"slimleaf\" class=\"h-12 md:h-16 w-auto\"></div></header><div class=\"desktop-menu flex items-center justify-end space-x-8 w-full max-w-md ml-auto\"><a href=\"#ingredients\" class=\"text-text-muted hover:text-text whitespace-nowrap\">Ingredients</a> <a href=\"#testimonials\" class=\"text-text-muted hover:text-text whitespace-nowrap\">Testimonials</a> <a href=\"#faq\" class=\"text-text-muted hover:text-text whitespace-nowrap\">FAQ</a> <a href=\"#order-now\" class=\"action-button font-bold px-6 py-2.5 rounded-button-radius hover:bg-accent-dark transition-all shadow-md whitespace-nowrap\">Order Now</a></div><div class=\"hamburger\"><span></span> <span></span> <span></span></div></div></div><div class=\"mobile-menu-overlay\"></div><div class=\"mobile-menu\"><div class=\"flex flex-col gap-6\"><a href=\"#ingredients\" class=\"text-text text-lg font-medium py-2 border-b border-border\">Ingredients</a> <a href=\"#testimonials\" class=\"text-text text-lg font-medium py-2 border-b border-border\">Testimonials</a> <a href=\"#faq\" class=\"text-text text-lg font-medium py-2 border-b border-border\">FAQ</a> <a href=\"#order-now\" class=\"action-button font-bold px-6 py-2.5 rounded-button-radius text-center mt-4 hover:bg-accent-dark transition-all shadow-md w-full\">Order Now</a></div></div></header><section class=\"relative overflow-hidden bg-gradient-to-bl from-accent-dark via-accent-dark to-primary min-h-[60vh]\" id=\"page-header\"><div class=\"absolute inset-0 overflow-hidden pointer-events-none\"><div class=\"absolute -top-1/2 -right-1/4 w-[800px] h-[800px] bg-accent/20 rounded-full blur-3xl\"></div><div class=\"absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-accent-light/10 rounded-full blur-3xl\"></div></div><div class=\"relative max-w-screen-xl mx-auto px-4 py-16 md:py-20 lg:py-24\"><div class=\"flex flex-col lg:flex-row items-center gap-4 lg:gap-4\"><div class=\"lg:w-3/5 text-center lg:text-left\"><div class=\"inline-flex items-center gap-2 bg-action-gradient text-text-dark text-sm font-bold px-4 py-2 rounded-full mb-6 shadow-lg\">\ud83d\udd25 Limited Time Offer</div><h1 class=\"text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]\">Support Your Gut Health & Feel Like Yourself Again</h1><p class=\"text-lg md:text-xl mb-8 text-white/80 max-w-2xl mx-auto lg:mx-0 drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]\">Discover the breakthrough probiotic formula trusted by thousands. Made in USA with clinically-studied ingredients for healthy digestion, natural energy, and overall wellness.</p><div class=\"mb-10\"><a href=\"#order-now\" class=\"action-button w-full inline-flex items-center justify-center gap-2 text-lg font-bold px-10 py-4\">Order Now <svg class=\"w-5 h-5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"/></svg></a></div><div class=\"flex flex-wrap justify-center gap-6 text-white/70 text-sm\"><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> Free US Shipping</div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> 60-Day Money Back</div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> Made in USA</div></div><div class=\"flex flex-col items-stretch gap-3 mt-8 w-full\"><div class=\"flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl px-4 py-3 transition-all hover:bg-white/15 w-full text-left\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/a6cc5f94-9fee-4116-c4ae-643557945b00/public\" alt=\"Emily P\" class=\"w-12 h-12 rounded-full object-cover flex-shrink-0 ring-2 ring-accent-light/50\"><div class=\"flex-1 min-w-0\"><div class=\"flex items-center gap-2 mb-0.5\"><span class=\"text-rating text-sm\">\u2605\u2605\u2605\u2605\u2605</span></div><p class=\"text-sm text-white line-clamp-2\">\"No more afternoon bloating!\"</p><p class=\"text-xs text-white mt-0.5\"><span class=\"text-dark font-medium\">Emily P</span> \u00b7 <span class=\"text-white/60\">Verified Buyer</span></p></div></div><div class=\"flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl px-4 py-3 transition-all hover:bg-white/15 w-full text-left\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/41c043b7-e9f5-4a17-b169-06d934436300/public\" alt=\"Jason M\" class=\"w-12 h-12 rounded-full object-cover flex-shrink-0 ring-2 ring-accent-light/50\"><div class=\"flex-1 min-w-0\"><div class=\"flex items-center gap-2 mb-0.5\"><span class=\"text-rating text-sm\">\u2605\u2605\u2605\u2605\u2605</span></div><p class=\"text-sm text-white line-clamp-2\">\"My energy is through the roof!\"</p><p class=\"text-xs text-white mt-0.5\"><span class=\"text-dark font-medium\">Jason M</span> \u00b7 <span class=\"text-white/60\">Verified Buyer</span></p></div></div></div></div><div class=\"lg:w-2/5 flex justify-center lg:justify-end px-4 sm:px-0\"><div class=\"relative\"><div class=\"absolute inset-0 bg-accent/30 blur-3xl rounded-full scale-90\"></div><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/38177d0f-9ab2-4426-5f55-9c3c7a456a00/public\" alt=\"Slimleaf\" class=\"relative max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-md w-full\"></div></div></div></div></section><section id=\"order-now\" class=\"py-16 md:py-20 bg-bg-primary\"><div class=\"max-w-screen-xl mx-auto px-4\"><div class=\"text-center mb-12\"><div class=\"inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full mb-4\"><div class=\"flex items-center gap-0.5\"><svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg></div><span class=\"text-sm font-medium\">Average Customer Rating: 4.8</span></div><h2 class=\"text-3xl md:text-4xl font-bold text-text mb-4\">Claim Your Discounted SlimLeaf Below For Huge Savings</h2><p class=\"text-text-muted text-lg\">Choose your package and start your transformation today</p><div class=\"w-24 h-1 bg-accent rounded-full mx-auto mt-4\"></div></div><div class=\"grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto\"><div class=\"relative order-3 md:order-none\"><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-border overflow-visible h-full flex flex-col\"><div class=\"bg-bg-secondary py-2 px-4 text-center\"><span class=\"text-sm font-bold text-text-muted uppercase tracking-wider\">BASIC</span></div><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/4d09ffe2-30ec-4938-0e82-b9e722cea600/public\" alt=\"2 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">2 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">60 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-text\">$69.00<span class=\"text-lg font-bold text-text-muted\">/bottle</span></p><p class=\"text-text-muted text-xs uppercase tracking-wide mt-2\">Your Investment</p><p class=\"text-text font-bold text-base\">$138.00</p></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 + $9.99 SHIPPING</p><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: false })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://slimleaf.pay.clickbank.net/?cbitems=SlimLeaf-60D-FE-138&cbfid=62141&template=slim60\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"SlimLeaf-60D-FE-138\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"I started with 2 bottles but ordered the 6-pack after a week. The price just makes a lot more sense!\" <span class=\"text-text font-medium not-italic\">\u2014 Patricia M.</span></p></div></div></div></div></div><div class=\"relative order-1 md:order-none md:-mt-4 md:mb-4 z-10\"><div class=\"absolute -top-4 left-1/2 transform -translate-x-1/2 px-6 py-2 bg-accent rounded-full text-white font-bold text-sm whitespace-nowrap shadow-lg z-20\">MOST POPULAR</div><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-accent ring-2 ring-accent/20 overflow-visible h-full flex flex-col pt-4\"><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/f491a862-9011-4f39-1184-7aba662e4600/public\" alt=\"6 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">6 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">180 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-success\">$49.00<span class=\"text-lg font-bold text-success/80\">/bottle</span></p><div class=\"grid grid-cols-2 gap-4 mt-3\"><p class=\"text-text-muted text-xs uppercase tracking-wide\">Retail</p><p class=\"text-text-muted text-xs uppercase tracking-wide\">Your Investment</p></div><div class=\"grid grid-cols-2 gap-4\"><p class=\"text-danger line-through text-base\">$414.00</p><p class=\"text-text font-bold text-base\">$294.00</p></div></div><div class=\"text-center mb-4\"><span class=\"inline-block bg-success text-white font-bold px-5 py-2.5 rounded-full text-base\">\ud83c\udf89 SAVE $120.00</span></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 FREE US SHIPPING</p><ul class=\"space-y-1 mb-4\"><li class=\"flex items-center justify-center gap-2 text-sm\"><svg class=\"w-4 h-4 text-success flex-shrink-0\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> <span class=\"text-text font-medium\">3 FREE BONUSES ($211 Value)!</span></li></ul><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: true })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://slimleaf.pay.clickbank.net/?cbitems=SlimLeaf-180D-FE-294&cbfid=62141&template=slim180\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"SlimLeaf-180D-FE-294\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"6 Bottles have the best value by far. I learned a lot from the bonuses as well!\" <span class=\"text-text font-medium not-italic\">\u2014 Sarah K.</span></p></div></div></div></div></div><div class=\"relative order-2 md:order-none\"><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-border overflow-visible h-full flex flex-col\"><div class=\"bg-bg-secondary py-2 px-4 text-center\"><span class=\"text-sm font-bold text-text-muted uppercase tracking-wider\">BUNDLE</span></div><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/951e5426-c37b-4a0d-2164-31dd93033b00/public\" alt=\"3 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">3 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">90 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-success\">$59.00<span class=\"text-lg font-bold text-success/80\">/bottle</span></p><div class=\"grid grid-cols-2 gap-4 mt-3\"><p class=\"text-text-muted text-xs uppercase tracking-wide\">Retail</p><p class=\"text-text-muted text-xs uppercase tracking-wide\">Your Investment</p></div><div class=\"grid grid-cols-2 gap-4\"><p class=\"text-danger line-through text-base\">$207.00</p><p class=\"text-text font-bold text-base\">$177.00</p></div></div><div class=\"text-center mb-4\"><span class=\"inline-block bg-success text-white font-bold px-5 py-2.5 rounded-full text-base\">\ud83c\udf89 SAVE $30.00</span></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 FREE US SHIPPING</p><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: false })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://slimleaf.pay.clickbank.net/?cbitems=SlimLeaf-90D-FE-177&cbfid=62141&template=slim90\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"SlimLeaf-90D-FE-177\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"Great starter option. Noticed results by week 3! Will definitely order more soon.\" <span class=\"text-text font-medium not-italic\">\u2014 Jennifer L.</span></p></div></div></div></div></div></div><div class=\"flex flex-wrap justify-center items-center gap-4 md:gap-6 mt-10\"><div class=\"flex flex-col items-center gap-1\"><img src=\"/icons/food/manufactured-usa.png",
     "rating": 4.3,
     "metaTitle": "SlimLeaf Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest SlimLeaf review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9578,7 +9578,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "SlimLeaf",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&213",
+      "image": "https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/eebfb8a4-f327-4bdd-87b4-dda927003500/public\" alt=\"slimleaf\" class=\"h-12 md:h-16 w-auto\"></div></header><div class=\"desktop-menu flex items-center justify-end space-x-8 w-full max-w-md ml-auto\"><a href=\"#ingredients\" class=\"text-text-muted hover:text-text whitespace-nowrap\">Ingredients</a> <a href=\"#testimonials\" class=\"text-text-muted hover:text-text whitespace-nowrap\">Testimonials</a> <a href=\"#faq\" class=\"text-text-muted hover:text-text whitespace-nowrap\">FAQ</a> <a href=\"#order-now\" class=\"action-button font-bold px-6 py-2.5 rounded-button-radius hover:bg-accent-dark transition-all shadow-md whitespace-nowrap\">Order Now</a></div><div class=\"hamburger\"><span></span> <span></span> <span></span></div></div></div><div class=\"mobile-menu-overlay\"></div><div class=\"mobile-menu\"><div class=\"flex flex-col gap-6\"><a href=\"#ingredients\" class=\"text-text text-lg font-medium py-2 border-b border-border\">Ingredients</a> <a href=\"#testimonials\" class=\"text-text text-lg font-medium py-2 border-b border-border\">Testimonials</a> <a href=\"#faq\" class=\"text-text text-lg font-medium py-2 border-b border-border\">FAQ</a> <a href=\"#order-now\" class=\"action-button font-bold px-6 py-2.5 rounded-button-radius text-center mt-4 hover:bg-accent-dark transition-all shadow-md w-full\">Order Now</a></div></div></header><section class=\"relative overflow-hidden bg-gradient-to-bl from-accent-dark via-accent-dark to-primary min-h-[60vh]\" id=\"page-header\"><div class=\"absolute inset-0 overflow-hidden pointer-events-none\"><div class=\"absolute -top-1/2 -right-1/4 w-[800px] h-[800px] bg-accent/20 rounded-full blur-3xl\"></div><div class=\"absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-accent-light/10 rounded-full blur-3xl\"></div></div><div class=\"relative max-w-screen-xl mx-auto px-4 py-16 md:py-20 lg:py-24\"><div class=\"flex flex-col lg:flex-row items-center gap-4 lg:gap-4\"><div class=\"lg:w-3/5 text-center lg:text-left\"><div class=\"inline-flex items-center gap-2 bg-action-gradient text-text-dark text-sm font-bold px-4 py-2 rounded-full mb-6 shadow-lg\">\ud83d\udd25 Limited Time Offer</div><h1 class=\"text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]\">Support Your Gut Health & Feel Like Yourself Again</h1><p class=\"text-lg md:text-xl mb-8 text-white/80 max-w-2xl mx-auto lg:mx-0 drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]\">Discover the breakthrough probiotic formula trusted by thousands. Made in USA with clinically-studied ingredients for healthy digestion, natural energy, and overall wellness.</p><div class=\"mb-10\"><a href=\"#order-now\" class=\"action-button w-full inline-flex items-center justify-center gap-2 text-lg font-bold px-10 py-4\">Order Now <svg class=\"w-5 h-5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"/></svg></a></div><div class=\"flex flex-wrap justify-center gap-6 text-white/70 text-sm\"><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> Free US Shipping</div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> 60-Day Money Back</div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> Made in USA</div></div><div class=\"flex flex-col items-stretch gap-3 mt-8 w-full\"><div class=\"flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl px-4 py-3 transition-all hover:bg-white/15 w-full text-left\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/a6cc5f94-9fee-4116-c4ae-643557945b00/public\" alt=\"Emily P\" class=\"w-12 h-12 rounded-full object-cover flex-shrink-0 ring-2 ring-accent-light/50\"><div class=\"flex-1 min-w-0\"><div class=\"flex items-center gap-2 mb-0.5\"><span class=\"text-rating text-sm\">\u2605\u2605\u2605\u2605\u2605</span></div><p class=\"text-sm text-white line-clamp-2\">\"No more afternoon bloating!\"</p><p class=\"text-xs text-white mt-0.5\"><span class=\"text-dark font-medium\">Emily P</span> \u00b7 <span class=\"text-white/60\">Verified Buyer</span></p></div></div><div class=\"flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl px-4 py-3 transition-all hover:bg-white/15 w-full text-left\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/41c043b7-e9f5-4a17-b169-06d934436300/public\" alt=\"Jason M\" class=\"w-12 h-12 rounded-full object-cover flex-shrink-0 ring-2 ring-accent-light/50\"><div class=\"flex-1 min-w-0\"><div class=\"flex items-center gap-2 mb-0.5\"><span class=\"text-rating text-sm\">\u2605\u2605\u2605\u2605\u2605</span></div><p class=\"text-sm text-white line-clamp-2\">\"My energy is through the roof!\"</p><p class=\"text-xs text-white mt-0.5\"><span class=\"text-dark font-medium\">Jason M</span> \u00b7 <span class=\"text-white/60\">Verified Buyer</span></p></div></div></div></div><div class=\"lg:w-2/5 flex justify-center lg:justify-end px-4 sm:px-0\"><div class=\"relative\"><div class=\"absolute inset-0 bg-accent/30 blur-3xl rounded-full scale-90\"></div><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/38177d0f-9ab2-4426-5f55-9c3c7a456a00/public\" alt=\"Slimleaf\" class=\"relative max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-md w-full\"></div></div></div></div></section><section id=\"order-now\" class=\"py-16 md:py-20 bg-bg-primary\"><div class=\"max-w-screen-xl mx-auto px-4\"><div class=\"text-center mb-12\"><div class=\"inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full mb-4\"><div class=\"flex items-center gap-0.5\"><svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg></div><span class=\"text-sm font-medium\">Average Customer Rating: 4.8</span></div><h2 class=\"text-3xl md:text-4xl font-bold text-text mb-4\">Claim Your Discounted SlimLeaf Below For Huge Savings</h2><p class=\"text-text-muted text-lg\">Choose your package and start your transformation today</p><div class=\"w-24 h-1 bg-accent rounded-full mx-auto mt-4\"></div></div><div class=\"grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto\"><div class=\"relative order-3 md:order-none\"><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-border overflow-visible h-full flex flex-col\"><div class=\"bg-bg-secondary py-2 px-4 text-center\"><span class=\"text-sm font-bold text-text-muted uppercase tracking-wider\">BASIC</span></div><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/4d09ffe2-30ec-4938-0e82-b9e722cea600/public\" alt=\"2 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">2 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">60 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-text\">$69.00<span class=\"text-lg font-bold text-text-muted\">/bottle</span></p><p class=\"text-text-muted text-xs uppercase tracking-wide mt-2\">Your Investment</p><p class=\"text-text font-bold text-base\">$138.00</p></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 + $9.99 SHIPPING</p><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: false })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://slimleaf.pay.clickbank.net/?cbitems=SlimLeaf-60D-FE-138&cbfid=62141&template=slim60\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"SlimLeaf-60D-FE-138\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"I started with 2 bottles but ordered the 6-pack after a week. The price just makes a lot more sense!\" <span class=\"text-text font-medium not-italic\">\u2014 Patricia M.</span></p></div></div></div></div></div><div class=\"relative order-1 md:order-none md:-mt-4 md:mb-4 z-10\"><div class=\"absolute -top-4 left-1/2 transform -translate-x-1/2 px-6 py-2 bg-accent rounded-full text-white font-bold text-sm whitespace-nowrap shadow-lg z-20\">MOST POPULAR</div><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-accent ring-2 ring-accent/20 overflow-visible h-full flex flex-col pt-4\"><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/f491a862-9011-4f39-1184-7aba662e4600/public\" alt=\"6 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">6 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">180 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-success\">$49.00<span class=\"text-lg font-bold text-success/80\">/bottle</span></p><div class=\"grid grid-cols-2 gap-4 mt-3\"><p class=\"text-text-muted text-xs uppercase tracking-wide\">Retail</p><p class=\"text-text-muted text-xs uppercase tracking-wide\">Your Investment</p></div><div class=\"grid grid-cols-2 gap-4\"><p class=\"text-danger line-through text-base\">$414.00</p><p class=\"text-text font-bold text-base\">$294.00</p></div></div><div class=\"text-center mb-4\"><span class=\"inline-block bg-success text-white font-bold px-5 py-2.5 rounded-full text-base\">\ud83c\udf89 SAVE $120.00</span></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 FREE US SHIPPING</p><ul class=\"space-y-1 mb-4\"><li class=\"flex items-center justify-center gap-2 text-sm\"><svg class=\"w-4 h-4 text-success flex-shrink-0\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> <span class=\"text-text font-medium\">3 FREE BONUSES ($211 Value)!</span></li></ul><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: true })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://slimleaf.pay.clickbank.net/?cbitems=SlimLeaf-180D-FE-294&cbfid=62141&template=slim180\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"SlimLeaf-180D-FE-294\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"6 Bottles have the best value by far. I learned a lot from the bonuses as well!\" <span class=\"text-text font-medium not-italic\">\u2014 Sarah K.</span></p></div></div></div></div></div><div class=\"relative order-2 md:order-none\"><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-border overflow-visible h-full flex flex-col\"><div class=\"bg-bg-secondary py-2 px-4 text-center\"><span class=\"text-sm font-bold text-text-muted uppercase tracking-wider\">BUNDLE</span></div><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/951e5426-c37b-4a0d-2164-31dd93033b00/public\" alt=\"3 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">3 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">90 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-success\">$59.00<span class=\"text-lg font-bold text-success/80\">/bottle</span></p><div class=\"grid grid-cols-2 gap-4 mt-3\"><p class=\"text-text-muted text-xs uppercase tracking-wide\">Retail</p><p class=\"text-text-muted text-xs uppercase tracking-wide\">Your Investment</p></div><div class=\"grid grid-cols-2 gap-4\"><p class=\"text-danger line-through text-base\">$207.00</p><p class=\"text-text font-bold text-base\">$177.00</p></div></div><div class=\"text-center mb-4\"><span class=\"inline-block bg-success text-white font-bold px-5 py-2.5 rounded-full text-base\">\ud83c\udf89 SAVE $30.00</span></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 FREE US SHIPPING</p><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: false })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://slimleaf.pay.clickbank.net/?cbitems=SlimLeaf-90D-FE-177&cbfid=62141&template=slim90\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"SlimLeaf-90D-FE-177\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"Great starter option. Noticed results by week 3! Will definitely order more soon.\" <span class=\"text-text font-medium not-italic\">\u2014 Jennifer L.</span></p></div></div></div></div></div></div><div class=\"flex flex-wrap justify-center items-center gap-4 md:gap-6 mt-10\"><div class=\"flex flex-col items-center gap-1\"><img src=\"/icons/food/manufactured-usa.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://getslimleaf.com/"
@@ -9636,7 +9636,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "echoxen",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&215",
+    "image": "https://getechoxen.com/meta-tags.png",
     "rating": 4.7,
     "metaTitle": "Echoxen Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Echoxen review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9668,7 +9668,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Echoxen",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&215",
+      "image": "https://getechoxen.com/meta-tags.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://goechoxen.com/"
@@ -9681,7 +9681,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "insuleaf",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&216",
+    "image": "https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/bb4230a1-180a-49b9-a0a3-922d163c9800/public\" alt=\"insuleaf\" class=\"h-12 md:h-16 w-auto\"></div></header><div class=\"desktop-menu flex items-center justify-end space-x-8 w-full max-w-md ml-auto\"><a href=\"#ingredients\" class=\"text-text-muted hover:text-text whitespace-nowrap\">Ingredients</a> <a href=\"#testimonials\" class=\"text-text-muted hover:text-text whitespace-nowrap\">Testimonials</a> <a href=\"#faq\" class=\"text-text-muted hover:text-text whitespace-nowrap\">FAQ</a> <a href=\"#order-now\" class=\"action-button font-bold px-6 py-2.5 rounded-button-radius hover:bg-accent-dark transition-all shadow-md whitespace-nowrap\">Order Now</a></div><div class=\"hamburger\"><span></span> <span></span> <span></span></div></div></div><div class=\"mobile-menu-overlay\"></div><div class=\"mobile-menu\"><div class=\"flex flex-col gap-6\"><a href=\"#ingredients\" class=\"text-text text-lg font-medium py-2 border-b border-border\">Ingredients</a> <a href=\"#testimonials\" class=\"text-text text-lg font-medium py-2 border-b border-border\">Testimonials</a> <a href=\"#faq\" class=\"text-text text-lg font-medium py-2 border-b border-border\">FAQ</a> <a href=\"#order-now\" class=\"action-button font-bold px-6 py-2.5 rounded-button-radius text-center mt-4 hover:bg-accent-dark transition-all shadow-md w-full\">Order Now</a></div></div></header><section class=\"relative overflow-hidden bg-gradient-to-bl from-accent-dark via-accent-dark to-primary min-h-[60vh]\" id=\"page-header\"><div class=\"absolute inset-0 overflow-hidden pointer-events-none\"><div class=\"absolute -top-1/2 -right-1/4 w-[800px] h-[800px] bg-accent/20 rounded-full blur-3xl\"></div><div class=\"absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-accent-light/10 rounded-full blur-3xl\"></div></div><div class=\"relative max-w-screen-xl mx-auto px-4 py-16 md:py-20 lg:py-24\"><div class=\"flex flex-col lg:flex-row items-center gap-4 lg:gap-4\"><div class=\"lg:w-3/5 text-center lg:text-left\"><div class=\"inline-flex items-center gap-2 bg-action-gradient text-text-dark text-sm font-bold px-4 py-2 rounded-full mb-6 shadow-lg\">\ud83d\udd25 Limited Time Offer</div><h1 class=\"text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]\">Support Your Blood Sugar Naturally</h1><p class=\"text-lg md:text-xl mb-8 text-white/80 max-w-2xl mx-auto lg:mx-0 drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]\">Discover the breakthrough formula trusted by thousands. Made in USA with 13 natural ingredients backed by science.</p><div class=\"mb-10\"><a href=\"#order-now\" class=\"action-button w-full inline-flex items-center justify-center gap-2 text-lg font-bold px-10 py-4\">Order Now <svg class=\"w-5 h-5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"/></svg></a></div><div class=\"flex flex-wrap justify-center gap-6 text-white/70 text-sm\"><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> Free US Shipping</div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> 60-Day Money Back</div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> Made in USA</div></div><div class=\"flex flex-col items-stretch gap-3 mt-8 w-full\"><div class=\"flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl px-4 py-3 transition-all hover:bg-white/15 w-full text-left\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/a6cc5f94-9fee-4116-c4ae-643557945b00/public\" alt=\"Emily P\" class=\"w-12 h-12 rounded-full object-cover flex-shrink-0 ring-2 ring-accent-light/50\"><div class=\"flex-1 min-w-0\"><div class=\"flex items-center gap-2 mb-0.5\"><span class=\"text-rating text-sm\">\u2605\u2605\u2605\u2605\u2605</span></div><p class=\"text-sm text-white line-clamp-2\">\"I noticed a difference in just 2 weeks!\"</p><p class=\"text-xs text-white mt-0.5\"><span class=\"text-dark font-medium\">Emily P</span> \u00b7 <span class=\"text-white/60\">Verified Buyer</span></p></div></div><div class=\"flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl px-4 py-3 transition-all hover:bg-white/15 w-full text-left\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/41c043b7-e9f5-4a17-b169-06d934436300/public\" alt=\"Jason M\" class=\"w-12 h-12 rounded-full object-cover flex-shrink-0 ring-2 ring-accent-light/50\"><div class=\"flex-1 min-w-0\"><div class=\"flex items-center gap-2 mb-0.5\"><span class=\"text-rating text-sm\">\u2605\u2605\u2605\u2605\u2605</span></div><p class=\"text-sm text-white line-clamp-2\">\"Finally something that actually works!\"</p><p class=\"text-xs text-white mt-0.5\"><span class=\"text-dark font-medium\">Jason M</span> \u00b7 <span class=\"text-white/60\">Verified Buyer</span></p></div></div></div></div><div class=\"lg:w-2/5 flex justify-center lg:justify-end px-4 sm:px-0\"><div class=\"relative\"><div class=\"absolute inset-0 bg-accent/30 blur-3xl rounded-full scale-90\"></div><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/7f6f6aef-0921-429f-7c3a-7d7b58e54100/public\" alt=\"Insuleaf\" class=\"relative max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-md w-full\"></div></div></div></div></section><section id=\"order-now\" class=\"py-16 md:py-20 bg-bg-primary\"><div class=\"max-w-screen-xl mx-auto px-4\"><div class=\"text-center mb-12\"><div class=\"inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full mb-4\"><div class=\"flex items-center gap-0.5\"><svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg></div><span class=\"text-sm font-medium\">Average Customer Rating: 4.8</span></div><h2 class=\"text-3xl md:text-4xl font-bold text-text mb-4\">Claim Your Discounted InsuLeaf Below For Huge Savings</h2><p class=\"text-text-muted text-lg\">Choose your package and start your journey today</p><div class=\"w-24 h-1 bg-accent rounded-full mx-auto mt-4\"></div></div><div class=\"grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto\"><div class=\"relative order-3 md:order-none\"><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-border overflow-visible h-full flex flex-col\"><div class=\"bg-bg-secondary py-2 px-4 text-center\"><span class=\"text-sm font-bold text-text-muted uppercase tracking-wider\">BASIC</span></div><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/a1e16d89-f5d0-4ee5-d8ac-b15843e6ee00/public\" alt=\"2 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">2 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">60 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-text\">$69.00<span class=\"text-lg font-bold text-text-muted\">/bottle</span></p><p class=\"text-text-muted text-xs uppercase tracking-wide mt-2\">Your Investment</p><p class=\"text-text font-bold text-base\">$138.00</p></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 + $9.99 SHIPPING</p><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: false })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://insuleaf.pay.clickbank.net/?cbitems=InsuLeaf-60D-FE-138&cbfid=62073&template=insul60\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"InsuLeaf-60D-FE-138\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"I started with 2 bottles but ordered the 6-pack after a week. The price just makes a lot more sense!\" <span class=\"text-text font-medium not-italic\">\u2014 Patricia M.</span></p></div></div></div></div></div><div class=\"relative order-1 md:order-none md:-mt-4 md:mb-4 z-10\"><div class=\"absolute -top-4 left-1/2 transform -translate-x-1/2 px-6 py-2 bg-accent rounded-full text-white font-bold text-sm whitespace-nowrap shadow-lg z-20\">MOST POPULAR</div><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-accent ring-2 ring-accent/20 overflow-visible h-full flex flex-col pt-4\"><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/f792238d-1741-4878-180d-829155c6ba00/public\" alt=\"6 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">6 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">180 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-success\">$49.00<span class=\"text-lg font-bold text-success/80\">/bottle</span></p><div class=\"grid grid-cols-2 gap-4 mt-3\"><p class=\"text-text-muted text-xs uppercase tracking-wide\">Retail</p><p class=\"text-text-muted text-xs uppercase tracking-wide\">Your Investment</p></div><div class=\"grid grid-cols-2 gap-4\"><p class=\"text-danger line-through text-base\">$414.00</p><p class=\"text-text font-bold text-base\">$294.00</p></div></div><div class=\"text-center mb-4\"><span class=\"inline-block bg-success text-white font-bold px-5 py-2.5 rounded-full text-base\">\ud83c\udf89 SAVE $120.00</span></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 FREE US SHIPPING</p><ul class=\"space-y-1 mb-4\"><li class=\"flex items-center justify-center gap-2 text-sm\"><svg class=\"w-4 h-4 text-success flex-shrink-0\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> <span class=\"text-text font-medium\">2 FREE BONUSES ($144 Value)!</span></li></ul><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: true })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://insuleaf.pay.clickbank.net/?cbitems=InsuLeaf-180D-FE-294&cbfid=62073&template=insul180\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"InsuLeaf-180D-FE-294\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"6 Bottles have the best value by far. I learned a lot from the bonuses as well!\" <span class=\"text-text font-medium not-italic\">\u2014 Robert K.</span></p></div></div></div></div></div><div class=\"relative order-2 md:order-none\"><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-border overflow-visible h-full flex flex-col\"><div class=\"bg-bg-secondary py-2 px-4 text-center\"><span class=\"text-sm font-bold text-text-muted uppercase tracking-wider\">BUNDLE</span></div><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/e266b329-3da6-4240-1693-e35514068400/public\" alt=\"3 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">3 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">90 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-success\">$59.00<span class=\"text-lg font-bold text-success/80\">/bottle</span></p><div class=\"grid grid-cols-2 gap-4 mt-3\"><p class=\"text-text-muted text-xs uppercase tracking-wide\">Retail</p><p class=\"text-text-muted text-xs uppercase tracking-wide\">Your Investment</p></div><div class=\"grid grid-cols-2 gap-4\"><p class=\"text-danger line-through text-base\">$207.00</p><p class=\"text-text font-bold text-base\">$177.00</p></div></div><div class=\"text-center mb-4\"><span class=\"inline-block bg-success text-white font-bold px-5 py-2.5 rounded-full text-base\">\ud83c\udf89 SAVE $30.00</span></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 FREE US SHIPPING</p><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: false })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://insuleaf.pay.clickbank.net/?cbitems=InsuLeaf-90D-FE-177&cbfid=62073&template=insul90\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"InsuLeaf-90D-FE-177\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"Great starter option. Noticed results by week 3! Will definitely order more soon.\" <span class=\"text-text font-medium not-italic\">\u2014 Jennifer L.</span></p></div></div></div></div></div></div><div class=\"flex flex-wrap justify-center items-center gap-4 md:gap-6 mt-10\"><div class=\"flex flex-col items-center gap-1\"><img src=\"/icons/food/manufactured-usa.png",
     "rating": 4.3,
     "metaTitle": "InsuLeaf Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest InsuLeaf review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9713,7 +9713,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "InsuLeaf",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&216",
+      "image": "https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/bb4230a1-180a-49b9-a0a3-922d163c9800/public\" alt=\"insuleaf\" class=\"h-12 md:h-16 w-auto\"></div></header><div class=\"desktop-menu flex items-center justify-end space-x-8 w-full max-w-md ml-auto\"><a href=\"#ingredients\" class=\"text-text-muted hover:text-text whitespace-nowrap\">Ingredients</a> <a href=\"#testimonials\" class=\"text-text-muted hover:text-text whitespace-nowrap\">Testimonials</a> <a href=\"#faq\" class=\"text-text-muted hover:text-text whitespace-nowrap\">FAQ</a> <a href=\"#order-now\" class=\"action-button font-bold px-6 py-2.5 rounded-button-radius hover:bg-accent-dark transition-all shadow-md whitespace-nowrap\">Order Now</a></div><div class=\"hamburger\"><span></span> <span></span> <span></span></div></div></div><div class=\"mobile-menu-overlay\"></div><div class=\"mobile-menu\"><div class=\"flex flex-col gap-6\"><a href=\"#ingredients\" class=\"text-text text-lg font-medium py-2 border-b border-border\">Ingredients</a> <a href=\"#testimonials\" class=\"text-text text-lg font-medium py-2 border-b border-border\">Testimonials</a> <a href=\"#faq\" class=\"text-text text-lg font-medium py-2 border-b border-border\">FAQ</a> <a href=\"#order-now\" class=\"action-button font-bold px-6 py-2.5 rounded-button-radius text-center mt-4 hover:bg-accent-dark transition-all shadow-md w-full\">Order Now</a></div></div></header><section class=\"relative overflow-hidden bg-gradient-to-bl from-accent-dark via-accent-dark to-primary min-h-[60vh]\" id=\"page-header\"><div class=\"absolute inset-0 overflow-hidden pointer-events-none\"><div class=\"absolute -top-1/2 -right-1/4 w-[800px] h-[800px] bg-accent/20 rounded-full blur-3xl\"></div><div class=\"absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-accent-light/10 rounded-full blur-3xl\"></div></div><div class=\"relative max-w-screen-xl mx-auto px-4 py-16 md:py-20 lg:py-24\"><div class=\"flex flex-col lg:flex-row items-center gap-4 lg:gap-4\"><div class=\"lg:w-3/5 text-center lg:text-left\"><div class=\"inline-flex items-center gap-2 bg-action-gradient text-text-dark text-sm font-bold px-4 py-2 rounded-full mb-6 shadow-lg\">\ud83d\udd25 Limited Time Offer</div><h1 class=\"text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]\">Support Your Blood Sugar Naturally</h1><p class=\"text-lg md:text-xl mb-8 text-white/80 max-w-2xl mx-auto lg:mx-0 drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]\">Discover the breakthrough formula trusted by thousands. Made in USA with 13 natural ingredients backed by science.</p><div class=\"mb-10\"><a href=\"#order-now\" class=\"action-button w-full inline-flex items-center justify-center gap-2 text-lg font-bold px-10 py-4\">Order Now <svg class=\"w-5 h-5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"/></svg></a></div><div class=\"flex flex-wrap justify-center gap-6 text-white/70 text-sm\"><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> Free US Shipping</div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> 60-Day Money Back</div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-white\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> Made in USA</div></div><div class=\"flex flex-col items-stretch gap-3 mt-8 w-full\"><div class=\"flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl px-4 py-3 transition-all hover:bg-white/15 w-full text-left\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/a6cc5f94-9fee-4116-c4ae-643557945b00/public\" alt=\"Emily P\" class=\"w-12 h-12 rounded-full object-cover flex-shrink-0 ring-2 ring-accent-light/50\"><div class=\"flex-1 min-w-0\"><div class=\"flex items-center gap-2 mb-0.5\"><span class=\"text-rating text-sm\">\u2605\u2605\u2605\u2605\u2605</span></div><p class=\"text-sm text-white line-clamp-2\">\"I noticed a difference in just 2 weeks!\"</p><p class=\"text-xs text-white mt-0.5\"><span class=\"text-dark font-medium\">Emily P</span> \u00b7 <span class=\"text-white/60\">Verified Buyer</span></p></div></div><div class=\"flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl px-4 py-3 transition-all hover:bg-white/15 w-full text-left\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/41c043b7-e9f5-4a17-b169-06d934436300/public\" alt=\"Jason M\" class=\"w-12 h-12 rounded-full object-cover flex-shrink-0 ring-2 ring-accent-light/50\"><div class=\"flex-1 min-w-0\"><div class=\"flex items-center gap-2 mb-0.5\"><span class=\"text-rating text-sm\">\u2605\u2605\u2605\u2605\u2605</span></div><p class=\"text-sm text-white line-clamp-2\">\"Finally something that actually works!\"</p><p class=\"text-xs text-white mt-0.5\"><span class=\"text-dark font-medium\">Jason M</span> \u00b7 <span class=\"text-white/60\">Verified Buyer</span></p></div></div></div></div><div class=\"lg:w-2/5 flex justify-center lg:justify-end px-4 sm:px-0\"><div class=\"relative\"><div class=\"absolute inset-0 bg-accent/30 blur-3xl rounded-full scale-90\"></div><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/7f6f6aef-0921-429f-7c3a-7d7b58e54100/public\" alt=\"Insuleaf\" class=\"relative max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-md w-full\"></div></div></div></div></section><section id=\"order-now\" class=\"py-16 md:py-20 bg-bg-primary\"><div class=\"max-w-screen-xl mx-auto px-4\"><div class=\"text-center mb-12\"><div class=\"inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full mb-4\"><div class=\"flex items-center gap-0.5\"><svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg> <svg class=\"w-4 h-4 text-yellow-400\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"/></svg></div><span class=\"text-sm font-medium\">Average Customer Rating: 4.8</span></div><h2 class=\"text-3xl md:text-4xl font-bold text-text mb-4\">Claim Your Discounted InsuLeaf Below For Huge Savings</h2><p class=\"text-text-muted text-lg\">Choose your package and start your journey today</p><div class=\"w-24 h-1 bg-accent rounded-full mx-auto mt-4\"></div></div><div class=\"grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto\"><div class=\"relative order-3 md:order-none\"><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-border overflow-visible h-full flex flex-col\"><div class=\"bg-bg-secondary py-2 px-4 text-center\"><span class=\"text-sm font-bold text-text-muted uppercase tracking-wider\">BASIC</span></div><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/a1e16d89-f5d0-4ee5-d8ac-b15843e6ee00/public\" alt=\"2 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">2 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">60 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-text\">$69.00<span class=\"text-lg font-bold text-text-muted\">/bottle</span></p><p class=\"text-text-muted text-xs uppercase tracking-wide mt-2\">Your Investment</p><p class=\"text-text font-bold text-base\">$138.00</p></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 + $9.99 SHIPPING</p><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: false })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://insuleaf.pay.clickbank.net/?cbitems=InsuLeaf-60D-FE-138&cbfid=62073&template=insul60\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"InsuLeaf-60D-FE-138\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"I started with 2 bottles but ordered the 6-pack after a week. The price just makes a lot more sense!\" <span class=\"text-text font-medium not-italic\">\u2014 Patricia M.</span></p></div></div></div></div></div><div class=\"relative order-1 md:order-none md:-mt-4 md:mb-4 z-10\"><div class=\"absolute -top-4 left-1/2 transform -translate-x-1/2 px-6 py-2 bg-accent rounded-full text-white font-bold text-sm whitespace-nowrap shadow-lg z-20\">MOST POPULAR</div><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-accent ring-2 ring-accent/20 overflow-visible h-full flex flex-col pt-4\"><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/f792238d-1741-4878-180d-829155c6ba00/public\" alt=\"6 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">6 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">180 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-success\">$49.00<span class=\"text-lg font-bold text-success/80\">/bottle</span></p><div class=\"grid grid-cols-2 gap-4 mt-3\"><p class=\"text-text-muted text-xs uppercase tracking-wide\">Retail</p><p class=\"text-text-muted text-xs uppercase tracking-wide\">Your Investment</p></div><div class=\"grid grid-cols-2 gap-4\"><p class=\"text-danger line-through text-base\">$414.00</p><p class=\"text-text font-bold text-base\">$294.00</p></div></div><div class=\"text-center mb-4\"><span class=\"inline-block bg-success text-white font-bold px-5 py-2.5 rounded-full text-base\">\ud83c\udf89 SAVE $120.00</span></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 FREE US SHIPPING</p><ul class=\"space-y-1 mb-4\"><li class=\"flex items-center justify-center gap-2 text-sm\"><svg class=\"w-4 h-4 text-success flex-shrink-0\" fill=\"currentColor\" viewBox=\"0 0 20 20\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\"/></svg> <span class=\"text-text font-medium\">2 FREE BONUSES ($144 Value)!</span></li></ul><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: true })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://insuleaf.pay.clickbank.net/?cbitems=InsuLeaf-180D-FE-294&cbfid=62073&template=insul180\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"InsuLeaf-180D-FE-294\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"6 Bottles have the best value by far. I learned a lot from the bonuses as well!\" <span class=\"text-text font-medium not-italic\">\u2014 Robert K.</span></p></div></div></div></div></div><div class=\"relative order-2 md:order-none\"><div class=\"bg-bg-card rounded-2xl shadow-xl border-2 border-border overflow-visible h-full flex flex-col\"><div class=\"bg-bg-secondary py-2 px-4 text-center\"><span class=\"text-sm font-bold text-text-muted uppercase tracking-wider\">BUNDLE</span></div><div class=\"p-4 flex items-center justify-center\"><img src=\"https://imagedelivery.net/ly00if8ZEenFRcimhKOICg/e266b329-3da6-4240-1693-e35514068400/public\" alt=\"3 BOTTLES\" class=\"w-full h-auto\"></div><div class=\"p-4 pt-0 flex-1 flex flex-col\"><h3 class=\"text-xl font-bold text-text text-center mb-2\">3 BOTTLES</h3><p class=\"text-center text-text-muted text-sm mb-4\">90 Day Supply</p><div class=\"text-center mb-4\"><p class=\"text-4xl md:text-5xl font-black text-success\">$59.00<span class=\"text-lg font-bold text-success/80\">/bottle</span></p><div class=\"grid grid-cols-2 gap-4 mt-3\"><p class=\"text-text-muted text-xs uppercase tracking-wide\">Retail</p><p class=\"text-text-muted text-xs uppercase tracking-wide\">Your Investment</p></div><div class=\"grid grid-cols-2 gap-4\"><p class=\"text-danger line-through text-base\">$207.00</p><p class=\"text-text font-bold text-base\">$177.00</p></div></div><div class=\"text-center mb-4\"><span class=\"inline-block bg-success text-white font-bold px-5 py-2.5 rounded-full text-base\">\ud83c\udf89 SAVE $30.00</span></div><p class=\"text-center text-sm font-medium text-text mb-3\">\ud83d\udce6 FREE US SHIPPING</p><div class=\"flex-1\"></div><div x-data=\"clickyHand({ enabled: false })\" class=\"relative\"><div x-show=\"isVisible\" x-transition:enter=\"transition ease-out duration-300\" x-transition:enter-start=\"opacity-0 transform scale-90\" x-transition:enter-end=\"opacity-100 transform scale-100\" x-transition:leave=\"transition ease-in duration-300\" x-transition:leave-start=\"opacity-100 transform scale-100\" x-transition:leave-end=\"opacity-0 transform scale-90\" x-html=\"svgContent()\" class=\"absolute z-950 pointer-events-none right-0 bottom-0 transform translate-x-1/4 translate-y-1/2\"></div><a href=\"https://insuleaf.pay.clickbank.net/?cbitems=InsuLeaf-90D-FE-177&cbfid=62073&template=insul90\" class=\"gtm-checkout hover:cursor-pointer action-button py-4 px-4 md:px-12 text-lg block w-full font-bold rounded-button-radius border-2 hover:opacity-90 hover:transform-button-hover-transform transition-all text-center\" data-product-id=\"InsuLeaf-90D-FE-177\" aria-label=\"Buy Now\">Buy Now</a></div><div class=\"mt-3 pt-3 border-t border-border/50\"><div class=\"flex items-start gap-2 text-xs\"><div class=\"flex text-rating flex-shrink-0\">\u2605\u2605\u2605\u2605\u2605</div><p class=\"text-text-muted italic leading-snug\">\"Great starter option. Noticed results by week 3! Will definitely order more soon.\" <span class=\"text-text font-medium not-italic\">\u2014 Jennifer L.</span></p></div></div></div></div></div></div><div class=\"flex flex-wrap justify-center items-center gap-4 md:gap-6 mt-10\"><div class=\"flex flex-col items-center gap-1\"><img src=\"/icons/food/manufactured-usa.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://buyinsuleaf.com/"
@@ -9726,7 +9726,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "sync",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&217",
+    "image": "https://sunlightloophole.com/images/og-image-main.jpg",
     "rating": 4.8,
     "metaTitle": "Sync Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Sync review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9758,7 +9758,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Sync",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&217",
+      "image": "https://sunlightloophole.com/images/og-image-main.jpg",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://www.sunlightloophole.com/"
@@ -9771,7 +9771,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "lanta-flat-belly-shake",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&218",
+    "image": "5-tips/images/product-bottles-1.png",
     "rating": 4.4,
     "metaTitle": "Lanta Flat Belly Shake Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Lanta Flat Belly Shake review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9803,7 +9803,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Lanta Flat Belly Shake",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&218",
+      "image": "5-tips/images/product-bottles-1.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://flatbellyshake.com/"
@@ -9951,7 +9951,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "rangii",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&222",
+    "image": "upload/fungus-full-product-4-1.png",
     "rating": 4.5,
     "metaTitle": "Rangii Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Rangii review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9983,7 +9983,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Rangii",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&222",
+      "image": "upload/fungus-full-product-4-1.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://rangii.com/"
@@ -10176,7 +10176,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "vivogut",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&227",
+    "image": "../includes/img/product-1.png",
     "rating": 4.4,
     "metaTitle": "VivoGut Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest VivoGut review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10208,7 +10208,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "VivoGut",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&227",
+      "image": "../includes/img/product-1.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://getvivogutpro.com/"
@@ -10671,7 +10671,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "sonic-solace",
-    "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,bottle&238",
+    "image": "https://sonicsolace.com/assets/vslimages/trial-package-product-img.png",
     "rating": 4.7,
     "metaTitle": "Sonic Solace Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Sonic Solace review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10703,7 +10703,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Sonic Solace",
-      "image": "https://source.unsplash.com/800x600/?dietary-supplements,health,supplement,product&238",
+      "image": "https://sonicsolace.com/assets/vslimages/trial-package-product-img.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://sonicsolace.com/"
