@@ -51,13 +51,6 @@ const ProductReview = () => {
     }
   }, [slug]);
 
-  if (!reviewData) return (
-    <div className="pt-40 text-center min-h-screen">
-      <h2 className="text-2xl font-bold text-gray-400">Review not found in our clinical library...</h2>
-      <Link to="/reviews" className="text-[#0052CC] font-bold mt-4 hover:underline">Return to Library</Link>
-    </div>
-  );
-
   useEffect(() => {
     if (reviewData) {
       document.title = reviewData.metaTitle || reviewData.title;
@@ -70,6 +63,13 @@ const ProductReview = () => {
       metaDesc.content = reviewData.metaDescription || reviewData.excerpt;
     }
   }, [reviewData]);
+
+  if (!reviewData) return (
+    <div className="pt-40 text-center min-h-screen">
+      <h2 className="text-2xl font-bold text-gray-400">Review not found in our clinical library...</h2>
+      <Link to="/reviews" className="text-[#0052CC] font-bold mt-4 hover:underline">Return to Library</Link>
+    </div>
+  );
 
   const backLink = category ? `/reviews/${category}` : '/reviews';
 
