@@ -96,26 +96,26 @@ const ProductReview = () => {
         <div className="container mx-auto px-4 max-w-3xl">
           <div className="flex flex-col mb-12">
             <span className="text-[#0052CC] text-xs font-bold uppercase tracking-[0.2em] mb-6 inline-block">
-              {reviewData.category}
+              {reviewData?.category || "Review"}
             </span>
             <h1 className="font-display font-black text-4xl md:text-6xl lg:text-7xl text-[#191C1D] leading-[1.1] mb-10 tracking-tight">
-              {reviewData.title}
+              {reviewData?.title || "Product Review"}
             </h1>
             
             <div className="flex items-center gap-6 text-gray-500">
                <div className="flex items-center gap-4">
                   <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white shadow-xl ring-1 ring-[#0052CC]/10">
-                    <img src={reviewData.author.avatar} alt={reviewData.author.name} className="w-full h-full object-cover" />
+                    <img src={reviewData?.author?.avatar || "https://images.unsplash.com/photo-1559839734-2b71f1536783"} alt={reviewData?.author?.name || "Author"} className="w-full h-full object-cover" />
                   </div>
                   <div>
-                    <p className="text-base font-bold text-[#191C1D]">{reviewData.author.name}</p>
-                    <p className="text-[11px] font-bold uppercase tracking-widest opacity-60">{reviewData.author.role || "Medical Reviewer"}</p>
+                    <p className="text-base font-bold text-[#191C1D]">{reviewData?.author?.name || "Editorial Team"}</p>
+                    <p className="text-[11px] font-bold uppercase tracking-widest opacity-60">{reviewData?.author?.role || "Medical Reviewer"}</p>
                   </div>
                </div>
                <div className="h-10 w-[1px] bg-gray-100 hidden sm:block"></div>
                <div className="flex flex-col gap-1 text-[11px] font-bold uppercase tracking-widest hidden sm:flex">
-                  <span className="text-gray-400">{reviewData.date}</span>
-                  <span className="text-[#0052CC]">{reviewData.readTime}</span>
+                  <span className="text-gray-400">{reviewData?.date || "Recently Updated"}</span>
+                  <span className="text-[#0052CC]">{reviewData?.readTime || "5 min read"}</span>
                </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ const ProductReview = () => {
         {/* Featured Image */}
         <div className="container mx-auto px-4 max-w-5xl mb-20">
           <div className="aspect-video rounded-[32px] overflow-hidden shadow-2xl relative group">
-             <img src={reviewData.image} alt={reviewData.title} className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-105" />
+             <img src={reviewData?.image} alt={reviewData?.title} className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-105" />
              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
           </div>
         </div>
@@ -140,7 +140,7 @@ const ProductReview = () => {
               id="dynamic-content" 
               className="mb-24 prose-headings:font-display prose-headings:font-bold prose-headings:text-[#191C1D] prose-h2:text-4xl prose-h2:mb-6 prose-h2:flex prose-h2:items-center prose-h2:gap-4 prose-h2:mt-12 prose-p:text-xl prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-8 prose-ul:text-xl prose-ul:text-gray-700 prose-ul:leading-[1.8] prose-li:mb-4 prose-ul:list-disc prose-ul:pl-8"
             >
-              <div dangerouslySetInnerHTML={{ __html: reviewData.content }} />
+              <div dangerouslySetInnerHTML={{ __html: reviewData?.content || '' }} />
             </section>
 
             {/* Pros & Cons Section - Editorial Style */}
@@ -152,8 +152,8 @@ const ProductReview = () => {
                       The Clinical Pros
                     </h3>
                     <ul className="space-y-6">
-                      {reviewData.pros.map((pro, i) => (
-                        <li key={i} className="flex gap-4 text-gray-600 font-medium text-lg leading-snug">
+                      {reviewData?.pros?.map((pro, i) => (
+                        <li key={`pro-${i}`} className="flex gap-4 text-gray-600 font-medium text-lg leading-snug">
                           <span className="w-1.5 h-1.5 bg-[#006E1C] rounded-full mt-2.5 flex-shrink-0"></span>
                           {pro}
                         </li>
@@ -166,8 +166,8 @@ const ProductReview = () => {
                       Important Cons
                     </h3>
                     <ul className="space-y-6">
-                      {reviewData.cons.map((con, i) => (
-                        <li key={i} className="flex gap-4 text-gray-400 font-medium text-lg leading-snug">
+                      {reviewData?.cons?.map((con, i) => (
+                        <li key={`con-${i}`} className="flex gap-4 text-gray-400 font-medium text-lg leading-snug">
                           <span className="w-1.5 h-1.5 bg-red-400 rounded-full mt-2.5 flex-shrink-0"></span>
                           {con}
                         </li>
@@ -178,10 +178,11 @@ const ProductReview = () => {
             </section>
 
             {/* Product Card Callout */}
+            {reviewData?.product && (
             <section className="mb-32">
                <div className="bg-[#191C1D] rounded-[40px] p-12 md:p-16 text-white flex flex-col md:flex-row items-center gap-12 shadow-2xl relative overflow-hidden group">
                   <div className="absolute top-0 right-0 w-64 h-64 bg-[#0052CC]/20 rounded-full blur-[100px] -z-0"></div>
-                  <div className="w-full md:w-1/3 aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl relative z-10">
+                  <div className="w-full md:w-1/3 aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl relative z-10 bg-white">
                      <img src={reviewData.product.image} alt={reviewData.product.name} className="w-full h-full object-cover transition-transform duration-[4000ms] group-hover:scale-110" />
                   </div>
                   <div className="w-full md:w-2/3 relative z-10">
@@ -195,7 +196,7 @@ const ProductReview = () => {
                      </div>
                      <p className="text-gray-400 text-lg mb-10 leading-relaxed">The benchmark for clinical effectiveness within the {reviewData.category} sector. Verified by our PhD-led medical review board.</p>
                      <div className="flex flex-wrap gap-4">
-                        <a href={reviewData.product.buyUrl} className="px-10 py-5 bg-[#0052CC] text-white rounded-2xl font-bold hover:bg-white hover:text-[#191C1D] transition-all flex items-center gap-3">
+                        <a href={reviewData.product.buyUrl || '#'} target="_blank" rel="noopener noreferrer" className="px-10 py-5 bg-[#0052CC] text-white rounded-2xl font-bold hover:bg-white hover:text-[#191C1D] transition-all flex items-center gap-3">
                            Visit Official Website
                            <i className="ri-external-link-line"></i>
                         </a>
@@ -204,13 +205,15 @@ const ProductReview = () => {
                   </div>
                </div>
             </section>
+            )}
 
             {/* FAQ Section */}
+            {reviewData?.faqs && reviewData.faqs.length > 0 && (
             <section id="faq" className="mb-32">
               <h2 className="font-display font-bold text-4xl text-[#191C1D] mb-12">Expert Answers</h2>
               <div className="space-y-8">
                 {reviewData.faqs.map((faq, idx) => (
-                  <div key={idx} className="border-b border-gray-100 pb-8 last:border-0 group cursor-help">
+                  <div key={`faq-${idx}`} className="border-b border-gray-100 pb-8 last:border-0 group cursor-help">
                      <h5 className="font-bold text-2xl text-[#191C1D] mb-4 flex gap-4 transition-colors group-hover:text-[#0052CC]">
                        <span className="text-[#0052CC] opacity-20">Q.</span>
                        {faq.q}
@@ -222,8 +225,10 @@ const ProductReview = () => {
                 ))}
               </div>
             </section>
+            )}
 
             {/* Author Footer Card */}
+            {reviewData?.author && (
             <section className="mb-32 pt-24 border-t border-gray-100">
                <div className="bg-[#F8F9FA] rounded-[32px] p-10 md:p-12">
                   <div className="flex flex-col md:flex-row items-center gap-10">
@@ -233,21 +238,24 @@ const ProductReview = () => {
                      <div className="text-center md:text-left">
                         <p className="text-[10px] font-bold text-[#0052CC] uppercase tracking-[0.2em] mb-2">About the Author</p>
                         <h4 className="font-display font-bold text-3xl text-[#191C1D] mb-4">{reviewData.author.name}</h4>
-                        <p className="text-lg text-gray-500 leading-relaxed mb-6">{reviewData.author.bio}</p>
+                        <p className="text-lg text-gray-500 leading-relaxed mb-6">{reviewData.author.bio || "Medical researcher and wellness writer passionate about uncovering the science behind consumer supplements."}</p>
                         <div className="flex flex-wrap justify-center md:justify-start gap-3">
-                           {reviewData.author.specialization && reviewData.author.specialization.map((spec, i) => (
-                              <span key={i} className="bg-white px-4 py-2 rounded-full text-xs font-bold text-gray-400 border border-gray-100 uppercase tracking-widest">{spec}</span>
+                           {reviewData.author.specialization?.map((spec, i) => (
+                              <span key={`spec-${i}`} className="bg-white px-4 py-2 rounded-full text-xs font-bold text-gray-400 border border-gray-100 uppercase tracking-widest">{spec}</span>
                            ))}
                         </div>
                      </div>
                   </div>
                </div>
             </section>
+            )}
 
             {/* Discussion Section */}
+            {reviewData?.comments && (
             <section className="mb-32">
               <CommentSection comments={reviewData.comments} />
             </section>
+            )}
           </article>
         </div>
       </main>
