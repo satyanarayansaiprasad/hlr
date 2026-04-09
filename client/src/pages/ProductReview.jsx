@@ -58,6 +58,19 @@ const ProductReview = () => {
     </div>
   );
 
+  useEffect(() => {
+    if (reviewData) {
+      document.title = reviewData.metaTitle || reviewData.title;
+      let metaDesc = document.querySelector('meta[name="description"]');
+      if (!metaDesc) {
+        metaDesc = document.createElement('meta');
+        metaDesc.name = "description";
+        document.head.appendChild(metaDesc);
+      }
+      metaDesc.content = reviewData.metaDescription || reviewData.excerpt;
+    }
+  }, [reviewData]);
+
   const backLink = category ? `/reviews/${category}` : '/reviews';
 
   return (
@@ -122,47 +135,12 @@ const ProductReview = () => {
         {/* Content Container */}
         <div className="container mx-auto px-4 max-w-3xl">
           <article className="prose prose-lg max-w-none">
-            <section id="overview" className="mb-24">
-               <p className="text-2xl md:text-3xl text-gray-600 leading-relaxed font-serif italic mb-12 border-l-4 border-[#0052CC] pl-8 py-2">
-                 Our clinical team has spent months researching the biological impacts behind {reviewData.title.split(':')[0]}.
-               </p>
-               
-               <div className="space-y-8 text-xl text-gray-700 leading-[1.8]">
-                 <p>
-                    {reviewData.excerpt} We analyzed clinical trials to determine if at-home protocols actually work and how they compare to clinical standards.
-                 </p>
-                 <p>
-                   The results were impressive, albeit with a few caveats that prospective users should consider. In this deep dive, we dismantle the marketing noise to reveal the clinical reality of what this protocol actually does for your biology.
-                 </p>
-               </div>
-            </section>
-
-            {/* Ingredient Section / Deep Dive */}
-            <section id="ingredients" className="mb-32">
-              <h2 className="font-display font-bold text-4xl text-[#191C1D] mb-12 flex items-center gap-4">
-                <span className="w-12 h-12 bg-[#0052CC] text-white rounded-xl flex items-center justify-center text-xl">
-                  <i className="ri-flask-line"></i>
-                </span>
-                Editorial Deep Dive
-              </h2>
-              
-              <div className="space-y-12 text-xl text-gray-700 leading-[1.8]">
-                <p>
-                  Every review on Health Line Review is based on our standard three-pillar verification protocol: Independent Acquisition, Clinical Data Analysis, and Long-term Tracking.
-                </p>
-
-                <div className="grid grid-cols-1 gap-8 mt-12">
-                  {['Science Behind the Supplement', 'Clinical Efficacy Results', 'Safety and Purity Testing'].map((item, idx) => (
-                    <div key={idx} className="bg-[#F8F9FA] p-10 rounded-3xl group cursor-pointer hover:bg-white border border-transparent hover:border-gray-100 transition-all shadow-sm hover:shadow-xl">
-                       <div className="flex gap-8 items-center">
-                         <span className="text-4xl font-black text-gray-200 group-hover:text-[#0052CC] transition-colors">0{idx+1}</span>
-                         <h4 className="font-display font-bold text-2xl text-[#191C1D]">{item}</h4>
-                         <i className="ri-arrow-right-line ml-auto text-2xl text-gray-300 group-hover:text-[#0052CC] group-hover:translate-x-2 transition-all"></i>
-                       </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
+            {/* Dynamically Generated SEO Content Payload */}
+            <section 
+              id="dynamic-content" 
+              className="mb-24 prose-headings:font-display prose-headings:font-bold prose-headings:text-[#191C1D] prose-h2:text-4xl prose-h2:mb-6 prose-h2:flex prose-h2:items-center prose-h2:gap-4 prose-h2:mt-12 prose-p:text-xl prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-8 prose-ul:text-xl prose-ul:text-gray-700 prose-ul:leading-[1.8] prose-li:mb-4 prose-ul:list-disc prose-ul:pl-8"
+            >
+              <div dangerouslySetInnerHTML={{ __html: reviewData.content }} />
             </section>
 
             {/* Pros & Cons Section - Editorial Style */}
