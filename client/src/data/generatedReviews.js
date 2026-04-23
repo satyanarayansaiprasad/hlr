@@ -31,7 +31,7 @@ export const generatedReviews = [
     "buyUrl": "https://citrusburn.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -76,7 +76,7 @@ export const generatedReviews = [
     "buyUrl": "https://mitolyn.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -121,7 +121,7 @@ export const generatedReviews = [
     "buyUrl": "https://sumatratonic.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -166,7 +166,7 @@ export const generatedReviews = [
     "buyUrl": "https://sleeplean.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -211,7 +211,7 @@ export const generatedReviews = [
     "buyUrl": "https://leptozan.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -256,7 +256,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -301,7 +301,7 @@ export const generatedReviews = [
     "buyUrl": "https://try24burn.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -346,7 +346,7 @@ export const generatedReviews = [
     "buyUrl": "https://allslimmingherbs.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -391,7 +391,7 @@ export const generatedReviews = [
     "buyUrl": "https://slimcrystal.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -436,7 +436,7 @@ export const generatedReviews = [
     "buyUrl": "https://getokinawatonic.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -481,7 +481,7 @@ export const generatedReviews = [
     "buyUrl": "https://leanbodytonic.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -526,7 +526,7 @@ export const generatedReviews = [
     "buyUrl": "https://getleanbliss.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -571,7 +571,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -616,7 +616,7 @@ export const generatedReviews = [
     "buyUrl": "https://keyslimdrops.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -661,7 +661,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -706,7 +706,7 @@ export const generatedReviews = [
     "buyUrl": "https://nicoyapuratea.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -751,7 +751,7 @@ export const generatedReviews = [
     "buyUrl": "https://getvivaslim.com/cb/go/index.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -796,7 +796,7 @@ export const generatedReviews = [
     "buyUrl": "https://cleanestbody.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -841,7 +841,7 @@ export const generatedReviews = [
     "buyUrl": "https://purpleburnpro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -886,7 +886,7 @@ export const generatedReviews = [
     "buyUrl": "https://morningcoffeeritual.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -931,7 +931,7 @@ export const generatedReviews = [
     "buyUrl": "https://bestleanlife.com/cb/?",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -976,7 +976,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.saltwatertrick.org/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1021,7 +1021,7 @@ export const generatedReviews = [
     "buyUrl": "https://getignitra.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1066,7 +1066,7 @@ export const generatedReviews = [
     "buyUrl": "https://aquaburn.org/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1111,7 +1111,7 @@ export const generatedReviews = [
     "buyUrl": "https://volcaburn.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1156,7 +1156,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.metaboflex.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1201,7 +1201,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.golavaslim.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1246,7 +1246,7 @@ export const generatedReviews = [
     "buyUrl": "https://hydroleanxt.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1291,7 +1291,7 @@ export const generatedReviews = [
     "buyUrl": "https://superconductorslim.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1336,7 +1336,7 @@ export const generatedReviews = [
     "buyUrl": "https://cb.getbellyflush.com/go/lander.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1381,7 +1381,7 @@ export const generatedReviews = [
     "buyUrl": "https://cb.getelectroslim.com/go/indexwritten.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1426,7 +1426,7 @@ export const generatedReviews = [
     "buyUrl": "https://orexiburn.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1471,7 +1471,7 @@ export const generatedReviews = [
     "buyUrl": "https://liposlend.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1516,7 +1516,7 @@ export const generatedReviews = [
     "buyUrl": "https://prodentim101.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1561,7 +1561,7 @@ export const generatedReviews = [
     "buyUrl": "https://dentalsugarhack.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1606,7 +1606,7 @@ export const generatedReviews = [
     "buyUrl": "https://synadentix.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1651,7 +1651,7 @@ export const generatedReviews = [
     "buyUrl": "https://getdenticore.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1696,7 +1696,7 @@ export const generatedReviews = [
     "buyUrl": "https://steelbitepro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1741,7 +1741,7 @@ export const generatedReviews = [
     "buyUrl": "https://thedentitox101.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1786,7 +1786,7 @@ export const generatedReviews = [
     "buyUrl": "https://getpowerbite.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1831,7 +1831,7 @@ export const generatedReviews = [
     "buyUrl": "https://getoradentum.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1876,7 +1876,7 @@ export const generatedReviews = [
     "buyUrl": "https://gumaktiv.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1921,7 +1921,7 @@ export const generatedReviews = [
     "buyUrl": "https://getdentasmilepro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -1966,7 +1966,7 @@ export const generatedReviews = [
     "buyUrl": "https://dentatonic.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2011,7 +2011,7 @@ export const generatedReviews = [
     "buyUrl": "https://takepurdentixnow.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2056,7 +2056,7 @@ export const generatedReviews = [
     "buyUrl": "https://neuraoriginal.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2101,7 +2101,7 @@ export const generatedReviews = [
     "buyUrl": "https://sonovive.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2146,7 +2146,7 @@ export const generatedReviews = [
     "buyUrl": "https://sightfresh.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2191,7 +2191,7 @@ export const generatedReviews = [
     "buyUrl": "https://nervolink.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2236,7 +2236,7 @@ export const generatedReviews = [
     "buyUrl": "https://nervozen.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2281,7 +2281,7 @@ export const generatedReviews = [
     "buyUrl": "https://getneurozoom.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2326,7 +2326,7 @@ export const generatedReviews = [
     "buyUrl": "https://getyusleep.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2371,7 +2371,7 @@ export const generatedReviews = [
     "buyUrl": "https://nitehushpro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2416,7 +2416,7 @@ export const generatedReviews = [
     "buyUrl": "https://getprimebiome.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2461,7 +2461,7 @@ export const generatedReviews = [
     "buyUrl": "https://kerassentials.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2506,7 +2506,7 @@ export const generatedReviews = [
     "buyUrl": "https://neotonics.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2551,7 +2551,7 @@ export const generatedReviews = [
     "buyUrl": "https://getappanail.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2596,7 +2596,7 @@ export const generatedReviews = [
     "buyUrl": "https://getrevitag.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2641,7 +2641,7 @@ export const generatedReviews = [
     "buyUrl": "https://illuderma.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2686,7 +2686,7 @@ export const generatedReviews = [
     "buyUrl": "https://getrenewritual.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2731,7 +2731,7 @@ export const generatedReviews = [
     "buyUrl": "https://foliprime.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2776,7 +2776,7 @@ export const generatedReviews = [
     "buyUrl": "https://dermaprimeplus.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2821,7 +2821,7 @@ export const generatedReviews = [
     "buyUrl": "https://hydrossential.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2866,7 +2866,7 @@ export const generatedReviews = [
     "buyUrl": "https://getsynevra.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2911,7 +2911,7 @@ export const generatedReviews = [
     "buyUrl": "https://nervearmor.org/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -2956,7 +2956,7 @@ export const generatedReviews = [
     "buyUrl": "https://secure.getnervesoothe.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3001,7 +3001,7 @@ export const generatedReviews = [
     "buyUrl": "https://trytonicgreens.cc/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3046,7 +3046,7 @@ export const generatedReviews = [
     "buyUrl": "https://tryinsufend.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3091,7 +3091,7 @@ export const generatedReviews = [
     "buyUrl": "https://trynerverevive360.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3136,7 +3136,7 @@ export const generatedReviews = [
     "buyUrl": "https://menovelle.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3181,7 +3181,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3226,7 +3226,7 @@ export const generatedReviews = [
     "buyUrl": "https://getfemipro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3271,7 +3271,7 @@ export const generatedReviews = [
     "buyUrl": "https://getthyrafemme.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3316,7 +3316,7 @@ export const generatedReviews = [
     "buyUrl": "https://pureluminessence.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3361,7 +3361,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3406,7 +3406,7 @@ export const generatedReviews = [
     "buyUrl": "https://menosoothe.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3451,7 +3451,7 @@ export const generatedReviews = [
     "buyUrl": "https://prostavive.org/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3496,7 +3496,7 @@ export const generatedReviews = [
     "buyUrl": "https://getnitricboost.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3541,7 +3541,7 @@ export const generatedReviews = [
     "buyUrl": "https://getnitricboost.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3586,7 +3586,7 @@ export const generatedReviews = [
     "buyUrl": "https://potentstream.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3631,7 +3631,7 @@ export const generatedReviews = [
     "buyUrl": "https://getspartamax.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3676,7 +3676,7 @@ export const generatedReviews = [
     "buyUrl": "https://getprostadine.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3721,7 +3721,7 @@ export const generatedReviews = [
     "buyUrl": "https://protoflow.net/welcome/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3766,7 +3766,7 @@ export const generatedReviews = [
     "buyUrl": "https://mymorningtonic.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3811,7 +3811,7 @@ export const generatedReviews = [
     "buyUrl": "https://endopeak24.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3856,7 +3856,7 @@ export const generatedReviews = [
     "buyUrl": "https://thealphatonic.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3901,7 +3901,7 @@ export const generatedReviews = [
     "buyUrl": "https://buytc24.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3946,7 +3946,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.criticaltboost.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -3991,7 +3991,7 @@ export const generatedReviews = [
     "buyUrl": "https://flowforcemax.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4036,7 +4036,7 @@ export const generatedReviews = [
     "buyUrl": "https://fluxactive.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4081,7 +4081,7 @@ export const generatedReviews = [
     "buyUrl": "https://1.clubhousesupplements.com/fire-fp/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4126,7 +4126,7 @@ export const generatedReviews = [
     "buyUrl": "https://erecprime24.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4171,7 +4171,7 @@ export const generatedReviews = [
     "buyUrl": "https://emperorsvigortonic.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4216,7 +4216,7 @@ export const generatedReviews = [
     "buyUrl": "https://studperformance.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4261,7 +4261,7 @@ export const generatedReviews = [
     "buyUrl": "https://maxboostjuice.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4306,7 +4306,7 @@ export const generatedReviews = [
     "buyUrl": "https://gettupitea.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4351,7 +4351,7 @@ export const generatedReviews = [
     "buyUrl": "https://prostalite.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4396,7 +4396,7 @@ export const generatedReviews = [
     "buyUrl": "https://getyourflowback.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4441,7 +4441,7 @@ export const generatedReviews = [
     "buyUrl": "https://tryneurotest.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4486,7 +4486,7 @@ export const generatedReviews = [
     "buyUrl": "https://heroichustle.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4531,7 +4531,7 @@ export const generatedReviews = [
     "buyUrl": "https://endopumpsecret.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4576,7 +4576,7 @@ export const generatedReviews = [
     "buyUrl": "https://trygoliathxl10.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4621,7 +4621,7 @@ export const generatedReviews = [
     "buyUrl": "https://potentstream.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4666,7 +4666,7 @@ export const generatedReviews = [
     "buyUrl": "https://prostapure24.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4711,7 +4711,7 @@ export const generatedReviews = [
     "buyUrl": "https://getsteelflowpro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4756,7 +4756,7 @@ export const generatedReviews = [
     "buyUrl": "https://getvigosurge.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4801,7 +4801,7 @@ export const generatedReviews = [
     "buyUrl": "https://vitalflow.org/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4846,7 +4846,7 @@ export const generatedReviews = [
     "buyUrl": "https://getpuraboost.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4891,7 +4891,7 @@ export const generatedReviews = [
     "buyUrl": "https://getprostaclear.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4936,7 +4936,7 @@ export const generatedReviews = [
     "buyUrl": "https://tryprimordialvigorx.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -4981,7 +4981,7 @@ export const generatedReviews = [
     "buyUrl": "https://phalo-boost.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5026,7 +5026,7 @@ export const generatedReviews = [
     "buyUrl": "https://thealphafuel.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5071,7 +5071,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5116,7 +5116,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5161,7 +5161,7 @@ export const generatedReviews = [
     "buyUrl": "https://prostaterevealed.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5206,7 +5206,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5251,7 +5251,7 @@ export const generatedReviews = [
     "buyUrl": "https://audisoothe.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5296,7 +5296,7 @@ export const generatedReviews = [
     "buyUrl": "https://getneuroserge.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5341,7 +5341,7 @@ export const generatedReviews = [
     "buyUrl": "https://lungreset.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5386,7 +5386,7 @@ export const generatedReviews = [
     "buyUrl": "https://theneuroprime.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5431,7 +5431,7 @@ export const generatedReviews = [
     "buyUrl": "https://gluco6.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5476,7 +5476,7 @@ export const generatedReviews = [
     "buyUrl": "https://trycardioslimtea.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5521,7 +5521,7 @@ export const generatedReviews = [
     "buyUrl": "https://visionbreakthrough.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5566,7 +5566,7 @@ export const generatedReviews = [
     "buyUrl": "https://thepinealguardian.com/indexvip.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5611,7 +5611,7 @@ export const generatedReviews = [
     "buyUrl": "https://quietumplus.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5656,7 +5656,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.liv-pure.co/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5701,7 +5701,7 @@ export const generatedReviews = [
     "buyUrl": "https://sugardefender24.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5746,7 +5746,7 @@ export const generatedReviews = [
     "buyUrl": "https://neuraoriginal.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5791,7 +5791,7 @@ export const generatedReviews = [
     "buyUrl": "https://goglucoextend.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5836,7 +5836,7 @@ export const generatedReviews = [
     "buyUrl": "https://getsynaptigen.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5881,7 +5881,7 @@ export const generatedReviews = [
     "buyUrl": "https://prostapeak.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5926,7 +5926,7 @@ export const generatedReviews = [
     "buyUrl": "https://vertigenics.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -5971,7 +5971,7 @@ export const generatedReviews = [
     "buyUrl": "https://cb.getarcticblast.com/go/lander.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6016,7 +6016,7 @@ export const generatedReviews = [
     "buyUrl": "https://sJointViveecure.nervefresh.com/index-is",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6061,7 +6061,7 @@ export const generatedReviews = [
     "buyUrl": "https://theikariajuice.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6106,7 +6106,7 @@ export const generatedReviews = [
     "buyUrl": "https://myfinessa.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6151,7 +6151,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.metabodrops.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6196,7 +6196,7 @@ export const generatedReviews = [
     "buyUrl": "https://jointvive.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6241,7 +6241,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.hepatoburn.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6286,7 +6286,7 @@ export const generatedReviews = [
     "buyUrl": "https://getbiodentex.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6331,7 +6331,7 @@ export const generatedReviews = [
     "buyUrl": "https://bloodsugarberry.com/cb/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6376,7 +6376,7 @@ export const generatedReviews = [
     "buyUrl": "https://flushfactorplus.com/text.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6421,7 +6421,7 @@ export const generatedReviews = [
     "buyUrl": "https://balmorex.pro/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6466,7 +6466,7 @@ export const generatedReviews = [
     "buyUrl": "https://synogut101.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6511,7 +6511,7 @@ export const generatedReviews = [
     "buyUrl": "https://nanodefensepro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6556,7 +6556,7 @@ export const generatedReviews = [
     "buyUrl": "https://neuroquiethq.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6601,7 +6601,7 @@ export const generatedReviews = [
     "buyUrl": "https://claritox.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6646,7 +6646,7 @@ export const generatedReviews = [
     "buyUrl": "https://cb.venoplus8.com/go/lander.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6691,7 +6691,7 @@ export const generatedReviews = [
     "buyUrl": "https://freedomfromjointpain.net/cb/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6736,7 +6736,7 @@ export const generatedReviews = [
     "buyUrl": "https://zencortex24.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6781,7 +6781,7 @@ export const generatedReviews = [
     "buyUrl": "https://zeneara.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6826,7 +6826,7 @@ export const generatedReviews = [
     "buyUrl": "https://metanailcomplex.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6871,7 +6871,7 @@ export const generatedReviews = [
     "buyUrl": "https://sugarnix.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6916,7 +6916,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -6961,7 +6961,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.moringa-magic.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7006,7 +7006,7 @@ export const generatedReviews = [
     "buyUrl": "https://resurge.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7051,7 +7051,7 @@ export const generatedReviews = [
     "buyUrl": "https://getcellucare.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7096,7 +7096,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.mypeakbiome.com/w/prebio-lp-comp?",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7141,7 +7141,7 @@ export const generatedReviews = [
     "buyUrl": "https://getcognipro.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7186,7 +7186,7 @@ export const generatedReviews = [
     "buyUrl": "https://getcardioshield.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7231,7 +7231,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.gutvita.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7276,7 +7276,7 @@ export const generatedReviews = [
     "buyUrl": "https://mylongevityactivator.com/cb/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7321,7 +7321,7 @@ export const generatedReviews = [
     "buyUrl": "https://bestvisionsupport.com/cb/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7366,7 +7366,7 @@ export const generatedReviews = [
     "buyUrl": "https://nervovive.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7411,7 +7411,7 @@ export const generatedReviews = [
     "buyUrl": "https://thememoryfuel.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7456,7 +7456,7 @@ export const generatedReviews = [
     "buyUrl": "https://gettheyavue.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7501,7 +7501,7 @@ export const generatedReviews = [
     "buyUrl": "https://vertiaid.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7546,7 +7546,7 @@ export const generatedReviews = [
     "buyUrl": "https://cb.getxitox.com/go/lander.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7591,7 +7591,7 @@ export const generatedReviews = [
     "buyUrl": "https://trynunerve.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7636,7 +7636,7 @@ export const generatedReviews = [
     "buyUrl": "https://getglucotonic.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7681,7 +7681,7 @@ export const generatedReviews = [
     "buyUrl": "https://menorescue.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7726,7 +7726,7 @@ export const generatedReviews = [
     "buyUrl": "https://prostaflush.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7771,7 +7771,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7816,7 +7816,7 @@ export const generatedReviews = [
     "buyUrl": "https://sweetfend.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7861,7 +7861,7 @@ export const generatedReviews = [
     "buyUrl": "https://thecognisurge.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7906,7 +7906,7 @@ export const generatedReviews = [
     "buyUrl": "https://digestsync.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7951,7 +7951,7 @@ export const generatedReviews = [
     "buyUrl": "https://glucotrust-bites.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -7996,7 +7996,7 @@ export const generatedReviews = [
     "buyUrl": "https://the20.store/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8041,7 +8041,7 @@ export const generatedReviews = [
     "buyUrl": "https://thenneurovera.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8086,7 +8086,7 @@ export const generatedReviews = [
     "buyUrl": "https://gutoptim.com/text.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8131,7 +8131,7 @@ export const generatedReviews = [
     "buyUrl": "https://themindquell.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8176,7 +8176,7 @@ export const generatedReviews = [
     "buyUrl": "https://teaburn.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8221,7 +8221,7 @@ export const generatedReviews = [
     "buyUrl": "https://yourcollagensource.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8266,7 +8266,7 @@ export const generatedReviews = [
     "buyUrl": "https://eyefortin.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8311,7 +8311,7 @@ export const generatedReviews = [
     "buyUrl": "https://aquaburn.org/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8356,7 +8356,7 @@ export const generatedReviews = [
     "buyUrl": "https://nervala.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8401,7 +8401,7 @@ export const generatedReviews = [
     "buyUrl": "https://getpawbiotix.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8446,7 +8446,7 @@ export const generatedReviews = [
     "buyUrl": "https://glycofortin.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8491,7 +8491,7 @@ export const generatedReviews = [
     "buyUrl": "https://brainclarity.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8536,7 +8536,7 @@ export const generatedReviews = [
     "buyUrl": "https://youthfulagingsecret.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8581,7 +8581,7 @@ export const generatedReviews = [
     "buyUrl": "https://revive-daily.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8626,7 +8626,7 @@ export const generatedReviews = [
     "buyUrl": "https://magbreakthrough.com/sleep/cb",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8671,7 +8671,7 @@ export const generatedReviews = [
     "buyUrl": "https://lungexpandpro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8716,7 +8716,7 @@ export const generatedReviews = [
     "buyUrl": "https://thecogniclear.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8761,7 +8761,7 @@ export const generatedReviews = [
     "buyUrl": "https://gluconite.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8806,7 +8806,7 @@ export const generatedReviews = [
     "buyUrl": "https://bazopril.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8851,7 +8851,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.java-brain.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8896,7 +8896,7 @@ export const generatedReviews = [
     "buyUrl": "https://pinealpure.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8941,7 +8941,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -8986,7 +8986,7 @@ export const generatedReviews = [
     "buyUrl": "https://chronoboost.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9031,7 +9031,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9076,7 +9076,7 @@ export const generatedReviews = [
     "buyUrl": "https://themovewelldaily.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9121,7 +9121,7 @@ export const generatedReviews = [
     "buyUrl": "https://getgutgo.com/tsl/index_no_ds.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9166,7 +9166,7 @@ export const generatedReviews = [
     "buyUrl": "https://getkeravitapro101.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9211,7 +9211,7 @@ export const generatedReviews = [
     "buyUrl": "https://secure.bloodsugarblaster.com/index-cb",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9256,7 +9256,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9301,7 +9301,7 @@ export const generatedReviews = [
     "buyUrl": "https://getjointglide.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9346,7 +9346,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.advancedbionutritionals.com/CB/Advanced-Mitochondrial/Too-Tired-To-Enjoy-It/HD.htm",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9391,7 +9391,7 @@ export const generatedReviews = [
     "buyUrl": "https://getaquapeace.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9436,7 +9436,7 @@ export const generatedReviews = [
     "buyUrl": "https://getgoldalign.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9481,7 +9481,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9526,7 +9526,7 @@ export const generatedReviews = [
     "buyUrl": "https://promindcomplex.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9571,7 +9571,7 @@ export const generatedReviews = [
     "buyUrl": "https://nanoease.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9616,7 +9616,7 @@ export const generatedReviews = [
     "buyUrl": "https://cb.flexafen.com/go/indexwritten.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9661,7 +9661,7 @@ export const generatedReviews = [
     "buyUrl": "https://prostastream.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9706,7 +9706,7 @@ export const generatedReviews = [
     "buyUrl": "https://cerebrozen24.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9751,7 +9751,7 @@ export const generatedReviews = [
     "buyUrl": "https://getslimleaf.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9796,7 +9796,7 @@ export const generatedReviews = [
     "buyUrl": "https://regainrejuvenate.com/c/order-now.php",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9841,7 +9841,7 @@ export const generatedReviews = [
     "buyUrl": "https://goechoxen.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9886,7 +9886,7 @@ export const generatedReviews = [
     "buyUrl": "https://buyinsuleaf.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9931,7 +9931,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.sunlightloophole.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -9976,7 +9976,7 @@ export const generatedReviews = [
     "buyUrl": "https://flatbellyshake.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10021,7 +10021,7 @@ export const generatedReviews = [
     "buyUrl": "https://nervogen.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10066,7 +10066,7 @@ export const generatedReviews = [
     "buyUrl": "https://hairfortin.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10111,7 +10111,7 @@ export const generatedReviews = [
     "buyUrl": "https://mannaflux.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10156,7 +10156,7 @@ export const generatedReviews = [
     "buyUrl": "https://rangii.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10201,7 +10201,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10246,7 +10246,7 @@ export const generatedReviews = [
     "buyUrl": "https://vitrafoxin.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10291,7 +10291,7 @@ export const generatedReviews = [
     "buyUrl": "https://getterracalm.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10336,7 +10336,7 @@ export const generatedReviews = [
     "buyUrl": "https://kundaliniflow.co/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10381,7 +10381,7 @@ export const generatedReviews = [
     "buyUrl": "https://getvivogutpro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10426,7 +10426,7 @@ export const generatedReviews = [
     "buyUrl": "https://getflexigenics.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10471,7 +10471,7 @@ export const generatedReviews = [
     "buyUrl": "https://getsupranail.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10516,7 +10516,7 @@ export const generatedReviews = [
     "buyUrl": "https://vidacalm.net/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10561,7 +10561,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.leanotox.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10606,7 +10606,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10651,7 +10651,7 @@ export const generatedReviews = [
     "buyUrl": "https://nitrilean.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10696,7 +10696,7 @@ export const generatedReviews = [
     "buyUrl": "https://thecognitivefuel.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10741,7 +10741,7 @@ export const generatedReviews = [
     "buyUrl": "#",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10786,7 +10786,7 @@ export const generatedReviews = [
     "buyUrl": "https://jointeternal.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10831,7 +10831,7 @@ export const generatedReviews = [
     "buyUrl": "https://bloodarmor.net/bloodarmor-pv/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10876,7 +10876,7 @@ export const generatedReviews = [
     "buyUrl": "https://sonicsolace.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10921,7 +10921,7 @@ export const generatedReviews = [
     "buyUrl": "https://arterisplus.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -10966,7 +10966,7 @@ export const generatedReviews = [
     "buyUrl": "https://kerabiotics.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -11011,7 +11011,7 @@ export const generatedReviews = [
     "buyUrl": "https://visiumplus.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -11056,7 +11056,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.stemcellsolution.info/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -11101,7 +11101,7 @@ export const generatedReviews = [
     "buyUrl": "https://www.reliverpro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -11146,7 +11146,7 @@ export const generatedReviews = [
     "buyUrl": "https://revitagut.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -11191,7 +11191,7 @@ export const generatedReviews = [
     "buyUrl": "https://slimradiance.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -11236,7 +11236,7 @@ export const generatedReviews = [
     "buyUrl": "https://refirmance.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -11281,7 +11281,7 @@ export const generatedReviews = [
     "buyUrl": "https://neurocalmpro.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",
@@ -11326,7 +11326,7 @@ export const generatedReviews = [
     "buyUrl": "https://honeyburn.com/",
     "author": {
       "name": "Dr. Sarah Chen",
-      "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      "avatar": "/assets/images/doctor.png",
       "role": "Medical Reviewer"
     },
     "date": "updated Oct 20, 2023",

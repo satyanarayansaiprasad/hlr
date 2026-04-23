@@ -379,7 +379,7 @@ for cat in categoryMapping:
             "buyUrl": link,
             "author": {
                 "name": "Dr. Sarah Chen",
-                "avatar": "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+                "avatar": "/assets/images/doctor.png",
                 "role": "Medical Reviewer"
             },
             "date": "updated Oct 20, 2023",
