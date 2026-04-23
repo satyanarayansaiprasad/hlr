@@ -2,8 +2,8 @@ import json
 import os
 import re
 
-# Directory where images are stored
-ASSETS_DIR = 'client/src/assets/hlr'
+# Directory where images are stored (relative to project root for script, but served from /assets/hlr/)
+ASSETS_DIR = 'client/public/assets/hlr'
 DATA_FILE = 'client/src/data/generatedReviews.js'
 
 def normalize(name):
@@ -87,7 +87,7 @@ def main():
                     break
         
         if found_img:
-            img_path = f"/src/assets/hlr/{found_img}"
+            img_path = f"/assets/hlr/{found_img}"
             review['image'] = img_path
             if 'product' in review:
                 review['product']['image'] = img_path

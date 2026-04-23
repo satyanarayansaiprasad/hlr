@@ -6,7 +6,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "citrus-burn",
-    "image": "/src/assets/hlr/Citrus Burn.png",
+    "image": "/assets/hlr/Citrus Burn.png",
     "rating": 4.7,
     "metaTitle": "Citrus Burn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Citrus Burn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -38,7 +38,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Citrus Burn",
-      "image": "/src/assets/hlr/Citrus Burn.png",
+      "image": "/assets/hlr/Citrus Burn.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://citrusburn.com/"
@@ -51,7 +51,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "mitolyn",
-    "image": "/src/assets/hlr/mitolyn.avif",
+    "image": "/assets/hlr/mitolyn.avif",
     "rating": 4.9,
     "metaTitle": "mitolyn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest mitolyn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -83,7 +83,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "mitolyn",
-      "image": "/src/assets/hlr/mitolyn.avif",
+      "image": "/assets/hlr/mitolyn.avif",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://mitolyn.com/"
@@ -96,7 +96,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "sumatra-slim-belly-tonic",
-    "image": "/src/assets/hlr/Sumatra Slim Belly Tonic.png",
+    "image": "/assets/hlr/Sumatra Slim Belly Tonic.png",
     "rating": 4.3,
     "metaTitle": "Sumatra Slim Belly Tonic Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Sumatra Slim Belly Tonic review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -128,7 +128,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Sumatra Slim Belly Tonic",
-      "image": "/src/assets/hlr/Sumatra Slim Belly Tonic.png",
+      "image": "/assets/hlr/Sumatra Slim Belly Tonic.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://sumatratonic.com/"
@@ -141,7 +141,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "sleep-lean",
-    "image": "/src/assets/hlr/Sleep Lean.png",
+    "image": "/assets/hlr/Sleep Lean.png",
     "rating": 4.4,
     "metaTitle": "Sleep Lean Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Sleep Lean review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -173,7 +173,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Sleep Lean",
-      "image": "/src/assets/hlr/Sleep Lean.png",
+      "image": "/assets/hlr/Sleep Lean.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://sleeplean.net/"
@@ -186,7 +186,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "leptozan",
-    "image": "/src/assets/hlr/Leptozan.webp",
+    "image": "/assets/hlr/Leptozan.webp",
     "rating": 4.5,
     "metaTitle": "Leptozan Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Leptozan review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -218,7 +218,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Leptozan",
-      "image": "/src/assets/hlr/Leptozan.webp",
+      "image": "/assets/hlr/Leptozan.webp",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://leptozan.com/"
@@ -276,7 +276,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "burn",
-    "image": "/src/assets/hlr/BURN.png",
+    "image": "/assets/hlr/BURN.png",
     "rating": 4.5,
     "metaTitle": "BURN Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest BURN review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -308,7 +308,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "BURN",
-      "image": "/src/assets/hlr/BURN.png",
+      "image": "/assets/hlr/BURN.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://try24burn.com/"
@@ -321,7 +321,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "all-day-slimming-tea",
-    "image": "/src/assets/hlr/All Day Slimming Tea.png",
+    "image": "/assets/hlr/All Day Slimming Tea.png",
     "rating": 4.7,
     "metaTitle": "All Day Slimming Tea Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest All Day Slimming Tea review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -353,7 +353,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "All Day Slimming Tea",
-      "image": "/src/assets/hlr/All Day Slimming Tea.png",
+      "image": "/assets/hlr/All Day Slimming Tea.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://allslimmingherbs.com/"
@@ -366,7 +366,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "slimcrystal",
-    "image": "/src/assets/hlr/SLIMCRYSTAL.jpg",
+    "image": "/assets/hlr/SLIMCRYSTAL.jpg",
     "rating": 4.8,
     "metaTitle": "SLIMCRYSTAL Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest SLIMCRYSTAL review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -398,7 +398,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "SLIMCRYSTAL",
-      "image": "/src/assets/hlr/SLIMCRYSTAL.jpg",
+      "image": "/assets/hlr/SLIMCRYSTAL.jpg",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://slimcrystal.com/"
@@ -456,7 +456,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "nagano-tonic",
-    "image": "/src/assets/hlr/Nagano Tonic.webp",
+    "image": "/assets/hlr/Nagano Tonic.webp",
     "rating": 4.6,
     "metaTitle": "Nagano Tonic Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nagano Tonic review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -488,7 +488,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nagano Tonic",
-      "image": "/src/assets/hlr/Nagano Tonic.webp",
+      "image": "/assets/hlr/Nagano Tonic.webp",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://leanbodytonic.com/"
@@ -501,7 +501,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "leanbliss",
-    "image": "/src/assets/hlr/LeanBliss.png",
+    "image": "/assets/hlr/LeanBliss.png",
     "rating": 4.9,
     "metaTitle": "LeanBliss Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest LeanBliss review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -533,7 +533,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "LeanBliss",
-      "image": "/src/assets/hlr/LeanBliss.png",
+      "image": "/assets/hlr/LeanBliss.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://getleanbliss.com/"
@@ -546,7 +546,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "aquasculpt",
-    "image": "/src/assets/hlr/AquaSculpt.jpg",
+    "image": "/assets/hlr/AquaSculpt.jpg",
     "rating": 4.7,
     "metaTitle": "AquaSculpt Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest AquaSculpt review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -578,7 +578,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "AquaSculpt",
-      "image": "/src/assets/hlr/AquaSculpt.jpg",
+      "image": "/assets/hlr/AquaSculpt.jpg",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "#"
@@ -591,7 +591,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "keyslim",
-    "image": "/src/assets/hlr/KEYSLIM.webp",
+    "image": "/assets/hlr/KEYSLIM.webp",
     "rating": 4.7,
     "metaTitle": "KEYSLIM Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest KEYSLIM review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -623,7 +623,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "KEYSLIM",
-      "image": "/src/assets/hlr/KEYSLIM.webp",
+      "image": "/assets/hlr/KEYSLIM.webp",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://keyslimdrops.com/"
@@ -636,7 +636,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "fast-lean-pro",
-    "image": "/src/assets/hlr/Fast Lean Pro.webp",
+    "image": "/assets/hlr/Fast Lean Pro.webp",
     "rating": 4.6,
     "metaTitle": "Fast Lean Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Fast Lean Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -668,7 +668,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Fast Lean Pro",
-      "image": "/src/assets/hlr/Fast Lean Pro.webp",
+      "image": "/assets/hlr/Fast Lean Pro.webp",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "#"
@@ -681,7 +681,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "nicoya-puratea",
-    "image": "/src/assets/hlr/Nicoya PuraTea.png",
+    "image": "/assets/hlr/Nicoya PuraTea.png",
     "rating": 4.5,
     "metaTitle": "Nicoya PuraTea Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nicoya PuraTea review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -713,7 +713,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nicoya PuraTea",
-      "image": "/src/assets/hlr/Nicoya PuraTea.png",
+      "image": "/assets/hlr/Nicoya PuraTea.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://nicoyapuratea.com/"
@@ -726,7 +726,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "viva-slim",
-    "image": "/src/assets/hlr/Viva Slim.webp",
+    "image": "/assets/hlr/Viva Slim.webp",
     "rating": 4.8,
     "metaTitle": "Viva Slim Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Viva Slim review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -758,7 +758,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Viva Slim",
-      "image": "/src/assets/hlr/Viva Slim.webp",
+      "image": "/assets/hlr/Viva Slim.webp",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://getvivaslim.com/cb/go/index.php"
@@ -771,7 +771,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "cleanest-body",
-    "image": "/src/assets/hlr/Cleanest Body.png",
+    "image": "/assets/hlr/Cleanest Body.png",
     "rating": 4.4,
     "metaTitle": "Cleanest Body Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Cleanest Body review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -803,7 +803,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Cleanest Body",
-      "image": "/src/assets/hlr/Cleanest Body.png",
+      "image": "/assets/hlr/Cleanest Body.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://cleanestbody.com/"
@@ -816,7 +816,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "purpleburn-pro",
-    "image": "/src/assets/hlr/PurpleBurn Pro.png",
+    "image": "/assets/hlr/PurpleBurn Pro.png",
     "rating": 4.5,
     "metaTitle": "PurpleBurn Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest PurpleBurn Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -848,7 +848,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "PurpleBurn Pro",
-      "image": "/src/assets/hlr/PurpleBurn Pro.png",
+      "image": "/assets/hlr/PurpleBurn Pro.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://purpleburnpro.com/"
@@ -861,7 +861,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "java-burn",
-    "image": "/src/assets/hlr/java burn.png",
+    "image": "/assets/hlr/java burn.png",
     "rating": 4.8,
     "metaTitle": "java burn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest java burn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -893,7 +893,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "java burn",
-      "image": "/src/assets/hlr/java burn.png",
+      "image": "/assets/hlr/java burn.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://morningcoffeeritual.net/"
@@ -906,7 +906,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "leanbiome",
-    "image": "/src/assets/hlr/LeanBiome.png",
+    "image": "/assets/hlr/LeanBiome.png",
     "rating": 4.9,
     "metaTitle": "LeanBiome Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest LeanBiome review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -938,7 +938,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "LeanBiome",
-      "image": "/src/assets/hlr/LeanBiome.png",
+      "image": "/assets/hlr/LeanBiome.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://bestleanlife.com/cb/?"
@@ -951,7 +951,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "renew",
-    "image": "/src/assets/hlr/RENEW.png",
+    "image": "/assets/hlr/RENEW.png",
     "rating": 4.5,
     "metaTitle": "RENEW Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest RENEW review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -983,7 +983,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "RENEW",
-      "image": "/src/assets/hlr/RENEW.png",
+      "image": "/assets/hlr/RENEW.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://www.saltwatertrick.org/"
@@ -996,7 +996,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "ignitra",
-    "image": "/src/assets/hlr/Ignitra.png",
+    "image": "/assets/hlr/Ignitra.png",
     "rating": 4.3,
     "metaTitle": "Ignitra Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Ignitra review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1028,7 +1028,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Ignitra",
-      "image": "/src/assets/hlr/Ignitra.png",
+      "image": "/assets/hlr/Ignitra.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://getignitra.com/"
@@ -1041,7 +1041,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "aquaburn",
-    "image": "/src/assets/hlr/Aquaburn.png",
+    "image": "/assets/hlr/Aquaburn.png",
     "rating": 4.9,
     "metaTitle": "Aquaburn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Aquaburn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1073,7 +1073,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Aquaburn",
-      "image": "/src/assets/hlr/Aquaburn.png",
+      "image": "/assets/hlr/Aquaburn.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://aquaburn.org/"
@@ -1086,7 +1086,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "volca-burn",
-    "image": "/src/assets/hlr/Volca Burn.png",
+    "image": "/assets/hlr/Volca Burn.png",
     "rating": 4.8,
     "metaTitle": "Volca Burn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Volca Burn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1118,7 +1118,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Volca Burn",
-      "image": "/src/assets/hlr/Volca Burn.png",
+      "image": "/assets/hlr/Volca Burn.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://volcaburn.com/"
@@ -1131,7 +1131,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "metabo-flex",
-    "image": "/src/assets/hlr/Metabo Flex.png",
+    "image": "/assets/hlr/Metabo Flex.png",
     "rating": 4.2,
     "metaTitle": "Metabo Flex Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Metabo Flex review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1163,7 +1163,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Metabo Flex",
-      "image": "/src/assets/hlr/Metabo Flex.png",
+      "image": "/assets/hlr/Metabo Flex.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://www.metaboflex.com/"
@@ -1176,7 +1176,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "lavaslim",
-    "image": "/src/assets/hlr/LavaSlim.webp",
+    "image": "/assets/hlr/LavaSlim.webp",
     "rating": 4.7,
     "metaTitle": "LavaSlim Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest LavaSlim review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1208,7 +1208,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "LavaSlim",
-      "image": "/src/assets/hlr/LavaSlim.webp",
+      "image": "/assets/hlr/LavaSlim.webp",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://www.golavaslim.com/"
@@ -1221,7 +1221,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "hydrolean-xt",
-    "image": "/src/assets/hlr/HydroLean XT.jpg",
+    "image": "/assets/hlr/HydroLean XT.jpg",
     "rating": 4.7,
     "metaTitle": "HydroLean XT Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest HydroLean XT review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1253,7 +1253,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "HydroLean XT",
-      "image": "/src/assets/hlr/HydroLean XT.jpg",
+      "image": "/assets/hlr/HydroLean XT.jpg",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://hydroleanxt.com/"
@@ -1266,7 +1266,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "superconductor-slim",
-    "image": "/src/assets/hlr/Superconductor Slim.webp",
+    "image": "/assets/hlr/Superconductor Slim.webp",
     "rating": 4.4,
     "metaTitle": "Superconductor Slim Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Superconductor Slim review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1298,7 +1298,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Superconductor Slim",
-      "image": "/src/assets/hlr/Superconductor Slim.webp",
+      "image": "/assets/hlr/Superconductor Slim.webp",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://superconductorslim.com/"
@@ -1311,7 +1311,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "bellyflush",
-    "image": "/src/assets/hlr/BellyFlush.webp",
+    "image": "/assets/hlr/BellyFlush.webp",
     "rating": 4.8,
     "metaTitle": "BellyFlush Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest BellyFlush review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1343,7 +1343,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "BellyFlush",
-      "image": "/src/assets/hlr/BellyFlush.webp",
+      "image": "/assets/hlr/BellyFlush.webp",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://cb.getbellyflush.com/go/lander.php"
@@ -1356,7 +1356,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "electroslim",
-    "image": "/src/assets/hlr/ElectroSlim.png",
+    "image": "/assets/hlr/ElectroSlim.png",
     "rating": 4.2,
     "metaTitle": "ElectroSlim Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ElectroSlim review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1388,7 +1388,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ElectroSlim",
-      "image": "/src/assets/hlr/ElectroSlim.png",
+      "image": "/assets/hlr/ElectroSlim.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://cb.getelectroslim.com/go/indexwritten.php"
@@ -1401,7 +1401,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "orexiburn",
-    "image": "/src/assets/hlr/OrexiBurn.png",
+    "image": "/assets/hlr/OrexiBurn.png",
     "rating": 4.2,
     "metaTitle": "OrexiBurn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest OrexiBurn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1433,7 +1433,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "OrexiBurn",
-      "image": "/src/assets/hlr/OrexiBurn.png",
+      "image": "/assets/hlr/OrexiBurn.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://orexiburn.com/"
@@ -1446,7 +1446,7 @@ export const generatedReviews = [
     "category": "Weight Loss",
     "categorySlug": "weight-loss",
     "slug": "liposlend",
-    "image": "/src/assets/hlr/LipoSlend.png",
+    "image": "/assets/hlr/LipoSlend.png",
     "rating": 4.4,
     "metaTitle": "LipoSlend Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest LipoSlend review covering ingredients, benefits, pros & cons, and real results for individuals dealing with stubborn weight and metabolic slowdown.",
@@ -1478,7 +1478,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "LipoSlend",
-      "image": "/src/assets/hlr/LipoSlend.png",
+      "image": "/assets/hlr/LipoSlend.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://liposlend.com/"
@@ -1491,7 +1491,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "prodentim",
-    "image": "/src/assets/hlr/ProDentim.png",
+    "image": "/assets/hlr/ProDentim.png",
     "rating": 4.9,
     "metaTitle": "ProDentim Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ProDentim review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1523,7 +1523,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ProDentim",
-      "image": "/src/assets/hlr/ProDentim.png",
+      "image": "/assets/hlr/ProDentim.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://prodentim101.com/"
@@ -1536,7 +1536,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "provadent",
-    "image": "/src/assets/hlr/ProvaDent.webp",
+    "image": "/assets/hlr/ProvaDent.webp",
     "rating": 4.3,
     "metaTitle": "ProvaDent Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ProvaDent review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1568,7 +1568,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ProvaDent",
-      "image": "/src/assets/hlr/ProvaDent.webp",
+      "image": "/assets/hlr/ProvaDent.webp",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://dentalsugarhack.com/"
@@ -1581,7 +1581,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "synadentix",
-    "image": "/src/assets/hlr/Synadentix.png",
+    "image": "/assets/hlr/Synadentix.png",
     "rating": 4.9,
     "metaTitle": "Synadentix Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Synadentix review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1613,7 +1613,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Synadentix",
-      "image": "/src/assets/hlr/Synadentix.png",
+      "image": "/assets/hlr/Synadentix.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://synadentix.com/"
@@ -1626,7 +1626,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "denticore",
-    "image": "/src/assets/hlr/Denticore.png",
+    "image": "/assets/hlr/Denticore.png",
     "rating": 4.4,
     "metaTitle": "Denticore Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Denticore review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1658,7 +1658,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Denticore",
-      "image": "/src/assets/hlr/Denticore.png",
+      "image": "/assets/hlr/Denticore.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://getdenticore.com/"
@@ -1671,7 +1671,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "steel-bite-pro",
-    "image": "/src/assets/hlr/Steel Bite Pro.png",
+    "image": "/assets/hlr/Steel Bite Pro.png",
     "rating": 4.3,
     "metaTitle": "Steel Bite Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Steel Bite Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1703,7 +1703,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Steel Bite Pro",
-      "image": "/src/assets/hlr/Steel Bite Pro.png",
+      "image": "/assets/hlr/Steel Bite Pro.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://steelbitepro.com/"
@@ -1716,7 +1716,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "dentitox",
-    "image": "/src/assets/hlr/Dentitox.png",
+    "image": "/assets/hlr/Dentitox.png",
     "rating": 4.3,
     "metaTitle": "Dentitox Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Dentitox review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1748,7 +1748,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Dentitox",
-      "image": "/src/assets/hlr/Dentitox.png",
+      "image": "/assets/hlr/Dentitox.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://thedentitox101.com/"
@@ -1761,7 +1761,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "powerbite",
-    "image": "/src/assets/hlr/PowerBite.png",
+    "image": "/assets/hlr/PowerBite.png",
     "rating": 4.2,
     "metaTitle": "PowerBite Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest PowerBite review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1793,7 +1793,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "PowerBite",
-      "image": "/src/assets/hlr/PowerBite.png",
+      "image": "/assets/hlr/PowerBite.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://getpowerbite.com/"
@@ -1806,7 +1806,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "oradentum",
-    "image": "/src/assets/hlr/Oradentum.png",
+    "image": "/assets/hlr/Oradentum.png",
     "rating": 4.2,
     "metaTitle": "Oradentum Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Oradentum review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1838,7 +1838,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Oradentum",
-      "image": "/src/assets/hlr/Oradentum.png",
+      "image": "/assets/hlr/Oradentum.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://getoradentum.com/"
@@ -1851,7 +1851,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "gumaktiv",
-    "image": "/src/assets/hlr/GumAktiv.png",
+    "image": "/assets/hlr/GumAktiv.png",
     "rating": 4.7,
     "metaTitle": "GumAktiv Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest GumAktiv review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1883,7 +1883,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "GumAktiv",
-      "image": "/src/assets/hlr/GumAktiv.png",
+      "image": "/assets/hlr/GumAktiv.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://gumaktiv.com/"
@@ -1896,7 +1896,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "dentasmile-pro",
-    "image": "/src/assets/hlr/DentaSmile Pro.png",
+    "image": "/assets/hlr/DentaSmile Pro.png",
     "rating": 4.8,
     "metaTitle": "DentaSmile Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest DentaSmile Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1928,7 +1928,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "DentaSmile Pro",
-      "image": "/src/assets/hlr/DentaSmile Pro.png",
+      "image": "/assets/hlr/DentaSmile Pro.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://getdentasmilepro.com/"
@@ -1941,7 +1941,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "dentatonic",
-    "image": "/src/assets/hlr/DentaTonic.png",
+    "image": "/assets/hlr/DentaTonic.png",
     "rating": 4.7,
     "metaTitle": "DentaTonic Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest DentaTonic review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -1973,7 +1973,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "DentaTonic",
-      "image": "/src/assets/hlr/DentaTonic.png",
+      "image": "/assets/hlr/DentaTonic.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://dentatonic.com/"
@@ -1986,7 +1986,7 @@ export const generatedReviews = [
     "category": "Dental Health",
     "categorySlug": "dental-health",
     "slug": "purdentix",
-    "image": "/src/assets/hlr/PurDentix.png",
+    "image": "/assets/hlr/PurDentix.png",
     "rating": 4.7,
     "metaTitle": "PurDentix Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest PurDentix review covering ingredients, benefits, pros & cons, and real results for individuals dealing with gum disease, bad breath, and poor oral microbiome.",
@@ -2018,7 +2018,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "PurDentix",
-      "image": "/src/assets/hlr/PurDentix.png",
+      "image": "/assets/hlr/PurDentix.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://takepurdentixnow.com/"
@@ -2031,7 +2031,7 @@ export const generatedReviews = [
     "category": "General",
     "categorySlug": "general",
     "slug": "neura",
-    "image": "/src/assets/hlr/Neura.png",
+    "image": "/assets/hlr/Neura.png",
     "rating": 4.3,
     "metaTitle": "Neura Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Neura review covering ingredients, benefits, pros & cons, and real results for individuals dealing with general wellness and biological aging.",
@@ -2063,7 +2063,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Neura",
-      "image": "/src/assets/hlr/Neura.png",
+      "image": "/assets/hlr/Neura.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://neuraoriginal.com/"
@@ -2076,7 +2076,7 @@ export const generatedReviews = [
     "category": "General",
     "categorySlug": "general",
     "slug": "sonovive",
-    "image": "/src/assets/hlr/SonoVive.png",
+    "image": "/assets/hlr/SonoVive.png",
     "rating": 4.6,
     "metaTitle": "SonoVive Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest SonoVive review covering ingredients, benefits, pros & cons, and real results for individuals dealing with general wellness and biological aging.",
@@ -2108,7 +2108,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "SonoVive",
-      "image": "/src/assets/hlr/SonoVive.png",
+      "image": "/assets/hlr/SonoVive.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://sonovive.com/"
@@ -2121,7 +2121,7 @@ export const generatedReviews = [
     "category": "General",
     "categorySlug": "general",
     "slug": "sight-fresh",
-    "image": "/src/assets/hlr/Sight Fresh.png",
+    "image": "/assets/hlr/Sight Fresh.png",
     "rating": 4.7,
     "metaTitle": "Sight Fresh Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Sight Fresh review covering ingredients, benefits, pros & cons, and real results for individuals dealing with general wellness and biological aging.",
@@ -2153,7 +2153,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Sight Fresh",
-      "image": "/src/assets/hlr/Sight Fresh.png",
+      "image": "/assets/hlr/Sight Fresh.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://sightfresh.com/"
@@ -2166,7 +2166,7 @@ export const generatedReviews = [
     "category": "General",
     "categorySlug": "general",
     "slug": "nervolink",
-    "image": "/src/assets/hlr/Nervolink.png",
+    "image": "/assets/hlr/Nervolink.png",
     "rating": 4.3,
     "metaTitle": "Nervolink Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nervolink review covering ingredients, benefits, pros & cons, and real results for individuals dealing with general wellness and biological aging.",
@@ -2198,7 +2198,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nervolink",
-      "image": "/src/assets/hlr/Nervolink.png",
+      "image": "/assets/hlr/Nervolink.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://nervolink.com/"
@@ -2211,7 +2211,7 @@ export const generatedReviews = [
     "category": "General",
     "categorySlug": "general",
     "slug": "nervozen",
-    "image": "/src/assets/hlr/Nervozen.webp",
+    "image": "/assets/hlr/Nervozen.webp",
     "rating": 4.2,
     "metaTitle": "Nervozen Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nervozen review covering ingredients, benefits, pros & cons, and real results for individuals dealing with general wellness and biological aging.",
@@ -2243,7 +2243,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nervozen",
-      "image": "/src/assets/hlr/Nervozen.webp",
+      "image": "/assets/hlr/Nervozen.webp",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://nervozen.net/"
@@ -2256,7 +2256,7 @@ export const generatedReviews = [
     "category": "Mental Health",
     "categorySlug": "mental-health",
     "slug": "neurozoom",
-    "image": "/src/assets/hlr/Neurozoom.webp",
+    "image": "/assets/hlr/Neurozoom.webp",
     "rating": 4.7,
     "metaTitle": "Neurozoom Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Neurozoom review covering ingredients, benefits, pros & cons, and real results for individuals dealing with brain fog, cognitive decline, and focus issues.",
@@ -2288,7 +2288,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Neurozoom",
-      "image": "/src/assets/hlr/Neurozoom.webp",
+      "image": "/assets/hlr/Neurozoom.webp",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://getneurozoom.com/"
@@ -2301,7 +2301,7 @@ export const generatedReviews = [
     "category": "Sleep and Dreams",
     "categorySlug": "sleep-and-dreams",
     "slug": "yu-sleep",
-    "image": "/src/assets/hlr/Yu Sleep.png",
+    "image": "/assets/hlr/Yu Sleep.png",
     "rating": 4.9,
     "metaTitle": "Yu Sleep Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Yu Sleep review covering ingredients, benefits, pros & cons, and real results for individuals dealing with insomnia and lack of deep REM sleep.",
@@ -2333,7 +2333,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Yu Sleep",
-      "image": "/src/assets/hlr/Yu Sleep.png",
+      "image": "/assets/hlr/Yu Sleep.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://getyusleep.com/"
@@ -2346,7 +2346,7 @@ export const generatedReviews = [
     "category": "Sleep and Dreams",
     "categorySlug": "sleep-and-dreams",
     "slug": "nitehush-pro",
-    "image": "/src/assets/hlr/NiteHush Pro.png",
+    "image": "/assets/hlr/NiteHush Pro.png",
     "rating": 4.8,
     "metaTitle": "NiteHush Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NiteHush Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with insomnia and lack of deep REM sleep.",
@@ -2378,7 +2378,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NiteHush Pro",
-      "image": "/src/assets/hlr/NiteHush Pro.png",
+      "image": "/assets/hlr/NiteHush Pro.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://nitehushpro.com/"
@@ -2391,7 +2391,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "primebiome",
-    "image": "/src/assets/hlr/PrimeBiome.png",
+    "image": "/assets/hlr/PrimeBiome.png",
     "rating": 4.4,
     "metaTitle": "PrimeBiome Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest PrimeBiome review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2423,7 +2423,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "PrimeBiome",
-      "image": "/src/assets/hlr/PrimeBiome.png",
+      "image": "/assets/hlr/PrimeBiome.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://getprimebiome.com/"
@@ -2436,7 +2436,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "kerassentials",
-    "image": "/src/assets/hlr/Kerassentials.png",
+    "image": "/assets/hlr/Kerassentials.png",
     "rating": 4.5,
     "metaTitle": "Kerassentials Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Kerassentials review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2468,7 +2468,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Kerassentials",
-      "image": "/src/assets/hlr/Kerassentials.png",
+      "image": "/assets/hlr/Kerassentials.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://kerassentials.com/"
@@ -2481,7 +2481,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "neotonics",
-    "image": "/src/assets/hlr/Neotonics.png",
+    "image": "/assets/hlr/Neotonics.png",
     "rating": 4.4,
     "metaTitle": "Neotonics Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Neotonics review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2513,7 +2513,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Neotonics",
-      "image": "/src/assets/hlr/Neotonics.png",
+      "image": "/assets/hlr/Neotonics.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://neotonics.com/"
@@ -2526,7 +2526,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "appanail",
-    "image": "/src/assets/hlr/AppaNail.png",
+    "image": "/assets/hlr/AppaNail.png",
     "rating": 4.2,
     "metaTitle": "AppaNail Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest AppaNail review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2558,7 +2558,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "AppaNail",
-      "image": "/src/assets/hlr/AppaNail.png",
+      "image": "/assets/hlr/AppaNail.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://getappanail.com/"
@@ -2571,7 +2571,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "revitag",
-    "image": "/src/assets/hlr/ReviTag.png",
+    "image": "/assets/hlr/ReviTag.png",
     "rating": 4.3,
     "metaTitle": "ReviTag Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ReviTag review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2603,7 +2603,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ReviTag",
-      "image": "/src/assets/hlr/ReviTag.png",
+      "image": "/assets/hlr/ReviTag.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://getrevitag.com/"
@@ -2616,7 +2616,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "illuderma",
-    "image": "/src/assets/hlr/Illuderma.png",
+    "image": "/assets/hlr/Illuderma.png",
     "rating": 4.8,
     "metaTitle": "Illuderma Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Illuderma review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2648,7 +2648,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Illuderma",
-      "image": "/src/assets/hlr/Illuderma.png",
+      "image": "/assets/hlr/Illuderma.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://illuderma.com/"
@@ -2661,7 +2661,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "renewritual",
-    "image": "/src/assets/hlr/RenewRitual.png",
+    "image": "/assets/hlr/RenewRitual.png",
     "rating": 4.7,
     "metaTitle": "RenewRitual Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest RenewRitual review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2693,7 +2693,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "RenewRitual",
-      "image": "/src/assets/hlr/RenewRitual.png",
+      "image": "/assets/hlr/RenewRitual.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://getrenewritual.com/"
@@ -2706,7 +2706,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "foliprime",
-    "image": "/src/assets/hlr/FoliPrime.png",
+    "image": "/assets/hlr/FoliPrime.png",
     "rating": 4.4,
     "metaTitle": "FoliPrime Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest FoliPrime review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2738,7 +2738,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "FoliPrime",
-      "image": "/src/assets/hlr/FoliPrime.png",
+      "image": "/assets/hlr/FoliPrime.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://foliprime.com/"
@@ -2751,7 +2751,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "derma-prime-plus",
-    "image": "/src/assets/hlr/Derma Prime Plus.png",
+    "image": "/assets/hlr/Derma Prime Plus.png",
     "rating": 4.7,
     "metaTitle": "Derma Prime Plus Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Derma Prime Plus review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2783,7 +2783,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Derma Prime Plus",
-      "image": "/src/assets/hlr/Derma Prime Plus.png",
+      "image": "/assets/hlr/Derma Prime Plus.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://dermaprimeplus.com/"
@@ -2796,7 +2796,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "hydrossential",
-    "image": "/src/assets/hlr/Hydrossential.png",
+    "image": "/assets/hlr/Hydrossential.png",
     "rating": 4.5,
     "metaTitle": "Hydrossential Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Hydrossential review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2828,7 +2828,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Hydrossential",
-      "image": "/src/assets/hlr/Hydrossential.png",
+      "image": "/assets/hlr/Hydrossential.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://hydrossential.com/"
@@ -2841,7 +2841,7 @@ export const generatedReviews = [
     "category": "Beauty",
     "categorySlug": "beauty",
     "slug": "synevra-ultralift",
-    "image": "/src/assets/hlr/synevra ultralift.png",
+    "image": "/assets/hlr/synevra ultralift.png",
     "rating": 4.5,
     "metaTitle": "synevra ultralift Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest synevra ultralift review covering ingredients, benefits, pros & cons, and real results for individuals dealing with premature aging, dermal breakdown, and hair thinning.",
@@ -2873,7 +2873,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "synevra ultralift",
-      "image": "/src/assets/hlr/synevra ultralift.png",
+      "image": "/assets/hlr/synevra ultralift.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://getsynevra.com/"
@@ -2886,7 +2886,7 @@ export const generatedReviews = [
     "category": "Remedies",
     "categorySlug": "remedies",
     "slug": "nerve-armor",
-    "image": "/src/assets/hlr/NERVE ARMOR.webp",
+    "image": "/assets/hlr/NERVE ARMOR.webp",
     "rating": 4.8,
     "metaTitle": "NERVE ARMOR Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NERVE ARMOR review covering ingredients, benefits, pros & cons, and real results for individuals dealing with neuropathy, chronic pain, and nerve degradation.",
@@ -2918,7 +2918,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NERVE ARMOR",
-      "image": "/src/assets/hlr/NERVE ARMOR.webp",
+      "image": "/assets/hlr/NERVE ARMOR.webp",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://nervearmor.org/"
@@ -2931,7 +2931,7 @@ export const generatedReviews = [
     "category": "Remedies",
     "categorySlug": "remedies",
     "slug": "nerve-soothe",
-    "image": "/src/assets/hlr/Nerve Soothe.webp",
+    "image": "/assets/hlr/Nerve Soothe.webp",
     "rating": 4.6,
     "metaTitle": "Nerve Soothe Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nerve Soothe review covering ingredients, benefits, pros & cons, and real results for individuals dealing with neuropathy, chronic pain, and nerve degradation.",
@@ -2963,7 +2963,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nerve Soothe",
-      "image": "/src/assets/hlr/Nerve Soothe.webp",
+      "image": "/assets/hlr/Nerve Soothe.webp",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://secure.getnervesoothe.com/"
@@ -2976,7 +2976,7 @@ export const generatedReviews = [
     "category": "Remedies",
     "categorySlug": "remedies",
     "slug": "tonic-greens",
-    "image": "/src/assets/hlr/Tonic Greens.png",
+    "image": "/assets/hlr/Tonic Greens.png",
     "rating": 4.5,
     "metaTitle": "Tonic Greens Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Tonic Greens review covering ingredients, benefits, pros & cons, and real results for individuals dealing with neuropathy, chronic pain, and nerve degradation.",
@@ -3008,7 +3008,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Tonic Greens",
-      "image": "/src/assets/hlr/Tonic Greens.png",
+      "image": "/assets/hlr/Tonic Greens.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://trytonicgreens.cc/"
@@ -3021,7 +3021,7 @@ export const generatedReviews = [
     "category": "Remedies",
     "categorySlug": "remedies",
     "slug": "insufend",
-    "image": "/src/assets/hlr/Insufend.webp",
+    "image": "/assets/hlr/Insufend.webp",
     "rating": 4.3,
     "metaTitle": "Insufend Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Insufend review covering ingredients, benefits, pros & cons, and real results for individuals dealing with neuropathy, chronic pain, and nerve degradation.",
@@ -3053,7 +3053,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Insufend",
-      "image": "/src/assets/hlr/Insufend.webp",
+      "image": "/assets/hlr/Insufend.webp",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://tryinsufend.com/"
@@ -3066,7 +3066,7 @@ export const generatedReviews = [
     "category": "Remedies",
     "categorySlug": "remedies",
     "slug": "nerve-revive-360",
-    "image": "/src/assets/hlr/Nerve Revive 360.png",
+    "image": "/assets/hlr/Nerve Revive 360.png",
     "rating": 4.3,
     "metaTitle": "Nerve Revive 360 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nerve Revive 360 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with neuropathy, chronic pain, and nerve degradation.",
@@ -3098,7 +3098,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nerve Revive 360",
-      "image": "/src/assets/hlr/Nerve Revive 360.png",
+      "image": "/assets/hlr/Nerve Revive 360.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://trynerverevive360.com/"
@@ -3111,7 +3111,7 @@ export const generatedReviews = [
     "category": "Women's Health",
     "categorySlug": "womens-health",
     "slug": "menovelle",
-    "image": "/src/assets/hlr/Menovelle.png",
+    "image": "/assets/hlr/Menovelle.png",
     "rating": 4.5,
     "metaTitle": "Menovelle Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Menovelle review covering ingredients, benefits, pros & cons, and real results for individuals dealing with hormonal imbalance, menopause symptoms, and systemic health.",
@@ -3143,7 +3143,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Menovelle",
-      "image": "/src/assets/hlr/Menovelle.png",
+      "image": "/assets/hlr/Menovelle.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://menovelle.com/"
@@ -3156,7 +3156,7 @@ export const generatedReviews = [
     "category": "Women's Health",
     "categorySlug": "womens-health",
     "slug": "newera-protect",
-    "image": "/src/assets/hlr/NewEra Protect.jpg",
+    "image": "/assets/hlr/NewEra Protect.jpg",
     "rating": 4.3,
     "metaTitle": "NewEra Protect Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NewEra Protect review covering ingredients, benefits, pros & cons, and real results for individuals dealing with hormonal imbalance, menopause symptoms, and systemic health.",
@@ -3188,7 +3188,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NewEra Protect",
-      "image": "/src/assets/hlr/NewEra Protect.jpg",
+      "image": "/assets/hlr/NewEra Protect.jpg",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "#"
@@ -3201,7 +3201,7 @@ export const generatedReviews = [
     "category": "Women's Health",
     "categorySlug": "womens-health",
     "slug": "femipro",
-    "image": "/src/assets/hlr/FemiPro.png",
+    "image": "/assets/hlr/FemiPro.png",
     "rating": 4.6,
     "metaTitle": "FemiPro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest FemiPro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with hormonal imbalance, menopause symptoms, and systemic health.",
@@ -3233,7 +3233,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "FemiPro",
-      "image": "/src/assets/hlr/FemiPro.png",
+      "image": "/assets/hlr/FemiPro.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://getfemipro.com/"
@@ -3246,7 +3246,7 @@ export const generatedReviews = [
     "category": "Women's Health",
     "categorySlug": "womens-health",
     "slug": "thyrafemme-balance",
-    "image": "/src/assets/hlr/Thyrafemme Balance.png",
+    "image": "/assets/hlr/Thyrafemme Balance.png",
     "rating": 4.8,
     "metaTitle": "Thyrafemme Balance Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Thyrafemme Balance review covering ingredients, benefits, pros & cons, and real results for individuals dealing with hormonal imbalance, menopause symptoms, and systemic health.",
@@ -3278,7 +3278,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Thyrafemme Balance",
-      "image": "/src/assets/hlr/Thyrafemme Balance.png",
+      "image": "/assets/hlr/Thyrafemme Balance.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://getthyrafemme.com/"
@@ -3291,7 +3291,7 @@ export const generatedReviews = [
     "category": "Women's Health",
     "categorySlug": "womens-health",
     "slug": "purelumin-essence",
-    "image": "/src/assets/hlr/PureLumin Essence.png",
+    "image": "/assets/hlr/PureLumin Essence.png",
     "rating": 4.8,
     "metaTitle": "PureLumin Essence Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest PureLumin Essence review covering ingredients, benefits, pros & cons, and real results for individuals dealing with hormonal imbalance, menopause symptoms, and systemic health.",
@@ -3323,7 +3323,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "PureLumin Essence",
-      "image": "/src/assets/hlr/PureLumin Essence.png",
+      "image": "/assets/hlr/PureLumin Essence.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://pureluminessence.com/"
@@ -3381,7 +3381,7 @@ export const generatedReviews = [
     "category": "Women's Health",
     "categorySlug": "womens-health",
     "slug": "menosoothe",
-    "image": "/src/assets/hlr/Menosoothe.webp",
+    "image": "/assets/hlr/Menosoothe.webp",
     "rating": 4.6,
     "metaTitle": "Menosoothe Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Menosoothe review covering ingredients, benefits, pros & cons, and real results for individuals dealing with hormonal imbalance, menopause symptoms, and systemic health.",
@@ -3413,7 +3413,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Menosoothe",
-      "image": "/src/assets/hlr/Menosoothe.webp",
+      "image": "/assets/hlr/Menosoothe.webp",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://menosoothe.net/"
@@ -3426,7 +3426,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "prostavive",
-    "image": "/src/assets/hlr/ProstaVive.webp",
+    "image": "/assets/hlr/ProstaVive.webp",
     "rating": 4.3,
     "metaTitle": "ProstaVive Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ProstaVive review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3458,7 +3458,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ProstaVive",
-      "image": "/src/assets/hlr/ProstaVive.webp",
+      "image": "/assets/hlr/ProstaVive.webp",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://prostavive.org/"
@@ -3471,7 +3471,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "nitric-boost",
-    "image": "/src/assets/hlr/Nitric Boost.webp",
+    "image": "/assets/hlr/Nitric Boost.webp",
     "rating": 4.3,
     "metaTitle": "Nitric Boost Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nitric Boost review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3503,7 +3503,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nitric Boost",
-      "image": "/src/assets/hlr/Nitric Boost.webp",
+      "image": "/assets/hlr/Nitric Boost.webp",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://getnitricboost.com/"
@@ -3516,7 +3516,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "nitric-boost-ultra",
-    "image": "/src/assets/hlr/Nitric Boost.webp",
+    "image": "/assets/hlr/Nitric Boost.webp",
     "rating": 4.9,
     "metaTitle": "Nitric Boost Ultra Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nitric Boost Ultra review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3548,7 +3548,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nitric Boost Ultra",
-      "image": "/src/assets/hlr/Nitric Boost.webp",
+      "image": "/assets/hlr/Nitric Boost.webp",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://getnitricboost.com/"
@@ -3561,7 +3561,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "potentstream",
-    "image": "/src/assets/hlr/PotentStream.png",
+    "image": "/assets/hlr/PotentStream.png",
     "rating": 4.8,
     "metaTitle": "PotentStream Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest PotentStream review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3593,7 +3593,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "PotentStream",
-      "image": "/src/assets/hlr/PotentStream.png",
+      "image": "/assets/hlr/PotentStream.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://potentstream.com/"
@@ -3606,7 +3606,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "spartamax",
-    "image": "/src/assets/hlr/Spartamax.png",
+    "image": "/assets/hlr/Spartamax.png",
     "rating": 4.4,
     "metaTitle": "Spartamax Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Spartamax review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3638,7 +3638,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Spartamax",
-      "image": "/src/assets/hlr/Spartamax.png",
+      "image": "/assets/hlr/Spartamax.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://getspartamax.com/"
@@ -3651,7 +3651,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "prostadine",
-    "image": "/src/assets/hlr/Prostadine.png",
+    "image": "/assets/hlr/Prostadine.png",
     "rating": 4.2,
     "metaTitle": "Prostadine Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Prostadine review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3683,7 +3683,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Prostadine",
-      "image": "/src/assets/hlr/Prostadine.png",
+      "image": "/assets/hlr/Prostadine.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://getprostadine.com/"
@@ -3696,7 +3696,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "protoflow",
-    "image": "/src/assets/hlr/Protoflow.png",
+    "image": "/assets/hlr/Protoflow.png",
     "rating": 4.3,
     "metaTitle": "Protoflow Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Protoflow review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3728,7 +3728,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Protoflow",
-      "image": "/src/assets/hlr/Protoflow.png",
+      "image": "/assets/hlr/Protoflow.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://protoflow.net/welcome/"
@@ -3741,7 +3741,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "red-boost",
-    "image": "/src/assets/hlr/Red Boost.webp",
+    "image": "/assets/hlr/Red Boost.webp",
     "rating": 4.6,
     "metaTitle": "Red Boost Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Red Boost review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3773,7 +3773,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Red Boost",
-      "image": "/src/assets/hlr/Red Boost.webp",
+      "image": "/assets/hlr/Red Boost.webp",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://mymorningtonic.com/"
@@ -3786,7 +3786,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "endopeak",
-    "image": "/src/assets/hlr/EndoPeak.jpg",
+    "image": "/assets/hlr/EndoPeak.jpg",
     "rating": 4.6,
     "metaTitle": "EndoPeak Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest EndoPeak review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3818,7 +3818,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "EndoPeak",
-      "image": "/src/assets/hlr/EndoPeak.jpg",
+      "image": "/assets/hlr/EndoPeak.jpg",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://endopeak24.com/"
@@ -3831,7 +3831,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "alpha-tonic",
-    "image": "/src/assets/hlr/Alpha Tonic.png",
+    "image": "/assets/hlr/Alpha Tonic.png",
     "rating": 4.6,
     "metaTitle": "Alpha Tonic Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Alpha Tonic review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3863,7 +3863,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Alpha Tonic",
-      "image": "/src/assets/hlr/Alpha Tonic.png",
+      "image": "/assets/hlr/Alpha Tonic.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://thealphatonic.com/"
@@ -3876,7 +3876,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "tc24",
-    "image": "/src/assets/hlr/TC24.webp",
+    "image": "/assets/hlr/TC24.webp",
     "rating": 4.7,
     "metaTitle": "TC24 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest TC24 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3908,7 +3908,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "TC24",
-      "image": "/src/assets/hlr/TC24.webp",
+      "image": "/assets/hlr/TC24.webp",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://buytc24.com/"
@@ -3921,7 +3921,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "critical-t",
-    "image": "/src/assets/hlr/Critical T.webp",
+    "image": "/assets/hlr/Critical T.webp",
     "rating": 4.4,
     "metaTitle": "Critical T Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Critical T review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3953,7 +3953,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Critical T",
-      "image": "/src/assets/hlr/Critical T.webp",
+      "image": "/assets/hlr/Critical T.webp",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://www.criticaltboost.com/"
@@ -3966,7 +3966,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "flowforce-max",
-    "image": "/src/assets/hlr/FlowForce Max.png",
+    "image": "/assets/hlr/FlowForce Max.png",
     "rating": 4.6,
     "metaTitle": "FlowForce Max Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest FlowForce Max review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -3998,7 +3998,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "FlowForce Max",
-      "image": "/src/assets/hlr/FlowForce Max.png",
+      "image": "/assets/hlr/FlowForce Max.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://flowforcemax.com/"
@@ -4011,7 +4011,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "fluxactive-complete",
-    "image": "/src/assets/hlr/Fluxactive Complete.png",
+    "image": "/assets/hlr/Fluxactive Complete.png",
     "rating": 4.4,
     "metaTitle": "Fluxactive Complete Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Fluxactive Complete review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4043,7 +4043,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Fluxactive Complete",
-      "image": "/src/assets/hlr/Fluxactive Complete.png",
+      "image": "/assets/hlr/Fluxactive Complete.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://fluxactive.net/"
@@ -4056,7 +4056,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "clubhouse-fire",
-    "image": "/src/assets/hlr/Clubhouse Fire.png",
+    "image": "/assets/hlr/Clubhouse Fire.png",
     "rating": 4.3,
     "metaTitle": "Clubhouse Fire Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Clubhouse Fire review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4088,7 +4088,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Clubhouse Fire",
-      "image": "/src/assets/hlr/Clubhouse Fire.png",
+      "image": "/assets/hlr/Clubhouse Fire.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://1.clubhousesupplements.com/fire-fp/"
@@ -4101,7 +4101,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "erecprime",
-    "image": "/src/assets/hlr/ErecPrime.png",
+    "image": "/assets/hlr/ErecPrime.png",
     "rating": 4.9,
     "metaTitle": "ErecPrime Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ErecPrime review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4133,7 +4133,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ErecPrime",
-      "image": "/src/assets/hlr/ErecPrime.png",
+      "image": "/assets/hlr/ErecPrime.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://erecprime24.com/c/order-now.php"
@@ -4146,7 +4146,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "emperor-s-vigor-tonic",
-    "image": "/src/assets/hlr/Emperor's Vigor Tonic.png",
+    "image": "/assets/hlr/Emperor's Vigor Tonic.png",
     "rating": 4.5,
     "metaTitle": "Emperor's Vigor Tonic Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Emperor's Vigor Tonic review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4178,7 +4178,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Emperor's Vigor Tonic",
-      "image": "/src/assets/hlr/Emperor's Vigor Tonic.png",
+      "image": "/assets/hlr/Emperor's Vigor Tonic.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://emperorsvigortonic.com/"
@@ -4191,7 +4191,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "club-house-stud",
-    "image": "/src/assets/hlr/club house stud.webp",
+    "image": "/assets/hlr/club house stud.webp",
     "rating": 4.4,
     "metaTitle": "club house stud Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest club house stud review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4223,7 +4223,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "club house stud",
-      "image": "/src/assets/hlr/club house stud.webp",
+      "image": "/assets/hlr/club house stud.webp",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://studperformance.com/"
@@ -4236,7 +4236,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "max-boost",
-    "image": "/src/assets/hlr/Max Boost.png",
+    "image": "/assets/hlr/Max Boost.png",
     "rating": 4.9,
     "metaTitle": "Max Boost Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Max Boost review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4268,7 +4268,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Max Boost",
-      "image": "/src/assets/hlr/Max Boost.png",
+      "image": "/assets/hlr/Max Boost.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://maxboostjuice.com/"
@@ -4326,7 +4326,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "prostalite",
-    "image": "/src/assets/hlr/ProstaLite.png",
+    "image": "/assets/hlr/ProstaLite.png",
     "rating": 4.4,
     "metaTitle": "ProstaLite Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ProstaLite review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4358,7 +4358,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ProstaLite",
-      "image": "/src/assets/hlr/ProstaLite.png",
+      "image": "/assets/hlr/ProstaLite.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://prostalite.com/"
@@ -4371,7 +4371,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "gorilla-cherry",
-    "image": "/src/assets/hlr/Gorilla Cherry.png",
+    "image": "/assets/hlr/Gorilla Cherry.png",
     "rating": 4.3,
     "metaTitle": "Gorilla Cherry Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Gorilla Cherry review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4403,7 +4403,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Gorilla Cherry",
-      "image": "/src/assets/hlr/Gorilla Cherry.png",
+      "image": "/assets/hlr/Gorilla Cherry.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://getyourflowback.com/"
@@ -4416,7 +4416,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "neurotest",
-    "image": "/src/assets/hlr/NeuroTest.png",
+    "image": "/assets/hlr/NeuroTest.png",
     "rating": 4.2,
     "metaTitle": "NeuroTest Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NeuroTest review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4448,7 +4448,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NeuroTest",
-      "image": "/src/assets/hlr/NeuroTest.png",
+      "image": "/assets/hlr/NeuroTest.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://tryneurotest.com/"
@@ -4461,7 +4461,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "alpha-surge",
-    "image": "/src/assets/hlr/Alpha Surge.webp",
+    "image": "/assets/hlr/Alpha Surge.webp",
     "rating": 4.4,
     "metaTitle": "Alpha Surge Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Alpha Surge review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4493,7 +4493,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Alpha Surge",
-      "image": "/src/assets/hlr/Alpha Surge.webp",
+      "image": "/assets/hlr/Alpha Surge.webp",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://heroichustle.com/c/order-now.php"
@@ -4506,7 +4506,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "endopump",
-    "image": "/src/assets/hlr/EndoPump.png",
+    "image": "/assets/hlr/EndoPump.png",
     "rating": 4.3,
     "metaTitle": "EndoPump Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest EndoPump review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4538,7 +4538,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "EndoPump",
-      "image": "/src/assets/hlr/EndoPump.png",
+      "image": "/assets/hlr/EndoPump.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://endopumpsecret.com/"
@@ -4551,7 +4551,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "goliath-xl10",
-    "image": "/src/assets/hlr/Goliath XL10.webp",
+    "image": "/assets/hlr/Goliath XL10.webp",
     "rating": 4.8,
     "metaTitle": "Goliath XL10 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Goliath XL10 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4583,7 +4583,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Goliath XL10",
-      "image": "/src/assets/hlr/Goliath XL10.webp",
+      "image": "/assets/hlr/Goliath XL10.webp",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://trygoliathxl10.com/"
@@ -4596,7 +4596,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "potentstream",
-    "image": "/src/assets/hlr/PotentStream.png",
+    "image": "/assets/hlr/PotentStream.png",
     "rating": 4.6,
     "metaTitle": "PotentStream Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest PotentStream review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4628,7 +4628,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "PotentStream",
-      "image": "/src/assets/hlr/PotentStream.png",
+      "image": "/assets/hlr/PotentStream.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://potentstream.com/"
@@ -4641,7 +4641,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "prostapure-24",
-    "image": "/src/assets/hlr/prostapure 24.png",
+    "image": "/assets/hlr/prostapure 24.png",
     "rating": 4.7,
     "metaTitle": "prostapure 24 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest prostapure 24 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4673,7 +4673,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "prostapure 24",
-      "image": "/src/assets/hlr/prostapure 24.png",
+      "image": "/assets/hlr/prostapure 24.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://prostapure24.com/"
@@ -4686,7 +4686,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "steel-flow-pro",
-    "image": "/src/assets/hlr/Steel Flow Pro.png",
+    "image": "/assets/hlr/Steel Flow Pro.png",
     "rating": 4.7,
     "metaTitle": "Steel Flow Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Steel Flow Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4718,7 +4718,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Steel Flow Pro",
-      "image": "/src/assets/hlr/Steel Flow Pro.png",
+      "image": "/assets/hlr/Steel Flow Pro.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://getsteelflowpro.com/"
@@ -4731,7 +4731,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "vigosurge",
-    "image": "/src/assets/hlr/VigoSurge.png",
+    "image": "/assets/hlr/VigoSurge.png",
     "rating": 4.3,
     "metaTitle": "VigoSurge Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest VigoSurge review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4763,7 +4763,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "VigoSurge",
-      "image": "/src/assets/hlr/VigoSurge.png",
+      "image": "/assets/hlr/VigoSurge.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://getvigosurge.com/"
@@ -4776,7 +4776,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "vitalflow",
-    "image": "/src/assets/hlr/VitalFlow.png",
+    "image": "/assets/hlr/VitalFlow.png",
     "rating": 4.3,
     "metaTitle": "VitalFlow Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest VitalFlow review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4808,7 +4808,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "VitalFlow",
-      "image": "/src/assets/hlr/VitalFlow.png",
+      "image": "/assets/hlr/VitalFlow.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://vitalflow.org/"
@@ -4821,7 +4821,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "pura-boost",
-    "image": "/src/assets/hlr/Pura Boost.png",
+    "image": "/assets/hlr/Pura Boost.png",
     "rating": 4.8,
     "metaTitle": "Pura Boost Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Pura Boost review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4853,7 +4853,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Pura Boost",
-      "image": "/src/assets/hlr/Pura Boost.png",
+      "image": "/assets/hlr/Pura Boost.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://getpuraboost.com/"
@@ -4866,7 +4866,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "prostaclear",
-    "image": "/src/assets/hlr/ProstaClear.png",
+    "image": "/assets/hlr/ProstaClear.png",
     "rating": 4.6,
     "metaTitle": "ProstaClear Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ProstaClear review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4898,7 +4898,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ProstaClear",
-      "image": "/src/assets/hlr/ProstaClear.png",
+      "image": "/assets/hlr/ProstaClear.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://getprostaclear.com/"
@@ -4911,7 +4911,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "primordial-vigor-x",
-    "image": "/src/assets/hlr/Primordial Vigor X.png",
+    "image": "/assets/hlr/Primordial Vigor X.png",
     "rating": 4.5,
     "metaTitle": "Primordial Vigor X Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Primordial Vigor X review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4943,7 +4943,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Primordial Vigor X",
-      "image": "/src/assets/hlr/Primordial Vigor X.png",
+      "image": "/assets/hlr/Primordial Vigor X.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://tryprimordialvigorx.com/"
@@ -4956,7 +4956,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "phaloboost",
-    "image": "/src/assets/hlr/PhaloBoost.png",
+    "image": "/assets/hlr/PhaloBoost.png",
     "rating": 4.8,
     "metaTitle": "PhaloBoost Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest PhaloBoost review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -4988,7 +4988,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "PhaloBoost",
-      "image": "/src/assets/hlr/PhaloBoost.png",
+      "image": "/assets/hlr/PhaloBoost.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://phalo-boost.com/"
@@ -5001,7 +5001,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "alpha-fuel-pro",
-    "image": "/src/assets/hlr/Alpha Fuel Pro.png",
+    "image": "/assets/hlr/Alpha Fuel Pro.png",
     "rating": 4.4,
     "metaTitle": "Alpha Fuel Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Alpha Fuel Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -5033,7 +5033,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Alpha Fuel Pro",
-      "image": "/src/assets/hlr/Alpha Fuel Pro.png",
+      "image": "/assets/hlr/Alpha Fuel Pro.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://thealphafuel.com/"
@@ -5136,7 +5136,7 @@ export const generatedReviews = [
     "category": "Men's Health",
     "categorySlug": "mens-health",
     "slug": "titanflow",
-    "image": "/src/assets/hlr/TitanFlow.png",
+    "image": "/assets/hlr/TitanFlow.png",
     "rating": 4.8,
     "metaTitle": "TitanFlow Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest TitanFlow review covering ingredients, benefits, pros & cons, and real results for individuals dealing with prostate enlargement, testoterone decline, and stamina loss.",
@@ -5168,7 +5168,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "TitanFlow",
-      "image": "/src/assets/hlr/TitanFlow.png",
+      "image": "/assets/hlr/TitanFlow.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://prostaterevealed.com/"
@@ -5226,7 +5226,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "audifort",
-    "image": "/src/assets/hlr/Audifort.webp",
+    "image": "/assets/hlr/Audifort.webp",
     "rating": 4.4,
     "metaTitle": "Audifort Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Audifort review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5258,7 +5258,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Audifort",
-      "image": "/src/assets/hlr/Audifort.webp",
+      "image": "/assets/hlr/Audifort.webp",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://audisoothe.com/c/order-now.php"
@@ -5271,7 +5271,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "neuro-serge",
-    "image": "/src/assets/hlr/Neuro Serge.png",
+    "image": "/assets/hlr/Neuro Serge.png",
     "rating": 4.7,
     "metaTitle": "Neuro Serge Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Neuro Serge review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5303,7 +5303,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Neuro Serge",
-      "image": "/src/assets/hlr/Neuro Serge.png",
+      "image": "/assets/hlr/Neuro Serge.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://getneuroserge.com/"
@@ -5316,7 +5316,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "breathe",
-    "image": "/src/assets/hlr/BREATHE.webp",
+    "image": "/assets/hlr/BREATHE.webp",
     "rating": 4.2,
     "metaTitle": "BREATHE Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest BREATHE review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5348,7 +5348,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "BREATHE",
-      "image": "/src/assets/hlr/BREATHE.webp",
+      "image": "/assets/hlr/BREATHE.webp",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://lungreset.com/"
@@ -5361,7 +5361,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "neuroprime",
-    "image": "/src/assets/hlr/NeuroPrime.avif",
+    "image": "/assets/hlr/NeuroPrime.avif",
     "rating": 4.6,
     "metaTitle": "NeuroPrime Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NeuroPrime review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5393,7 +5393,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NeuroPrime",
-      "image": "/src/assets/hlr/NeuroPrime.avif",
+      "image": "/assets/hlr/NeuroPrime.avif",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://theneuroprime.com/"
@@ -5406,7 +5406,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "gluco6",
-    "image": "/src/assets/hlr/Gluco6.webp",
+    "image": "/assets/hlr/Gluco6.webp",
     "rating": 4.5,
     "metaTitle": "Gluco6 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Gluco6 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5438,7 +5438,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Gluco6",
-      "image": "/src/assets/hlr/Gluco6.webp",
+      "image": "/assets/hlr/Gluco6.webp",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://gluco6.com/"
@@ -5451,7 +5451,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "cardio-slim-tea",
-    "image": "/src/assets/hlr/Cardio Slim Tea.png",
+    "image": "/assets/hlr/Cardio Slim Tea.png",
     "rating": 4.9,
     "metaTitle": "Cardio Slim Tea Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Cardio Slim Tea review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5483,7 +5483,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Cardio Slim Tea",
-      "image": "/src/assets/hlr/Cardio Slim Tea.png",
+      "image": "/assets/hlr/Cardio Slim Tea.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://trycardioslimtea.com/"
@@ -5496,7 +5496,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "igenics",
-    "image": "/src/assets/hlr/iGenics.webp",
+    "image": "/assets/hlr/iGenics.webp",
     "rating": 4.5,
     "metaTitle": "iGenics Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest iGenics review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5528,7 +5528,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "iGenics",
-      "image": "/src/assets/hlr/iGenics.webp",
+      "image": "/assets/hlr/iGenics.webp",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://visionbreakthrough.com/"
@@ -5541,7 +5541,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "pineal-guardian",
-    "image": "/src/assets/hlr/Pineal Guardian.avifs",
+    "image": "/assets/hlr/Pineal Guardian.avifs",
     "rating": 4.9,
     "metaTitle": "Pineal Guardian Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Pineal Guardian review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5573,7 +5573,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Pineal Guardian",
-      "image": "/src/assets/hlr/Pineal Guardian.avifs",
+      "image": "/assets/hlr/Pineal Guardian.avifs",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://thepinealguardian.com/indexvip.php"
@@ -5586,7 +5586,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "quietum-plus",
-    "image": "/src/assets/hlr/Quietum Plus.png",
+    "image": "/assets/hlr/Quietum Plus.png",
     "rating": 4.6,
     "metaTitle": "Quietum Plus Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Quietum Plus review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5618,7 +5618,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Quietum Plus",
-      "image": "/src/assets/hlr/Quietum Plus.png",
+      "image": "/assets/hlr/Quietum Plus.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://quietumplus.com/"
@@ -5631,7 +5631,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "livpure",
-    "image": "/src/assets/hlr/livpure.webp",
+    "image": "/assets/hlr/livpure.webp",
     "rating": 4.8,
     "metaTitle": "livpure Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest livpure review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5663,7 +5663,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "livpure",
-      "image": "/src/assets/hlr/livpure.webp",
+      "image": "/assets/hlr/livpure.webp",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://www.liv-pure.co/"
@@ -5676,7 +5676,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "sugar-defender",
-    "image": "/src/assets/hlr/Sugar Defender.webp",
+    "image": "/assets/hlr/Sugar Defender.webp",
     "rating": 4.7,
     "metaTitle": "Sugar Defender Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Sugar Defender review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5708,7 +5708,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Sugar Defender",
-      "image": "/src/assets/hlr/Sugar Defender.webp",
+      "image": "/assets/hlr/Sugar Defender.webp",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://sugardefender24.com/"
@@ -5721,7 +5721,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "neura",
-    "image": "/src/assets/hlr/Neura.png",
+    "image": "/assets/hlr/Neura.png",
     "rating": 4.3,
     "metaTitle": "Neura Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Neura review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5753,7 +5753,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Neura",
-      "image": "/src/assets/hlr/Neura.png",
+      "image": "/assets/hlr/Neura.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://neuraoriginal.com/"
@@ -5766,7 +5766,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "gluco-extend",
-    "image": "/src/assets/hlr/Gluco Extend.png",
+    "image": "/assets/hlr/Gluco Extend.png",
     "rating": 4.7,
     "metaTitle": "Gluco Extend Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Gluco Extend review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5798,7 +5798,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Gluco Extend",
-      "image": "/src/assets/hlr/Gluco Extend.png",
+      "image": "/assets/hlr/Gluco Extend.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://goglucoextend.com/"
@@ -5811,7 +5811,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "synaptigen",
-    "image": "/src/assets/hlr/Synaptigen.png",
+    "image": "/assets/hlr/Synaptigen.png",
     "rating": 4.7,
     "metaTitle": "Synaptigen Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Synaptigen review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5843,7 +5843,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Synaptigen",
-      "image": "/src/assets/hlr/Synaptigen.png",
+      "image": "/assets/hlr/Synaptigen.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://getsynaptigen.com/"
@@ -5856,7 +5856,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "prosta-peak",
-    "image": "/src/assets/hlr/Prosta Peak.png",
+    "image": "/assets/hlr/Prosta Peak.png",
     "rating": 4.5,
     "metaTitle": "Prosta Peak Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Prosta Peak review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5888,7 +5888,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Prosta Peak",
-      "image": "/src/assets/hlr/Prosta Peak.png",
+      "image": "/assets/hlr/Prosta Peak.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://prostapeak.com/"
@@ -5901,7 +5901,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "vertigenics",
-    "image": "/src/assets/hlr/Vertigenics.png",
+    "image": "/assets/hlr/Vertigenics.png",
     "rating": 4.8,
     "metaTitle": "Vertigenics Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Vertigenics review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5933,7 +5933,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Vertigenics",
-      "image": "/src/assets/hlr/Vertigenics.png",
+      "image": "/assets/hlr/Vertigenics.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://vertigenics.com/"
@@ -5946,7 +5946,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "arctic-blast",
-    "image": "/src/assets/hlr/Arctic Blast.png",
+    "image": "/assets/hlr/Arctic Blast.png",
     "rating": 4.2,
     "metaTitle": "Arctic Blast Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Arctic Blast review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -5978,7 +5978,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Arctic Blast",
-      "image": "/src/assets/hlr/Arctic Blast.png",
+      "image": "/assets/hlr/Arctic Blast.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://cb.getarcticblast.com/go/lander.php"
@@ -5991,7 +5991,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nerve-fresh",
-    "image": "/src/assets/hlr/Nerve Fresh.png",
+    "image": "/assets/hlr/Nerve Fresh.png",
     "rating": 4.4,
     "metaTitle": "Nerve Fresh Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nerve Fresh review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6023,7 +6023,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nerve Fresh",
-      "image": "/src/assets/hlr/Nerve Fresh.png",
+      "image": "/assets/hlr/Nerve Fresh.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://sJointViveecure.nervefresh.com/index-is"
@@ -6126,7 +6126,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "metabo-drops",
-    "image": "/src/assets/hlr/Metabo Drops.webp",
+    "image": "/assets/hlr/Metabo Drops.webp",
     "rating": 4.7,
     "metaTitle": "Metabo Drops Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Metabo Drops review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6158,7 +6158,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Metabo Drops",
-      "image": "/src/assets/hlr/Metabo Drops.webp",
+      "image": "/assets/hlr/Metabo Drops.webp",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://www.metabodrops.com/"
@@ -6171,7 +6171,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "jointvive",
-    "image": "/src/assets/hlr/JointVive.avifs",
+    "image": "/assets/hlr/JointVive.avifs",
     "rating": 4.8,
     "metaTitle": "JointVive Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest JointVive review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6203,7 +6203,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "JointVive",
-      "image": "/src/assets/hlr/JointVive.avifs",
+      "image": "/assets/hlr/JointVive.avifs",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://jointvive.com/"
@@ -6216,7 +6216,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "hepatoburn",
-    "image": "/src/assets/hlr/HepatoBurn.webp",
+    "image": "/assets/hlr/HepatoBurn.webp",
     "rating": 4.3,
     "metaTitle": "HepatoBurn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest HepatoBurn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6248,7 +6248,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "HepatoBurn",
-      "image": "/src/assets/hlr/HepatoBurn.webp",
+      "image": "/assets/hlr/HepatoBurn.webp",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://www.hepatoburn.com/"
@@ -6261,7 +6261,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "biodentex",
-    "image": "/src/assets/hlr/Biodentex.png",
+    "image": "/assets/hlr/Biodentex.png",
     "rating": 4.3,
     "metaTitle": "Biodentex Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Biodentex review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6293,7 +6293,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Biodentex",
-      "image": "/src/assets/hlr/Biodentex.png",
+      "image": "/assets/hlr/Biodentex.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://getbiodentex.com/"
@@ -6306,7 +6306,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "glucoberry",
-    "image": "/src/assets/hlr/GlucoBerry.png",
+    "image": "/assets/hlr/GlucoBerry.png",
     "rating": 4.5,
     "metaTitle": "GlucoBerry Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest GlucoBerry review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6338,7 +6338,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "GlucoBerry",
-      "image": "/src/assets/hlr/GlucoBerry.png",
+      "image": "/assets/hlr/GlucoBerry.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://bloodsugarberry.com/cb/"
@@ -6351,7 +6351,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "flush-factor-plus",
-    "image": "/src/assets/hlr/Flush Factor Plus.png",
+    "image": "/assets/hlr/Flush Factor Plus.png",
     "rating": 4.5,
     "metaTitle": "Flush Factor Plus Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Flush Factor Plus review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6383,7 +6383,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Flush Factor Plus",
-      "image": "/src/assets/hlr/Flush Factor Plus.png",
+      "image": "/assets/hlr/Flush Factor Plus.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://flushfactorplus.com/text.php"
@@ -6396,7 +6396,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "balmorex-pro",
-    "image": "/src/assets/hlr/Balmorex Pro.png",
+    "image": "/assets/hlr/Balmorex Pro.png",
     "rating": 4.3,
     "metaTitle": "Balmorex Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Balmorex Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6428,7 +6428,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Balmorex Pro",
-      "image": "/src/assets/hlr/Balmorex Pro.png",
+      "image": "/assets/hlr/Balmorex Pro.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://balmorex.pro/"
@@ -6441,7 +6441,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "synogut",
-    "image": "/src/assets/hlr/Synogut.png",
+    "image": "/assets/hlr/Synogut.png",
     "rating": 4.4,
     "metaTitle": "Synogut Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Synogut review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6473,7 +6473,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Synogut",
-      "image": "/src/assets/hlr/Synogut.png",
+      "image": "/assets/hlr/Synogut.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://synogut101.com/"
@@ -6486,7 +6486,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nanodefense-pro",
-    "image": "/src/assets/hlr/NanoDefense Pro.png",
+    "image": "/assets/hlr/NanoDefense Pro.png",
     "rating": 4.9,
     "metaTitle": "NanoDefense Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NanoDefense Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6518,7 +6518,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NanoDefense Pro",
-      "image": "/src/assets/hlr/NanoDefense Pro.png",
+      "image": "/assets/hlr/NanoDefense Pro.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://nanodefensepro.com/"
@@ -6531,7 +6531,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "neuroquiet",
-    "image": "/src/assets/hlr/NeuroQuiet.webp",
+    "image": "/assets/hlr/NeuroQuiet.webp",
     "rating": 4.5,
     "metaTitle": "NeuroQuiet Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NeuroQuiet review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6563,7 +6563,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NeuroQuiet",
-      "image": "/src/assets/hlr/NeuroQuiet.webp",
+      "image": "/assets/hlr/NeuroQuiet.webp",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://neuroquiethq.com/c/order-now.php"
@@ -6576,7 +6576,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "claritox-pro",
-    "image": "/src/assets/hlr/Claritox Pro.png",
+    "image": "/assets/hlr/Claritox Pro.png",
     "rating": 4.2,
     "metaTitle": "Claritox Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Claritox Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6608,7 +6608,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Claritox Pro",
-      "image": "/src/assets/hlr/Claritox Pro.png",
+      "image": "/assets/hlr/Claritox Pro.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://claritox.com/"
@@ -6666,7 +6666,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "joint-n-11",
-    "image": "/src/assets/hlr/Joint N-11.webp",
+    "image": "/assets/hlr/Joint N-11.webp",
     "rating": 4.8,
     "metaTitle": "Joint N-11 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Joint N-11 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6698,7 +6698,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Joint N-11",
-      "image": "/src/assets/hlr/Joint N-11.webp",
+      "image": "/assets/hlr/Joint N-11.webp",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://freedomfromjointpain.net/cb/"
@@ -6711,7 +6711,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "zencortex",
-    "image": "/src/assets/hlr/ZenCortex.webp",
+    "image": "/assets/hlr/ZenCortex.webp",
     "rating": 4.3,
     "metaTitle": "ZenCortex Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ZenCortex review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6743,7 +6743,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ZenCortex",
-      "image": "/src/assets/hlr/ZenCortex.webp",
+      "image": "/assets/hlr/ZenCortex.webp",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://zencortex24.com/c/order-now.php"
@@ -6756,7 +6756,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "zeneara",
-    "image": "/src/assets/hlr/Zeneara.webp",
+    "image": "/assets/hlr/Zeneara.webp",
     "rating": 4.2,
     "metaTitle": "Zeneara Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Zeneara review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6788,7 +6788,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Zeneara",
-      "image": "/src/assets/hlr/Zeneara.webp",
+      "image": "/assets/hlr/Zeneara.webp",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://zeneara.com/"
@@ -6801,7 +6801,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "metanail",
-    "image": "/src/assets/hlr/Metanail.png",
+    "image": "/assets/hlr/Metanail.png",
     "rating": 4.7,
     "metaTitle": "Metanail Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Metanail review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6833,7 +6833,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Metanail",
-      "image": "/src/assets/hlr/Metanail.png",
+      "image": "/assets/hlr/Metanail.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://metanailcomplex.com/"
@@ -6846,7 +6846,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "sugarmute",
-    "image": "/src/assets/hlr/SugarMute.jpg",
+    "image": "/assets/hlr/SugarMute.jpg",
     "rating": 4.2,
     "metaTitle": "SugarMute Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest SugarMute review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6878,7 +6878,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "SugarMute",
-      "image": "/src/assets/hlr/SugarMute.jpg",
+      "image": "/assets/hlr/SugarMute.jpg",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://sugarnix.com/c/order-now.php"
@@ -6891,7 +6891,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "renew-dental-support",
-    "image": "/src/assets/hlr/Renew Dental Support.png",
+    "image": "/assets/hlr/Renew Dental Support.png",
     "rating": 4.5,
     "metaTitle": "Renew Dental Support Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Renew Dental Support review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -6923,7 +6923,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Renew Dental Support",
-      "image": "/src/assets/hlr/Renew Dental Support.png",
+      "image": "/assets/hlr/Renew Dental Support.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "#"
@@ -7026,7 +7026,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "cellucare",
-    "image": "/src/assets/hlr/CELLUCARE.png",
+    "image": "/assets/hlr/CELLUCARE.png",
     "rating": 4.6,
     "metaTitle": "CELLUCARE Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest CELLUCARE review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7058,7 +7058,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "CELLUCARE",
-      "image": "/src/assets/hlr/CELLUCARE.png",
+      "image": "/assets/hlr/CELLUCARE.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://getcellucare.com/c/order-now.php"
@@ -7071,7 +7071,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "peak-bioboost",
-    "image": "/src/assets/hlr/Peak BioBoost.png",
+    "image": "/assets/hlr/Peak BioBoost.png",
     "rating": 4.5,
     "metaTitle": "Peak BioBoost\u2122\ufe0f Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Peak BioBoost\u2122\ufe0f review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7103,7 +7103,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Peak BioBoost\u2122\ufe0f",
-      "image": "/src/assets/hlr/Peak BioBoost.png",
+      "image": "/assets/hlr/Peak BioBoost.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://www.mypeakbiome.com/w/prebio-lp-comp?"
@@ -7116,7 +7116,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "cognicare-pro",
-    "image": "/src/assets/hlr/CogniCare Pro.png",
+    "image": "/assets/hlr/CogniCare Pro.png",
     "rating": 4.5,
     "metaTitle": "CogniCare Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest CogniCare Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7148,7 +7148,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "CogniCare Pro",
-      "image": "/src/assets/hlr/CogniCare Pro.png",
+      "image": "/assets/hlr/CogniCare Pro.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://getcognipro.com/c/order-now.php"
@@ -7161,7 +7161,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "cardio-shield",
-    "image": "/src/assets/hlr/Cardio Shield.jpg",
+    "image": "/assets/hlr/Cardio Shield.jpg",
     "rating": 4.6,
     "metaTitle": "Cardio Shield Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Cardio Shield review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7193,7 +7193,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Cardio Shield",
-      "image": "/src/assets/hlr/Cardio Shield.jpg",
+      "image": "/assets/hlr/Cardio Shield.jpg",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://getcardioshield.com/"
@@ -7206,7 +7206,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "gut-vita",
-    "image": "/src/assets/hlr/Gut Vita.png",
+    "image": "/assets/hlr/Gut Vita.png",
     "rating": 4.2,
     "metaTitle": "Gut Vita Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Gut Vita review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7238,7 +7238,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Gut Vita",
-      "image": "/src/assets/hlr/Gut Vita.png",
+      "image": "/assets/hlr/Gut Vita.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://www.gutvita.com/"
@@ -7251,7 +7251,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "longevity-activator",
-    "image": "/src/assets/hlr/Longevity Activator.png",
+    "image": "/assets/hlr/Longevity Activator.png",
     "rating": 4.3,
     "metaTitle": "Longevity Activator Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Longevity Activator review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7283,7 +7283,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Longevity Activator",
-      "image": "/src/assets/hlr/Longevity Activator.png",
+      "image": "/assets/hlr/Longevity Activator.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://mylongevityactivator.com/cb/"
@@ -7341,7 +7341,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nervovive",
-    "image": "/src/assets/hlr/Nervovive.png",
+    "image": "/assets/hlr/Nervovive.png",
     "rating": 4.3,
     "metaTitle": "Nervovive Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nervovive review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7373,7 +7373,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nervovive",
-      "image": "/src/assets/hlr/Nervovive.png",
+      "image": "/assets/hlr/Nervovive.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://nervovive.com/"
@@ -7386,7 +7386,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "memoryfuel",
-    "image": "/src/assets/hlr/MemoryFuel.avif",
+    "image": "/assets/hlr/MemoryFuel.avif",
     "rating": 4.7,
     "metaTitle": "MemoryFuel Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest MemoryFuel review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7418,7 +7418,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "MemoryFuel",
-      "image": "/src/assets/hlr/MemoryFuel.avif",
+      "image": "/assets/hlr/MemoryFuel.avif",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://thememoryfuel.com/"
@@ -7431,7 +7431,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "theyavue",
-    "image": "/src/assets/hlr/TheyaVue.png",
+    "image": "/assets/hlr/TheyaVue.png",
     "rating": 4.8,
     "metaTitle": "TheyaVue Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest TheyaVue review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7463,7 +7463,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "TheyaVue",
-      "image": "/src/assets/hlr/TheyaVue.png",
+      "image": "/assets/hlr/TheyaVue.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://gettheyavue.com/"
@@ -7476,7 +7476,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "vertiaid",
-    "image": "/src/assets/hlr/VertiAid.png",
+    "image": "/assets/hlr/VertiAid.png",
     "rating": 4.4,
     "metaTitle": "VertiAid Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest VertiAid review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7508,7 +7508,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "VertiAid",
-      "image": "/src/assets/hlr/VertiAid.png",
+      "image": "/assets/hlr/VertiAid.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://vertiaid.com/"
@@ -7521,7 +7521,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "xitox-foot-pads",
-    "image": "/src/assets/hlr/xitoximage.png",
+    "image": "/assets/hlr/xitoximage.png",
     "rating": 4.2,
     "metaTitle": "Xitox\u2122\ufe0f Foot Pads Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Xitox\u2122\ufe0f Foot Pads review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7553,7 +7553,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Xitox\u2122\ufe0f Foot Pads",
-      "image": "/src/assets/hlr/xitoximage.png",
+      "image": "/assets/hlr/xitoximage.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://cb.getxitox.com/go/lander.php"
@@ -7566,7 +7566,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nunerve",
-    "image": "/src/assets/hlr/NuNerve.png",
+    "image": "/assets/hlr/NuNerve.png",
     "rating": 4.2,
     "metaTitle": "NuNerve Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NuNerve review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7598,7 +7598,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NuNerve",
-      "image": "/src/assets/hlr/NuNerve.png",
+      "image": "/assets/hlr/NuNerve.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://trynunerve.com/"
@@ -7611,7 +7611,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "glucotonic",
-    "image": "/src/assets/hlr/GlucoTonic.png",
+    "image": "/assets/hlr/GlucoTonic.png",
     "rating": 4.5,
     "metaTitle": "GlucoTonic Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest GlucoTonic review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7643,7 +7643,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "GlucoTonic",
-      "image": "/src/assets/hlr/GlucoTonic.png",
+      "image": "/assets/hlr/GlucoTonic.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://getglucotonic.com/c/order-now.php"
@@ -7656,7 +7656,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "menorescue",
-    "image": "/src/assets/hlr/MenoRescue.png",
+    "image": "/assets/hlr/MenoRescue.png",
     "rating": 4.2,
     "metaTitle": "MenoRescue Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest MenoRescue review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7688,7 +7688,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "MenoRescue",
-      "image": "/src/assets/hlr/MenoRescue.png",
+      "image": "/assets/hlr/MenoRescue.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://menorescue.com/"
@@ -7701,7 +7701,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "prosta-defend",
-    "image": "/src/assets/hlr/Prosta Defend.png",
+    "image": "/assets/hlr/Prosta Defend.png",
     "rating": 4.3,
     "metaTitle": "Prosta Defend Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Prosta Defend review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7733,7 +7733,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Prosta Defend",
-      "image": "/src/assets/hlr/Prosta Defend.png",
+      "image": "/assets/hlr/Prosta Defend.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://prostaflush.com/c/order-now.php"
@@ -7746,7 +7746,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "digestistart-gut-health-digestive-health",
-    "image": "/src/assets/hlr/DigestiStart - gut health & digestive health.png",
+    "image": "/assets/hlr/DigestiStart - gut health & digestive health.png",
     "rating": 4.8,
     "metaTitle": "DigestiStart - gut health & digestive health Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest DigestiStart - gut health & digestive health review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7778,7 +7778,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "DigestiStart - gut health & digestive health",
-      "image": "/src/assets/hlr/DigestiStart - gut health & digestive health.png",
+      "image": "/assets/hlr/DigestiStart - gut health & digestive health.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "#"
@@ -7791,7 +7791,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "glycomute",
-    "image": "/src/assets/hlr/GlycoMute.png",
+    "image": "/assets/hlr/GlycoMute.png",
     "rating": 4.6,
     "metaTitle": "GlycoMute Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest GlycoMute review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7823,7 +7823,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "GlycoMute",
-      "image": "/src/assets/hlr/GlycoMute.png",
+      "image": "/assets/hlr/GlycoMute.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://sweetfend.com/c/order-now.php"
@@ -7836,7 +7836,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "cognisurge",
-    "image": "/src/assets/hlr/CogniSurge.avif",
+    "image": "/assets/hlr/CogniSurge.avif",
     "rating": 4.2,
     "metaTitle": "CogniSurge Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest CogniSurge review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7868,7 +7868,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "CogniSurge",
-      "image": "/src/assets/hlr/CogniSurge.avif",
+      "image": "/assets/hlr/CogniSurge.avif",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://thecognisurge.com/"
@@ -7881,7 +7881,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "digestsync",
-    "image": "/src/assets/hlr/DigestSync.png",
+    "image": "/assets/hlr/DigestSync.png",
     "rating": 4.3,
     "metaTitle": "DigestSync Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest DigestSync review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7913,7 +7913,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "DigestSync",
-      "image": "/src/assets/hlr/DigestSync.png",
+      "image": "/assets/hlr/DigestSync.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://digestsync.com/"
@@ -7926,7 +7926,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "glucotrust-bites",
-    "image": "/src/assets/hlr/GlucoTrust Bites.webp",
+    "image": "/assets/hlr/GlucoTrust Bites.webp",
     "rating": 4.2,
     "metaTitle": "GlucoTrust Bites Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest GlucoTrust Bites review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -7958,7 +7958,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "GlucoTrust Bites",
-      "image": "/src/assets/hlr/GlucoTrust Bites.webp",
+      "image": "/assets/hlr/GlucoTrust Bites.webp",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://glucotrust-bites.com/"
@@ -7971,7 +7971,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "the-20-flow",
-    "image": "/src/assets/hlr/The 20 flow.jpg",
+    "image": "/assets/hlr/The 20 flow.jpg",
     "rating": 4.8,
     "metaTitle": "The 20 flow Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest The 20 flow review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8003,7 +8003,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "The 20 flow",
-      "image": "/src/assets/hlr/The 20 flow.jpg",
+      "image": "/assets/hlr/The 20 flow.jpg",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://the20.store/"
@@ -8016,7 +8016,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "neurovera",
-    "image": "/src/assets/hlr/Neurovera.jpg",
+    "image": "/assets/hlr/Neurovera.jpg",
     "rating": 4.5,
     "metaTitle": "NeuroVera Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NeuroVera review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8048,7 +8048,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NeuroVera",
-      "image": "/src/assets/hlr/Neurovera.jpg",
+      "image": "/assets/hlr/Neurovera.jpg",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://thenneurovera.com/"
@@ -8106,7 +8106,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "mindquell",
-    "image": "/src/assets/hlr/MindQuell.webp",
+    "image": "/assets/hlr/MindQuell.webp",
     "rating": 4.5,
     "metaTitle": "MindQuell Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest MindQuell review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8138,7 +8138,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "MindQuell",
-      "image": "/src/assets/hlr/MindQuell.webp",
+      "image": "/assets/hlr/MindQuell.webp",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://themindquell.com/"
@@ -8151,7 +8151,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "tea-burn",
-    "image": "/src/assets/hlr/Tea Burn.png",
+    "image": "/assets/hlr/Tea Burn.png",
     "rating": 4.5,
     "metaTitle": "Tea Burn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Tea Burn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8183,7 +8183,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Tea Burn",
-      "image": "/src/assets/hlr/Tea Burn.png",
+      "image": "/assets/hlr/Tea Burn.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://teaburn.com/"
@@ -8196,7 +8196,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "collagen-refresh",
-    "image": "/src/assets/hlr/Collagen Refresh.webp",
+    "image": "/assets/hlr/Collagen Refresh.webp",
     "rating": 4.6,
     "metaTitle": "Collagen Refresh Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Collagen Refresh review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8228,7 +8228,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Collagen Refresh",
-      "image": "/src/assets/hlr/Collagen Refresh.webp",
+      "image": "/assets/hlr/Collagen Refresh.webp",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://yourcollagensource.com/"
@@ -8241,7 +8241,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "eyefortin",
-    "image": "/src/assets/hlr/EyeFortin.webp",
+    "image": "/assets/hlr/EyeFortin.webp",
     "rating": 4.5,
     "metaTitle": "EyeFortin Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest EyeFortin review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8273,7 +8273,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "EyeFortin",
-      "image": "/src/assets/hlr/EyeFortin.webp",
+      "image": "/assets/hlr/EyeFortin.webp",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://eyefortin.com/"
@@ -8286,7 +8286,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "aquaburn",
-    "image": "/src/assets/hlr/Aquaburn.png",
+    "image": "/assets/hlr/Aquaburn.png",
     "rating": 4.5,
     "metaTitle": "Aquaburn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Aquaburn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8318,7 +8318,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Aquaburn",
-      "image": "/src/assets/hlr/Aquaburn.png",
+      "image": "/assets/hlr/Aquaburn.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://aquaburn.org/"
@@ -8331,7 +8331,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nervala",
-    "image": "/src/assets/hlr/Nervala.jpg",
+    "image": "/assets/hlr/Nervala.jpg",
     "rating": 4.8,
     "metaTitle": "Nervala Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nervala review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8363,7 +8363,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nervala",
-      "image": "/src/assets/hlr/Nervala.jpg",
+      "image": "/assets/hlr/Nervala.jpg",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://nervala.com/"
@@ -8376,7 +8376,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "pawbiotix",
-    "image": "/src/assets/hlr/Pawbiotix.png",
+    "image": "/assets/hlr/Pawbiotix.png",
     "rating": 4.6,
     "metaTitle": "Pawbiotix Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Pawbiotix review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8408,7 +8408,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Pawbiotix",
-      "image": "/src/assets/hlr/Pawbiotix.png",
+      "image": "/assets/hlr/Pawbiotix.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://getpawbiotix.com/"
@@ -8421,7 +8421,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "glycofortin",
-    "image": "/src/assets/hlr/GlycoFortin.png",
+    "image": "/assets/hlr/GlycoFortin.png",
     "rating": 4.7,
     "metaTitle": "GlycoFortin Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest GlycoFortin review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8453,7 +8453,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "GlycoFortin",
-      "image": "/src/assets/hlr/GlycoFortin.png",
+      "image": "/assets/hlr/GlycoFortin.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://glycofortin.com/"
@@ -8466,7 +8466,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "brain-c-13",
-    "image": "/src/assets/hlr/Brain C-13.webp",
+    "image": "/assets/hlr/Brain C-13.webp",
     "rating": 4.3,
     "metaTitle": "Brain C-13 Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Brain C-13 review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8498,7 +8498,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Brain C-13",
-      "image": "/src/assets/hlr/Brain C-13.webp",
+      "image": "/assets/hlr/Brain C-13.webp",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://brainclarity.net/"
@@ -8511,7 +8511,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "mitothrive",
-    "image": "/src/assets/hlr/MitoThrive.png",
+    "image": "/assets/hlr/MitoThrive.png",
     "rating": 4.4,
     "metaTitle": "MitoThrive Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest MitoThrive review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8543,7 +8543,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "MitoThrive",
-      "image": "/src/assets/hlr/MitoThrive.png",
+      "image": "/assets/hlr/MitoThrive.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://youthfulagingsecret.com/"
@@ -8556,7 +8556,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "revive-daily",
-    "image": "/src/assets/hlr/Revive Daily.png",
+    "image": "/assets/hlr/Revive Daily.png",
     "rating": 4.6,
     "metaTitle": "Revive Daily Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Revive Daily review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8588,7 +8588,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Revive Daily",
-      "image": "/src/assets/hlr/Revive Daily.png",
+      "image": "/assets/hlr/Revive Daily.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://revive-daily.net/"
@@ -8601,7 +8601,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "bioptimizers",
-    "image": "/src/assets/hlr/BIOptimizers.png",
+    "image": "/assets/hlr/BIOptimizers.png",
     "rating": 4.7,
     "metaTitle": "BIOptimizers Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest BIOptimizers review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8633,7 +8633,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "BIOptimizers",
-      "image": "/src/assets/hlr/BIOptimizers.png",
+      "image": "/assets/hlr/BIOptimizers.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://magbreakthrough.com/sleep/cb"
@@ -8646,7 +8646,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "lungexpand-pro",
-    "image": "/src/assets/hlr/LungExpand Pro.png",
+    "image": "/assets/hlr/LungExpand Pro.png",
     "rating": 4.3,
     "metaTitle": "LungExpand Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest LungExpand Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8678,7 +8678,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "LungExpand Pro",
-      "image": "/src/assets/hlr/LungExpand Pro.png",
+      "image": "/assets/hlr/LungExpand Pro.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://lungexpandpro.com/"
@@ -8691,7 +8691,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "cogniclear",
-    "image": "/src/assets/hlr/Cogniclear.avifs",
+    "image": "/assets/hlr/Cogniclear.avifs",
     "rating": 4.7,
     "metaTitle": "Cogniclear Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Cogniclear review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8723,7 +8723,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Cogniclear",
-      "image": "/src/assets/hlr/Cogniclear.avifs",
+      "image": "/assets/hlr/Cogniclear.avifs",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://thecogniclear.com/"
@@ -8736,7 +8736,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "gluconite",
-    "image": "/src/assets/hlr/Gluconite.png",
+    "image": "/assets/hlr/Gluconite.png",
     "rating": 4.7,
     "metaTitle": "Gluconite Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Gluconite review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8768,7 +8768,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Gluconite",
-      "image": "/src/assets/hlr/Gluconite.png",
+      "image": "/assets/hlr/Gluconite.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://gluconite.com/"
@@ -8781,7 +8781,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "bazopril",
-    "image": "/src/assets/hlr/Bazopril.png",
+    "image": "/assets/hlr/Bazopril.png",
     "rating": 4.6,
     "metaTitle": "Bazopril Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Bazopril review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8813,7 +8813,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Bazopril",
-      "image": "/src/assets/hlr/Bazopril.png",
+      "image": "/assets/hlr/Bazopril.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://bazopril.com/"
@@ -8826,7 +8826,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "java-brain",
-    "image": "/src/assets/hlr/Java Brain.png",
+    "image": "/assets/hlr/Java Brain.png",
     "rating": 4.4,
     "metaTitle": "Java Brain Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Java Brain review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8858,7 +8858,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Java Brain",
-      "image": "/src/assets/hlr/Java Brain.png",
+      "image": "/assets/hlr/Java Brain.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://www.java-brain.com/"
@@ -8871,7 +8871,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "pineal-pure",
-    "image": "/src/assets/hlr/Pineal Pure.webp",
+    "image": "/assets/hlr/Pineal Pure.webp",
     "rating": 4.9,
     "metaTitle": "Pineal Pure Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Pineal Pure review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8903,7 +8903,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Pineal Pure",
-      "image": "/src/assets/hlr/Pineal Pure.webp",
+      "image": "/assets/hlr/Pineal Pure.webp",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://pinealpure.com/"
@@ -8961,7 +8961,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "chronoboost-pro",
-    "image": "/src/assets/hlr/Chronoboost Pro.png",
+    "image": "/assets/hlr/Chronoboost Pro.png",
     "rating": 4.6,
     "metaTitle": "Chronoboost Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Chronoboost Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -8993,7 +8993,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Chronoboost Pro",
-      "image": "/src/assets/hlr/Chronoboost Pro.png",
+      "image": "/assets/hlr/Chronoboost Pro.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://chronoboost.net/"
@@ -9006,7 +9006,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "biofit-weight-loss",
-    "image": "/src/assets/hlr/BIOFIT - weight loss.jpeg",
+    "image": "/assets/hlr/BIOFIT - weight loss.jpeg",
     "rating": 4.9,
     "metaTitle": "BIOFIT - weight loss Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest BIOFIT - weight loss review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9038,7 +9038,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "BIOFIT - weight loss",
-      "image": "/src/assets/hlr/BIOFIT - weight loss.jpeg",
+      "image": "/assets/hlr/BIOFIT - weight loss.jpeg",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "#"
@@ -9051,7 +9051,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "movewell-daily",
-    "image": "/src/assets/hlr/MoveWell Daily.avifs",
+    "image": "/assets/hlr/MoveWell Daily.avifs",
     "rating": 4.8,
     "metaTitle": "MoveWell Daily Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest MoveWell Daily review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9083,7 +9083,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "MoveWell Daily",
-      "image": "/src/assets/hlr/MoveWell Daily.avifs",
+      "image": "/assets/hlr/MoveWell Daily.avifs",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://themovewelldaily.com/"
@@ -9096,7 +9096,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "gut-go",
-    "image": "/src/assets/hlr/Gut Go.webp",
+    "image": "/assets/hlr/Gut Go.webp",
     "rating": 4.2,
     "metaTitle": "Gut Go Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Gut Go review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9128,7 +9128,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Gut Go",
-      "image": "/src/assets/hlr/Gut Go.webp",
+      "image": "/assets/hlr/Gut Go.webp",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://getgutgo.com/tsl/index_no_ds.php"
@@ -9141,7 +9141,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "keravita",
-    "image": "/src/assets/hlr/Keravita.png",
+    "image": "/assets/hlr/Keravita.png",
     "rating": 4.9,
     "metaTitle": "Keravita Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Keravita review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9173,7 +9173,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Keravita",
-      "image": "/src/assets/hlr/Keravita.png",
+      "image": "/assets/hlr/Keravita.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://getkeravitapro101.com/"
@@ -9186,7 +9186,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "blood-sugar-blaster",
-    "image": "/src/assets/hlr/Blood Sugar Blaster.png",
+    "image": "/assets/hlr/Blood Sugar Blaster.png",
     "rating": 4.8,
     "metaTitle": "Blood Sugar Blaster Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Blood Sugar Blaster review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9218,7 +9218,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Blood Sugar Blaster",
-      "image": "/src/assets/hlr/Blood Sugar Blaster.png",
+      "image": "/assets/hlr/Blood Sugar Blaster.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://secure.bloodsugarblaster.com/index-cb"
@@ -9231,7 +9231,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "trimology-weight-loss",
-    "image": "/src/assets/hlr/Trimology - weight loss.jpg",
+    "image": "/assets/hlr/Trimology - weight loss.jpg",
     "rating": 4.5,
     "metaTitle": "Trimology - weight loss Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Trimology - weight loss review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9263,7 +9263,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Trimology - weight loss",
-      "image": "/src/assets/hlr/Trimology - weight loss.jpg",
+      "image": "/assets/hlr/Trimology - weight loss.jpg",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "#"
@@ -9276,7 +9276,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "joint-glide",
-    "image": "/src/assets/hlr/Joint Glide.webp",
+    "image": "/assets/hlr/Joint Glide.webp",
     "rating": 4.8,
     "metaTitle": "Joint Glide Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Joint Glide review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9308,7 +9308,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Joint Glide",
-      "image": "/src/assets/hlr/Joint Glide.webp",
+      "image": "/assets/hlr/Joint Glide.webp",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://getjointglide.com/"
@@ -9321,7 +9321,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "advanced-mitochondrial-formula",
-    "image": "/src/assets/hlr/Advanced Mitochondrial Formula.png",
+    "image": "/assets/hlr/Advanced Mitochondrial Formula.png",
     "rating": 4.6,
     "metaTitle": "Advanced Mitochondrial Formula Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Advanced Mitochondrial Formula review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9353,7 +9353,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Advanced Mitochondrial Formula",
-      "image": "/src/assets/hlr/Advanced Mitochondrial Formula.png",
+      "image": "/assets/hlr/Advanced Mitochondrial Formula.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://www.advancedbionutritionals.com/CB/Advanced-Mitochondrial/Too-Tired-To-Enjoy-It/HD.htm"
@@ -9366,7 +9366,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "aquapeace",
-    "image": "/src/assets/hlr/AquaPeace.png",
+    "image": "/assets/hlr/AquaPeace.png",
     "rating": 4.5,
     "metaTitle": "AquaPeace Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest AquaPeace review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9398,7 +9398,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "AquaPeace",
-      "image": "/src/assets/hlr/AquaPeace.png",
+      "image": "/assets/hlr/AquaPeace.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://getaquapeace.com/"
@@ -9411,7 +9411,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "gold-align",
-    "image": "/src/assets/hlr/Gold Align.png",
+    "image": "/assets/hlr/Gold Align.png",
     "rating": 4.6,
     "metaTitle": "Gold Align Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Gold Align review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9443,7 +9443,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Gold Align",
-      "image": "/src/assets/hlr/Gold Align.png",
+      "image": "/assets/hlr/Gold Align.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://getgoldalign.com/"
@@ -9456,7 +9456,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "sharpear-ear-health-auditory-health",
-    "image": "/src/assets/hlr/SharpEar - Ear health & Auditory health.webp",
+    "image": "/assets/hlr/SharpEar - Ear health & Auditory health.webp",
     "rating": 4.4,
     "metaTitle": "SharpEar - Ear health & Auditory health Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest SharpEar - Ear health & Auditory health review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9488,7 +9488,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "SharpEar - Ear health & Auditory health",
-      "image": "/src/assets/hlr/SharpEar - Ear health & Auditory health.webp",
+      "image": "/assets/hlr/SharpEar - Ear health & Auditory health.webp",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "#"
@@ -9501,7 +9501,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "promind-complex",
-    "image": "/src/assets/hlr/ProMind Complex.png",
+    "image": "/assets/hlr/ProMind Complex.png",
     "rating": 4.7,
     "metaTitle": "ProMind Complex Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ProMind Complex review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9533,7 +9533,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ProMind Complex",
-      "image": "/src/assets/hlr/ProMind Complex.png",
+      "image": "/assets/hlr/ProMind Complex.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://promindcomplex.com/"
@@ -9546,7 +9546,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nano-ease",
-    "image": "/src/assets/hlr/Nano-Ease.webp",
+    "image": "/assets/hlr/Nano-Ease.webp",
     "rating": 4.3,
     "metaTitle": "Nano-Ease Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nano-Ease review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9578,7 +9578,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nano-Ease",
-      "image": "/src/assets/hlr/Nano-Ease.webp",
+      "image": "/assets/hlr/Nano-Ease.webp",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://nanoease.com/"
@@ -9591,7 +9591,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "flexafen",
-    "image": "/src/assets/hlr/Flexafen.webp",
+    "image": "/assets/hlr/Flexafen.webp",
     "rating": 4.8,
     "metaTitle": "Flexafen Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Flexafen review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9623,7 +9623,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Flexafen",
-      "image": "/src/assets/hlr/Flexafen.webp",
+      "image": "/assets/hlr/Flexafen.webp",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://cb.flexafen.com/go/indexwritten.php"
@@ -9636,7 +9636,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "prostastream",
-    "image": "/src/assets/hlr/Prostastream.png",
+    "image": "/assets/hlr/Prostastream.png",
     "rating": 4.6,
     "metaTitle": "Prostastream Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Prostastream review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9668,7 +9668,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Prostastream",
-      "image": "/src/assets/hlr/Prostastream.png",
+      "image": "/assets/hlr/Prostastream.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://prostastream.com/"
@@ -9681,7 +9681,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "cerebrozen",
-    "image": "/src/assets/hlr/CerebroZen.png",
+    "image": "/assets/hlr/CerebroZen.png",
     "rating": 4.4,
     "metaTitle": "CerebroZen Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest CerebroZen review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9713,7 +9713,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "CerebroZen",
-      "image": "/src/assets/hlr/CerebroZen.png",
+      "image": "/assets/hlr/CerebroZen.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://cerebrozen24.com/c/order-now.php"
@@ -9726,7 +9726,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "slimleaf",
-    "image": "/src/assets/hlr/SlimLeaf.avif",
+    "image": "/assets/hlr/SlimLeaf.avif",
     "rating": 4.8,
     "metaTitle": "SlimLeaf Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest SlimLeaf review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9758,7 +9758,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "SlimLeaf",
-      "image": "/src/assets/hlr/SlimLeaf.avif",
+      "image": "/assets/hlr/SlimLeaf.avif",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://getslimleaf.com/"
@@ -9771,7 +9771,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "regenvive",
-    "image": "/src/assets/hlr/RegenVive.png",
+    "image": "/assets/hlr/RegenVive.png",
     "rating": 4.6,
     "metaTitle": "RegenVive Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest RegenVive review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9803,7 +9803,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "RegenVive",
-      "image": "/src/assets/hlr/RegenVive.png",
+      "image": "/assets/hlr/RegenVive.png",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://regainrejuvenate.com/c/order-now.php"
@@ -9861,7 +9861,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "insuleaf",
-    "image": "/src/assets/hlr/InsuLeaf.avif",
+    "image": "/assets/hlr/InsuLeaf.avif",
     "rating": 4.7,
     "metaTitle": "InsuLeaf Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest InsuLeaf review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9893,7 +9893,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "InsuLeaf",
-      "image": "/src/assets/hlr/InsuLeaf.avif",
+      "image": "/assets/hlr/InsuLeaf.avif",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://buyinsuleaf.com/"
@@ -9906,7 +9906,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "sync",
-    "image": "/src/assets/hlr/Sync.png",
+    "image": "/assets/hlr/Sync.png",
     "rating": 4.2,
     "metaTitle": "Sync Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Sync review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9938,7 +9938,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Sync",
-      "image": "/src/assets/hlr/Sync.png",
+      "image": "/assets/hlr/Sync.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://www.sunlightloophole.com/"
@@ -9951,7 +9951,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "lanta-flat-belly-shake",
-    "image": "/src/assets/hlr/Lanta Flat Belly Shake.png",
+    "image": "/assets/hlr/Lanta Flat Belly Shake.png",
     "rating": 4.3,
     "metaTitle": "Lanta Flat Belly Shake Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Lanta Flat Belly Shake review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -9983,7 +9983,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Lanta Flat Belly Shake",
-      "image": "/src/assets/hlr/Lanta Flat Belly Shake.png",
+      "image": "/assets/hlr/Lanta Flat Belly Shake.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://flatbellyshake.com/"
@@ -9996,7 +9996,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nervogen-pro",
-    "image": "/src/assets/hlr/Nervogen Pro.webp",
+    "image": "/assets/hlr/Nervogen Pro.webp",
     "rating": 4.6,
     "metaTitle": "Nervogen Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nervogen Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10028,7 +10028,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nervogen Pro",
-      "image": "/src/assets/hlr/Nervogen Pro.webp",
+      "image": "/assets/hlr/Nervogen Pro.webp",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://nervogen.com/"
@@ -10041,7 +10041,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "hairfortin",
-    "image": "/src/assets/hlr/HairFortin.png",
+    "image": "/assets/hlr/HairFortin.png",
     "rating": 4.4,
     "metaTitle": "HairFortin Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest HairFortin review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10073,7 +10073,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "HairFortin",
-      "image": "/src/assets/hlr/HairFortin.png",
+      "image": "/assets/hlr/HairFortin.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://hairfortin.net/"
@@ -10086,7 +10086,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "mannaflux",
-    "image": "/src/assets/hlr/MannaFlux.jpeg",
+    "image": "/assets/hlr/MannaFlux.jpeg",
     "rating": 4.8,
     "metaTitle": "MannaFlux Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest MannaFlux review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10118,7 +10118,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "MannaFlux",
-      "image": "/src/assets/hlr/MannaFlux.jpeg",
+      "image": "/assets/hlr/MannaFlux.jpeg",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://mannaflux.com/"
@@ -10131,7 +10131,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "rangii",
-    "image": "/src/assets/hlr/Rangii.webp",
+    "image": "/assets/hlr/Rangii.webp",
     "rating": 4.4,
     "metaTitle": "Rangii Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Rangii review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10163,7 +10163,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Rangii",
-      "image": "/src/assets/hlr/Rangii.webp",
+      "image": "/assets/hlr/Rangii.webp",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://rangii.com/"
@@ -10176,7 +10176,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "hp9-guard-immune-defense-vitamins-supplements",
-    "image": "/src/assets/hlr/HP9 Guard - Immune Defense Vitamins & Supplements.webp",
+    "image": "/assets/hlr/HP9 Guard - Immune Defense Vitamins & Supplements.webp",
     "rating": 4.5,
     "metaTitle": "HP9 Guard - Immune Defense Vitamins & Supplements Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest HP9 Guard - Immune Defense Vitamins & Supplements review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10208,7 +10208,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "HP9 Guard - Immune Defense Vitamins & Supplements",
-      "image": "/src/assets/hlr/HP9 Guard - Immune Defense Vitamins & Supplements.webp",
+      "image": "/assets/hlr/HP9 Guard - Immune Defense Vitamins & Supplements.webp",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "#"
@@ -10356,7 +10356,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "vivogut",
-    "image": "/src/assets/hlr/VivoGut.png",
+    "image": "/assets/hlr/VivoGut.png",
     "rating": 4.7,
     "metaTitle": "VivoGut Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest VivoGut review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10388,7 +10388,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "VivoGut",
-      "image": "/src/assets/hlr/VivoGut.png",
+      "image": "/assets/hlr/VivoGut.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://getvivogutpro.com/"
@@ -10401,7 +10401,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "flexigenics",
-    "image": "/src/assets/hlr/Flexigenics.png",
+    "image": "/assets/hlr/Flexigenics.png",
     "rating": 4.5,
     "metaTitle": "Flexigenics Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Flexigenics review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10433,7 +10433,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Flexigenics",
-      "image": "/src/assets/hlr/Flexigenics.png",
+      "image": "/assets/hlr/Flexigenics.png",
       "rating": 4.5,
       "price": "$59.00",
       "buyUrl": "https://getflexigenics.com/"
@@ -10446,7 +10446,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "supranail",
-    "image": "/src/assets/hlr/SupraNail.png",
+    "image": "/assets/hlr/SupraNail.png",
     "rating": 4.2,
     "metaTitle": "SupraNail Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest SupraNail review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10478,7 +10478,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "SupraNail",
-      "image": "/src/assets/hlr/SupraNail.png",
+      "image": "/assets/hlr/SupraNail.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://getsupranail.com/"
@@ -10491,7 +10491,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "vidacalm",
-    "image": "/src/assets/hlr/VidaCalm.png",
+    "image": "/assets/hlr/VidaCalm.png",
     "rating": 4.7,
     "metaTitle": "VidaCalm Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest VidaCalm review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10523,7 +10523,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "VidaCalm",
-      "image": "/src/assets/hlr/VidaCalm.png",
+      "image": "/assets/hlr/VidaCalm.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://vidacalm.net/"
@@ -10536,7 +10536,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "leanotox",
-    "image": "/src/assets/hlr/Leanotox.png",
+    "image": "/assets/hlr/Leanotox.png",
     "rating": 4.7,
     "metaTitle": "Leanotox Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Leanotox review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10568,7 +10568,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Leanotox",
-      "image": "/src/assets/hlr/Leanotox.png",
+      "image": "/assets/hlr/Leanotox.png",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://www.leanotox.com/"
@@ -10581,7 +10581,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nerve-alive",
-    "image": "/src/assets/hlr/Nerve Alive.webp",
+    "image": "/assets/hlr/Nerve Alive.webp",
     "rating": 4.6,
     "metaTitle": "Nerve Alive Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Nerve Alive review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10613,7 +10613,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Nerve Alive",
-      "image": "/src/assets/hlr/Nerve Alive.webp",
+      "image": "/assets/hlr/Nerve Alive.webp",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "#"
@@ -10626,7 +10626,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "nitrilean",
-    "image": "/src/assets/hlr/NitriLEAN.webp",
+    "image": "/assets/hlr/NitriLEAN.webp",
     "rating": 4.7,
     "metaTitle": "NitriLEAN Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NitriLEAN review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10658,7 +10658,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NitriLEAN",
-      "image": "/src/assets/hlr/NitriLEAN.webp",
+      "image": "/assets/hlr/NitriLEAN.webp",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://nitrilean.com/"
@@ -10671,7 +10671,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "cognitivefuel",
-    "image": "/src/assets/hlr/CognitiveFuel.avif",
+    "image": "/assets/hlr/CognitiveFuel.avif",
     "rating": 4.8,
     "metaTitle": "CognitiveFuel Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest CognitiveFuel review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10703,7 +10703,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "CognitiveFuel",
-      "image": "/src/assets/hlr/CognitiveFuel.avif",
+      "image": "/assets/hlr/CognitiveFuel.avif",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://thecognitivefuel.com/"
@@ -10716,7 +10716,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "vitanerve6-joint-health",
-    "image": "/src/assets/hlr/VitaNerve6 - Joint health.webp",
+    "image": "/assets/hlr/VitaNerve6 - Joint health.webp",
     "rating": 4.7,
     "metaTitle": "VitaNerve6 - Joint health Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest VitaNerve6 - Joint health review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10748,7 +10748,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "VitaNerve6 - Joint health",
-      "image": "/src/assets/hlr/VitaNerve6 - Joint health.webp",
+      "image": "/assets/hlr/VitaNerve6 - Joint health.webp",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "#"
@@ -10761,7 +10761,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "joint-eternal",
-    "image": "/src/assets/hlr/Joint Eternal.jpg",
+    "image": "/assets/hlr/Joint Eternal.jpg",
     "rating": 4.2,
     "metaTitle": "Joint Eternal Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Joint Eternal review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10793,7 +10793,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Joint Eternal",
-      "image": "/src/assets/hlr/Joint Eternal.jpg",
+      "image": "/assets/hlr/Joint Eternal.jpg",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://jointeternal.com/"
@@ -10806,7 +10806,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "bloodarmor",
-    "image": "/src/assets/hlr/BloodArmor.webp",
+    "image": "/assets/hlr/BloodArmor.webp",
     "rating": 4.3,
     "metaTitle": "BloodArmor Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest BloodArmor review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10838,7 +10838,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "BloodArmor",
-      "image": "/src/assets/hlr/BloodArmor.webp",
+      "image": "/assets/hlr/BloodArmor.webp",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://bloodarmor.net/bloodarmor-pv/"
@@ -10896,7 +10896,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "arteris-plus",
-    "image": "/src/assets/hlr/Arteris Plus.png",
+    "image": "/assets/hlr/Arteris Plus.png",
     "rating": 4.8,
     "metaTitle": "Arteris Plus Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Arteris Plus review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10928,7 +10928,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Arteris Plus",
-      "image": "/src/assets/hlr/Arteris Plus.png",
+      "image": "/assets/hlr/Arteris Plus.png",
       "rating": 4.8,
       "price": "$59.00",
       "buyUrl": "https://arterisplus.com/"
@@ -10941,7 +10941,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "kerabiotics",
-    "image": "/src/assets/hlr/KeraBiotics.png",
+    "image": "/assets/hlr/KeraBiotics.png",
     "rating": 4.2,
     "metaTitle": "KeraBiotics Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest KeraBiotics review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -10973,7 +10973,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "KeraBiotics",
-      "image": "/src/assets/hlr/KeraBiotics.png",
+      "image": "/assets/hlr/KeraBiotics.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://kerabiotics.com/"
@@ -10986,7 +10986,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "visium-plus",
-    "image": "/src/assets/hlr/Visium Plus.png",
+    "image": "/assets/hlr/Visium Plus.png",
     "rating": 4.2,
     "metaTitle": "Visium Plus Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Visium Plus review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -11018,7 +11018,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Visium Plus",
-      "image": "/src/assets/hlr/Visium Plus.png",
+      "image": "/assets/hlr/Visium Plus.png",
       "rating": 4.2,
       "price": "$59.00",
       "buyUrl": "https://visiumplus.com/"
@@ -11031,7 +11031,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "the-stem-cell-solution",
-    "image": "/src/assets/hlr/The Stem Cell Solution.jpg",
+    "image": "/assets/hlr/The Stem Cell Solution.jpg",
     "rating": 4.7,
     "metaTitle": "The Stem Cell Solution Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest The Stem Cell Solution review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -11063,7 +11063,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "The Stem Cell Solution",
-      "image": "/src/assets/hlr/The Stem Cell Solution.jpg",
+      "image": "/assets/hlr/The Stem Cell Solution.jpg",
       "rating": 4.7,
       "price": "$59.00",
       "buyUrl": "https://www.stemcellsolution.info/"
@@ -11076,7 +11076,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "reliver-pro",
-    "image": "/src/assets/hlr/Reliver Pro.png",
+    "image": "/assets/hlr/Reliver Pro.png",
     "rating": 4.4,
     "metaTitle": "Reliver Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Reliver Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -11108,7 +11108,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Reliver Pro",
-      "image": "/src/assets/hlr/Reliver Pro.png",
+      "image": "/assets/hlr/Reliver Pro.png",
       "rating": 4.4,
       "price": "$59.00",
       "buyUrl": "https://www.reliverpro.com/"
@@ -11121,7 +11121,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "revitagut",
-    "image": "/src/assets/hlr/Revitagut.png",
+    "image": "/assets/hlr/Revitagut.png",
     "rating": 4.3,
     "metaTitle": "Revitagut Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest Revitagut review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -11153,7 +11153,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "Revitagut",
-      "image": "/src/assets/hlr/Revitagut.png",
+      "image": "/assets/hlr/Revitagut.png",
       "rating": 4.3,
       "price": "$59.00",
       "buyUrl": "https://revitagut.com/"
@@ -11166,7 +11166,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "slimradiance",
-    "image": "/src/assets/hlr/SlimRadiance.webp",
+    "image": "/assets/hlr/SlimRadiance.webp",
     "rating": 4.6,
     "metaTitle": "SlimRadiance Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest SlimRadiance review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -11198,7 +11198,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "SlimRadiance",
-      "image": "/src/assets/hlr/SlimRadiance.webp",
+      "image": "/assets/hlr/SlimRadiance.webp",
       "rating": 4.6,
       "price": "$59.00",
       "buyUrl": "https://slimradiance.com/"
@@ -11211,7 +11211,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "refirmance",
-    "image": "/src/assets/hlr/ReFirmance.png",
+    "image": "/assets/hlr/ReFirmance.png",
     "rating": 4.9,
     "metaTitle": "ReFirmance Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest ReFirmance review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -11243,7 +11243,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "ReFirmance",
-      "image": "/src/assets/hlr/ReFirmance.png",
+      "image": "/assets/hlr/ReFirmance.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://refirmance.com/"
@@ -11256,7 +11256,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "neurocalm-pro",
-    "image": "/src/assets/hlr/NeuroCalm Pro.png",
+    "image": "/assets/hlr/NeuroCalm Pro.png",
     "rating": 4.9,
     "metaTitle": "NeuroCalm Pro Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest NeuroCalm Pro review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -11288,7 +11288,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "NeuroCalm Pro",
-      "image": "/src/assets/hlr/NeuroCalm Pro.png",
+      "image": "/assets/hlr/NeuroCalm Pro.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://neurocalmpro.com/"
@@ -11301,7 +11301,7 @@ export const generatedReviews = [
     "category": "Dietary Supplements",
     "categorySlug": "dietary-supplements",
     "slug": "honeyburn",
-    "image": "/src/assets/hlr/HoneyBurn.png",
+    "image": "/assets/hlr/HoneyBurn.png",
     "rating": 4.9,
     "metaTitle": "HoneyBurn Review 2026 \u2013 Does It Really Work?",
     "metaDescription": "Honest HoneyBurn review covering ingredients, benefits, pros & cons, and real results for individuals dealing with nutritional gaps and modern dietary stress.",
@@ -11333,7 +11333,7 @@ export const generatedReviews = [
     "readTime": "8 min read",
     "product": {
       "name": "HoneyBurn",
-      "image": "/src/assets/hlr/HoneyBurn.png",
+      "image": "/assets/hlr/HoneyBurn.png",
       "rating": 4.9,
       "price": "$59.00",
       "buyUrl": "https://honeyburn.com/"
