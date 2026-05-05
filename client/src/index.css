@@ -29,3 +29,28 @@
 .backdrop-blur-glass {
   @apply backdrop-blur-xl bg-white/80;
 }
+
+/* Premium Typography for Reviews */
+.prose h2 {
+  @apply font-display font-black text-[#191C1D] tracking-tight border-b border-gray-100 pb-6 mb-10 mt-16 !important;
+}
+
+.prose p {
+  @apply text-gray-600 leading-[1.8] mb-10 !important;
+}
+
+.prose strong {
+  @apply text-[#191C1D] font-extrabold !important;
+}
+
+.prose ul {
+  @apply list-disc pl-8 mb-12 space-y-4 !important;
+}
+
+.prose li {
+  @apply text-gray-600 leading-[1.8] pl-2 !important;
+}
+
+.prose li strong {
+  @apply text-[#0052CC] !important;
+}

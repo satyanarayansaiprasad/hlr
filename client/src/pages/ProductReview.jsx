@@ -212,35 +212,41 @@ const ProductReview = () => {
                  
                  {/* Product Callout Card Sidebar Version */}
                  {reviewData?.product && (
-                 <div className="bg-[#191C1D] rounded-[48px] p-12 text-white flex flex-col items-center gap-8 shadow-2xl relative overflow-hidden group border border-white/5">
-                    <div className="absolute top-0 right-0 w-80 h-80 bg-[#0052CC]/30 rounded-full blur-[120px] z-0 pointer-events-none"></div>
+                  <div className="bg-[#191C1D] rounded-[40px] p-8 text-white flex flex-col items-center gap-6 shadow-2xl relative overflow-hidden group border border-white/5">
+                    <div className="absolute top-0 right-0 w-60 h-60 bg-[#0052CC]/20 rounded-full blur-[100px] z-0 pointer-events-none"></div>
                     
-                    <div className="w-full aspect-square rounded-[36px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] relative z-10 bg-white flex items-center justify-center p-8 group-hover:-translate-y-4 transition-transform duration-500">
+                    <div className="w-full aspect-[4/3] rounded-[24px] overflow-hidden shadow-lg relative z-10 bg-white flex items-center justify-center p-6 group-hover:-translate-y-2 transition-transform duration-500">
                        <img src={reviewData.product.image} alt={reviewData.product.name} className="max-w-full max-h-full object-contain transition-transform duration-[4000ms] group-hover:scale-110" />
                     </div>
                     
                     <div className="w-full relative z-10 text-center flex flex-col items-center">
-                       <span className="text-[#91F78E] bg-[#91F78E]/10 px-5 py-2.5 rounded-full text-[11px] font-black uppercase tracking-[0.3em] mb-8 inline-block border border-[#91F78E]/20">Editorial Choice 2024</span>
-                       <h3 className="font-display font-black text-4xl mb-8 leading-tight">{reviewData.product.name}</h3>
+                       <span className="text-[#91F78E] bg-[#91F78E]/10 px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-5 inline-block border border-[#91F78E]/20">Editorial Choice 2024</span>
+                       <h3 className="font-display font-bold text-3xl mb-5 leading-tight">{reviewData.product.name}</h3>
                        
-                       <div className="flex items-center justify-center gap-3 mb-10 bg-white/5 w-fit mx-auto px-5 py-3 rounded-2xl border border-white/10 backdrop-blur-sm">
-                          <div className="flex gap-1">
-                             {[1, 2, 3, 4, 5].map(i => <i key={i} className="ri-star-fill text-[#91F78E] text-lg"></i>)}
+                       <div className="flex items-center justify-center gap-2 mb-6 bg-white/5 w-fit mx-auto px-4 py-2 rounded-xl border border-white/10 backdrop-blur-sm">
+                          <div className="flex gap-0.5">
+                             {[1, 2, 3, 4, 5].map(i => <i key={i} className="ri-star-fill text-[#91F78E] text-base"></i>)}
                           </div>
-                          <span className="text-sm font-bold text-gray-300 ml-2">{reviewData.product.rating} / 5.0</span>
+                          <span className="text-xs font-bold text-gray-400 ml-1">{reviewData.product.rating} / 5.0</span>
                        </div>
                        
-                       <div className="text-5xl font-black text-white mb-10 border-b border-white/10 pb-10 w-full">{reviewData.product.price}</div>
+                       <div className="flex flex-col items-center mb-8 border-b border-white/10 pb-8 w-full">
+                          <span className="text-gray-500 text-lg line-through mb-1 opacity-50">$89.00</span>
+                          <div className="text-4xl font-black text-white flex items-baseline gap-2">
+                            {reviewData.product.price}
+                            <span className="text-xs bg-[#91F78E] text-[#191C1D] px-2 py-1 rounded font-black uppercase tracking-tighter">Save 35%</span>
+                          </div>
+                       </div>
                        
-                       <a href={reviewData.product.buyUrl || '#'} target="_blank" rel="noopener noreferrer" className="w-full py-6 bg-[#0052CC] text-white rounded-[24px] font-black hover:bg-white hover:text-[#191C1D] transition-all flex items-center justify-center gap-3 text-xl group/btn shadow-[0_0_40px_rgba(0,82,204,0.3)] hover:shadow-white/20 active:scale-95">
+                       <a href={reviewData.product.buyUrl || '#'} target="_blank" rel="noopener noreferrer" className="w-full py-4 bg-[#0052CC] text-white rounded-[18px] font-black hover:bg-white hover:text-[#191C1D] transition-all flex items-center justify-center gap-2 text-lg group/btn shadow-[0_0_30px_rgba(0,82,204,0.2)] active:scale-95">
                           Visit Official Website
-                          <i className="ri-arrow-right-up-line text-2xl group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform"></i>
+                          <i className="ri-arrow-right-up-line text-xl group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform"></i>
                        </a>
-                       <p className="text-xs font-bold text-gray-500 uppercase tracking-[0.2em] mt-8 flex items-center justify-center gap-2">
-                         <i className="ri-verified-badge-fill text-[#0052CC]"></i> Verified by Clinical Board
+                       <p className="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em] mt-6 flex items-center justify-center gap-2">
+                         <i className="ri-verified-badge-fill text-[#0052CC]"></i> Clinical Board Verified
                        </p>
                     </div>
-                 </div>
+                  </div>
                  )}
 
                  {/* Author Sidebar Snippet */}

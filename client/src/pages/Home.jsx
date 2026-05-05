@@ -64,31 +64,31 @@ const Home = () => {
                 <span className="bg-[#0052CC] text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">New Entry</span>
                 <span className="text-gray-400 text-xs font-medium">Updated Oct 26, 2023</span>
               </div>
-              <h1 className="font-display font-black text-5xl md:text-7xl text-[#191C1D] mb-8 leading-[1.1] tracking-tight">
+              <h1 className="font-display font-bold text-4xl md:text-6xl text-[#191C1D] mb-6 leading-[1.15] tracking-tight">
                 {BRAND_NAME}: <br />
                 <span className="text-[#0052CC]">{BRAND_TAGLINE.split('.')[0]}</span>.
               </h1>
-              <p className="text-xl text-gray-500 mb-12 max-w-2xl leading-relaxed">
+              <p className="text-lg text-gray-500 mb-10 max-w-2xl leading-relaxed">
                 {BRAND_TAGLINE} We dismantle marketing hype to deliver science-based insights on supplements that actually work.
               </p>
               <div className="flex flex-wrap gap-5">
-                <Link to="/reviews" className="px-10 py-5 bg-[#0052CC] text-white rounded-2xl font-bold hover:bg-[#003D9B] transition-all shadow-xl shadow-blue-600/20 flex items-center gap-3 group">
+                <Link to="/reviews" className="px-8 py-4 bg-[#0052CC] text-white rounded-xl font-bold hover:bg-[#003D9B] transition-all shadow-lg shadow-blue-600/15 flex items-center gap-3 group">
                   Explore Latest Reviews
                   <i className="ri-arrow-right-line group-hover:translate-x-1 transition-transform"></i>
                 </Link>
-                <div className="flex items-center gap-4 px-6 border-l border-gray-100">
-                  <div className="flex -space-x-3">
+                <div className="flex items-center gap-3 pl-6 border-l border-gray-200">
+                  <div className="flex -space-x-2.5">
                     {[
-                      "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=100",
-                      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100",
-                      "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=100"
+                      "/images/experts/dr1.png",
+                      "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=100&auto=format&fit=crop",
+                      "https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=100&auto=format&fit=crop"
                     ].map((src, i) => (
-                      <img key={i} src={src} className="w-10 h-10 rounded-full border-2 border-white shadow-lg" alt="Doctor" />
+                      <img key={i} src={src} className="w-9 h-9 rounded-full border-2 border-white shadow-md object-cover" alt="Medical Expert" />
                     ))}
                   </div>
-                  <div>
-                    <p className="text-xs font-bold text-[#191C1D]">Medical Review Board</p>
-                    <p className="text-[10px] text-gray-400 font-medium uppercase tracking-widest">15+ PhD Experts</p>
+                  <div className="flex flex-col">
+                    <p className="text-[11px] font-bold text-[#191C1D] uppercase tracking-wider leading-none mb-0.5">Medical Review Board</p>
+                    <p className="text-[9px] text-gray-400 font-semibold uppercase tracking-widest leading-none">15+ PhD Experts</p>
                   </div>
                 </div>
               </div>
