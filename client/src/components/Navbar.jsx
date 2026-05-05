@@ -37,7 +37,7 @@ const Navbar = () => {
             H
           </div>
           <span className="font-display font-bold text-xl tracking-tight text-[#191C1D]">
-            Health Line<span className="text-[#0052CC]"> Review</span>
+            Health Line<span className="text-[#0052CC]"> Reviews</span>
           </span>
         </Link>
 

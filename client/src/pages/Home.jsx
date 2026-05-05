@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { BRAND_NAME, BRAND_TAGLINE } from '../constants/brand';
+import { getFormattedLastMonthDate } from '../utils/dateUtils';
 import ProductCard from '../components/ProductCard';
 import ReviewCard from '../components/ReviewCard';
 import CTASection from '../components/CTASection';
@@ -62,7 +63,7 @@ const Home = () => {
             >
               <div className="flex items-center gap-3 mb-8">
                 <span className="bg-[#0052CC] text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">New Entry</span>
-                <span className="text-gray-400 text-xs font-medium">Updated Oct 26, 2023</span>
+                <span className="text-gray-400 text-xs font-medium">Updated {getFormattedLastMonthDate()}</span>
               </div>
               <h1 className="font-display font-bold text-4xl md:text-6xl text-[#191C1D] mb-6 leading-[1.15] tracking-tight">
                 {BRAND_NAME}: <br />
@@ -117,7 +118,7 @@ const Home = () => {
       <section className="py-32 bg-[#F8F9FA]">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center mb-20">
-            <h2 className="text-[11px] font-bold text-[#0052CC] uppercase tracking-[0.3em] mb-4">The Best of 2023</h2>
+            <h2 className="text-[11px] font-bold text-[#0052CC] uppercase tracking-[0.3em] mb-4">The Best of 2026</h2>
             <h3 className="font-display font-bold text-4xl md:text-5xl text-[#191C1D] mb-6">Our Top Rated Best Sellers</h3>
             <p className="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">Products that have outperformed our clinical benchmarks and received exceptional community feedback.</p>
           </div>

@@ -32,11 +32,11 @@
 
 /* Premium Typography for Reviews */
 .prose h2 {
-  @apply font-display font-black text-[#191C1D] tracking-tight border-b border-gray-100 pb-6 mb-10 mt-16 !important;
+  @apply font-display font-black text-[#191C1D] tracking-tight border-b border-gray-100 pb-4 mb-8 mt-12 !important;
 }
 
 .prose p {
-  @apply text-gray-600 leading-[1.8] mb-10 !important;
+  @apply text-gray-600 leading-[1.8] mb-8 text-lg !important;
 }
 
 .prose strong {
@@ -44,11 +44,11 @@
 }
 
 .prose ul {
-  @apply list-disc pl-8 mb-12 space-y-4 !important;
+  @apply list-disc pl-8 mb-10 space-y-3 !important;
 }
 
 .prose li {
-  @apply text-gray-600 leading-[1.8] pl-2 !important;
+  @apply text-gray-600 leading-[1.8] pl-2 text-lg !important;
 }
 
 .prose li strong {

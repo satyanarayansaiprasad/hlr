@@ -51,10 +51,10 @@ const ReviewsList = () => {
             {currentCategoryObj && <i className={`${currentCategoryObj.icon} text-lg`}></i>}
             {activeCategory === 'All' ? 'The Knowledge Hub' : currentCategoryObj?.name}
           </span>
-          <h1 className="font-display font-bold text-5xl md:text-6xl text-[#191C1D] mb-8 leading-tight">
+          <h1 className="font-display font-bold text-4xl md:text-5xl text-[#191C1D] mb-6 leading-tight">
             {heroData.title}
           </h1>
-          <p className="text-xl text-gray-400 max-w-2xl leading-relaxed">
+          <p className="text-lg text-gray-500 max-w-2xl leading-relaxed">
             {heroData.desc}
           </p>
         </div>
@@ -122,29 +122,14 @@ const ReviewsList = () => {
                   <div className="w-24 h-24 bg-gray-100 rounded-3xl flex items-center justify-center mx-auto mb-8 text-gray-300">
                     <i className="ri-search-eye-line text-4xl"></i>
                   </div>
-                  <h3 className="font-display font-bold text-2xl text-[#191C1D] mb-2 leading-tight">No scientific match found</h3>
-                  <p className="text-gray-400 max-w-sm mx-auto">Try adjusting your filters or search keywords to find what you're looking for.</p>
+                  <h3 className="font-display font-bold text-xl text-[#191C1D] mb-2 leading-tight">No scientific match found</h3>
+                  <p className="text-sm text-gray-500 max-w-sm mx-auto">Try adjusting your filters or search keywords to find what you're looking for.</p>
                 </motion.div>
             )}
           </AnimatePresence>
         </div>
 
-        {/* Pagination placeholder */}
-        <div className="mt-24 pt-12 border-t border-gray-100 flex justify-center">
-           <div className="flex gap-4">
-              <button className="w-12 h-12 rounded-xl border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-[#0052CC]/5 hover:text-[#0052CC] transition-all">
-                <i className="ri-arrow-left-s-line"></i>
-              </button>
-              {[1, 2, 3].map(i => (
-                <button key={i} className={`w-12 h-12 rounded-xl flex items-center justify-center font-bold text-sm transition-all ${i === 1 ? 'bg-[#0052CC] text-white shadow-lg' : 'hover:bg-gray-100 text-gray-500'}`}>
-                  {i}
-                </button>
-              ))}
-              <button className="w-12 h-12 rounded-xl border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-[#0052CC]/5 hover:text-[#0052CC] transition-all">
-                <i className="ri-arrow-right-s-line"></i>
-              </button>
-           </div>
-        </div>
+
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ const Footer = () => {
                 H
               </div>
                <span className="font-display font-bold text-2xl tracking-tight text-white">
-                Health Line<span className="text-[#0052CC]"> Review</span>
+                Health Line<span className="text-[#0052CC]"> Reviews</span>
               </span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">

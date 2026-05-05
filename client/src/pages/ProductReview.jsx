@@ -4,6 +4,7 @@ import { useParams, Link } from 'react-router-dom';
 import CommentSection from '../components/CommentSection';
 import AuthorCard from '../components/AuthorCard';
 import { allReviews } from '../data/reviews';
+import { getFormattedLastMonthDate } from '../utils/dateUtils';
 
 const ProductReview = () => {
   const { category, slug } = useParams();
@@ -100,7 +101,7 @@ const ProductReview = () => {
                 {reviewData?.category || "Review"}
               </span>
               
-              <h1 className="font-display font-black text-5xl md:text-6xl lg:text-8xl text-[#191C1D] leading-[1.05] mb-10 tracking-tight drop-shadow-sm">
+              <h1 className="font-display font-black text-4xl md:text-5xl lg:text-6xl text-[#191C1D] leading-[1.1] mb-8 tracking-tight">
                 {reviewData?.title || "Product Review"}
               </h1>
               
@@ -115,10 +116,10 @@ const ProductReview = () => {
                     </div>
                  </div>
                  <div className="h-12 w-[1px] bg-gray-300 hidden sm:block"></div>
-                 <div className="flex flex-col gap-1.5 text-[12px] font-bold uppercase tracking-widest hidden sm:flex">
-                    <span className="text-gray-500">{reviewData?.date || "Recently Updated"}</span>
+                  <div className="flex flex-col gap-1.5 text-[12px] font-bold uppercase tracking-widest hidden sm:flex">
+                    <span className="text-gray-500">Updated {getFormattedLastMonthDate()}</span>
                     <span className="text-[#0052CC] flex items-center gap-1.5"><i className="ri-time-line text-lg"></i> {reviewData?.readTime || "5 min read"}</span>
-                 </div>
+                  </div>
               </div>
            </div>
         </div>
@@ -135,7 +136,7 @@ const ProductReview = () => {
                   {/* Dynamic Payload */}
                   <section 
                     id="dynamic-content" 
-                    className="mb-24 prose-headings:font-display prose-headings:font-bold prose-headings:text-[#191C1D] prose-h2:text-4xl lg:prose-h2:text-6xl prose-h2:mb-10 prose-h2:mt-20 prose-p:text-xl lg:prose-p:text-2xl prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-10 prose-ul:text-xl lg:prose-ul:text-2xl prose-ul:text-gray-700 prose-ul:leading-[1.8] prose-li:mb-5 prose-ul:list-disc prose-ul:pl-10 text-gray-800"
+                    className="mb-20 prose-headings:font-display prose-headings:font-bold prose-headings:text-[#191C1D] prose-h2:text-3xl lg:prose-h2:text-4xl prose-h2:mb-8 prose-h2:mt-16 prose-p:text-lg lg:prose-p:text-xl prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-8 prose-ul:text-lg lg:prose-ul:text-xl prose-ul:text-gray-700 prose-ul:leading-[1.8] prose-li:mb-4 prose-ul:list-disc prose-ul:pl-8 text-gray-800 max-w-3xl"
                   >
                     <div dangerouslySetInnerHTML={{ __html: reviewData?.content || '' }} />
                   </section>
@@ -150,10 +151,10 @@ const ProductReview = () => {
                             </div>
                             The Clinical Pros
                           </h3>
-                          <ul className="space-y-6 m-0 list-none p-0">
+                          <ul className="space-y-4 m-0 list-none p-0">
                             {reviewData?.pros?.map((pro, i) => (
-                              <li key={`pro-${i}`} className="flex gap-4 text-[#191C1D] font-medium text-xl leading-relaxed">
-                                <span className="w-2 h-2 bg-[#006E1C] rounded-full mt-3 flex-shrink-0 shadow-[0_0_10px_rgba(0,110,28,0.5)]"></span>
+                              <li key={`pro-${i}`} className="flex gap-4 text-[#191C1D] font-medium text-lg leading-relaxed">
+                                <span className="w-1.5 h-1.5 bg-[#006E1C] rounded-full mt-2.5 flex-shrink-0"></span>
                                 {pro}
                               </li>
                             ))}
@@ -166,10 +167,10 @@ const ProductReview = () => {
                             </div>
                             Important Cons
                           </h3>
-                          <ul className="space-y-6 m-0 list-none p-0">
+                          <ul className="space-y-4 m-0 list-none p-0">
                             {reviewData?.cons?.map((con, i) => (
-                              <li key={`con-${i}`} className="flex gap-4 text-gray-700 font-medium text-xl leading-relaxed">
-                                <span className="w-2 h-2 bg-red-500 rounded-full mt-3 flex-shrink-0 shadow-[0_0_10px_rgba(239,68,68,0.5)]"></span>
+                              <li key={`con-${i}`} className="flex gap-4 text-gray-700 font-medium text-lg leading-relaxed">
+                                <span className="w-1.5 h-1.5 bg-red-500 rounded-full mt-2.5 flex-shrink-0"></span>
                                 {con}
                               </li>
                             ))}
@@ -181,15 +182,15 @@ const ProductReview = () => {
                   {/* FAQ Section */}
                   {reviewData?.faqs && reviewData.faqs.length > 0 && (
                   <section id="faq" className="mb-32">
-                    <h2 className="font-display font-black text-5xl lg:text-6xl text-[#191C1D] mb-16 m-0">Expert Answers</h2>
-                    <div className="space-y-8">
+                     <h2 className="font-display font-black text-4xl lg:text-5xl text-[#191C1D] mb-12 m-0">Expert Answers</h2>
+                    <div className="space-y-6">
                       {reviewData.faqs.map((faq, idx) => (
-                        <div key={`faq-${idx}`} className="bg-white border-2 border-gray-50 p-10 lg:p-12 rounded-[40px] shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group">
-                           <h5 className="font-bold text-2xl lg:text-3xl text-[#191C1D] mb-6 flex gap-6 transition-colors group-hover:text-[#0052CC] m-0 leading-tight">
+                        <div key={`faq-${idx}`} className="bg-white border border-gray-100 p-8 lg:p-10 rounded-[32px] shadow-sm hover:shadow-md transition-all duration-300 group">
+                           <h5 className="font-bold text-xl lg:text-2xl text-[#191C1D] mb-4 flex gap-4 transition-colors group-hover:text-[#0052CC] m-0 leading-tight">
                              <span className="text-[#0052CC] opacity-20 font-display font-black">Q.</span>
                              {faq.q}
                            </h5>
-                           <p className="text-gray-600 text-xl leading-relaxed pl-14 font-medium m-0">
+                           <p className="text-gray-600 text-lg leading-relaxed pl-10 font-medium m-0">
                              {faq.a}
                            </p>
                         </div>
@@ -220,14 +221,14 @@ const ProductReview = () => {
                     </div>
                     
                     <div className="w-full relative z-10 text-center flex flex-col items-center">
-                       <span className="text-[#91F78E] bg-[#91F78E]/10 px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-5 inline-block border border-[#91F78E]/20">Editorial Choice 2024</span>
+                       <span className="text-[#91F78E] bg-[#91F78E]/10 px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-5 inline-block border border-[#91F78E]/20">Editorial Choice 2026</span>
                        <h3 className="font-display font-bold text-3xl mb-5 leading-tight">{reviewData.product.name}</h3>
                        
                        <div className="flex items-center justify-center gap-2 mb-6 bg-white/5 w-fit mx-auto px-4 py-2 rounded-xl border border-white/10 backdrop-blur-sm">
                           <div className="flex gap-0.5">
-                             {[1, 2, 3, 4, 5].map(i => <i key={i} className="ri-star-fill text-[#91F78E] text-base"></i>)}
+                             {[1, 2, 3, 4, 5].map(i => <i key={i} className="ri-star-fill text-[#91F78E] text-sm"></i>)}
                           </div>
-                          <span className="text-xs font-bold text-gray-400 ml-1">{reviewData.product.rating} / 5.0</span>
+                          <span className="text-[10px] font-bold text-gray-400 ml-1">{reviewData.product.rating} / 5.0</span>
                        </div>
                        
                        <div className="flex flex-col items-center mb-8 border-b border-white/10 pb-8 w-full">
@@ -256,8 +257,8 @@ const ProductReview = () => {
                        <img src={reviewData.author.avatar} alt={reviewData.author.name} className="w-full h-full object-cover" />
                     </div>
                     <p className="text-[11px] font-black text-[#0052CC] uppercase tracking-[0.2em] mb-4">Tested & Reviewed By</p>
-                    <h4 className="font-display font-black text-3xl text-[#191C1D] mb-4">{reviewData.author.name}</h4>
-                    <p className="text-base text-gray-500 leading-relaxed mb-8 font-medium">{reviewData.author.bio || "Medical researcher passionate about uncovering the science behind consumer supplements."}</p>
+                    <h4 className="font-display font-black text-2xl text-[#191C1D] mb-4">{reviewData.author.name}</h4>
+                    <p className="text-sm text-gray-500 leading-relaxed mb-8 font-medium">{reviewData.author.bio || "Medical researcher passionate about uncovering the science behind consumer supplements."}</p>
                     <div className="w-full h-[2px] bg-gray-100 mb-8"></div>
                     <div className="flex flex-wrap justify-center gap-3">
                        {reviewData.author.specialization?.map((spec, i) => (

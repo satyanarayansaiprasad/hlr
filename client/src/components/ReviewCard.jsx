@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { getFormattedLastMonthDate } from '../utils/dateUtils';
 
 const ReviewCard = ({ review }) => {
   const { 
@@ -38,15 +39,15 @@ const ReviewCard = ({ review }) => {
           </div>
           <div className="flex flex-col">
             <span className="text-xs font-bold text-[#191C1D]">{author.name}</span>
-            <span className="text-[10px] font-medium text-gray-400">{date}</span>
+            <span className="text-[10px] font-medium text-gray-400">Updated {getFormattedLastMonthDate()}</span>
           </div>
         </div>
 
         <Link to={`/reviews/${categorySlug || 'general'}/${slug}`} className="mb-4 block transition-colors hover:text-[#0052CC]">
-          <h3 className="font-display font-bold text-2xl text-[#191C1D] leading-tight mb-3">
+          <h3 className="font-display font-bold text-xl text-[#191C1D] leading-tight mb-3 group-hover:text-[#0052CC] transition-colors">
             {title}
           </h3>
-          <p className="text-gray-500 text-sm leading-relaxed line-clamp-3">
+          <p className="text-gray-500 text-xs leading-relaxed line-clamp-3">
             {excerpt}
           </p>
         </Link>
