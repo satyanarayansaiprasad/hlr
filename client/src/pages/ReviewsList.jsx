@@ -3,16 +3,32 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReviewCard from '../components/ReviewCard';
 import { allReviews, categoriesList, categoryMapping } from '../data/reviews';
+import { getReviews } from '../services/api';
 
 const ReviewsList = () => {
   const { category } = useParams();
   const navigate = useNavigate();
   const [activeCategory, setActiveCategory] = useState(category || 'All');
   const [searchQuery, setSearchQuery] = useState('');
+  const [reviews, setReviews] = useState(allReviews);
 
   useEffect(() => {
     setActiveCategory(category || 'All');
   }, [category]);
+
+  useEffect(() => {
+    const loadReviews = async () => {
+      try {
+        const res = await getReviews();
+        if (res.data && Array.isArray(res.data)) {
+          setReviews(res.data);
+        }
+      } catch (err) {
+        console.warn('Backend API is offline. Using static reviews fallback.');
+      }
+    };
+    loadReviews();
+  }, []);
 
   const handleCategoryChange = (catId) => {
     setActiveCategory(catId);
@@ -23,10 +39,10 @@ const ReviewsList = () => {
     }
   };
 
-  const filteredReviews = allReviews.filter((review) => {
+  const filteredReviews = reviews.filter((review) => {
     const matchesCategory = activeCategory === 'All' || review.categorySlug === activeCategory;
     const matchesSearch = review.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                         review.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
+                          review.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 

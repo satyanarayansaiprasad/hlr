@@ -5,6 +5,7 @@ import CommentSection from '../components/CommentSection';
 import AuthorCard from '../components/AuthorCard';
 import { allReviews } from '../data/reviews';
 import { getFormattedLastMonthDate } from '../utils/dateUtils';
+import { getReviewBySlug } from '../services/api';
 
 const ProductReview = () => {
   const { category, slug } = useParams();
@@ -18,38 +19,52 @@ const ProductReview = () => {
   const [reviewData, setReviewData] = useState(null);
 
   useEffect(() => {
-    const data = allReviews.find(r => r.slug === slug);
-    if (data) {
-      // Add default sections if not present (to keep consistency with prev layout)
-      setReviewData({
-        ...data,
-        pros: data.pros || [
-          "Clinically backed formulations",
-          "Third-party lab tested for purity",
-          "High bioavailability & absorption",
-          "Doctor-verified health outcomes"
-        ],
-        cons: data.cons || [
-          "Premium price point",
-          "Subscription model required for best value",
-          "Limited local retail availability"
-        ],
-        faqs: data.faqs || [
-          { q: "How long until I see results?", a: "Most users report improvements in biometric markers within the first 30 days of consistent use." },
-          { q: "Is this supplement safe to stack?", a: "We recommend consulting with our Clinical Board before combining with prescription medications." }
-        ],
-        comments: data.comments || [
-           {
-             id: 1,
-             author: { name: "Mark Peterson", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" },
-             text: "I've been following this protocol for 3 months now and definitely feel a difference in my energy levels.",
-             date: "2 days ago",
-             likes: 14,
-             replies: []
-           }
-        ]
-      });
-    }
+    const loadReview = async () => {
+      try {
+        const res = await getReviewBySlug(slug);
+        if (res.data) {
+          setReviewData(res.data);
+          return;
+        }
+      } catch (err) {
+        console.warn('Backend API offline or review not found. Using local fallback.');
+      }
+
+      // Fallback
+      const data = allReviews.find(r => r.slug === slug);
+      if (data) {
+        setReviewData({
+          ...data,
+          pros: data.pros || [
+            "Clinically backed formulations",
+            "Third-party lab tested for purity",
+            "High bioavailability & absorption",
+            "Doctor-verified health outcomes"
+          ],
+          cons: data.cons || [
+            "Premium price point",
+            "Subscription model required for best value",
+            "Limited local retail availability"
+          ],
+          faqs: data.faqs || [
+            { q: "How long until I see results?", a: "Most users report improvements in biometric markers within the first 30 days of consistent use." },
+            { q: "Is this supplement safe to stack?", a: "We recommend consulting with our Clinical Board before combining with prescription medications." }
+          ],
+          comments: data.comments || [
+             {
+               id: 1,
+               author: { name: "Mark Peterson", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" },
+               text: "I've been following this protocol for 3 months now and definitely feel a difference in my energy levels.",
+               date: "2 days ago",
+               likes: 14,
+               replies: []
+             }
+          ]
+        });
+      }
+    };
+
+    loadReview();
   }, [slug]);
 
   useEffect(() => {

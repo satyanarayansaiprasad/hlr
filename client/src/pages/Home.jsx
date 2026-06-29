@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { BRAND_NAME, BRAND_TAGLINE } from '../constants/brand';
@@ -7,8 +7,25 @@ import ProductCard from '../components/ProductCard';
 import ReviewCard from '../components/ReviewCard';
 import CTASection from '../components/CTASection';
 import { allReviews, categoriesList } from '../data/reviews';
+import { getReviews } from '../services/api';
 
 const Home = () => {
+  const [featuredReviews, setFeaturedReviews] = useState(allReviews.slice(0, 3));
+
+  useEffect(() => {
+    const loadFeatured = async () => {
+      try {
+        const res = await getReviews();
+        if (res.data && Array.isArray(res.data)) {
+          setFeaturedReviews(res.data.slice(0, 3));
+        }
+      } catch (err) {
+        console.warn('Backend API is offline. Using static reviews fallback.');
+      }
+    };
+    loadFeatured();
+  }, []);
+
   const bestSellers = [
     {
       id: 1,
@@ -44,8 +61,6 @@ const Home = () => {
       isTopPick: false
     }
   ];
-
-  const featuredReviews = allReviews.slice(0, 3);
 
   const topCategories = categoriesList.slice(0, 6);
 

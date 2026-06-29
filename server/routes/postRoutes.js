@@ -5,14 +5,24 @@ const {
   createPost,
   updatePost,
   deletePost,
+  restorePost,
+  duplicatePost,
+  bulkAction
 } = require('../controllers/postController');
+const verifyToken = require('../middleware/auth');
 
 const router = express.Router();
 
+// Public Routes
 router.get('/posts', getPosts);
 router.get('/posts/:slug', getPostBySlug);
-router.post('/posts', createPost);
-router.put('/posts/:id', updatePost);
-router.delete('/posts/:id', deletePost);
+
+// Protected Admin Routes
+router.post('/posts', verifyToken, createPost);
+router.put('/posts/:id', verifyToken, updatePost);
+router.delete('/posts/:id', verifyToken, deletePost);
+router.post('/posts/bulk', verifyToken, bulkAction);
+router.post('/posts/:id/restore', verifyToken, restorePost);
+router.post('/posts/:id/duplicate', verifyToken, duplicatePost);
 
 module.exports = router;
