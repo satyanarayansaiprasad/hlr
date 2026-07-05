@@ -105,11 +105,21 @@ Open [http://localhost:5173](http://localhost:5173) in your browser. Navigating 
 
 ## ☁️ Vercel Deployment Guide
 
-This project is configured with a root-level `vercel.json` multi-builder layout. You can deploy it directly from GitHub:
+This project is optimized for deployment on Vercel as a single fullstack application:
 
 1. **Push Changes to GitHub:** Commit all local edits and push them to your repository.
 2. **Import to Vercel:** Link your repository in Vercel.
-3. **Environment Settings:**
-   - In Vercel Project Settings, add the required backend environment variables (JWT secrets, Firebase config, Cloudinary credentials).
-   - *Note:* Since Vercel uses a read-only serverless environment, you **must** configure the Firebase Firestore variables to enable blog additions, edits, or deletes in production.
-4. **Deploy:** Vercel will build both folders and map `/api/*` to the serverless backend functions automatically.
+3. **Configure Project Build Settings:**
+   In your Vercel Project dashboard under **Settings ➔ Build & Development Settings**, configure:
+   - **Root Directory:** Keep as default (`./` - repository root)
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `client/dist`
+4. **Configure Environment Variables:**
+   Under **Settings ➔ Environment Variables**, configure your backend credentials:
+   - `ADMIN_USERNAME` / `ADMIN_PASSWORD` (Your CMS panel credentials)
+   - `CORS_ORIGIN` (Set to `https://healthlinereviews.com,https://www.healthlinereviews.com`)
+   - `JWT_SECRET` (Secure random string)
+   - `FIREBASE_PROJECT_ID`, `FIREBASE_CLIENT_EMAIL`, `FIREBASE_PRIVATE_KEY` (Required for live Firestore database writing)
+   - `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET` (Required for live image uploads)
+5. **Redeploy:** Trigger a deploy. Vercel will run the client build, compile the static files, and serve `api/index.js` as the serverless endpoint for `/api/*` requests.
+
