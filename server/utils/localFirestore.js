@@ -91,6 +91,19 @@ class DocumentReference {
     return true;
   }
 
+  async set(payload) {
+    const data = this.localFirestore._readCollection(this.collectionName);
+    const index = data.findIndex((d) => d.id === this.id);
+    const docData = { id: this.id, ...payload, updatedAt: new Date().toISOString() };
+    if (index !== -1) {
+      data[index] = docData;
+    } else {
+      data.push(docData);
+    }
+    this.localFirestore._writeCollection(this.collectionName, data);
+    return true;
+  }
+
   async delete() {
     const data = this.localFirestore._readCollection(this.collectionName);
     const filtered = data.filter((d) => d.id !== this.id);
