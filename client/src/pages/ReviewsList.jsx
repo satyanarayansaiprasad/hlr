@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReviewCard from '../components/ReviewCard';
-import { allReviews, categoriesList, categoryMapping } from '../data/reviews';
-import { getReviews } from '../services/api';
+import { allReviews, categoriesList } from '../data/reviews';
+import { getReviews, getCategories } from '../services/api';
 
 const ReviewsList = () => {
   const { category } = useParams();
@@ -11,23 +11,30 @@ const ReviewsList = () => {
   const [activeCategory, setActiveCategory] = useState(category || 'All');
   const [searchQuery, setSearchQuery] = useState('');
   const [reviews, setReviews] = useState(allReviews);
+  const [categories, setCategories] = useState(categoriesList);
 
   useEffect(() => {
     setActiveCategory(category || 'All');
   }, [category]);
 
   useEffect(() => {
-    const loadReviews = async () => {
+    const loadData = async () => {
       try {
-        const res = await getReviews();
-        if (res.data && Array.isArray(res.data)) {
-          setReviews(res.data);
+        const [reviewsRes, categoriesRes] = await Promise.all([
+          getReviews(),
+          getCategories()
+        ]);
+        if (reviewsRes.data && Array.isArray(reviewsRes.data)) {
+          setReviews(reviewsRes.data);
+        }
+        if (categoriesRes.data && Array.isArray(categoriesRes.data)) {
+          setCategories(categoriesRes.data);
         }
       } catch (err) {
-        console.warn('Backend API is offline. Using static reviews fallback.');
+        console.warn('Backend API is offline. Using static fallbacks.');
       }
     };
-    loadReviews();
+    loadData();
   }, []);
 
   const handleCategoryChange = (catId) => {
@@ -46,7 +53,9 @@ const ReviewsList = () => {
     return matchesCategory && matchesSearch;
   });
 
-  const currentCategoryObj = activeCategory !== 'All' ? categoryMapping[activeCategory] : null;
+  const currentCategoryObj = activeCategory !== 'All' 
+    ? categories.find(c => c.id === activeCategory) 
+    : null;
 
   const heroData = activeCategory === 'All' 
     ? { 
@@ -86,7 +95,7 @@ const ReviewsList = () => {
             >
               All
             </button>
-            {categoriesList.map((cat) => (
+            {categories.map((cat) => (
               <button
                 key={cat.id}
                 onClick={() => handleCategoryChange(cat.id)}

@@ -3,12 +3,14 @@ import { NavLink, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BRAND_NAME } from '../constants/brand';
 import { categoriesList } from '../data/reviews';
+import { getCategories } from '../services/api';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
+  const [categories, setCategories] = useState(categoriesList);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,6 +18,20 @@ const Navbar = () => {
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const loadCategories = async () => {
+      try {
+        const res = await getCategories();
+        if (res.data && Array.isArray(res.data)) {
+          setCategories(res.data);
+        }
+      } catch (err) {
+        console.warn('Failed to load dynamic categories in Navbar.');
+      }
+    };
+    loadCategories();
   }, []);
 
   const navLinks = [
@@ -72,7 +88,7 @@ const Navbar = () => {
                       transition={{ duration: 0.2 }}
                       className="absolute top-full left-0 mt-4 w-60 bg-white border border-gray-100 rounded-2xl shadow-xl py-3 z-50 grid gap-1"
                     >
-                      {categoriesList.map(cat => (
+                      {categories.map(cat => (
                         <Link 
                           key={cat.id} 
                           to={`/reviews/${cat.id}`}
@@ -164,7 +180,7 @@ const Navbar = () => {
                         exit={{ height: 0, opacity: 0 }}
                         className="overflow-hidden bg-gray-50 rounded-xl mx-2 mb-2"
                       >
-                        {categoriesList.map(cat => (
+                        {categories.map(cat => (
                           <Link 
                             key={cat.id} 
                             to={`/reviews/${cat.id}`}
