@@ -99,10 +99,11 @@ class DocumentReference {
   async update(updates) {
     const data = this.localFirestore._readCollection(this.collectionName);
     const index = data.findIndex((d) => d.id === this.id);
-    if (index !== -1) {
-      data[index] = { ...data[index], ...updates, updatedAt: new Date().toISOString() };
-      this.localFirestore._writeCollection(this.collectionName, data);
+    if (index === -1) {
+      throw new Error(`5 NOT_FOUND: Document not found at ${this.collectionName}/${this.id}`);
     }
+    data[index] = { ...data[index], ...updates, updatedAt: new Date().toISOString() };
+    this.localFirestore._writeCollection(this.collectionName, data);
     return true;
   }
 
