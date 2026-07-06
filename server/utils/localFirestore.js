@@ -5,27 +5,31 @@ const DB_PATH = path.join(__dirname, '..', 'data', 'db.json');
 
 // Ensure database directory and file exist
 const ensureDbFile = () => {
-  const dir = path.dirname(DB_PATH);
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
-  if (!fs.existsSync(DB_PATH)) {
-    fs.writeFileSync(
-      DB_PATH,
-      JSON.stringify(
-        {
-          posts: [],
-          products: [],
-          authors: [],
-          comments: [],
-          categories: [],
-          tags: [],
-          settings: [],
-        },
-        null,
-        2
-      )
-    );
+  try {
+    const dir = path.dirname(DB_PATH);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+    if (!fs.existsSync(DB_PATH)) {
+      fs.writeFileSync(
+        DB_PATH,
+        JSON.stringify(
+          {
+            posts: [],
+            products: [],
+            authors: [],
+            comments: [],
+            categories: [],
+            tags: [],
+            settings: [],
+          },
+          null,
+          2
+        )
+      );
+    }
+  } catch (err) {
+    console.warn('Fs is read-only. Skipping local DB write setup:', err.message);
   }
 };
 
@@ -166,6 +170,7 @@ class CollectionReference extends Query {
 
 class LocalFirestore {
   constructor() {
+    this.memoryDb = null;
     ensureDbFile();
   }
 
@@ -174,26 +179,30 @@ class LocalFirestore {
   }
 
   _readCollection(name) {
+    if (this.memoryDb) {
+      return this.memoryDb[name] || [];
+    }
     ensureDbFile();
     try {
       const raw = fs.readFileSync(DB_PATH, 'utf8');
-      const db = JSON.parse(raw);
-      return db[name] || [];
+      this.memoryDb = JSON.parse(raw);
+      return this.memoryDb[name] || [];
     } catch (e) {
-      console.error('Error reading collection ' + name, e);
+      console.error('Error reading collection ' + name, e.message);
       return [];
     }
   }
 
   _writeCollection(name, data) {
+    if (!this.memoryDb) {
+      this._readCollection(name);
+    }
+    this.memoryDb[name] = data;
     ensureDbFile();
     try {
-      const raw = fs.readFileSync(DB_PATH, 'utf8');
-      const db = JSON.parse(raw);
-      db[name] = data;
-      fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2), 'utf8');
+      fs.writeFileSync(DB_PATH, JSON.stringify(this.memoryDb, null, 2), 'utf8');
     } catch (e) {
-      console.error('Error writing collection ' + name, e);
+      console.warn('Fs is read-only. Database write skipped, data saved in-memory:', e.message);
     }
   }
 }
