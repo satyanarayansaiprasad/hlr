@@ -1,35 +1,209 @@
 const admin = require('firebase-admin');
-
-const projectId = process.env.FIREBASE_PROJECT_ID;
-const clientEmail = process.env.FIREBASE_CLIENT_EMAIL;
-const privateKey = process.env.FIREBASE_PRIVATE_KEY
-  ? process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n')
-  : undefined;
-
 const LocalFirestore = require('../utils/localFirestore');
 
-let db;
+let firestoreInstance = null;
+let isFirestoreDisabled = false;
+const localDb = new LocalFirestore();
 
-if (!projectId || !clientEmail || !privateKey) {
-  console.log('Firebase credentials missing. Using local JSON database fallback.');
-  db = new LocalFirestore();
-} else {
-  try {
-    if (!admin.apps.length) {
-      admin.initializeApp({
-        credential: admin.credential.cert({
-          projectId,
-          clientEmail,
-          privateKey,
-        }),
-      });
-    }
-    db = admin.firestore();
-    console.log('Firebase Firestore initialized successfully.');
-  } catch (error) {
-    console.error('Firebase initialization failed. Falling back to local JSON database.', error.message);
-    db = new LocalFirestore();
+// Initialize Firestore if credentials are provided
+try {
+  if (
+    process.env.FIREBASE_PROJECT_ID &&
+    process.env.FIREBASE_CLIENT_EMAIL &&
+    process.env.FIREBASE_PRIVATE_KEY
+  ) {
+    const privateKey = process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n');
+    admin.initializeApp({
+      credential: admin.credential.cert({
+        projectId: process.env.FIREBASE_PROJECT_ID,
+        clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
+        privateKey: privateKey,
+      }),
+    });
+    firestoreInstance = admin.firestore();
+    console.log('Firebase SDK initialized.');
+  } else {
+    isFirestoreDisabled = true;
+  }
+} catch (err) {
+  console.warn('Firebase initialization failed, using local DB:', err.message);
+  isFirestoreDisabled = true;
+}
+
+class FirestoreProxy {
+  collection(name) {
+    return new CollectionReferenceProxy(name);
   }
 }
 
-module.exports = db;
+class CollectionReferenceProxy {
+  constructor(name) {
+    this.name = name;
+  }
+
+  doc(id) {
+    return new DocumentReferenceProxy(this.name, id);
+  }
+
+  where(field, op, value) {
+    return new QueryProxy(this.name).where(field, op, value);
+  }
+
+  orderBy(field, direction) {
+    return new QueryProxy(this.name).orderBy(field, direction);
+  }
+
+  limit(count) {
+    return new QueryProxy(this.name).limit(count);
+  }
+
+  async get() {
+    if (firestoreInstance && !isFirestoreDisabled) {
+      try {
+        return await firestoreInstance.collection(this.name).get();
+      } catch (err) {
+        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
+          console.warn(`Firestore API denied/disabled. Falling back to local DB for collection: ${this.name}`);
+          isFirestoreDisabled = true;
+        } else {
+          throw err;
+        }
+      }
+    }
+    return await localDb.collection(this.name).get();
+  }
+
+  async add(payload) {
+    if (firestoreInstance && !isFirestoreDisabled) {
+      try {
+        return await firestoreInstance.collection(this.name).add(payload);
+      } catch (err) {
+        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
+          console.warn(`Firestore API denied/disabled. Falling back to local DB for add: ${this.name}`);
+          isFirestoreDisabled = true;
+        } else {
+          throw err;
+        }
+      }
+    }
+    return await localDb.collection(this.name).add(payload);
+  }
+}
+
+class DocumentReferenceProxy {
+  constructor(collectionName, id) {
+    this.collectionName = collectionName;
+    this.id = id;
+  }
+
+  async get() {
+    if (firestoreInstance && !isFirestoreDisabled) {
+      try {
+        return await firestoreInstance.collection(this.collectionName).doc(this.id).get();
+      } catch (err) {
+        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
+          console.warn(`Firestore API denied/disabled. Falling back to local DB for doc get: ${this.id}`);
+          isFirestoreDisabled = true;
+        } else {
+          throw err;
+        }
+      }
+    }
+    return await localDb.collection(this.collectionName).doc(this.id).get();
+  }
+
+  async set(payload) {
+    if (firestoreInstance && !isFirestoreDisabled) {
+      try {
+        return await firestoreInstance.collection(this.collectionName).doc(this.id).set(payload);
+      } catch (err) {
+        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
+          isFirestoreDisabled = true;
+        } else {
+          throw err;
+        }
+      }
+    }
+    return await localDb.collection(this.collectionName).doc(this.id).set(payload);
+  }
+
+  async update(updates) {
+    if (firestoreInstance && !isFirestoreDisabled) {
+      try {
+        return await firestoreInstance.collection(this.collectionName).doc(this.id).update(updates);
+      } catch (err) {
+        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
+          isFirestoreDisabled = true;
+        } else {
+          throw err;
+        }
+      }
+    }
+    return await localDb.collection(this.collectionName).doc(this.id).update(updates);
+  }
+
+  async delete() {
+    if (firestoreInstance && !isFirestoreDisabled) {
+      try {
+        return await firestoreInstance.collection(this.collectionName).doc(this.id).delete();
+      } catch (err) {
+        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
+          isFirestoreDisabled = true;
+        } else {
+          throw err;
+        }
+      }
+    }
+    return await localDb.collection(this.collectionName).doc(this.id).delete();
+  }
+}
+
+class QueryProxy {
+  constructor(collectionName) {
+    this.collectionName = collectionName;
+    this.queryChain = [];
+  }
+
+  where(field, op, value) {
+    this.queryChain.push({ type: 'where', args: [field, op, value] });
+    return this;
+  }
+
+  orderBy(field, direction) {
+    this.queryChain.push({ type: 'orderBy', args: [field, direction] });
+    return this;
+  }
+
+  limit(count) {
+    this.queryChain.push({ type: 'limit', args: [count] });
+    return this;
+  }
+
+  async get() {
+    if (firestoreInstance && !isFirestoreDisabled) {
+      try {
+        let fQuery = firestoreInstance.collection(this.collectionName);
+        for (const op of this.queryChain) {
+          fQuery = fQuery[op.type](...op.args);
+        }
+        return await fQuery.get();
+      } catch (err) {
+        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
+          console.warn(`Firestore API denied/disabled. Falling back to local DB for query: ${this.collectionName}`);
+          isFirestoreDisabled = true;
+        } else {
+          throw err;
+        }
+      }
+    }
+
+    // Local DB Query Chain Execution
+    let lQuery = localDb.collection(this.collectionName);
+    for (const op of this.queryChain) {
+      lQuery = lQuery[op.type](...op.args);
+    }
+    return await lQuery.get();
+  }
+}
+
+module.exports = new FirestoreProxy();
