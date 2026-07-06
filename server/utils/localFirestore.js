@@ -1,6 +1,21 @@
 const fs = require('fs');
 const path = require('path');
 
+let dbJson;
+try {
+  dbJson = require('../data/db.json');
+} catch (err) {
+  dbJson = {
+    posts: [],
+    products: [],
+    authors: [],
+    comments: [],
+    categories: [],
+    tags: [],
+    settings: [],
+  };
+}
+
 const getDbPath = () => {
   const path1 = path.join(__dirname, '..', 'data', 'db.json');
   if (fs.existsSync(path1)) return path1;
@@ -218,8 +233,9 @@ class LocalFirestore {
       this.memoryDb = JSON.parse(raw);
       return this.memoryDb[name] || [];
     } catch (e) {
-      console.error('Error reading collection ' + name, e.message);
-      return [];
+      console.warn(`Disk read failed for collection ${name}, using pre-bundled fallback:`, e.message);
+      this.memoryDb = dbJson;
+      return this.memoryDb[name] || [];
     }
   }
 

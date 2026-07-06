@@ -20,7 +20,7 @@ const AdminCategories = () => {
   const handleSeed = async () => {
     setLoading(true);
     try {
-      const res = await seedDatabase(false);
+      const res = await seedDatabase(true);
       alert(res.data.message || 'Database seeded successfully!');
       fetchCategories();
     } catch (err) {
