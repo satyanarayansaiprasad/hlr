@@ -4,6 +4,7 @@ import {
   createCategory,
   updateCategory,
   deleteCategory,
+  seedDatabase,
 } from '../services/api';
 
 const AdminCategories = () => {
@@ -15,6 +16,19 @@ const AdminCategories = () => {
   const [icon, setIcon] = useState('ri-health-book-line');
   const [order, setOrder] = useState('10');
   const [editId, setEditId] = useState(null);
+
+  const handleSeed = async () => {
+    setLoading(true);
+    try {
+      const res = await seedDatabase(false);
+      alert(res.data.message || 'Database seeded successfully!');
+      fetchCategories();
+    } catch (err) {
+      alert('Seeding failed: ' + (err.response?.data?.message || err.message));
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const fetchCategories = async () => {
     setLoading(true);
@@ -84,6 +98,17 @@ const AdminCategories = () => {
         {loading ? (
           <div className="flex items-center justify-center py-20">
             <div className="w-8 h-8 border-3 border-[#0052CC] border-t-transparent rounded-full animate-spin"></div>
+          </div>
+        ) : categories.length === 0 ? (
+          <div className="text-center py-20 bg-gray-50 rounded-[30px] border border-dashed border-gray-200">
+            <i className="ri-folder-open-line text-4xl text-gray-300 block mb-3 animate-pulse"></i>
+            <p className="text-sm text-gray-500 font-semibold mb-4">No categories registered in the database yet.</p>
+            <button
+              onClick={handleSeed}
+              className="px-5 py-2.5 bg-[#0052CC] text-white rounded-xl text-xs font-bold hover:bg-[#003D9B] transition-all shadow-md shadow-blue-600/10"
+            >
+              Sync 232 Reviews & Categories
+            </button>
           </div>
         ) : (
           <div className="overflow-x-auto">
