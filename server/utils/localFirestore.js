@@ -63,6 +63,7 @@ class DocumentSnapshot {
 class QuerySnapshot {
   constructor(docs) {
     this.docs = docs;
+    this.size = docs.length;
     this.empty = docs.length === 0;
   }
 }
