@@ -1,7 +1,23 @@
 const fs = require('fs');
 const path = require('path');
 
-const DB_PATH = path.join(__dirname, '..', 'data', 'db.json');
+const getDbPath = () => {
+  const path1 = path.join(__dirname, '..', 'data', 'db.json');
+  if (fs.existsSync(path1)) return path1;
+
+  const path2 = path.join(process.cwd(), 'server', 'data', 'db.json');
+  if (fs.existsSync(path2)) return path2;
+
+  const path3 = path.join(process.cwd(), 'data', 'db.json');
+  if (fs.existsSync(path3)) return path3;
+
+  const path4 = path.join('/var/task', 'server', 'data', 'db.json');
+  if (fs.existsSync(path4)) return path4;
+
+  return path1;
+};
+
+const DB_PATH = getDbPath();
 
 // Ensure database directory and file exist
 const ensureDbFile = () => {
