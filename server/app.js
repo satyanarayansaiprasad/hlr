@@ -17,6 +17,10 @@ const upload = require('./middleware/upload');
 
 const app = express();
 
+// Auto-seed database in background on startup
+const seedDatabase = require('./utils/seed');
+seedDatabase().catch((err) => console.error('Auto-seeding failed:', err.message));
+
 const allowedOrigins = process.env.CORS_ORIGIN
   ? process.env.CORS_ORIGIN.split(',').map((o) => o.trim())
   : ['*'];

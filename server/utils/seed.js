@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const db = require('../config/firebase');
 
-const seedDatabase = async () => {
+const seedDatabase = async (force = false) => {
   try {
     const postsRef = db.collection('posts');
     const categoriesRef = db.collection('categories');
@@ -11,7 +11,7 @@ const seedDatabase = async () => {
 
     // Check if posts are already populated
     const postsSnapshot = await postsRef.limit(1).get();
-    if (!postsSnapshot.empty) {
+    if (!postsSnapshot.empty && !force) {
       console.log('Database already contains posts. Skipping seed.');
       return;
     }

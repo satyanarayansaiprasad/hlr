@@ -38,6 +38,7 @@ export const deleteReview = (id) => api.delete(`/posts/${id}`);
 export const restoreReview = (id) => api.post(`/posts/${id}/restore`);
 export const duplicateReview = (id) => api.post(`/posts/${id}/duplicate`);
 export const bulkReviewsAction = (data) => api.post('/posts/bulk', data);
+export const seedDatabase = (force = false) => api.post(`/posts/seed?force=${force}`);
 
 // Categories Endpoints
 export const getCategories = () => api.get('/categories');

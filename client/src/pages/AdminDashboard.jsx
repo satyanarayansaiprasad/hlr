@@ -1,11 +1,28 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getDashboardStats } from '../services/api';
+import { getDashboardStats, seedDatabase } from '../services/api';
 
 const AdminDashboard = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const [seeding, setSeeding] = useState(false);
+
+  const handleSeed = async (force = false) => {
+    if (force && !window.confirm("WARNING: Force re-seeding will clear and overwrite database records with the original 232 reviews. Are you sure you want to proceed?")) {
+      return;
+    }
+    setSeeding(true);
+    try {
+      const res = await seedDatabase(force);
+      alert(res.data.message || "Database seeded successfully!");
+      window.location.reload();
+    } catch (err) {
+      alert("Failed to seed database: " + (err.response?.data?.message || err.message));
+    } finally {
+      setSeeding(false);
+    }
+  };
 
   useEffect(() => {
     const fetchStats = async () => {
@@ -137,27 +154,63 @@ const AdminDashboard = () => {
           </div>
         </div>
 
-        {/* Activity Feed */}
-        <div className="lg:col-span-4 bg-white border border-gray-100 rounded-3xl p-8 shadow-sm">
-          <h3 className="font-display font-bold text-xl text-[#191C1D] mb-6">Recent Activity</h3>
-          <div className="space-y-6">
-            {recentActivity && recentActivity.length > 0 ? (
-              recentActivity.map((activity, index) => (
-                <div key={index} className="flex gap-4 items-start">
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm flex-shrink-0 ${
-                    activity.type === 'post' ? 'bg-green-50 text-green-600' : 'bg-blue-50 text-blue-600'
-                  }`}>
-                    <i className={activity.type === 'post' ? 'ri-article-line' : 'ri-information-line'}></i>
+        {/* Sidebar Column */}
+        <div className="lg:col-span-4 space-y-8">
+          {/* Activity Feed */}
+          <div className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm">
+            <h3 className="font-display font-bold text-xl text-[#191C1D] mb-6">Recent Activity</h3>
+            <div className="space-y-6">
+              {recentActivity && recentActivity.length > 0 ? (
+                recentActivity.map((activity, index) => (
+                  <div key={index} className="flex gap-4 items-start">
+                    <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm flex-shrink-0 ${
+                      activity.type === 'post' ? 'bg-green-50 text-green-600' : 'bg-blue-50 text-blue-600'
+                    }`}>
+                      <i className={activity.type === 'post' ? 'ri-article-line' : 'ri-information-line'}></i>
+                    </div>
+                    <div>
+                      <p className="text-gray-700 text-sm font-semibold leading-normal">{activity.text}</p>
+                      <span className="text-[10px] text-gray-400 font-bold">{activity.time}</span>
+                    </div>
                   </div>
-                  <div>
-                    <p className="text-gray-700 text-sm font-semibold leading-normal">{activity.text}</p>
-                    <span className="text-[10px] text-gray-400 font-bold">{activity.time}</span>
-                  </div>
-                </div>
-              ))
-            ) : (
-              <p className="text-center text-gray-400 text-sm py-8">No activities recorded.</p>
-            )}
+                ))
+              ) : (
+                <p className="text-center text-gray-400 text-sm py-8">No activities recorded.</p>
+              )}
+            </div>
+          </div>
+
+          {/* Database Seeder Tools */}
+          <div className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm">
+            <h3 className="font-display font-bold text-xl text-[#191C1D] mb-2">Database Seeder</h3>
+            <p className="text-xs text-gray-400 mb-6">Import or reset static review entries directly into your active database.</p>
+            <div className="space-y-3">
+              <button
+                onClick={() => handleSeed(false)}
+                disabled={seeding}
+                className="w-full py-3 bg-[#0052CC] text-white rounded-xl text-xs font-bold hover:bg-[#003D9B] disabled:opacity-50 transition-all flex items-center justify-center gap-2 shadow-sm"
+              >
+                {seeding ? (
+                  <>
+                    <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
+                    Syncing...
+                  </>
+                ) : (
+                  <>
+                    <i className="ri-database-2-line text-sm"></i>
+                    Sync 232 Reviews
+                  </>
+                )}
+              </button>
+              <button
+                onClick={() => handleSeed(true)}
+                disabled={seeding}
+                className="w-full py-3 border border-gray-200 text-gray-500 rounded-xl text-xs font-bold hover:bg-gray-50 disabled:opacity-50 transition-all flex items-center justify-center gap-2"
+              >
+                <i className="ri-refresh-line text-sm"></i>
+                Force Clear & Re-seed
+              </button>
+            </div>
           </div>
         </div>
       </div>
