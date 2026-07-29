@@ -15,7 +15,22 @@ const ReviewsList = () => {
 
   useEffect(() => {
     setActiveCategory(category || 'All');
-  }, [category]);
+
+    if (category && category !== 'All') {
+      const isKnownCategory = categories.some(c => c.id.toLowerCase() === category.toLowerCase());
+      if (!isKnownCategory) {
+        // Check if category is actually a review slug (e.g. citrus-burn)
+        const matchingReview = reviews.find(r => 
+          r.slug.toLowerCase() === category.toLowerCase() || 
+          r.id === category
+        );
+        if (matchingReview) {
+          const catSlug = matchingReview.categorySlug || 'general';
+          navigate(`/reviews/${catSlug}/${matchingReview.slug}`, { replace: true });
+        }
+      }
+    }
+  }, [category, categories, reviews, navigate]);
 
   useEffect(() => {
     const loadData = async () => {

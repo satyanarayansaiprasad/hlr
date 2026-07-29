@@ -9,6 +9,8 @@ import { getReviewBySlug } from '../services/api';
 
 const ProductReview = () => {
   const { category, slug } = useParams();
+  const activeSlug = slug || category;
+
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -20,8 +22,10 @@ const ProductReview = () => {
 
   useEffect(() => {
     const loadReview = async () => {
+      if (!activeSlug) return;
+      
       try {
-        const res = await getReviewBySlug(slug);
+        const res = await getReviewBySlug(activeSlug);
         if (res.data) {
           setReviewData(res.data);
           return;
@@ -30,8 +34,15 @@ const ProductReview = () => {
         console.warn('Backend API offline or review not found. Using local fallback.');
       }
 
-      // Fallback
-      const data = allReviews.find(r => r.slug === slug);
+      // Robust fallback lookup by slug, id, or normalized title slug
+      const normalizedSlug = activeSlug.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      const data = allReviews.find(r => 
+        r.slug === activeSlug || 
+        r.id === activeSlug || 
+        r.slug === normalizedSlug ||
+        (r.title && r.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').includes(normalizedSlug))
+      );
+
       if (data) {
         setReviewData({
           ...data,
