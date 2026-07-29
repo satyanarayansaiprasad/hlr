@@ -151,10 +151,85 @@ const ProductReview = () => {
                   {/* Dynamic Payload */}
                   <section 
                     id="dynamic-content" 
-                    className="mb-20 prose-headings:font-display prose-headings:font-bold prose-headings:text-[#191C1D] prose-h2:text-3xl lg:prose-h2:text-4xl prose-h2:mb-8 prose-h2:mt-16 prose-p:text-lg lg:prose-p:text-xl prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-8 prose-ul:text-lg lg:prose-ul:text-xl prose-ul:text-gray-700 prose-ul:leading-[1.8] prose-li:mb-4 prose-ul:list-disc prose-ul:pl-8 text-gray-800 max-w-3xl"
+                    className="mb-12 prose-headings:font-display prose-headings:font-bold prose-headings:text-[#191C1D] prose-h2:text-3xl lg:prose-h2:text-4xl prose-h2:mb-8 prose-h2:mt-16 prose-p:text-lg lg:prose-p:text-xl prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-8 prose-ul:text-lg lg:prose-ul:text-xl prose-ul:text-gray-700 prose-ul:leading-[1.8] prose-li:mb-4 prose-ul:list-disc prose-ul:pl-8 text-gray-800 max-w-3xl"
                   >
                     <div dangerouslySetInnerHTML={{ __html: reviewData?.content || '' }} />
                   </section>
+
+                  {/* Featured Product Section (Themed Callout Card After Introduction) */}
+                  {(reviewData?.product || reviewData?.buyUrl || reviewData?.name) && (
+                    <section id="product-overview" className="my-16 bg-[#191C1D] text-white rounded-[40px] p-8 md:p-12 shadow-2xl relative overflow-hidden border border-white/10 group">
+                      <div className="absolute top-0 right-0 w-96 h-96 bg-[#0052CC]/25 rounded-full blur-[120px] pointer-events-none"></div>
+                      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center relative z-10">
+                        
+                        {/* Product Image */}
+                        <div className="md:col-span-5 aspect-[4/3] rounded-[28px] bg-white flex items-center justify-center p-6 shadow-xl overflow-hidden group-hover:-translate-y-1 transition-transform duration-500">
+                          <img
+                            src={reviewData?.product?.image || reviewData?.image}
+                            alt={reviewData?.product?.name || reviewData?.name || reviewData?.title}
+                            className="max-w-full max-h-full object-contain transition-transform duration-[3000ms] group-hover:scale-105"
+                          />
+                        </div>
+
+                        {/* Product Details */}
+                        <div className="md:col-span-7 flex flex-col items-start space-y-5">
+                          <div className="flex flex-wrap items-center gap-3">
+                            <span className="text-[#91F78E] bg-[#91F78E]/10 px-4 py-1.5 rounded-full text-[11px] font-black uppercase tracking-[0.2em] border border-[#91F78E]/20">
+                              EDITORIAL CHOICE 2026
+                            </span>
+                            <span className="text-gray-400 text-xs font-bold flex items-center gap-1">
+                              <i className="ri-shield-check-fill text-[#0052CC]"></i> Verified Protocol
+                            </span>
+                          </div>
+
+                          <h3 className="font-display font-black text-3xl md:text-4xl text-white tracking-tight leading-tight m-0">
+                            {reviewData?.product?.name || reviewData?.name || reviewData?.title}
+                          </h3>
+
+                          {/* Rating */}
+                          <div className="flex items-center gap-3 bg-white/5 px-4 py-2 rounded-2xl border border-white/10">
+                            <div className="flex gap-1 text-[#91F78E]">
+                              {[1, 2, 3, 4, 5].map((s) => (
+                                <i key={s} className="ri-star-fill text-sm"></i>
+                              ))}
+                            </div>
+                            <span className="text-xs font-bold text-gray-300">
+                              {reviewData?.product?.rating || reviewData?.rating || 4.8} / 5.0 Rating
+                            </span>
+                          </div>
+
+                          {/* Price & Savings */}
+                          <div className="flex items-baseline gap-4 pt-2">
+                            <span className="text-gray-500 text-xl line-through font-semibold">$89.00</span>
+                            <span className="text-4xl md:text-5xl font-black text-white">
+                              {reviewData?.product?.price || '$59.00'}
+                            </span>
+                            <span className="text-xs bg-[#91F78E] text-[#191C1D] px-3 py-1 rounded-lg font-black uppercase tracking-wider">
+                              SAVE 35%
+                            </span>
+                          </div>
+
+                          {/* Action Button */}
+                          <div className="w-full pt-4 flex flex-col sm:flex-row items-center gap-4">
+                            <a
+                              href={reviewData?.product?.buyUrl || reviewData?.buyUrl || '#'}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="w-full sm:w-auto px-8 py-4 bg-[#0052CC] text-white rounded-2xl font-black hover:bg-white hover:text-[#191C1D] transition-all flex items-center justify-center gap-3 text-lg group/btn shadow-[0_0_30px_rgba(0,82,204,0.3)] active:scale-95"
+                            >
+                              <span>Visit Official Website</span>
+                              <i className="ri-arrow-right-up-line text-xl group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform"></i>
+                            </a>
+
+                            <p className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.15em] flex items-center gap-2 m-0">
+                              <i className="ri-verified-badge-fill text-[#0052CC] text-lg"></i> CLINICAL BOARD VERIFIED
+                            </p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </section>
+                  )}
 
                   {/* Pros & Cons Section - Editorial Wide */}
                   <section id="proscons" className="mb-32 pt-24 border-t-2 border-gray-100">
@@ -225,45 +300,6 @@ const ProductReview = () => {
 
               {/* Right Column: Sticky Sidebar Layout */}
               <aside className="lg:col-span-4 hidden lg:block sticky top-8 space-y-10">
-                 
-                 {/* Product Callout Card Sidebar Version */}
-                 {reviewData?.product && (
-                  <div className="bg-[#191C1D] rounded-[40px] p-8 text-white flex flex-col items-center gap-6 shadow-2xl relative overflow-hidden group border border-white/5">
-                    <div className="absolute top-0 right-0 w-60 h-60 bg-[#0052CC]/20 rounded-full blur-[100px] z-0 pointer-events-none"></div>
-                    
-                    <div className="w-full aspect-[4/3] rounded-[24px] overflow-hidden shadow-lg relative z-10 bg-white flex items-center justify-center p-6 group-hover:-translate-y-2 transition-transform duration-500">
-                       <img src={reviewData.product.image} alt={reviewData.product.name} className="max-w-full max-h-full object-contain transition-transform duration-[4000ms] group-hover:scale-110" />
-                    </div>
-                    
-                    <div className="w-full relative z-10 text-center flex flex-col items-center">
-                       <span className="text-[#91F78E] bg-[#91F78E]/10 px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-5 inline-block border border-[#91F78E]/20">Editorial Choice 2026</span>
-                       <h3 className="font-display font-bold text-3xl mb-5 leading-tight">{reviewData.product.name}</h3>
-                       
-                       <div className="flex items-center justify-center gap-2 mb-6 bg-white/5 w-fit mx-auto px-4 py-2 rounded-xl border border-white/10 backdrop-blur-sm">
-                          <div className="flex gap-0.5">
-                             {[1, 2, 3, 4, 5].map(i => <i key={i} className="ri-star-fill text-[#91F78E] text-sm"></i>)}
-                          </div>
-                          <span className="text-[10px] font-bold text-gray-400 ml-1">{reviewData.product.rating} / 5.0</span>
-                       </div>
-                       
-                       <div className="flex flex-col items-center mb-8 border-b border-white/10 pb-8 w-full">
-                          <span className="text-gray-500 text-lg line-through mb-1 opacity-50">$89.00</span>
-                          <div className="text-4xl font-black text-white flex items-baseline gap-2">
-                            {reviewData.product.price}
-                            <span className="text-xs bg-[#91F78E] text-[#191C1D] px-2 py-1 rounded font-black uppercase tracking-tighter">Save 35%</span>
-                          </div>
-                       </div>
-                       
-                       <a href={reviewData.product.buyUrl || '#'} target="_blank" rel="noopener noreferrer" className="w-full py-4 bg-[#0052CC] text-white rounded-[18px] font-black hover:bg-white hover:text-[#191C1D] transition-all flex items-center justify-center gap-2 text-lg group/btn shadow-[0_0_30px_rgba(0,82,204,0.2)] active:scale-95">
-                          Visit Official Website
-                          <i className="ri-arrow-right-up-line text-xl group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform"></i>
-                       </a>
-                       <p className="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em] mt-6 flex items-center justify-center gap-2">
-                         <i className="ri-verified-badge-fill text-[#0052CC]"></i> Clinical Board Verified
-                       </p>
-                    </div>
-                  </div>
-                 )}
 
                  {/* Author Sidebar Snippet */}
                  {reviewData?.author && (

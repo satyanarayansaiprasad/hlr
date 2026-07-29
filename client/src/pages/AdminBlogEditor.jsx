@@ -10,6 +10,7 @@ import {
   getReviewBySlug,
   uploadMedia
 } from '../services/api';
+import RichTextEditor from '../components/RichTextEditor';
 
 const AdminBlogEditor = () => {
   const { id } = useParams();
@@ -77,37 +78,41 @@ const AdminBlogEditor = () => {
         setProducts(prodRes.data);
 
         if (isEditMode) {
-          // Fetch existing post details
-          const postsRes = await getReviewsAdmin();
-          const existingPost = postsRes.data.find(p => p.id === id);
-          if (existingPost) {
-            setTitle(existingPost.title || '');
-            setExcerpt(existingPost.excerpt || '');
-            setContent(existingPost.content || '');
-            setCategorySlug(existingPost.categorySlug || 'general');
-            setImage(existingPost.image || '');
-            setRating(existingPost.rating?.toString() || '4.5');
-            setReadTime(existingPost.readTime || '5 min read');
-            setAuthorId(existingPost.authorId || '');
-            setStatus(existingPost.status || 'draft');
-            setPublishDate(existingPost.publishDate ? existingPost.publishDate.substring(0, 16) : '');
+          // Fetch existing post details by slug or ID
+          try {
+            const res = await getReviewBySlug(id);
+            const existingPost = res.data;
+            if (existingPost) {
+              setTitle(existingPost.title || '');
+              setExcerpt(existingPost.excerpt || '');
+              setContent(existingPost.content || '');
+              setCategorySlug(existingPost.categorySlug || 'general');
+              setImage(existingPost.image || '');
+              setRating(existingPost.rating?.toString() || '4.5');
+              setReadTime(existingPost.readTime || '5 min read');
+              setAuthorId(existingPost.authorId || '');
+              setStatus(existingPost.status || 'draft');
+              setPublishDate(existingPost.publishDate ? existingPost.publishDate.substring(0, 16) : '');
 
-            setPros(existingPost.pros || []);
-            setCons(existingPost.cons || []);
-            setFaqs(existingPost.faqs || []);
+              setPros(existingPost.pros || []);
+              setCons(existingPost.cons || []);
+              setFaqs(existingPost.faqs || []);
 
-            if (existingPost.product) {
-              setHasProduct(true);
-              setProductName(existingPost.product.name || '');
-              setProductPrice(existingPost.product.price || '$59.00');
-              setProductRating(existingPost.product.rating?.toString() || '4.5');
-              setProductImage(existingPost.product.image || '');
-              setProductBuyUrl(existingPost.product.buyUrl || '');
+              if (existingPost.product) {
+                setHasProduct(true);
+                setProductName(existingPost.product.name || '');
+                setProductPrice(existingPost.product.price || '$59.00');
+                setProductRating(existingPost.product.rating?.toString() || '4.5');
+                setProductImage(existingPost.product.image || '');
+                setProductBuyUrl(existingPost.product.buyUrl || '');
+              }
+
+              setMetaTitle(existingPost.metaTitle || '');
+              setMetaDescription(existingPost.metaDescription || '');
+              setKeywords(existingPost.keywords ? existingPost.keywords.join(', ') : '');
             }
-
-            setMetaTitle(existingPost.metaTitle || '');
-            setMetaDescription(existingPost.metaDescription || '');
-            setKeywords(existingPost.keywords ? existingPost.keywords.join(', ') : '');
+          } catch (loadErr) {
+            console.error('Failed to load post for editing:', loadErr);
           }
         }
       } catch (err) {
@@ -397,18 +402,12 @@ const AdminBlogEditor = () => {
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-[#191C1D] uppercase tracking-wider mb-2">Clinical Review Body (HTML Content)</label>
-              <textarea
-                rows="12"
-                required
-                placeholder="<h2>Introduction</h2><p>Body copy here...</p>"
+              <label className="block text-xs font-bold text-[#191C1D] uppercase tracking-wider mb-2">Clinical Review Body (Content Editor)</label>
+              <RichTextEditor
                 value={content}
-                onChange={(e) => setContent(e.target.value)}
-                className="w-full bg-[#F3F4F5] p-4 rounded-xl border-2 border-transparent outline-none font-mono focus:ring-4 focus:ring-[#0052CC]/5 focus:border-[#0052CC]/10 text-gray-700 text-sm transition-all"
+                onChange={setContent}
+                placeholder="Write your clinical review content here..."
               />
-              <span className="text-[10px] text-gray-400 font-medium mt-1.5 block">
-                Supports standard HTML formatting tag injections. Example: &lt;h2&gt; &lt;p&gt; &lt;strong&gt; &lt;ul&gt; &lt;li&gt;.
-              </span>
             </div>
           </div>
         )}

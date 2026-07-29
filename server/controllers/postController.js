@@ -22,6 +22,15 @@ const getPosts = async (req, res) => {
     const snapshot = await postsRef.get();
     let posts = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
 
+    // Deduplicate in memory by slug or id to prevent duplicated listings
+    const seenSlugs = new Set();
+    posts = posts.filter(p => {
+      const key = p.slug || p.id;
+      if (seenSlugs.has(key)) return false;
+      seenSlugs.add(key);
+      return true;
+    });
+
     const isAdmin = admin === 'true';
 
     // 1. Soft Delete Filtering
@@ -104,18 +113,29 @@ const getPosts = async (req, res) => {
   }
 };
 
-// Get single post by slug
+// Get single post by slug or ID
 const getPostBySlug = async (req, res) => {
   try {
     const { slug } = req.params;
+    let postDoc = null;
+    let postData = null;
+
     const snapshot = await postsRef.where('slug', '==', slug).limit(1).get();
 
-    if (snapshot.empty) {
-      return res.status(404).json({ message: 'Post not found.' });
+    if (!snapshot.empty) {
+      postDoc = snapshot.docs[0];
+      postData = postDoc.data();
+    } else {
+      const byIdDoc = await postsRef.doc(slug).get();
+      if (byIdDoc.exists) {
+        postDoc = byIdDoc;
+        postData = byIdDoc.data();
+      }
     }
 
-    const postDoc = snapshot.docs[0];
-    const postData = postDoc.data();
+    if (!postData) {
+      return res.status(404).json({ message: 'Post not found.' });
+    }
 
     // Fetch associated Author and Product if IDs are present but embedded data isn't complete
     let author = postData.author;
