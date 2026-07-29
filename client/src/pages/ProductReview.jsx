@@ -87,6 +87,38 @@ const ProductReview = () => {
     </div>
   );
 
+  const getParsedContent = (htmlContent) => {
+    if (!htmlContent) return { firstPart: '', secondPart: '' };
+
+    const pClosingTag = '</p>';
+    const lowerContent = htmlContent.toLowerCase();
+    const pIndex = lowerContent.indexOf(pClosingTag);
+
+    if (pIndex !== -1) {
+      const splitPos = pIndex + pClosingTag.length;
+      return {
+        firstPart: htmlContent.substring(0, splitPos),
+        secondPart: htmlContent.substring(splitPos),
+      };
+    }
+
+    const h2Index = lowerContent.indexOf('</h2>');
+    if (h2Index !== -1) {
+      const splitPos = h2Index + 5;
+      return {
+        firstPart: htmlContent.substring(0, splitPos),
+        secondPart: htmlContent.substring(splitPos),
+      };
+    }
+
+    return {
+      firstPart: htmlContent,
+      secondPart: '',
+    };
+  };
+
+  const { firstPart, secondPart } = getParsedContent(reviewData?.content);
+
   const backLink = category ? `/reviews/${category}` : '/reviews';
 
   return (
@@ -148,86 +180,100 @@ const ProductReview = () => {
               {/* Left Column: Article Body */}
               <div className="lg:col-span-8">
                 <article className="prose prose-xl lg:prose-2xl max-w-none">
-                  {/* Dynamic Payload */}
-                  <section 
-                    id="dynamic-content" 
-                    className="mb-12 prose-headings:font-display prose-headings:font-bold prose-headings:text-[#191C1D] prose-h2:text-3xl lg:prose-h2:text-4xl prose-h2:mb-8 prose-h2:mt-16 prose-p:text-lg lg:prose-p:text-xl prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-8 prose-ul:text-lg lg:prose-ul:text-xl prose-ul:text-gray-700 prose-ul:leading-[1.8] prose-li:mb-4 prose-ul:list-disc prose-ul:pl-8 text-gray-800 max-w-3xl"
-                  >
-                    <div dangerouslySetInnerHTML={{ __html: reviewData?.content || '' }} />
-                  </section>
+                  
+                  {/* First Paragraph / Introduction */}
+                  {firstPart && (
+                    <section 
+                      className="prose-headings:font-display prose-headings:font-bold prose-headings:text-[#191C1D] prose-h2:text-3xl lg:prose-h2:text-4xl prose-h2:mb-6 prose-h2:mt-10 prose-p:text-lg lg:prose-p:text-xl prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-6 text-gray-800 max-w-3xl"
+                    >
+                      <div dangerouslySetInnerHTML={{ __html: firstPart }} />
+                    </section>
+                  )}
 
-                  {/* Featured Product Section (Themed Callout Card After Introduction) */}
+                  {/* Featured Product Callout Card Section (Inline After First Paragraph) */}
                   {(reviewData?.product || reviewData?.buyUrl || reviewData?.name) && (
-                    <section id="product-overview" className="my-16 bg-[#191C1D] text-white rounded-[40px] p-8 md:p-12 shadow-2xl relative overflow-hidden border border-white/10 group">
-                      <div className="absolute top-0 right-0 w-96 h-96 bg-[#0052CC]/25 rounded-full blur-[120px] pointer-events-none"></div>
-                      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center relative z-10">
+                    <section id="product-overview" className="my-10 bg-[#121824] text-white rounded-3xl p-6 sm:p-8 shadow-xl relative overflow-hidden border border-slate-800/80 max-w-3xl group">
+                      <div className="absolute -top-24 -right-24 w-72 h-72 bg-[#0052CC]/20 rounded-full blur-3xl pointer-events-none"></div>
+                      <div className="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center relative z-10">
                         
-                        {/* Product Image */}
-                        <div className="md:col-span-5 aspect-[4/3] rounded-[28px] bg-white flex items-center justify-center p-6 shadow-xl overflow-hidden group-hover:-translate-y-1 transition-transform duration-500">
+                        {/* Product Image Box */}
+                        <div className="sm:col-span-4 aspect-square max-w-[200px] mx-auto sm:mx-0 w-full rounded-2xl bg-white p-4 shadow-md flex items-center justify-center border border-slate-100 group-hover:-translate-y-1 transition-transform duration-500">
                           <img
                             src={reviewData?.product?.image || reviewData?.image}
                             alt={reviewData?.product?.name || reviewData?.name || reviewData?.title}
-                            className="max-w-full max-h-full object-contain transition-transform duration-[3000ms] group-hover:scale-105"
+                            className="max-w-full max-h-full object-contain transition-transform duration-700 group-hover:scale-105"
                           />
                         </div>
 
                         {/* Product Details */}
-                        <div className="md:col-span-7 flex flex-col items-start space-y-5">
-                          <div className="flex flex-wrap items-center gap-3">
-                            <span className="text-[#91F78E] bg-[#91F78E]/10 px-4 py-1.5 rounded-full text-[11px] font-black uppercase tracking-[0.2em] border border-[#91F78E]/20">
+                        <div className="sm:col-span-8 flex flex-col items-start space-y-3.5 text-left">
+                          
+                          {/* Top Badges */}
+                          <div className="flex flex-wrap items-center gap-2">
+                            <span className="text-[#91F78E] bg-[#91F78E]/10 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest border border-[#91F78E]/20">
                               EDITORIAL CHOICE 2026
                             </span>
-                            <span className="text-gray-400 text-xs font-bold flex items-center gap-1">
-                              <i className="ri-shield-check-fill text-[#0052CC]"></i> Verified Protocol
+                            <span className="text-gray-400 text-[11px] font-bold flex items-center gap-1">
+                              <i className="ri-shield-check-fill text-[#0052CC]"></i> Clinical Board Verified
                             </span>
                           </div>
 
-                          <h3 className="font-display font-black text-3xl md:text-4xl text-white tracking-tight leading-tight m-0">
+                          {/* Title */}
+                          <h3 className="font-display font-black text-2xl sm:text-3xl text-white tracking-tight leading-snug m-0">
                             {reviewData?.product?.name || reviewData?.name || reviewData?.title}
                           </h3>
 
                           {/* Rating */}
-                          <div className="flex items-center gap-3 bg-white/5 px-4 py-2 rounded-2xl border border-white/10">
-                            <div className="flex gap-1 text-[#91F78E]">
+                          <div className="flex items-center gap-2 bg-slate-800/60 px-3 py-1.5 rounded-xl border border-slate-700/50">
+                            <div className="flex gap-0.5 text-[#91F78E]">
                               {[1, 2, 3, 4, 5].map((s) => (
-                                <i key={s} className="ri-star-fill text-sm"></i>
+                                <i key={s} className="ri-star-fill text-xs"></i>
                               ))}
                             </div>
-                            <span className="text-xs font-bold text-gray-300">
+                            <span className="text-[11px] font-bold text-gray-300">
                               {reviewData?.product?.rating || reviewData?.rating || 4.8} / 5.0 Rating
                             </span>
                           </div>
 
                           {/* Price & Savings */}
-                          <div className="flex items-baseline gap-4 pt-2">
-                            <span className="text-gray-500 text-xl line-through font-semibold">$89.00</span>
-                            <span className="text-4xl md:text-5xl font-black text-white">
+                          <div className="flex items-baseline gap-3 pt-1">
+                            <span className="text-gray-500 text-sm line-through font-semibold">$89.00</span>
+                            <span className="text-3xl font-black text-white">
                               {reviewData?.product?.price || '$59.00'}
                             </span>
-                            <span className="text-xs bg-[#91F78E] text-[#191C1D] px-3 py-1 rounded-lg font-black uppercase tracking-wider">
+                            <span className="text-[10px] bg-[#91F78E] text-[#191C1D] px-2.5 py-0.5 rounded font-black uppercase tracking-wider">
                               SAVE 35%
                             </span>
                           </div>
 
-                          {/* Action Button */}
-                          <div className="w-full pt-4 flex flex-col sm:flex-row items-center gap-4">
+                          {/* Action CTA Button */}
+                          <div className="w-full pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                             <a
                               href={reviewData?.product?.buyUrl || reviewData?.buyUrl || '#'}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="w-full sm:w-auto px-8 py-4 bg-[#0052CC] text-white rounded-2xl font-black hover:bg-white hover:text-[#191C1D] transition-all flex items-center justify-center gap-3 text-lg group/btn shadow-[0_0_30px_rgba(0,82,204,0.3)] active:scale-95"
+                              className="px-6 py-3 bg-[#0052CC] hover:bg-[#003D9B] text-white rounded-xl font-bold transition-all flex items-center justify-center gap-2 text-sm shadow-md shadow-blue-600/20 active:scale-95 group/btn"
                             >
                               <span>Visit Official Website</span>
-                              <i className="ri-arrow-right-up-line text-xl group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform"></i>
+                              <i className="ri-arrow-right-up-line text-base group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform"></i>
                             </a>
-
-                            <p className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.15em] flex items-center gap-2 m-0">
-                              <i className="ri-verified-badge-fill text-[#0052CC] text-lg"></i> CLINICAL BOARD VERIFIED
-                            </p>
+                            <span className="text-[11px] text-gray-400 font-semibold tracking-wide text-center sm:text-left">
+                              Direct Official Link • 100% Verified
+                            </span>
                           </div>
+
                         </div>
 
                       </div>
+                    </section>
+                  )}
+
+                  {/* Remaining Content */}
+                  {secondPart && (
+                    <section 
+                      className="mb-12 prose-headings:font-display prose-headings:font-bold prose-headings:text-[#191C1D] prose-h2:text-3xl lg:prose-h2:text-4xl prose-h2:mb-8 prose-h2:mt-16 prose-p:text-lg lg:prose-p:text-xl prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-8 prose-ul:text-lg lg:prose-ul:text-xl prose-ul:text-gray-700 prose-ul:leading-[1.8] prose-li:mb-4 prose-ul:list-disc prose-ul:pl-8 text-gray-800 max-w-3xl"
+                    >
+                      <div dangerouslySetInnerHTML={{ __html: secondPart }} />
                     </section>
                   )}
 
