@@ -36,7 +36,10 @@ const seedDatabase = async (force = false) => {
     console.log('Seeding categories...');
     for (const key of Object.keys(categoryMapping)) {
       const cat = categoryMapping[key];
-      await categoriesRef.doc(cat.id).update(cat).catch(() => categoriesRef.doc(cat.id).set(cat));
+      const existingCat = await categoriesRef.doc(cat.id).get();
+      if (!existingCat.exists) {
+        await categoriesRef.doc(cat.id).set(cat);
+      }
     }
 
     // Load generated reviews

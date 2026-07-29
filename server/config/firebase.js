@@ -62,12 +62,8 @@ class CollectionReferenceProxy {
       try {
         return await firestoreInstance.collection(this.name).get();
       } catch (err) {
-        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
-          console.warn(`Firestore API denied/disabled. Falling back to local DB for collection: ${this.name}`);
-          isFirestoreDisabled = true;
-        } else {
-          throw err;
-        }
+        console.warn(`Firestore API get failed for collection ${this.name}: ${err.message}. Falling back to local DB.`);
+        isFirestoreDisabled = true;
       }
     }
     return await localDb.collection(this.name).get();
@@ -76,14 +72,14 @@ class CollectionReferenceProxy {
   async add(payload) {
     if (firestoreInstance && !isFirestoreDisabled) {
       try {
-        return await firestoreInstance.collection(this.name).add(payload);
+        const docRef = await firestoreInstance.collection(this.name).add(payload);
+        try {
+          await localDb.collection(this.name).doc(docRef.id).set(payload);
+        } catch (_) {}
+        return docRef;
       } catch (err) {
-        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
-          console.warn(`Firestore API denied/disabled. Falling back to local DB for add: ${this.name}`);
-          isFirestoreDisabled = true;
-        } else {
-          throw err;
-        }
+        console.warn(`Firestore API add failed for collection ${this.name}: ${err.message}. Falling back to local DB.`);
+        isFirestoreDisabled = true;
       }
     }
     return await localDb.collection(this.name).add(payload);
@@ -101,12 +97,8 @@ class DocumentReferenceProxy {
       try {
         return await firestoreInstance.collection(this.collectionName).doc(this.id).get();
       } catch (err) {
-        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
-          console.warn(`Firestore API denied/disabled. Falling back to local DB for doc get: ${this.id}`);
-          isFirestoreDisabled = true;
-        } else {
-          throw err;
-        }
+        console.warn(`Firestore API get failed for ${this.collectionName}/${this.id}: ${err.message}. Falling back to local DB.`);
+        isFirestoreDisabled = true;
       }
     }
     return await localDb.collection(this.collectionName).doc(this.id).get();
@@ -115,13 +107,10 @@ class DocumentReferenceProxy {
   async set(payload) {
     if (firestoreInstance && !isFirestoreDisabled) {
       try {
-        return await firestoreInstance.collection(this.collectionName).doc(this.id).set(payload);
+        await firestoreInstance.collection(this.collectionName).doc(this.id).set(payload);
       } catch (err) {
-        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
-          isFirestoreDisabled = true;
-        } else {
-          throw err;
-        }
+        console.warn(`Firestore API set failed for ${this.collectionName}/${this.id}: ${err.message}. Falling back to local DB.`);
+        isFirestoreDisabled = true;
       }
     }
     return await localDb.collection(this.collectionName).doc(this.id).set(payload);
@@ -130,13 +119,10 @@ class DocumentReferenceProxy {
   async update(updates) {
     if (firestoreInstance && !isFirestoreDisabled) {
       try {
-        return await firestoreInstance.collection(this.collectionName).doc(this.id).update(updates);
+        await firestoreInstance.collection(this.collectionName).doc(this.id).update(updates);
       } catch (err) {
-        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
-          isFirestoreDisabled = true;
-        } else {
-          throw err;
-        }
+        console.warn(`Firestore API update failed for ${this.collectionName}/${this.id}: ${err.message}. Falling back to local DB.`);
+        isFirestoreDisabled = true;
       }
     }
     return await localDb.collection(this.collectionName).doc(this.id).update(updates);
@@ -145,13 +131,10 @@ class DocumentReferenceProxy {
   async delete() {
     if (firestoreInstance && !isFirestoreDisabled) {
       try {
-        return await firestoreInstance.collection(this.collectionName).doc(this.id).delete();
+        await firestoreInstance.collection(this.collectionName).doc(this.id).delete();
       } catch (err) {
-        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
-          isFirestoreDisabled = true;
-        } else {
-          throw err;
-        }
+        console.warn(`Firestore API delete failed for ${this.collectionName}/${this.id}: ${err.message}. Falling back to local DB.`);
+        isFirestoreDisabled = true;
       }
     }
     return await localDb.collection(this.collectionName).doc(this.id).delete();
@@ -188,12 +171,8 @@ class QueryProxy {
         }
         return await fQuery.get();
       } catch (err) {
-        if (err.message.includes('PERMISSION_DENIED') || err.message.includes('disabled')) {
-          console.warn(`Firestore API denied/disabled. Falling back to local DB for query: ${this.collectionName}`);
-          isFirestoreDisabled = true;
-        } else {
-          throw err;
-        }
+        console.warn(`Firestore API query get failed for ${this.collectionName}: ${err.message}. Falling back to local DB.`);
+        isFirestoreDisabled = true;
       }
     }
 

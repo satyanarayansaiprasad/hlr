@@ -92,13 +92,13 @@ class DocumentReference {
 
   async get() {
     const data = this.localFirestore._readCollection(this.collectionName);
-    const doc = data.find((d) => d.id === this.id);
+    const doc = data.find((d) => String(d.id) === String(this.id));
     return new DocumentSnapshot(this.id, doc || null);
   }
 
   async update(updates) {
     const data = this.localFirestore._readCollection(this.collectionName);
-    const index = data.findIndex((d) => d.id === this.id);
+    const index = data.findIndex((d) => String(d.id) === String(this.id));
     if (index === -1) {
       throw new Error(`5 NOT_FOUND: Document not found at ${this.collectionName}/${this.id}`);
     }
@@ -109,7 +109,7 @@ class DocumentReference {
 
   async set(payload) {
     const data = this.localFirestore._readCollection(this.collectionName);
-    const index = data.findIndex((d) => d.id === this.id);
+    const index = data.findIndex((d) => String(d.id) === String(this.id));
     const docData = { id: this.id, ...payload, updatedAt: new Date().toISOString() };
     if (index !== -1) {
       data[index] = docData;
@@ -122,7 +122,7 @@ class DocumentReference {
 
   async delete() {
     const data = this.localFirestore._readCollection(this.collectionName);
-    const filtered = data.filter((d) => d.id !== this.id);
+    const filtered = data.filter((d) => String(d.id) !== String(this.id));
     this.localFirestore._writeCollection(this.collectionName, filtered);
     return true;
   }
