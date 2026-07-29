@@ -35,7 +35,15 @@ const ReviewCard = ({ review }) => {
       <div className="p-8 flex flex-col flex-grow">
         <div className="flex items-center gap-3 mb-4">
           <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-100 ring-2 ring-[#0052CC]/10">
-            <img src={author.avatar} alt={author.name} className="w-full h-full object-cover" />
+            <img 
+              src={author?.avatar || "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400"} 
+              alt={author?.name} 
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400";
+              }}
+              className="w-full h-full object-cover" 
+            />
           </div>
           <div className="flex flex-col">
             <span className="text-xs font-bold text-[#191C1D]">{author.name}</span>

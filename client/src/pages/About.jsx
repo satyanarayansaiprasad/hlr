@@ -8,7 +8,7 @@ const About = () => {
       name: "Dr. Sarah Chen",
       role: "Clinical Nutritionist, PhD",
       bio: "Sarah leads our nutritional audit team, ensuring every supplement review is backed by peer-reviewed clinical data and metabolic science.",
-      avatar: "https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=300",
+      avatar: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400",
       specialization: ["Clinical Nutrition", "Gut Microbiome", "Sports Supplements"]
     },
     {

@@ -22,7 +22,15 @@ const AuthorCard = ({ author }) => {
 
       <div className="relative mb-8 text-center">
         <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-xl mx-auto ring-1 ring-[#0052CC]/10 ring-offset-4 ring-offset-white">
-          <img src={avatar} alt={name} className="w-full h-full object-cover transition-transform group-hover:scale-105" />
+          <img 
+            src={avatar || "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400"} 
+            alt={name} 
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400";
+            }}
+            className="w-full h-full object-cover transition-transform group-hover:scale-105" 
+          />
         </div>
         <div className="absolute -bottom-2 -right-2 bg-[#91F78E] text-[10px] font-bold uppercase tracking-wider px-3 py-1.5 rounded-full shadow-lg text-[#006E1C] border-2 border-white ring-1 ring-[#91F78E]">
           Verified Expert

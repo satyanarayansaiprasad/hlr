@@ -166,7 +166,15 @@ const ProductReview = () => {
               <div className="flex flex-wrap items-center gap-8 text-gray-600 bg-white/70 backdrop-blur-xl p-8 rounded-[32px] w-fit border border-white shadow-xl shadow-gray-200/50">
                  <div className="flex items-center gap-5">
                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-white shadow-xl ring-1 ring-[#0052CC]/10">
-                      <img src={reviewData?.author?.avatar || "https://images.unsplash.com/photo-1559839734-2b71f1536783"} alt={reviewData?.author?.name || "Author"} className="w-full h-full object-cover" />
+                      <img 
+                        src={reviewData?.author?.avatar || "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400"} 
+                        alt={reviewData?.author?.name || "Author"} 
+                        onError={(e) => {
+                          e.target.onerror = null;
+                          e.target.src = "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400";
+                        }}
+                        className="w-full h-full object-cover" 
+                      />
                     </div>
                     <div>
                       <p className="text-xl font-bold text-[#191C1D]">{reviewData?.author?.name || "Editorial Team"}</p>
